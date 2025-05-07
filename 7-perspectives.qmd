@@ -1,0 +1,17 @@
+---
+title: "Perspective"
+---
+
+```         
+-   Experimental design of mediation of direct target of HRV (medication: beta-blockers, or lifestyle: physical activity and sleep)
+```
+
+Autonomic dysfunction and cardiovascular risk - pathofyioslogy
+
+Long-term HRV - Risk indicator - devided into chunck identify repsosen with importatn implcation for disease - Long-term HRV and its hourly variation can be modulated by interventions targeting lifestyle patterns or medication, but whether such modulation mediates a reduction in cardiovascular disease risk remains to be proven.
+
+If not prevented the patient trajectory could be led to: - Tachycardia - Orthostatic hypertension - Exercise intolerance
+
+The availability of wearable devices such as smartwatches is expanding the scale of physiological data collection. Data such as heart rate, temperature, and physical acceleration can now be easily obtained under free-living conditions or through app-guided tests. This opens new opportunities to study heart rate responses in everyday life. Combining heart rate with additional physiological signals may improve understanding of CVD risk. Machine learning methods could further help to integrate heart rate and movement data, identifying early signs and patterns in repsonse in the daily cycle that is linked to CVD risk.
+
+People at high risk of diabetes, with glucose levels in the prediabetic range, face an increased risk of developing diabetes and its complications. However, since many individuals either remain in the prediabetic state or revert to normoglycemia, structured treatment strategies for prediabetes have not been widely implemented in clinical practice. This is partly due to the high heterogeneity within the prediabetic population. Therefore, additional indicators beyond glucose levels may be useful to identify individuals who are most likely to benefit from early intervention. In our study, we demonstrated that autonomic dysfunction, as measured by long-term HRV, was more strongly associated with cardiovascular risk in this population. Future perspectives include evaluating whether individuals subclassified as high-risk based on autonomic dysfunction may benefit from targeted interventions.

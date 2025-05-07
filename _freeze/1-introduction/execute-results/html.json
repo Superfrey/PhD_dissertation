@@ -1,0 +1,16 @@
+{
+  "hash": "e6fe96d82056995ed280811987a42422",
+  "result": {
+    "markdown": "# Introduction\n\nThis is a book created from markdown and executable code.\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [
+      "1-introduction_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

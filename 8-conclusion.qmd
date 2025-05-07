@@ -1,0 +1,5 @@
+---
+title: "Conclusion"
+---
+
+HRV are linked with CVD risk across glucose metabolism. However, both diabetes and cardiovascular complication may be a contributor to altered HRV. As such long-term HRV are proxy for many physiological conditions both behavioural and pathological. Many measures for cardiovascular system including cardiovascular autonomic function, arterial stiffness, NT-proBNP reflects increased risk of CVD and heart failure. Structured studies are needed to understand their clinical role in CVD prevention. Either as a target to monitor successfulness of CVD treatment or an indicator for CVD which lead to stratified decision of further cardiovascular assessment or treatment.

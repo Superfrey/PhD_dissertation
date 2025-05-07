@@ -1,0 +1,48 @@
+project:
+  type: book
+  output-dir: docs
+  
+book:
+  title: "The title of my most excellent thesis"
+  author: "Jane Doe"
+  date: today
+  date-format: "MMMM YYYY"
+  chapters:
+    - index.qmd
+#    - acknowledgements.qmd         # uncomment this line to see acknowledgements in html (will appear twice in pfd)
+    - 0-abstract.qmd
+    - 1-introduction.qmd
+    - 2-background.qmd
+    - 3-aim_hypothesis.qmd
+    - 4-methods.qmd
+    - 5-results.qmd
+    - 6-discussion.qmd
+    - 7-perspectives.qmd
+    - 8-conclusion.qmd
+    - references.qmd
+  appendices:
+    - app1-resources.qmd
+    - app2-tools.qmd
+
+bibliography: references.bib
+
+execute:
+  freeze: auto
+  echo: false # change to false to hide code
+  
+format:
+  html:
+    theme: cosmo
+  docx: 
+    toc: true
+    number-sections: true
+    number-depth: 2
+  pdf:
+    documentclass: scrbook
+    classoption:
+     - headsepline=true
+     - open=any
+    keep-tex: true
+    toc-depth: 2
+    toc: false
+    papersize: a4
