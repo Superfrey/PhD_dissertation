@@ -1,8 +1,10 @@
 {
-  "hash": "aace9a4628d88d67b08a35f7a1848525",
+  "hash": "5241c65c14f541d40eedcf74dbbd3671",
   "result": {
-    "markdown": "---\nexecute: \n  echo: false\n---\n\n\n::: {.content-visible when-format=\"pdf\"}\n# Acknowledgements {.unnumbered}\n\nThanks for all the fish.\n\n\n:::\n\n::: {.content-hidden when-format=\"pdf\"}\n::: {style=\"opacity: 0\"}\n# Cover Page {.unnumbered .unlisted}\n:::\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/IMG_20210719_134928644.jpg){fig-align='center' fig-alt='Beckwithia glacialis on Snøhetta' width=80%}\n:::\n:::\n\n\n::: {style=\"text-align: center\"}\n**Master of Science in Biology**\\\n**Biodiversity, Evolution and Ecology**\\\n**Department of Biology**\\\n**University of Bergen**\n:::\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/UiB-emblem500px_gray.png){fig-align='center' width=25%}\n:::\n:::\n\n:::\n",
-    "supporting": [],
+    "markdown": "---\nexecute: \n  echo: false\n---\n\n\n::: {.content-visible when-format=\"pdf\"}\n# Acknowledgements {.unnumbered}\n\nThanks for all the fish.\n\n\n:::\n\n::: {.content-hidden when-format=\"pdf\"}\n::: {style=\"opacity: 0\"}\n# Cover Page {.unnumbered .unlisted}\n:::\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/IMG_20210719_134928644.jpg){fig-align='center' fig-alt='Beckwithia glacialis on Snøhetta' width=80%}\n:::\n:::\n\n\n::: {style=\"text-align: center\"}\n**PhD thesis**\\\n**Department of Public Health**\\\n**Aarhus University**\n:::\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](Images/au_health.png){fig-align='center' width=100%}\n:::\n:::\n\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

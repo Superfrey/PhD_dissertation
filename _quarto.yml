@@ -3,10 +3,10 @@ project:
   output-dir: docs
   
 book:
-  title: "The title of my most excellent thesis"
-  author: "Jane Doe"
+  title: "Cardiovascular autonomic dysfunction impact on cardiovascular complications across glucose metabolism"
+  author: "Jonas Rosborg Schaarup"
   date: today
-  date-format: "MMMM YYYY"
+  date-format: "30. June 2025"
   chapters:
     - index.qmd
 #    - acknowledgements.qmd         # uncomment this line to see acknowledgements in html (will appear twice in pfd)
@@ -30,15 +30,35 @@ execute:
   freeze: auto
   echo: false # change to false to hide code
   
+# format:
+#   html:
+#     theme: cosmo
+#   docx: 
+#     toc: true
+#     number-sections: true
+#     number-depth: 2
+#   pdf:
+#     documentclass: scrbook
+#     classoption:
+#      - headsepline=true
+#      - open=any
+#     keep-tex: true
+#     toc-depth: 2
+#     toc: false
+#     papersize: a4
+
 format:
   html:
     theme: cosmo
+    default-image-extension: svg
   docx: 
     toc: true
     number-sections: true
     number-depth: 2
+    default-image-extension: tif
   pdf:
     documentclass: scrbook
+    default-image-extension: png
     classoption:
      - headsepline=true
      - open=any

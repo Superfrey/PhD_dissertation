@@ -2,7 +2,7 @@
 title: "Materials and methods"
 ---
 
-# Overview of the studies
+## Overview of the studies
 
 |                      | Study I                                                                                                                | Study II                                                                                                                                  | Study III                                                                                              |
 |---------------|-------------------|----------------------|----------------|
@@ -18,17 +18,17 @@ title: "Materials and methods"
 
 : Table 1: Overview of studies
 
-## Study population
+### Study population
 
 ::: {layout-ncol="1"}
-![Study populations](/Users/au614370/Desktop/PhD/PhD_dissertation/images/cohort_map.png){width="100%," fig-align="left"}
+![Study populations](images/cohort_map.png){width="100%," fig-align="left"}
 :::
 
-### Study I - The Maastricht Study
+#### Study I - The Maastricht Study
 
 The Maastricht Study is a prospective observational population-based study of the general population in the southern part of the Netherlands. The study emphasized the recruitment of people with type 2 diabetes, through the regional Diabetes Patient Registry, to extensively phenotype individuals with type 2 diabetes and those in intermediate stages of the disease. The eligibility criteria included an age range of 40–70 years. Participants were recruited through mass media campaigns and mailings from municipal registries (Gemeentelijke Basis Administratie; GBA). In the analysis of Study I, the study among 7449 population included participants with measurements of 24-hour HRV and at least one measure of arterial stiffness (carotid-femoral pulse wave velocity or carotid artery distensibility), both of which were completed within a three-month period between November 2010 and December 2020. The study has been approved by the institutional medical ethics committee (NL31329.068.10) and the Minister of Health, Welfare and Sports of the Netherlands (Permit 131088-105234-PG). All participants gave written informed consent.
 
-### Study II - ADDITION-PRO
+#### Study II - ADDITION-PRO
 
 The ADDITION-PRO study is a prospective population-based cohort nested within the Danish arm of the ADDITION-Europe study, originally designed as a stepwise screening program for type 2 diabetes in general practice. ADDITION-PRO aims to investigate early markers of cardiovascular disease (CVD) and metabolic dysfunction in individuals in different tiers of diabetes risk.
 
@@ -38,18 +38,18 @@ Between 2009 and 2011, a follow-up health examination was conducted at four ADDI
 
 The population were disease history and follow-up in the unique register system of Denmark, which allows linkage of health records using the personal Civil Registration Number assigned to all citizens. The following national registries were accessed to collect information on incident CVD and mortality, medication use, and healthcare utilization: the National Patient Registry (hospital admissions and outpatient contacts), the National Health Service Registry (general practice visits), the Medical Prescription Registry, the Diabetes Registry, and the Cause of Death Registry.
 
-### Study III - CANCAN
+#### Study III - CANCAN
 
 The CANCAN Study was an observational pilot study conducted at two hospital outpatient clinics in Viborg Regional Hospital and Regional Hospital Gødstrup. It aimed to implement a screening protocol for identifying high-risk individuals using CAN assessments, continuous glucose monitoring, and heart failure indicators. All measures were part of routine clinical care for type 2 diabetes in Central Denmark. We included 200 adults (\>18 years) with type 2 diabetes for over one year. Exclusion criteria were recent laser-treated eye disease (≤3 months), pregnancy, lactation, life-threatening illness, or cognitive impairment preventing consent. Participants were identified via electronic records and informed about the study by their doctor during telephone call. Those interested attended a dedicated meeting before their annual diabetes exam, where study details were discussed. Recruitment took place from 2021 to 2024. In study III, participants without a valid NT-proBNP measurement were excluded.
 
-# Study variables
+## Study variables
 
-## Measures for cardiovascular autonomic dysfunction/ neuropathy
+### Measures for cardiovascular autonomic dysfunction/ neuropathy
 
 **Heart rate variability**
 
 ::: {layout-ncol="1"}
-![Heart rate variability](/Users/au614370/Desktop/PhD/PhD_dissertation/figures/measurements_hrv.png){width="100%," fig-align="left"}
+![Heart rate variability](images/measurements_hrv.png){width="100%," fig-align="left"}
 :::
 
 In study I-III a device was used to capturing the distance between each heartbeat defined as RR intervals from electrocardiogram traces either directly from heart-beat traces or indirectly from pulse traces. From this a sequence of successive heart beat intervals is extracted to calculate HRV. The pool of hearbeat data, we extrapolated time-domain and frequency-domain HRV indices. In study III, we used the ratio in pulse rate in test under different conditions lying-to-stading, in- expiration, and valsalva maneuvre.
@@ -97,12 +97,12 @@ CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold 
 Manifest CAN was defined as two or more abnormal CARTs using age-specific cut-off values (ref.). The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility (ref.).
 
 ::: {layout-ncol="1"}
-![CART](/Users/au614370/Desktop/PhD/PhD_dissertation/figures/cart.png){width="100%," fig-align="left"}
+![CART](images/cart.png){width="100%," fig-align="left"}
 :::
 
 HRV was derived from all CARTs using autoregressive spectral analysis. Time domain measures included SDNN and RMSSD, while frequency domain measures included LF, HF, and total power. Orthostatic hypertension was defined as a sustained drop in systolic blood pressure of ≥20 mmHg or diastolic blood pressure of ≥10 mmHg within three minutes of standing (ref.).
 
-## Confounders and variables for instrumental bias
+### Confounders and variables for instrumental bias
 
 **Lifestyle** Smoking status was
 
@@ -110,9 +110,9 @@ HRV was derived from all CARTs using autoregressive spectral analysis. Time doma
 
 **Medication**
 
-# Outcomes
+## Outcomes
 
-## Arterial stiffness
+### Arterial stiffness
 
 **Pulse wave velocity**
 
@@ -124,11 +124,11 @@ Carotid stiffness was assessed by the carotid artery distensibility coefficient 
 
 \[insert figure of PWV and CD\]
 
-## Biomarker
+### Biomarker
 
 N-terminal prohormone of brain natriuretic peptide (NT-proBNP) is a neuretic peptide that can be used to detect patients with heart failure and the progression. It derives from B-type natriuretisk peptid (BNP) which is a cardial neurohormon, that is syntezied and secreted as response to streched cariomycytes and cardiac volume overload. After secretion, proBNP is cleaved, releasing the active hormone BNP along with the remaining N-terminal fragment, known as NT-proBNP. In study III, blood sample were taken at study cite. Description of the NT-proBNP analysis of plasma samples is described in supplementary material \[ref.\].
 
-## Cardiovascular events
+### Cardiovascular events
 
 Information on CVD events and mortality was obtained from the Danish National Patient Registers until 2021. ICD-10 codes for stroke, myocardial infarction, cardiovascular death, cardiovascular revascularization, and heart failure.
 
@@ -140,27 +140,27 @@ We defined three-point major adverse cardiovascular events (MACE) as myocardial 
 
 We defined heart failure by all diagnosis codes, including “DI50,” for hospitalisation with heart failure.
 
-# Statistical Methods
+## Statistical Methods
 
-### Cross-sectional analysis
+#### Cross-sectional analysis
 
 In study I, we used multiple linear regression to investigate associations between week-long HRV and arterial stiffness. Model 1 adjusted for age, sex, education, glucose metabolism status, and mean arterial pressure (MAP) to account for the oversampling of individuals with type 2 diabetes and potential instrumental bias of arterial pressure flow. Model 2 included additional adjustments for smoking behavior, alcohol consumption, physical activity, body mass index, HbA1c, triglycerides, total-to-HDL cholesterol ratio, and medication use. Arterial stiffness measures were log-transformed to ensure normally distributed residuals and back-transformed into percentage change estimates. We add interaction sex to oberve if the association differed between sex. We performed sensitivity analyses excluding individuals on antihypertensive treatment or glucose-lowering medication. In study III, we applied logistic regression models to investigate the association between CAN and heart failure, using NT-proBNP as the primary outcome. We adjusted for age, sex, and diabetes duration, smoking behavior, alcohol consumption, body mass index, HbA1c, triglycerides, total cholesterol, and antihypertensive medication, eGFR and prior CVD. We performed sensitivity analyses excluded participants with beta-blocker treatment or prior CVD.
 
-#### Effect modification
+##### Effect modification
 
 In study I, we hypothesize that the association between 24-hour and arterial stiffness was stronger in strata of progression of diabetes (normal glucose metabolism, prediabetes, type 2 diabetes). We therefore first stratified by diabetes status to observe the size of the association across strata. We then combine all groups and include an interaction term between HRV and diabetes status. We did subsidiary analysis to check if the effect was modified by dysglycemia by stratifying HbA1c and fasting plasma glucose into deciles.
 
-### Time-to-event analysis
+#### Time-to-event analysis
 
 In study II, we used Poisson regression models to quantify the associations between HRV and cardiovascular events, as follow-up data were undisturbed over time and to avoid assumptions of proportional hazards[@whoneed2012]. Week-long HRV was modelled using splines with knots at predefined percentiles to assess non-linear associations. Hourly HRV was analysed separately for each hour to observe if the association of HRV had diurnal variation. Both HRV and mHR were standardized by their mean and standard deviation to ensure comparability. Based on assumptions about potential confounding pathways summarized in directed acyclic graphs (DAG), we fitted two models: Model 1 adjusted for age and sex, while Model 2 further adjusted for education, smoking, alcohol consumption, physical activity (physical activity energy expenditure (PAEE) calculated from Recent Physical Activity Questionnaire RPAQ), body mass index, total cholesterol, and HbA1c. Additional analyses were performed with HRV pre-adjusted for concurrent heart rate and physical acceleration to account the influence of these factors. Missing covariates were handled using multiple imputation.
 
-## Multiple imputed by chained equations
+### Multiple imputed by chained equations
 
 Multiple Imputation by Chained Equations (MICE) is a method for handling missing data in datasets. This procedure imputes missing values through an iterative series of predictive models, generating plausible estimates while preserving the relationships within the data. To avoid one imputation for missing value could give the value the same confidence as the a non-missing value, we followed Rubins Rule. Rubin’s rules in MICE combine results from multiple imputed datasets by pooling estimates of interest (e.g., means or regression coefficients) using their within- and between-imputation variances. Thus, we ensure valid statistical inferences by accounting for the uncertainty introduced by missing data.
 
 In study II, we imputed confounders to include as many participants and avoid excluding population with our without cardiovascular or mortality events. We imputed dataset 10 times. In study III, we imputed missing CART, as a proportion of participants had non-valid test due to insufficient air in the valsalva manuevre, unstable heart beats or data error. All available variables of biochemical measures, diagnosis, medication and cause of non-valid CART was used to impute CART using predictive mean matching.
 
-## Instrumental bias
+### Instrumental bias
 
 In study I-III we are investigating the body properties by dynamic measures and biomarkers to quantify autonomic function, arterial stiffness, and cardiac function. Other conditions may affect the properties we are attempting to measure, and thus are causing instrumental bias.
 

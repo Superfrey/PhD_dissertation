@@ -175,19 +175,20 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={The title of my most excellent thesis},
-  pdfauthor={Jane Doe},
+  pdftitle={Cardiovascular autonomic dysfunction impact on cardiovascular complications across glucose metabolism},
+  pdfauthor={Jonas Rosborg Schaarup},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{The title of my most excellent thesis}
-\author{Jane Doe}
-\date{May 2025}
+\title{Cardiovascular autonomic dysfunction impact on cardiovascular
+complications across glucose metabolism}
+\author{Jonas Rosborg Schaarup}
+\date{30. June 2025}
 
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, frame hidden, enhanced, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, frame hidden, borderline west={3pt}{0pt}{shadecolor}, interior hidden, enhanced, sharp corners, breakable]}{\end{tcolorbox}}\fi
 
 \mainmatter
 \bookmarksetup{startatroot}
@@ -223,19 +224,13 @@ Make a new paragraph by leaving a blank line.
 
 This is a book created from markdown and executable code.
 
-\begin{verbatim}
-[1] 2
-\end{verbatim}
-
 \bookmarksetup{startatroot}
 
 \hypertarget{background}{%
 \chapter{Background}\label{background}}
 
-\bookmarksetup{startatroot}
-
 \hypertarget{type-2-diabetes-and-prediabetes}{%
-\chapter{Type 2 diabetes and
+\section{Type 2 diabetes and
 prediabetes}\label{type-2-diabetes-and-prediabetes}}
 
 The body regulates glucose and insulin to maintain glucose homeostasis.
@@ -263,11 +258,11 @@ gluconeogenic substrates).
 
 \raisebox{-\height}{
 
-\includegraphics{Users/au614370/Desktop/PhD/biostats-r-quartothesis-e4d89fa/figures/diabetes_pahtogensis_IDF.png}
+\includegraphics{figures/diabetes_pahtogensis_IDF.png}
 
 }
 
-\caption{System}
+\caption{Pathogenesis diagram}
 
 }
 
@@ -281,10 +276,10 @@ driven by insulin resistance and followed by a gradual decline in
 beta-cell function. Insulin resistance occurs when certain cells, such
 as muscle and liver cells, lose their sensitivity to insulin. As a
 result, glucose is not effectively taken up by these tissues and remains
-in circulation. Meanwhile, beta-cell function deteriorates, leading to a
-diminished insulin response to glucose intake. Years before diagnosis,
-these changes contribute to rising fasting and postprandial glucose
-levels. {[}note: read Omar introduction!!!{]}
+in blood circulation. Meanwhile, beta-cell function deteriorates,
+leading to a diminished insulin response to glucose intake. Years before
+diagnosis, these changes contribute to rising fasting and postprandial
+glucose levels. {[}note: read Omar introduction!!!{]}
 
 \begin{figure}
 
@@ -294,7 +289,7 @@ levels. {[}note: read Omar introduction!!!{]}
 
 \raisebox{-\height}{
 
-\includegraphics{Users/au614370/Desktop/PhD/biostats-r-quartothesis-e4d89fa/figures/pathogenesis_diabetes.jpg}
+\includegraphics{images/pathogenesis_diabetes.png}
 
 }
 
@@ -338,7 +333,7 @@ cholesterol. {[}Lancet Diabetes Endocrinol 2013; 1: 43--51{]}.
 
 \raisebox{-\height}{
 
-\includegraphics{Users/au614370/Desktop/PhD/biostats-r-quartothesis-e4d89fa/figures/frimingham_risk_before_diabetes.png}
+\includegraphics{images/frimingham_risk_before_diabetes.png}
 
 }
 
@@ -362,10 +357,8 @@ preclinical stages and how CVD risk differs among higher-risk
 individuals needs further definition. Complications of diabetes has been
 included into.
 
-\bookmarksetup{startatroot}
-
 \hypertarget{cardiovascular-disease}{%
-\chapter{Cardiovascular disease}\label{cardiovascular-disease}}
+\section{Cardiovascular disease}\label{cardiovascular-disease}}
 
 Globally, CVD remains the leading cause of death. However, the main
 cause of mortality varies now by country income levels, with cancer
@@ -380,14 +373,30 @@ overall CVD risk. While risk factors are largely shared across CVD
 types, the pathogenesis differs, involving structural, signalling,
 inflammatory, and dynamic changes in the cardiovascular system.
 
-\bookmarksetup{startatroot}
+\hypertarget{arteriosclerosis}{%
+\section{Arteriosclerosis}\label{arteriosclerosis}}
+
+While hard CVD end-points remain the primary focus of CVD prevention
+measures, earlier markers of arterial stiffness assess the gradual
+vascular pathology and reflect arteriosclerosis, atherosclerosis,
+vascular calcification, under vascular aging. Stiffening of the arterial
+vasculature increases systolic pressure, reduces coronary perfusion, and
+raises the pulsatile load on the microcirculation. Arterial stiffness is
+characterized by changes between collagen, elastin, and smooth muscle
+cells. With aging, elastic fibers are gradually replaced by collagen
+fibers, leading to increased vascular stiffness (Lu et al. 2023). This
+process can be accelerated by modifiable risk factors such as smoking,
+sedentary behavior, and poor diet, hypertension, dysglycemia and
+hyperlipidemia. The progression of arterial stiffness is an early marker
+in the trajectory of CVD development, as increased stiffness precedes
+rises in blood pressure.
 
 \hypertarget{atherosclerosis}{%
-\chapter{Atherosclerosis}\label{atherosclerosis}}
+\section{Atherosclerosis}\label{atherosclerosis}}
 
 Atherosclerosis is characterized by plaque build-up in the arteries,
 which can develop into a thrombus, leading to artery blockage or
-haemorrhage. The underlying process is atherosclerosis, where
+haemorrhage. The underlying process of atherosclerosis is where
 cholesterol, fat, and other substances accumulate in the arterial walls,
 causing narrowing and reducing blood flow to the heart. When the oxygen
 supply to the heart is insufficient, it can result in chest pain
@@ -397,20 +406,20 @@ the heart, increasing the risk of heart failure and arrhythmia.
 
 \textbf{Myocardial infarction}
 
-MI occurs due to the rupture of an atherosclerotic plaque in the
-coronary arteries, triggering thrombus formation that blocks blood flow.
-This leads to oxygen deprivation (ischemia) and subsequent myocardial
-injury or necrosis. If untreated, this process can cause extensive
-cardiac damage and fatal arrhythmias. Over the past decades, the
-incidence rate of MI has decreased in high-income countries, while
-improvements in early detection and treatment (both intravenous and
-therapeutic) have led to a steep decline in MI-related mortality. These
-advancements have also contributed to a lower prevalence of individuals
-living with prior MI. In type 2 diabetes, the risk of MI is elevated by
-72\%, with an approximately threefold risk among patients under 60 years
-compared to age under 60 without type 2 diabetes (Shah et al. 2015).
-Similar to the general population, its incidence and fatality have
-declined in diabetes.
+Myocardial infarction (MI) occurs due to the rupture of an
+atherosclerotic plaque in the coronary arteries, triggering thrombus
+formation that blocks blood flow. This leads to oxygen deprivation
+(ischemia) and subsequent myocardial injury or necrosis. If untreated,
+this process can cause extensive cardiac damage and fatal arrhythmias.
+Over the past decades, the incidence rate of MI has decreased in
+high-income countries, while improvements in early detection and
+treatment (both intravenous and therapeutic) have led to a steep decline
+in MI-related mortality. These advancements have also contributed to a
+lower prevalence of individuals living with prior MI. In type 2
+diabetes, the risk of MI is elevated by 72\%, with an approximately
+threefold risk among patients under 60 years compared to age under 60
+without type 2 diabetes (Shah et al. 2015). Similar to the general
+population, its incidence and fatality have declined in diabetes.
 
 \textbf{Stroke}
 
@@ -433,30 +442,8 @@ diabetes, the ischemic stroke risk is elevated almost two-fold (Shah et
 al. 2015). Hence, the risk of stroke increases with the progression
 dysglycemia.
 
-\bookmarksetup{startatroot}
-
-\hypertarget{arteriosclerosis}{%
-\chapter{Arteriosclerosis}\label{arteriosclerosis}}
-
-While hard CVD end-points remain the primary focus of CVD prevention
-measures, earlier markers of arterial stiffness assess the gradual
-vascular pathology and reflect arteriosclerosis, atherosclerosis,
-vascular calcification, under vascular aging. Stiffening of the arterial
-vasculature increases systolic pressure, reduces coronary perfusion, and
-raises the pulsatile load on the microcirculation. Arterial stiffness is
-characterized by changes between collagen, elastin, and smooth muscle
-cells. With aging, elastic fibers are gradually replaced by collagen
-fibers, leading to increased vascular stiffness(Lu et al. 2023). This
-process can be accelerated by modifiable risk factors such as smoking,
-sedentary behavior, and poor diet, hypertension, dysglycemia and
-hyperlipidemia. The progression of arterial stiffness is an early marker
-in the trajectory of CVD development, as increased stiffness precedes
-rises in blood pressure.
-
-\bookmarksetup{startatroot}
-
 \hypertarget{heart-failure}{%
-\chapter{Heart failure}\label{heart-failure}}
+\section{Heart failure}\label{heart-failure}}
 
 Heart failure gradual develops with age and often. As treatment in
 ischemic CVD events has improved survival over the last years, the
@@ -486,7 +473,7 @@ leading to elevated left atrial pressure and reduced diastolic reserve
 (Normand et al. 2019). Over the past decades, the prevalence of HFpEF
 has increased with an aging population and more people living with
 pathological conditions such as hypertension, diabetes, and obesity. It
-is diagnosed based on abnormal echocardiographic measures, e.g., left
+is diagnosed based on abnormal echocardiographic measures of, e.g., left
 ventricular hypertrophy, left atrial enlargement, or elevated filling
 pressure (Campbell et al. 2024). The diagnosis may seem straightforward,
 but it is often challenging in community settings, as patients
@@ -495,10 +482,8 @@ shortness of breath) and are not routinely assessed with biomarkers like
 NT-proBNP or brain-neuretic-peptide (BNP). As a result, HFpEF is
 commonly underdiagnosed (Campbell et al. 2024).
 
-\bookmarksetup{startatroot}
-
 \hypertarget{cardiovascular-autonomic-dysfunction}{%
-\chapter{Cardiovascular autonomic
+\section{Cardiovascular autonomic
 dysfunction}\label{cardiovascular-autonomic-dysfunction}}
 
 The cardiovascular system is regulated the autonomic nervous system
@@ -552,17 +537,23 @@ recordings at rest. However, extended HRV recordings across the
 circadian cycle may offer deeper insights into the influence of
 lower-frequency variability sources, such as very-low frequency
 (0.003--0.04 Hz) and ultra-low frequency (≤0.003 Hz). Hear rate
-variability {[}from excerices physiology to psychology, to
-cardiovascular research, to diabetes research{]}. Cardiovascular
+variability {[}from excercises physiology to psychology, to
+cardiovascular research, to diabetes research{]}. Before onset of
+diabetes and during progression of diabetes long-term (24-hour HRV) have
+shown to be lower compare to those with normal glucose metabolism
+{[}Rinaldi et al. (2023){]}(Coopmans et al. 2020). Cardiovascular
 autonomic reflex tests (CARTs) are considered the gold standard for
 assessing CAN. The diagnosis includes assessing pulse ratio under test
 conditions, such as the deep breathing test, the lying-to-standing test,
-and the Valsalva maneuver.
-
-\bookmarksetup{startatroot}
+and the Valsalva maneuver. Both HRV and CARTs have been associated with
+cardiovascular disease, heart failure, and all-cause mortality,
+primarily in populations with type 2 diabetes or established
+cardiovascular disease. However, it remains unclear at which stage in
+the progression of diabetes these measures begin to influence the risk
+of cardiovascular complications.
 
 \hypertarget{risk-stratification}{%
-\chapter{Risk-stratification}\label{risk-stratification}}
+\section{Risk-stratification}\label{risk-stratification}}
 
 Current cardiopreventive guidelines place strong emphasis on type 2
 diabetes. The 2022 ADA/EASD guidelines for the management of
@@ -584,10 +575,11 @@ Intervention or Metformin''} (2002){]}(Kahn et al. 2024). During the
 progression and after the onset of type 2 diabetes, preclinical stages
 may manifest with markers of higher cardiovascular risk, underscoring
 the potential for risk stratification. Risk stratification is the
-process of classifying individuals based on biomarker levels or
-preclinical conditions. This approach aids in subtyping patients for
-prognostic or diagnostic purposes, identifying subgroups that require
-further evaluation, intensified treatment, or lifestyle modifications.
+process of classifying individuals based on risk scores, biomarker
+levels, omic data (metabolomic, proteomics, and genomic) or preclinical
+conditions. This approach aids in subtyping patients for prognostic or
+diagnostic purposes, identifying subgroups that require further
+evaluation, intensified treatment, or lifestyle modifications.
 
 \begin{figure}
 
@@ -597,7 +589,7 @@ further evaluation, intensified treatment, or lifestyle modifications.
 
 \raisebox{-\height}{
 
-\includegraphics{Users/au614370/Desktop/PhD/dissertation/figures/risk_stratification.png}
+\includegraphics{images/risk_stratification.png}
 
 }
 
@@ -622,10 +614,8 @@ potential to determine when, along the trajectory of diabetes
 progression and duration, autonomic function are meaningful for
 cardiovascular risk-stratification.
 
-\bookmarksetup{startatroot}
-
 \hypertarget{aetiological-research}{%
-\chapter{Aetiological research}\label{aetiological-research}}
+\section{Aetiological research}\label{aetiological-research}}
 
 Aetiology identifies the causes and contributing factors of disease,
 forming the foundation for understanding its development and underlying
@@ -652,7 +642,7 @@ underlying pathological mechanisms.
 
 \raisebox{-\height}{
 
-\includegraphics{Users/au614370/Desktop/PhD/biostats-r-quartothesis-e4d89fa/figures/physcosocial_model.png}
+\includegraphics{images/physcosocial_model.png}
 
 }
 
@@ -714,10 +704,8 @@ carotid artery distensibility.
 \hypertarget{materials-and-methods}{%
 \chapter{Materials and methods}\label{materials-and-methods}}
 
-\bookmarksetup{startatroot}
-
 \hypertarget{overview-of-the-studies}{%
-\chapter{Overview of the studies}\label{overview-of-the-studies}}
+\section{Overview of the studies}\label{overview-of-the-studies}}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2083}}
@@ -777,7 +765,7 @@ CART and confounders \\
 \end{longtable}
 
 \hypertarget{study-population}{%
-\section{Study population}\label{study-population}}
+\subsection{Study population}\label{study-population}}
 
 \begin{figure}
 
@@ -787,7 +775,7 @@ CART and confounders \\
 
 \raisebox{-\height}{
 
-\includegraphics{Users/au614370/Desktop/PhD/biostats-r-quartothesis-e4d89fa/images/cohort_map.png}
+\includegraphics{images/cohort_map.png}
 
 }
 
@@ -800,7 +788,7 @@ CART and confounders \\
 \end{figure}
 
 \hypertarget{study-i---the-maastricht-study}{%
-\subsection{Study I - The Maastricht
+\subsubsection{Study I - The Maastricht
 Study}\label{study-i---the-maastricht-study}}
 
 The Maastricht Study is a prospective observational population-based
@@ -822,7 +810,7 @@ Netherlands (Permit 131088-105234-PG). All participants gave written
 informed consent.
 
 \hypertarget{study-ii---addition-pro}{%
-\subsection{Study II - ADDITION-PRO}\label{study-ii---addition-pro}}
+\subsubsection{Study II - ADDITION-PRO}\label{study-ii---addition-pro}}
 
 The ADDITION-PRO study is a prospective population-based cohort nested
 within the Danish arm of the ADDITION-Europe study, originally designed
@@ -877,7 +865,7 @@ visits), the Medical Prescription Registry, the Diabetes Registry, and
 the Cause of Death Registry.
 
 \hypertarget{study-iii---cancan}{%
-\subsection{Study III - CANCAN}\label{study-iii---cancan}}
+\subsubsection{Study III - CANCAN}\label{study-iii---cancan}}
 
 The CANCAN Study was an observational pilot study conducted at two
 hospital outpatient clinics in Viborg Regional Hospital and Regional
@@ -895,13 +883,11 @@ their annual diabetes exam, where study details were discussed.
 Recruitment took place from 2021 to 2024. In study III, participants
 without a valid NT-proBNP measurement were excluded.
 
-\bookmarksetup{startatroot}
-
 \hypertarget{study-variables}{%
-\chapter{Study variables}\label{study-variables}}
+\section{Study variables}\label{study-variables}}
 
 \hypertarget{measures-for-cardiovascular-autonomic-dysfunction-neuropathy}{%
-\section{Measures for cardiovascular autonomic dysfunction/
+\subsection{Measures for cardiovascular autonomic dysfunction/
 neuropathy}\label{measures-for-cardiovascular-autonomic-dysfunction-neuropathy}}
 
 \textbf{Heart rate variability}
@@ -914,7 +900,7 @@ neuropathy}\label{measures-for-cardiovascular-autonomic-dysfunction-neuropathy}}
 
 \raisebox{-\height}{
 
-\includegraphics{Users/au614370/Desktop/PhD/biostats-r-quartothesis-e4d89fa/figures/measurements_hrv.png}
+\includegraphics{images/measurements_hrv.png}
 
 }
 
@@ -1093,7 +1079,7 @@ moderate to high reproducibility (ref.).
 
 \raisebox{-\height}{
 
-\includegraphics{Users/au614370/Desktop/PhD/biostats-r-quartothesis-e4d89fa/figures/cart.png}
+\includegraphics{images/cart.png}
 
 }
 
@@ -1113,7 +1099,7 @@ diastolic blood pressure of ≥10 mmHg within three minutes of standing
 (ref.).
 
 \hypertarget{confounders-and-variables-for-instrumental-bias}{%
-\section{Confounders and variables for instrumental
+\subsection{Confounders and variables for instrumental
 bias}\label{confounders-and-variables-for-instrumental-bias}}
 
 \textbf{Lifestyle} Smoking status was
@@ -1122,13 +1108,11 @@ bias}\label{confounders-and-variables-for-instrumental-bias}}
 
 \textbf{Medication}
 
-\bookmarksetup{startatroot}
-
 \hypertarget{outcomes}{%
-\chapter{Outcomes}\label{outcomes}}
+\section{Outcomes}\label{outcomes}}
 
 \hypertarget{arterial-stiffness}{%
-\section{Arterial stiffness}\label{arterial-stiffness}}
+\subsection{Arterial stiffness}\label{arterial-stiffness}}
 
 \textbf{Pulse wave velocity}
 
@@ -1156,7 +1140,7 @@ Montvale, NJ, USA).
 {[}insert figure of PWV and CD{]}
 
 \hypertarget{biomarker}{%
-\section{Biomarker}\label{biomarker}}
+\subsection{Biomarker}\label{biomarker}}
 
 N-terminal prohormone of brain natriuretic peptide (NT-proBNP) is a
 neuretic peptide that can be used to detect patients with heart failure
@@ -1170,7 +1154,7 @@ analysis of plasma samples is described in supplementary material
 {[}ref.{]}.
 
 \hypertarget{cardiovascular-events}{%
-\section{Cardiovascular events}\label{cardiovascular-events}}
+\subsection{Cardiovascular events}\label{cardiovascular-events}}
 
 Information on CVD events and mortality was obtained from the Danish
 National Patient Registers until 2021. ICD-10 codes for stroke,
@@ -1188,13 +1172,12 @@ cardiovascular death.
 We defined heart failure by all diagnosis codes, including ``DI50,'' for
 hospitalisation with heart failure.
 
-\bookmarksetup{startatroot}
-
 \hypertarget{statistical-methods}{%
-\chapter{Statistical Methods}\label{statistical-methods}}
+\section{Statistical Methods}\label{statistical-methods}}
 
 \hypertarget{cross-sectional-analysis}{%
-\subsection{Cross-sectional analysis}\label{cross-sectional-analysis}}
+\subsubsection{Cross-sectional
+analysis}\label{cross-sectional-analysis}}
 
 In study I, we used multiple linear regression to investigate
 associations between week-long HRV and arterial stiffness. Model 1
@@ -1218,7 +1201,7 @@ performed sensitivity analyses excluded participants with beta-blocker
 treatment or prior CVD.
 
 \hypertarget{effect-modification}{%
-\subsubsection{Effect modification}\label{effect-modification}}
+\paragraph{Effect modification}\label{effect-modification}}
 
 In study I, we hypothesize that the association between 24-hour and
 arterial stiffness was stronger in strata of progression of diabetes
@@ -1230,7 +1213,7 @@ analysis to check if the effect was modified by dysglycemia by
 stratifying HbA1c and fasting plasma glucose into deciles.
 
 \hypertarget{time-to-event-analysis}{%
-\subsection{Time-to-event analysis}\label{time-to-event-analysis}}
+\subsubsection{Time-to-event analysis}\label{time-to-event-analysis}}
 
 In study II, we used Poisson regression models to quantify the
 associations between HRV and cardiovascular events, as follow-up data
@@ -1251,7 +1234,7 @@ acceleration to account the influence of these factors. Missing
 covariates were handled using multiple imputation.
 
 \hypertarget{multiple-imputed-by-chained-equations}{%
-\section{Multiple imputed by chained
+\subsection{Multiple imputed by chained
 equations}\label{multiple-imputed-by-chained-equations}}
 
 Multiple Imputation by Chained Equations (MICE) is a method for handling
@@ -1275,7 +1258,7 @@ medication and cause of non-valid CART was used to impute CART using
 predictive mean matching.
 
 \hypertarget{instrumental-bias}{%
-\section{Instrumental bias}\label{instrumental-bias}}
+\subsection{Instrumental bias}\label{instrumental-bias}}
 
 In study I-III we are investigating the body properties by dynamic
 measures and biomarkers to quantify autonomic function, arterial
@@ -1323,13 +1306,11 @@ xx,xxx)}\label{results-xxxxx-current-xxxxx}}
 In this section, I will summarize study population characteristics and
 findings from analysis.
 
-\bookmarksetup{startatroot}
-
 \hypertarget{study-i}{%
-\chapter{Study I}\label{study-i}}
+\section{Study I}\label{study-i}}
 
 \hypertarget{descriptive}{%
-\section{Descriptive}\label{descriptive}}
+\subsection{Descriptive}\label{descriptive}}
 
 In The Maastricht Study, {[}10,000 participated by Date{]}, of those
 1316 reported prior CVD. Participants who had valid 24-hour HRV measured
@@ -1421,7 +1402,7 @@ Lipid-lowering medication & 280 (12\%) & 141 (26\%) & 484 (65\%)\\
 \end{table}
 
 \hypertarget{hour-hrv-and-arterial-stiffness}{%
-\section{24-hour HRV and arterial
+\subsection{24-hour HRV and arterial
 stiffness}\label{hour-hrv-and-arterial-stiffness}}
 
 \textbf{Time-domain HRV}
@@ -1452,7 +1433,7 @@ interval was associated with 2.4 \% (CI: 1.8; 2.9) lower cf-PWV and
 4.5\% (3.1; 6.1) higher CD.
 
 \hypertarget{effect-modification-of-diabetes-status}{%
-\section{Effect modification of diabetes
+\subsection{Effect modification of diabetes
 status}\label{effect-modification-of-diabetes-status}}
 
 The study population represented diabetes risk of normal glucose
@@ -1501,13 +1482,11 @@ T2D){]}
 {[}FPG and Hba1c values and the interaction and the magnitude of the
 association between HR and AS{]}
 
-\bookmarksetup{startatroot}
-
 \hypertarget{study-ii}{%
-\chapter{Study II}\label{study-ii}}
+\section{Study II}\label{study-ii}}
 
 \hypertarget{descriptive-1}{%
-\section{Descriptive}\label{descriptive-1}}
+\subsection{Descriptive}\label{descriptive-1}}
 
 In ADDITION-PRO population consisted of 1,627 participant with a least
 48-hour HRV measures, while 1,432 had all hour represented with hourly
@@ -1526,7 +1505,7 @@ among participants who experienced MACE or heart failure compared to
 participants without any CVD{]} replace with SDNN distribution{]} .
 
 \hypertarget{week-long-hrv-and-mace-heart-failure-and-all-cause-mortality.}{%
-\section{Week-long HRV and MACE, heart failure, and all-cause
+\subsection{Week-long HRV and MACE, heart failure, and all-cause
 mortality.}\label{week-long-hrv-and-mace-heart-failure-and-all-cause-mortality.}}
 
 The mean week-long SDNN was 139.0 (32.3) ms, and the mean heart rate was
@@ -1543,7 +1522,7 @@ function of age.
 {[}Incedence rate curves{]}
 
 \hypertarget{hourly-hrv-and-mace-heart-failure-and-all-cause-mortality.}{%
-\section{Hourly HRV and MACE, heart failure, and all-cause
+\subsection{Hourly HRV and MACE, heart failure, and all-cause
 mortality.}\label{hourly-hrv-and-mace-heart-failure-and-all-cause-mortality.}}
 
 From the hourly recordings, we observed a clear periodicity in SDNN,
@@ -1557,13 +1536,11 @@ gradually decreasing.
 
 {[}include results from hourly results{]}
 
-\bookmarksetup{startatroot}
-
 \hypertarget{study-iii}{%
-\chapter{Study III}\label{study-iii}}
+\section{Study III}\label{study-iii}}
 
 \hypertarget{descriptive-2}{%
-\section{Descriptive}\label{descriptive-2}}
+\subsection{Descriptive}\label{descriptive-2}}
 
 In study III, 179 participants with type 2 had measures of NT-proBNP and
 performed the CART test. CAN was present in 30\% (n = 54) of
@@ -1581,7 +1558,7 @@ use SGTL2-inhibitors (65\% vs 60\%) but lower use of GLP-1 RA (63\% vs
 70\%). No other difference in clinical characteristic was observed.
 
 \hypertarget{relationship-between-can-and-elevated-nt-probnp}{%
-\section{Relationship between CAN and elevated
+\subsection{Relationship between CAN and elevated
 NT-proBNP}\label{relationship-between-can-and-elevated-nt-probnp}}
 
 A greater proportion of individuals with CAN exhibited elevated
@@ -1607,13 +1584,11 @@ association remained unchanged.
 \chapter{Discussion (17,280 current:
 14,479)}\label{discussion-17280-current-14479}}
 
-\bookmarksetup{startatroot}
-
 \hypertarget{strength-and-limitation}{%
-\chapter{Strength and limitation}\label{strength-and-limitation}}
+\section{Strength and limitation}\label{strength-and-limitation}}
 
 \hypertarget{study-design}{%
-\section{Study design}\label{study-design}}
+\subsection{Study design}\label{study-design}}
 
 \emph{Cross-sectional design}
 
@@ -1672,7 +1647,7 @@ HRV or CART leads to reduction in cardiovascular risk, using data from
 intervention studies.
 
 \hypertarget{intern-validity}{%
-\section{Intern validity}\label{intern-validity}}
+\subsection{Intern validity}\label{intern-validity}}
 
 In this project, we aimed to assess cardiovascular autonomic function
 both in free-living conditions and in response to standardized test
@@ -1686,7 +1661,7 @@ will as well discuss using the strength and limitation of using MACE as
 an time to event outcome.
 
 \hypertarget{measures-of-autonomic-dysfunction}{%
-\subsection{Measures of autonomic
+\subsubsection{Measures of autonomic
 dysfunction}\label{measures-of-autonomic-dysfunction}}
 
 HRV has been applied across several research domains. For example, in
@@ -1809,7 +1784,7 @@ provide insight into vagal tone and parasympathetic activity, although
 each method has limitations (ref.).
 
 \hypertarget{measures-of-cardiovascular-risk}{%
-\subsection{Measures of cardiovascular
+\subsubsection{Measures of cardiovascular
 risk}\label{measures-of-cardiovascular-risk}}
 
 \begin{itemize}
@@ -1846,10 +1821,10 @@ risk}\label{measures-of-cardiovascular-risk}}
 \end{itemize}
 
 \hypertarget{external-validity}{%
-\section{External validity}\label{external-validity}}
+\subsection{External validity}\label{external-validity}}
 
 \hypertarget{selection-bias}{%
-\subsection{Selection bias}\label{selection-bias}}
+\subsubsection{Selection bias}\label{selection-bias}}
 
 \textbf{The Maastricht Study}
 
@@ -1919,7 +1894,7 @@ the magnitude of the association to the target population may be
 limited.
 
 \hypertarget{generalisability}{%
-\subsection{Generalisability}\label{generalisability}}
+\subsubsection{Generalisability}\label{generalisability}}
 
 The generalizability of our findings can be discussed on two levels: the
 extent to which the results apply to the general population within the
@@ -1954,15 +1929,13 @@ strength of including individuals across different levels of diabetes
 risk, some limitations in generalizability remain, particularly to more
 diverse and younger populations.
 
-\bookmarksetup{startatroot}
-
 \hypertarget{cardiovascular-autonomic-dysfunction-impact-on-heart-disease-across-glucose-metabolism}{%
-\chapter{Cardiovascular autonomic dysfunction impact on heart disease
+\section{Cardiovascular autonomic dysfunction impact on heart disease
 across glucose
 metabolism}\label{cardiovascular-autonomic-dysfunction-impact-on-heart-disease-across-glucose-metabolism}}
 
-\hypertarget{arteriosclerosis.}{%
-\section{Arteriosclerosis.}\label{arteriosclerosis.}}
+\hypertarget{arteriosclerosis-1}{%
+\subsection{Arteriosclerosis}\label{arteriosclerosis-1}}
 
 Arterial stiffness is not only a structural marker of vascular ageing
 but is also dynamically modulated by local endothelial signals and
@@ -1993,8 +1966,8 @@ contributions to arterial stiffness, or to determine whether the
 observed risk is driven by specific responses to living conditions or
 circadian rhythm variations.
 
-\hypertarget{atherosclerotic}{%
-\section{Atherosclerotic}\label{atherosclerotic}}
+\hypertarget{atherosclerosis-1}{%
+\subsection{Atherosclerosis}\label{atherosclerosis-1}}
 
 In study II, we demonstrated that cardiovascular autonomic dysfunction,
 measured by week-log HRV, are associated with atherosclerosis events,
@@ -2087,7 +2060,7 @@ endothelial dysfunction, beyond what is currently captured by HRV and
 common indices of arterial stiffness.
 
 \hypertarget{heart-failure-1}{%
-\section{Heart failure}\label{heart-failure-1}}
+\subsection{Heart failure}\label{heart-failure-1}}
 
 Heart failure is commonly classified as either ischemic or non-ischemic
 in origin. It may arise as a consequence of atherosclerosis,
@@ -2178,7 +2151,7 @@ validate this approach. If confirmed, this could open the door for
 targeted interventions based on risk stratification.
 
 \hypertarget{diabetes-modification}{%
-\section{Diabetes modification}\label{diabetes-modification}}
+\subsection{Diabetes modification}\label{diabetes-modification}}
 
 Based on our studies, we have shown that cardiovascular autonomic
 dysfunction, measured by HRV and CART, is associated with
@@ -2201,8 +2174,8 @@ of arterial stiffness and even before the onset of type 2 diabetes.
 Interestingly, while several time-domain and frequency-domain HRV
 measures based on the global distribution were modified by diabetes
 status, the association of mean IBI was not. This suggests that the
-deterioration of HRV indicators might reflect different pathogenesis to
-arterial stiffness in diabetes risk than heart rate.
+deterioration of HRV indicators might reflect different parthenogenesis
+to arterial stiffness in diabetes risk than heart rate.
 
 Type 2 diabetes has shown to significantly modified the expression of
 sympathetic burst, and even higher when co-exiting with hypertension
@@ -2212,7 +2185,7 @@ cardiometabolic risk, and type 2 diabetes, shown by impaired baroreflex
 sensivity (Cseh et al. 2020) and lower HF and RMSSD short-term HRV.
 
 \hypertarget{risk-stratification-1}{%
-\section{Risk-stratification}\label{risk-stratification-1}}
+\subsection{Risk-stratification}\label{risk-stratification-1}}
 
 We demonstrated that autonomic dysfunction and autonomic neuropathy are
 linked to cardiovascular risk and complications. Beyond the question of
@@ -2264,10 +2237,8 @@ developing diabetes, suggesting that autonomic dysfunction is relevant
 for cardiovascular risk already in the early stages of diabetes
 progression.
 
-\bookmarksetup{startatroot}
-
 \hypertarget{the-utility-of-long-term-hrv-in-cardiovascular-disease}{%
-\chapter{The utility of long-term HRV in cardiovascular
+\section{The utility of long-term HRV in cardiovascular
 disease}\label{the-utility-of-long-term-hrv-in-cardiovascular-disease}}
 
 {[}will be filled out{]}
@@ -2290,10 +2261,6 @@ A responsive marker to detect successfulness in CVD risk management.
 \hypertarget{perspective}{%
 \chapter{Perspective}\label{perspective}}
 
-\begin{verbatim}
--   Experimental design of mediation of direct target of HRV (medication: beta-blockers, or lifestyle: physical activity and sleep)
-\end{verbatim}
-
 Autonomic dysfunction and cardiovascular risk - pathofyioslogy
 
 Long-term HRV - Risk indicator - devided into chunck identify repsosen
@@ -2314,6 +2281,75 @@ heart rate with additional physiological signals may improve
 understanding of CVD risk. Machine learning methods could further help
 to integrate heart rate and movement data, identifying early signs and
 patterns in repsonse in the daily cycle that is linked to CVD risk.
+
+People at high risk of diabetes, with glucose levels in the prediabetic
+range, face an increased risk of developing diabetes and its
+complications. However, since many individuals either remain in the
+prediabetic state or revert to normoglycemia, structured treatment
+strategies for prediabetes have not been widely implemented in clinical
+practice. This is partly due to the high heterogeneity within the
+prediabetic population. Therefore, additional indicators beyond glucose
+levels may be useful to identify individuals who are most likely to
+benefit from early intervention. In our study, we demonstrated that
+autonomic dysfunction, as measured by long-term HRV, was more strongly
+associated with cardiovascular risk in this population. Future
+perspectives include evaluating whether individuals subclassified as
+high-risk based on autonomic dysfunction may benefit from targeted
+interventions.
+
+\hypertarget{risk-stratification-2}{%
+\section{Risk-stratification}\label{risk-stratification-2}}
+
+\begin{figure}
+
+\begin{minipage}[t]{\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{images/strafication_tree_of_CAN.png}
+
+}
+
+\caption{Risk-stratification by autonomic dysfunction}
+
+}
+
+\end{minipage}%
+
+\end{figure}
+
+\hypertarget{effective-modifiable-marker}{%
+\section{Effective modifiable
+marker}\label{effective-modifiable-marker}}
+
+\begin{itemize}
+\tightlist
+\item
+  Experimental design of mediation of direct target of HRV (medication:
+  beta-blockers, or lifestyle: physical activity and sleep)
+\end{itemize}
+
+\begin{figure}
+
+\begin{minipage}[t]{\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{images/Mediation_HRV.png}
+
+}
+
+\caption{Mediation of HRV by intervention in prevention of CVD}
+
+}
+
+\end{minipage}%
+
+\end{figure}
 
 \bookmarksetup{startatroot}
 
@@ -2394,6 +2430,13 @@ Night Work~Mitigates Changes in Cardiovascular Risk Factors: Secondary
 Analyses of a Randomized Controlled Trial.''} \emph{Nature
 Communications} 16 (1): 3186.
 \url{https://doi.org/10.1038/s41467-025-57846-y}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-coopmans2020}{}}%
+Coopmans, Charlotte, Tan Lai Zhou, Ronald M. A. Henry, Jordi Heijman,
+Nicolaas C. Schaper, Annemarie Koster, Miranda T. Schram, et al. 2020.
+{``Both Prediabetes and Type 2 Diabetes Are Associated with Lower Heart
+Rate Variability: The Maastricht Study.''} \emph{Diabetes Care} 43 (5):
+1126--33. \url{https://doi.org/10.2337/dc19-2367}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-cseh2020}{}}%
 Cseh, Domonkos, Rachel E. Climie, Lucile Offredo, Catherine Guibout,

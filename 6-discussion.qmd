@@ -2,9 +2,9 @@
 title: "Discussion (17,280 current: 14,479)"
 ---
 
-# Strength and limitation
+## Strength and limitation
 
-## Study design
+### Study design
 
 *Cross-sectional design*
 
@@ -18,11 +18,11 @@ A major strength of study II is its longitudinal design, where HRV was measured 
 
 Based on our studies, we demonstrate first steps in relationship between cardiovascular autonomic function, measured by, heart rate variability or CART, we can only establish an association and cannot conclude with certainty that improvements in HRV measures lead to a reduction in cardiovascular risk. Therefore, we cannot ascertain causal effect based on our findings, and more causal focused methods are needed. Mendelian randomization, which uses genetic instruments for exposure, could help address this causal question. Furthermore, structured mediation analysis involving modification, e.g. by medication or lifestyle, would improve HRV or CART leads to reduction in cardiovascular risk, using data from intervention studies.
 
-## Intern validity
+### Intern validity
 
 In this project, we aimed to assess cardiovascular autonomic function both in free-living conditions and in response to standardized test procedures during clinical visits. Additionally, we used dynamic measurements to evaluate arterial stiffness locally and by velocity and biomarker assessments to determine the presence of heart failure. In this section, I will discuss the validity of 24-hour, week-long, and hourly HRV measurements, as well as the standardized tests of CAN. Furthermore, I will address the validity of the included outcomes. I will as well discuss using the strength and limitation of using MACE as an time to event outcome.
 
-### Measures of autonomic dysfunction
+#### Measures of autonomic dysfunction
 
 HRV has been applied across several research domains. For example, in psychology as a marker of mental stress, in exercise physiology as an indicator of recovery, in cardiovascular research as a marker of autonomic dysfunction related to cardiac complications, and in diabetes research as a marker of autonomic neuropathy. In the context of this project, which focuses on long-term HRV in diabetes and cardiovascular research, it is important to acknowledge that the autonomic nervous function we aim to assess, may also be influenced by behavioural factors such as physical activity, sleep, meal timing, emotions, smoking, caffeine intake, alcohol consumption, use of medication, and prior cardiovascular complications. Therefore, reduced long-term HRV cannot be interpreted solely as a marker of autonomic function. Factors such as sleep, stress, meals, and physical activity can influence HRV both during recordings potentially masking or mimicking underlying physiological dysfunction. Moreover, HRV is also influenced by lifestyle patterns over time, making it sensitive not only to acute behaviours but also to long-term habits that affect autonomic balance. In study II, we observed that the lower ranges of HRV had both lower habitual physical acitivty and lower VO~2~ max, suggesting that lower HRV reflects more sedentary lifestyle and lower cardiorespiratory fitness.
 
@@ -44,7 +44,7 @@ As HRV is determined by sinoatrial heartbeats, it does not solely reflect the sy
 
 In humans, direct measurement of parasympathetic nervous activity is challenging. Although acetylcholine is the primary neurotransmitter of the parasympathetic nervous system, its concentration is not practically measurable due to its rapid degradation by acetylcholinesterase, its highly localized synaptic activity, and lack of systemic spillover (ref.). Therefore, indirect assessments are preferred. Commonly used surrogate measures include high-frequency heart rate variability (HRV), respiratory sinus arrhythmia, baroreflex sensitivity, and responses to pharmacological agents like atropine. These physiological markers provide insight into vagal tone and parasympathetic activity, although each method has limitations (ref.).
 
-### Measures of cardiovascular risk
+#### Measures of cardiovascular risk
 
 -   Arterial stiffness
 -   NT-proBNP
@@ -55,9 +55,9 @@ In humans, direct measurement of parasympathetic nervous activity is challenging
         -   Clinical trail moved to high risk population in lower-income countries (South America)
         -   Challenge for coming observational cohorts (need to increase sample size) \[The Problem With Composite End Points in Cardiovascular Studies The Story of Major Adverse Cardiac Events and Percutaneous Coronary Intervention\]
 
-## External validity
+### External validity
 
-### Selection bias
+#### Selection bias
 
 **The Maastricht Study**
 
@@ -77,7 +77,7 @@ In Denmark, patients with type 2 diabetes are referred to diabetes specialists a
 
 Overall in this project, the selection bias span across different aspects. In Study I-II, healthier and more health-conscious individuals tend to participate in cohort studies, potentially introducing selection bias. In contrast, attendance in the study III was more successful, as participation was optimized by scheduling study assessments during routine consultations. In epidemiology, we aim to match the source population with our target population. However, limitations due to self-selection in participation arise. Consequently, this can affect the results, as participants may be healthier and better treated, leading to less contrast between determinants and outcomes in our etiological analysis. We suspect that one explanation for the lack of a stepwise increase in the association between HRV and arterial stiffness across prediabetes and type 2 diabetes in study II is that the participants with type 2 diabetes represent a well-treated population. Thus, the included participants may be sufficient to demonstrate a relationship, the magnitude of the association to the target population may be limited.
 
-### Generalisability
+#### Generalisability
 
 The generalizability of our findings can be discussed on two levels: the extent to which the results apply to the general population within the country and how they translate to populations with different ancestries in other countries.
 
@@ -85,13 +85,13 @@ Studies II–III include individuals at high risk of diabetes and those with typ
 
 The study populations in Studies II–III consist of individuals of Nordic descent, while Study I represents a population of Western European descent. Since the constellation of risk factors for diabetes varies and may manifest differently in Asian, South American, African, and other populations, our study findings may not be fully generalizable to these groups. This limitation affects the applicability of the observed associations and their magnitudes to a unknown degree. Further cohort studies including under-represented populations are warranted. As we are studying diabetes risk, all participants in the study were older adults aged 40 years and above. Therefore, our findings are limited to this age group, and whether the results extend to younger adults or children remains to be confirmed. Overall, while our study has the strength of including individuals across different levels of diabetes risk, some limitations in generalizability remain, particularly to more diverse and younger populations.
 
-# Cardiovascular autonomic dysfunction impact on heart disease across glucose metabolism
+## Cardiovascular autonomic dysfunction impact on heart disease across glucose metabolism
 
-## Arteriosclerosis
+### Arteriosclerosis
 
 Arterial stiffness is not only a structural marker of vascular ageing but is also dynamically modulated by local endothelial signals and autonomic nervous system activity. Several studies have demonstrated a link between elevated sympathetic tone and increased arterial stiffness. One potential mechanism is that autonomic nervous dysfunction may increase the vascular tone of large arteries, thereby impairing arterial elasticity. Animal studies support this notion, in rats, showing proper autonomic regulation is essential for maintaining aortic elasticity, and heightened sympathetic activity has been shown to damage elastin fibres, resulting in stiffer arteries. While such findings cannot be directly extrapolated to humans, they suggest plausible biological pathways. Additionally, the autonomic nervous system regulates heart rate and cardiac contractility. Autonomic dysfunction typically manifests as both reduced heart rate variability and elevated resting heart rate. A higher resting heart rate may contribute to arterial stiffness by altering blood flow dynamics and increasing shear stress. Our earlier study using data from the Whitehall II cohort showed that a steeper decrease in HRV over a ten-year period was linked with higher levels of aortic stiffness in the subsequent five years [@schaarup2023]. In study II, we extended this perspective by showing not only short-term HRV during rest but long-term HRV, does link with arterial stiffness, suggesting autonomic response to free-living conditions contributes development of arterial stiffness. In addition, we showed it associated with local measured in carotid distensibility. However, our results are limited by the inability to distinguish between sympathetic and parasympathetic contributions to arterial stiffness, or to determine whether the observed risk is driven by specific responses to living conditions or circadian rhythm variations.
 
-## Atherosclerosis
+### Atherosclerosis
 
 In study II, we demonstrated that cardiovascular autonomic dysfunction, measured by week-log HRV, are associated with atherosclerosis events, including stroke and myocardial infarction. I will discuss our findings in two levels 1) the actual mechanism between long-term and hourly HRV and CVD, and 2) potential mechanism of cardiovascular autonomic dysfunctions role in atherosclerosis.
 
@@ -109,7 +109,7 @@ Moreover the basis of autonomic nervous dysfunction has show to interfere with s
 
 In a shifting paradigm from a focus on ischemia towards more preventive strategies targeting atheroma, individual risk factors leading to a higher predisposition for plaque formation are receiving greater attention [@zaman]. As increased sympathetic nervous system activity has been linked to greater plaque formation, and may be modifiable by reducing sympathetic drive, the autonomic nervous system could play a role in reducing atherosclerotic thrombus formation. However, more physiological studies are needed to understand the mechanisms of atherosclerosis in the presence of autonomic nervous dysfunction, including the causal direction between the two, and how this interplay may be altered during the progression from normal glucose metabolism to type 2 diabetes. This requires more precise measures of both sympathetic and parasympathetic activity, as well as markers of endothelial dysfunction, beyond what is currently captured by HRV and common indices of arterial stiffness.
 
-## Heart failure
+### Heart failure
 
 Heart failure is commonly classified as either ischemic or non-ischemic in origin. It may arise as a consequence of atherosclerosis, arteriosclerosis, or both, contributing to myocardial ischemia, pressure overload, and structural cardiac changes. The relationship between cardiovascular autonomic dysfunction and heart failure is likely complex [@shen2014]. On one hand, autonomic dysfunction may reflect the progression of cardiac remodelling and declining cardiac output. On the other, it may represent complication of autonomic dysfunction that contributes to cardiac stress, sympathetic overactivation, and eventual heart failure. Our findings demonstrated the relationship between autonomic dysfunction and heart failure both cross-sectionally in population with type 2 diabetes and prospectively in people with high risk of diabetes. However, our data are limited in determining the extent to which the relationship points toward one explanation or the other, as we lack baseline and follow-up measures of both heart failure and heart rate variability.
 
@@ -121,7 +121,7 @@ The two pathways, autonomic neuropathy and cardiac remodelling, are not mutually
 
 In study III, we showed presence of CAN was linked with indicators of heart failure by elevated NT-proBNP, higher WATCH-DM risk score and presence of symptoms defined by NYHA. Studies has shown that CAN is pronogstical linked with incident with heart failure and type 2 diabetes [@kaze2022]. This suggest regardless of the direction between CAN and indication of heart failure, the detection of CAN could be utilize to define individuals with heart failure risk. These individuals could be benefit from further cardiovascular assessment e.g. electrocardiography or intervention on to prevent further progression of CAN. Heart failure risk is above 2 times higher people with type 2 diabetes compared to people without diabetes [@kenny2019]. In populations with type 2 diabetes, the risk of heart failure varies considerably, making reliable indicators for risk stratification important. Our findings support the potential of CAN as a useful marker to identify individuals at increased risk of heart failure. However, further studies including echocardiographic assessments are needed to validate this approach. If confirmed, this could open the door for targeted interventions based on risk stratification.
 
-## Diabetes modification
+### Diabetes modification
 
 Based on our studies, we have shown that cardiovascular autonomic dysfunction, measured by HRV and CART, is associated with arteriosclerosis across glucose metabolism, atherosclerotic events, mortality, and heart failure in people at high risk of diabetes, as well as indications of heart failure in patients with type 2 diabetes. While pathogenic pathways leading to CVD risk are similar across glucose metabolism, dysglycemais deterioration likely amplifies the effect of autonomic dysfunction on cardiovascular risk. Does lower HRV in people with dysglycemia indicate a different underlying physiological mechanism than in people with normal glucose metabolism?
 
@@ -129,13 +129,13 @@ Data from Whitehall II showed how aortic stiffness have a steeper increase by hi
 
 Type 2 diabetes has shown to significantly modified the expression of sympathetic burst, and even higher when co-exiting with hypertension compare to normotensive without diabetes [@huggett2003]. Parasympathetic activity is as well deteriorated among high cardiometabolic risk, and type 2 diabetes, shown by impaired baroreflex sensivity [@cseh2020] and lower HF and RMSSD short-term HRV.
 
-## Risk-stratification
+### Risk-stratification
 
 We demonstrated that autonomic dysfunction and autonomic neuropathy are linked to cardiovascular risk and complications. Beyond the question of the etiological explanation lies the question of whether the condition can serve as a risk indicator for CVD and therefore be used to identify patients at higher risk and thus improve risk stratification of CVD. This perspective can be viewed from two angles: (1) long-term HRV may improve precision in predicting individual CVD risk when added to clinical risk scores, and (2) long-term HRV may help identify preclinical manifestations of cardiovascular autonomic dysfunction, which could be targeted to prevent future CVD. If the added value of long-term HRV would change or improve traditional CVD risk score e.g. SCORE-2 and Framingham. Howvever, most biomakers has shown low incremental value, as sex, age, lipids, diabetes status and blood pressure remains most important. Stratifying presence of preclinical manifestation of autonomic dysfunction remains to be understood. These considerations are only relevant if specific interventions demonstrate a mediating effect of targeting autonomic function in preventing CVD outcomes. In other words, interventions aimed at patients with autonomic dysfunction must show greater benefits in preventing CVD compared to those without autonomic dysfunction. Studies have shown that medication and lifestyle interventions can improve HRV in the short term [@chellappa2025][@picard2021]. However, it remains to be proven whether these effects are sustainable in maintaining of autonomic function and secondly is effective in preventing CVD. Particularly for lifestyle improvements and intensified diabetes management, a large proportion of the enhancement in autonomic function may be explained by indirect effects through improvements in cardiometabolic markers such as glucose levels, lipid profile, body weight, VO2max, and blood pressure.
 
 If long-term HRV or CART is to be considered for improving risk stratification, it remains important to determine at what stage in the progression of diabetes autonomic dysfunction becomes meaningful for early detection and intervention. In Study I, we observed that 24-hour HRV was more strongly associated with arterial stiffness in individuals with prediabetes and type 2 diabetes compared to those with normal glucose metabolism. The modifying association of type 2 diabetes between autonomic dysfunction and cardiovascular complications has been demonstrated in multiple cohorts [@agarwalsunilk.2017][@hadad2021]. In Study II, we observed that long-term measures of HRV were strongly associated with cardiovascular risk, with an association equivalent to 4.5 additional years of aging for MACE risk and 2.2 to 2.4 additional years for heart failure per one standard deviation (33 ms) lower in week-long SDNN. Hence, our findings demonstrate that autonomic dysfunction has a strong link with cardiovascular risk in people with prediabetes or those at high risk of developing diabetes, suggesting that autonomic dysfunction is relevant for cardiovascular risk already in the early stages of diabetes progression.
 
-# The utility of long-term HRV in cardiovascular disease
+## The utility of long-term HRV in cardiovascular disease
 
 \[will be filled out\]
 
