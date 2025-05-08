@@ -30,6 +30,7 @@ book:
     - app2-tools.qmd
 
 bibliography: references.bib
+csl: the-lancet.csl
 
 execute:
   freeze: auto

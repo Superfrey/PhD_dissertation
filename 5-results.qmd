@@ -47,7 +47,8 @@ table_mas %>%
                                              "ECGvar_SDSD", "med_DM")) %>%
       mutate_all(~ ifelse(is.na(.), "", .)) %>% 
   knitr::kable() %>%
-  kableExtra::kable_classic()
+  kableExtra::kable_classic() %>%
+  kableExtra::kable_styling(latex_options = "scale_down")
 ```
 
 ### 24-hour HRV and arterial stiffness
