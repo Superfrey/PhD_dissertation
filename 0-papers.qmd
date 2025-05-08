@@ -1,0 +1,23 @@
+# Papers in the dissertation {#sec-linked-papers .unnumbered}
+
+## Study I
+
+Isaksen AA, Sandbæk A, Bjerg L. Validation of Register-Based Diabetes Classifiers in Danish Data. *Clinical Epidemiology*. 2023;15:569-581. <https://doi.org/10.2147/CLEP.S407019>
+
+## Study II
+
+Isaksen AA, Sandbæk A, Skriver MV, Andersen GS, Bjerg L (2023) Guideline-level monitoring, biomarker levels and pharmacological treatment in migrants and native Danes with type 2 diabetes: Population-wide analyses. PLOS Global Public Health 3(10): e0001277 <https://doi.org/10.1371/journal.pgph.0001277>
+
+## Study III
+
+Isaksen, AA, Sandbæk, A, Skriver, MV, Bjerg, L. Glucose-lowering drug use in migrants and native Danes with type 2 diabetes: Disparities in combination therapy and drug types. *Diabetes Obesity and Metabolism*. 2023; 1-10. <https://doi.org/10.1111/dom.15230>
+
+```{=tex}
+\newpage
+
+{\let\clearpage\relax \tableofcontents} 
+
+\listoffigures
+
+\listoftables
+```

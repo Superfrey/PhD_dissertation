@@ -7,7 +7,7 @@ title: "Background"
 The body regulates glucose and insulin to maintain glucose homeostasis. During fasting, pancreatic alpha cells secrete glucagon, which stimulates hepatic glucose production via glycogenolysis and gluconeogenesis. Meanwhile, glucose is endogenously produced by the liver and kidneys and utilized by body tissues. After a meal, rising blood glucose levels stimulate pancreatic beta cells to release insulin and trigger the secretion of incretins, such as glucagon-like peptide-1 (GLP-1) from the intestines. Insulin and incretins work together to suppress hepatic glucose production and promote glucose uptake in muscle and adipose tissue. Excess glucose is primarily stored as glycogen in the liver and muscles, with some converted to triglycerides for long-term storage. Glucose homeostasis is dynamically regulated by inhibitory factors (insulin, hyperglycemia, parasympathetic activity, and substrate availability) and stimulatory factors (glucagon, counterregulatory hormones, hypoglycemia, sympathetic activity, and gluconeogenic substrates).
 
 ::: {layout-ncol="1"}
-![Pathogenesis diagram](figures/diabetes_pahtogensis_IDF.png)
+![Pathogenesis diagram](figures/diabetes_pahtogensis_IDF.png){width="50%," fig-align="center"}
 :::
 
 

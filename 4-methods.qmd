@@ -104,11 +104,11 @@ HRV was derived from all CARTs using autoregressive spectral analysis. Time doma
 
 ### Confounders and variables for instrumental bias
 
-**Lifestyle** Smoking status was
+[**Lifestyle** Smoking status was
 
 **Clinical markers**
 
-**Medication**
+**Medication**]
 
 ## Outcomes
 

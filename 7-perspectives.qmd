@@ -24,6 +24,14 @@ People at high risk of diabetes, with glucose levels in the prediabetic range, f
 
 -   Experimental design of mediation of direct target of HRV (medication: beta-blockers, or lifestyle: physical activity and sleep)
 
+- It is responsive.....
+
+The Diabetes Prevention Program (DPP) showed that HRV may modify the effect of lifestyle intervention in preventing type 2 diabetes. However, it remains unclear to what extent this modification applies to cardiovascular outcomes, and whether the intervention was more effective among individuals with lower HRV.
+
+Similar people with type 2 diabetes from young age to a majority of older population. In many cases for prevention effective physical acitivity programs may be out of scope for the more fragile patients, and thus management of medication seems the choice.
+
 ::: {layout-ncol="1"}
 ![Mediation of HRV by intervention in prevention of CVD](images/Mediation_HRV.png){width="100%," fig-align="left"}
 :::
+
+
