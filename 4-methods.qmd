@@ -1,20 +1,30 @@
 ---
-title: "Materials and methods"
+title: "Materials and methods [needs to be fine-tuned]"
 ---
 
 ## Overview of the studies
 
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 |                      | Study I                                                                                                                | Study II                                                                                                                                  | Study III                                                                                              |
-|-----------------|------------------|---------------------|-----------------|
++======================+========================================================================================================================+===========================================================================================================================================+========================================================================================================+
 | Title                | Cardiovascular autonomic dysfunction is linked with arterial stiffness across glucose metabolism: The Maastricht Study | Cardiovascular autonomic dysfunction precedes cardiovascular disease and all-cause mortality: 11-year follow-up in the ADDITION-PRO study | Cardiovascular autonomic neuropathy and subclinical heart failure in type 2 diabetes: The CANCAN study |
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | Design               | Aetiological cross-sectional study                                                                                     | Aetiological prospective cohort study                                                                                                     | Descriptive cross-sectional study                                                                      |
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | Cohort               | Maastricht study                                                                                                       | ADDITION-PRO                                                                                                                              | CANCAN                                                                                                 |
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | Study population     | 3673 people with normal glucose metabolism, prediabetes, and type 2 diabetes                                           | 2082 people with high risk of diabetes                                                                                                    | 173 patients with type 2 diabetes visiting outpatients clinics                                         |
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | Data sources         | Population-based cohort from The Maastricht Study in the Netherlands                                                   | Cohort study of selected people based on having high risk of diabetes                                                                     | Clinical cohort study                                                                                  |
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | Determinant          | 24-hour HRV                                                                                                            | Week-long and hourly HRV                                                                                                                  | Cardiovascular autonomic reflex test                                                                   |
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | Primary outcome      | Arterial stiffness                                                                                                     | Major adverse cardiovascular events, heart failure, and all-cause mortality                                                               | NT-proBNP                                                                                              |
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | Statistical analysis | Linear regression                                                                                                      | Poisson regression                                                                                                                        | Logistic regression                                                                                    |
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | Missing data         | Complete case analysis                                                                                                 | Multiple imputation of chained equations for confounders                                                                                  | Complete case analysis and multiple imputation of chained equations for CART and confounders           |
++----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 
 : Table 1: Overview of studies
 
@@ -58,13 +68,19 @@ In study I-III a device was used to capturing the distance between each heartbea
 
 Time-domain measures of HRV are based on the statistical distribution of normal-to-normal (NN) intervals. These include the standard deviation (SD) of NN intervals, the variation in successive NN intervals, and the proportion of successive intervals that differ by more than 50 ms. Description of time-domain indices are summarized in box 1.
 
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | Time-domain HRV                                                                                               | Description                                                                                                   |
-|------------------------------------|------------------------------------|
++===============================================================================================================+===============================================================================================================+
 | **Standard deviation of NN heart beat intervals (SDNN, in ms)**                                               | Reflects overall HRV and total autonomic nervous system activity over the recording period.                   |
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | **SD of the averages of NN intervals in 5-minute segments throughout the recording (SDANN, in ms)**           | Measures long-term HRV variations, primarily reflecting circadian and autonomic fluctuations.                 |
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | **Mean of the SDs of all NN intervals for all 5-minute segments (SDNN index, in ms)**                         | Estimates short-term HRV fluctuations and vagal tone by averaging segmental variations.                       |
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | **NN50 count divided by the total number of all NN intervals (pNN50, percentage)**                            | Represents the proportion of successive NN intervals differing by more than 50 ms, indicating vagal activity. |
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 | **Square root of the mean of the sum of squares of differences between adjacent NN intervals (RMSSD, in ms)** | Reflects short-term HRV, mainly parasympathetic (vagal) activity.                                             |
++---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
 
 : Box 1: Time-domain HRV indices
 
@@ -72,13 +88,19 @@ Time-domain measures of HRV are based on the statistical distribution of normal-
 
 Frequency-domain HRV indices are derived from sequences of NN intervals transformed into the spectral domain using Fourier transformation. These indices quantify heart rate oscillations over different timescales. Short-term variations, such as respiratory sinus arrhythmia, reflect rapid autonomic changes, while longer oscillations capture autonomic responses to posture changes, circadian rhythms, or other physiological processes. Description of frequency-domain indices are summarized in box 2.
 
++---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | Frequency domain HRV                                                | Description                                                                                                                       |
-|-------------------------|----------------------------------------------|
++=====================================================================+===================================================================================================================================+
 | **Variance of all NN intervals ≤ 0.4 Hz, total power (TP, in ms²)** | Represents overall HRV, reflecting both short- and long-term autonomic regulation.                                                |
++---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | **Ultralow-frequency range (ULF, in ms² ≤ 0.003 Hz)**               | Captures very long-term oscillations, influenced by circadian rhythms, metabolism, and thermoregulation.                          |
++---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | **Very-low-frequency range (VLF, in ms²; 0.003–0.04 Hz)**           | Associated with sympathetic activity, inflammation, and hormonal regulation.                                                      |
++---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | **Low-frequency range (LF, in ms²; 0.04–0.15 Hz)**                  | Reflects a mix of sympathetic and parasympathetic activity, often linked to blood pressure regulation and baroreflex sensitivity. |
++---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | **High-frequency range (HF, in ms²; 0.15–0.4 Hz)**                  | Represents parasympathetic (vagal) modulation of heart rate, closely related to respiratory sinus arrhythmia.                     |
++---------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
 : Box 2: Frequency-domain HRV indices
 
@@ -93,6 +115,11 @@ Heart rate was measured using a combined accelerometer and heart rate monitor (A
 **Vagus device for cardiovascular autonomic reflex test in study III**
 
 CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold standard for CAN assessment. R-R intervals were derived from an ECG signal using the Vagus™ device (Medicus Engineering, Aarhus, Denmark). Three standardized CARTs were performed: lying-to-standing, deep breathing, and the Valsalva manoeuvre, following a standardized protocol between 8:00 a.m. and 2:00 p.m. after 10 minutes of supine rest. Smoking and caffeine intake were prohibited two hours before testing. Each test was conducted once by trained examiners.
+
+::: {layout-ncol="1"}
+![Handheld  Vagus™ device](images/vagus_device.png){width="10%," fig-align="left"}
+:::
+
 
 Manifest CAN was defined as two or more abnormal CARTs using age-specific cut-off values (ref.). The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility (ref.).
 
@@ -130,15 +157,31 @@ N-terminal prohormone of brain natriuretic peptide (NT-proBNP) is a neuretic pep
 
 ### Cardiovascular events
 
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| **Outcome**                          | **Diagnosis codes**                                                                                                                  |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| *Heart failure*                      | ICD: DI50                                                                                                                            |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| *Three-point MACE*                   |                                                                                                                                      |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| -   Stroke                           | ICD: DI61 - DI64                                                                                                                     |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| -   Myocardial infarction            | ICD: DI21-DI24                                                                                                                       |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| -   Cardiovascular death             | ICD: I20-I28, I42, I46                                                                                                               |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| -   Cardiovascular revascularization | SKA: KPAE10, KPAE25, KPAF10, KPAF20, KPAF21, KPAF22, KPAH10, KPAH20, KPAH21, KPEE, KPEF, KPEH, KPEP, KPEQ, KPFE,, KPFH, KPFP, KPFQ   |
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+
 Information on CVD events and mortality was obtained from the Danish National Patient Registers until 2021. ICD-10 codes for stroke, myocardial infarction, cardiovascular death, cardiovascular revascularization, and heart failure.
 
 **Ischemic heart disease**
 
-We defined three-point major adverse cardiovascular events (MACE) as myocardial infarction, stroke, cardiovascular revascularization, and cardiovascular death.
+We defined three-point major adverse cardiovascular events (MACE) as myocardial infarction, stroke, cardiovascular revascularization, and cardiovascular death. \[include codes\]
 
 **Heart failure**
 
-We defined heart failure by all diagnosis codes, including “DI50,” for hospitalisation with heart failure.
+We defined heart failure by all diagnosis codes, including “DI50,” for hospitalization with heart failure. \[include codes\]
 
 ## Statistical Methods
 

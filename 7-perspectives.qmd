@@ -1,20 +1,20 @@
 ---
-title: "Perspective"
+title: "Perspective [under construction]"
 ---
-
 
 Autonomic dysfunction and cardiovascular risk - pathofyioslogy
 
-Long-term HRV - Risk indicator - devided into chunck identify repsosen with importatn implcation for disease - Long-term HRV and its hourly variation can be modulated by interventions targeting lifestyle patterns or medication, but whether such modulation mediates a reduction in cardiovascular disease risk remains to be proven.
+Long-term HRV can serve as a risk indicator and may be divided into segments to identify responses with important implications for disease. Both long-term HRV and its hourly variation can be modulated through interventions targeting lifestyle patterns or medication. However, whether such modulation leads to a reduction in cardiovascular disease risk remains unproven. If subclinical autonomic dysfunction is not addressed, there may be a risk of further progression, including stages such as resting tachycardia with sympathetic overdrive, exercise intolerance, and orthostatic hypotension, where both the sympathetic and parasympathetic nervous systems fail to modulate appropriately (see Figure X).
 
-If not prevented the patient trajectory could be led to: - Tachycardia - Orthostatic hypertension - Exercise intolerance
+::: {layout-ncol="1"}
+![Figure x: Progression of cardiac autonomic neuropathy. The earliest detectable subclinical signs of CAN are impaired spectral analysis of HRV and abnormal BRS, which can be present at the time of diagnosis of diabetes mellitus. Impaired left ventricular torsion can also be seen in the subclinical stage of CAN. Initial parasympathetic denervation enables augmentation of sympathetic tone in the early stages of CAN. Over time, sympathetic denervation follows and correlates clinically with the development of resting tachycardia and impaired exercise tolerance. The presence of orthostatic hypotension often indicates the presence of advanced or severe CAN. Abbreviations: BRS, baroreflex sensitivity; CAN, cardiovascular autonomic neuropathy; HRV, heart rate variability. *Figure 2 from Kuehl, M., Stevens, M. Cardiovascular autonomic neuropathies as complications of diabetes mellitus. Nat Rev Endocrinol 8, 405–416 (2012)*[@kuehl2012]*. https://doi.org/10.1038/nrendo.2012.21*](images/CAN_trajectory.png){width="25%," fig-align="right"}
+:::
 
 The availability of wearable devices such as smartwatches is expanding the scale of physiological data collection. Data such as heart rate, temperature, and physical acceleration can now be easily obtained under free-living conditions or through app-guided tests. This opens new opportunities to study heart rate responses in everyday life. Combining heart rate with additional physiological signals may improve understanding of CVD risk. Machine learning methods could further help to integrate heart rate and movement data, identifying early signs and patterns in repsonse in the daily cycle that is linked to CVD risk.
 
-
 ## Risk-stratification
 
-In terms of clincal use the VAGUS device may be be effective strategy to . The measurement is non-invasive and takes 8-10 minutes to perform. However, standidized procedures are needed in order to make sure measurement are not impacted by other circumstances such as. [Reliability of VAGUSTM].
+In terms of clincal use the VAGUS device may be be effective strategy to . The measurement is non-invasive and takes 8-10 minutes to perform. However, standidized procedures are needed in order to make sure measurement are not impacted by other circumstances such as. \[Reliability of VAGUSTM\].
 
 People at high risk of diabetes, with glucose levels in the prediabetic range, face an increased risk of developing diabetes and its complications. However, since many individuals either remain in the prediabetic state or revert to normoglycemia, structured treatment strategies for prediabetes have not been widely implemented in clinical practice. This is partly due to the high heterogeneity within the prediabetic population. Therefore, additional indicators beyond glucose levels may be useful to identify individuals who are most likely to benefit from early intervention. In our study, we demonstrated that autonomic dysfunction, as measured by long-term HRV, was more strongly associated with cardiovascular risk in this population. Future perspectives include evaluating whether individuals subclassified as high-risk based on autonomic dysfunction may benefit from targeted interventions.
 
@@ -24,19 +24,23 @@ People at high risk of diabetes, with glucose levels in the prediabetic range, f
 
 ## Continous monitoring of progression
 
-hjertesvigt - progression - HRV
-- response to adapt to lifestyle and treatment
+hjertesvigt - progression - HRV - response to adapt to lifestyle and treatment
 
+::: {layout-ncol="1"}
+![Biofeedback HRV response to lifestyle and treatment solutions](images/smartwatch.png){width="100%," fig-align="left"}
+:::
 
 ## Effective modifiable marker
 
-- Medelian randomization
-- Medation in trails in CVD prevention
-- Target trail improves outcome
+-   Medelian randomization
+
+-   Medation in trails in CVD prevention
+
+-   Target trail improves outcome
 
 -   Experimental design of mediation of direct target of HRV (medication: beta-blockers, or lifestyle: physical activity, diet and sleep)
 
-- It is responsive.....
+-   It is responsive.....
 
 The Diabetes Prevention Program (DPP) showed that HRV may modify the effect of lifestyle intervention in preventing type 2 diabetes. However, it remains unclear to what extent this modification applies to cardiovascular outcomes, and whether the intervention was more effective among individuals with lower HRV.
 
@@ -45,5 +49,3 @@ Similar people with type 2 diabetes from young age to a majority of older popula
 ::: {layout-ncol="1"}
 ![Mediation of HRV by intervention in prevention of CVD](images/Mediation_HRV.png){width="100%," fig-align="left"}
 :::
-
-
