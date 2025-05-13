@@ -5,7 +5,7 @@ title: "Materials and methods"
 ## Overview of the studies
 
 |                      | Study I                                                                                                                | Study II                                                                                                                                  | Study III                                                                                              |
-|---------------|-------------------|----------------------|----------------|
+|-----------------|------------------|---------------------|-----------------|
 | Title                | Cardiovascular autonomic dysfunction is linked with arterial stiffness across glucose metabolism: The Maastricht Study | Cardiovascular autonomic dysfunction precedes cardiovascular disease and all-cause mortality: 11-year follow-up in the ADDITION-PRO study | Cardiovascular autonomic neuropathy and subclinical heart failure in type 2 diabetes: The CANCAN study |
 | Design               | Aetiological cross-sectional study                                                                                     | Aetiological prospective cohort study                                                                                                     | Descriptive cross-sectional study                                                                      |
 | Cohort               | Maastricht study                                                                                                       | ADDITION-PRO                                                                                                                              | CANCAN                                                                                                 |
@@ -14,7 +14,7 @@ title: "Materials and methods"
 | Determinant          | 24-hour HRV                                                                                                            | Week-long and hourly HRV                                                                                                                  | Cardiovascular autonomic reflex test                                                                   |
 | Primary outcome      | Arterial stiffness                                                                                                     | Major adverse cardiovascular events, heart failure, and all-cause mortality                                                               | NT-proBNP                                                                                              |
 | Statistical analysis | Linear regression                                                                                                      | Poisson regression                                                                                                                        | Logistic regression                                                                                    |
-| Missing data         | Complete case analysis                                                                                                 | Multiple imputation of chained equations for confounders                                                                                  | Multiple imputation of chained equations for CART and confounders                                      |
+| Missing data         | Complete case analysis                                                                                                 | Multiple imputation of chained equations for confounders                                                                                  | Complete case analysis and multiple imputation of chained equations for CART and confounders           |
 
 : Table 1: Overview of studies
 
@@ -73,7 +73,7 @@ Time-domain measures of HRV are based on the statistical distribution of normal-
 Frequency-domain HRV indices are derived from sequences of NN intervals transformed into the spectral domain using Fourier transformation. These indices quantify heart rate oscillations over different timescales. Short-term variations, such as respiratory sinus arrhythmia, reflect rapid autonomic changes, while longer oscillations capture autonomic responses to posture changes, circadian rhythms, or other physiological processes. Description of frequency-domain indices are summarized in box 2.
 
 | Frequency domain HRV                                                | Description                                                                                                                       |
-|-------------------------|-----------------------------------------------|
+|-------------------------|----------------------------------------------|
 | **Variance of all NN intervals ≤ 0.4 Hz, total power (TP, in ms²)** | Represents overall HRV, reflecting both short- and long-term autonomic regulation.                                                |
 | **Ultralow-frequency range (ULF, in ms² ≤ 0.003 Hz)**               | Captures very long-term oscillations, influenced by circadian rhythms, metabolism, and thermoregulation.                          |
 | **Very-low-frequency range (VLF, in ms²; 0.003–0.04 Hz)**           | Associated with sympathetic activity, inflammation, and hormonal regulation.                                                      |
@@ -104,11 +104,11 @@ HRV was derived from all CARTs using autoregressive spectral analysis. Time doma
 
 ### Confounders and variables for instrumental bias
 
-[**Lifestyle** Smoking status was
+\[**Lifestyle** Smoking status was
 
 **Clinical markers**
 
-**Medication**]
+**Medication**\]
 
 ## Outcomes
 
