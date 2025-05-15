@@ -117,9 +117,8 @@ Heart rate was measured using a combined accelerometer and heart rate monitor (A
 CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold standard for CAN assessment. R-R intervals were derived from an ECG signal using the Vagus™ device (Medicus Engineering, Aarhus, Denmark). Three standardized CARTs were performed: lying-to-standing, deep breathing, and the Valsalva manoeuvre, following a standardized protocol between 8:00 a.m. and 2:00 p.m. after 10 minutes of supine rest. Smoking and caffeine intake were prohibited two hours before testing. Each test was conducted once by trained examiners.
 
 ::: {layout-ncol="1"}
-![Handheld  Vagus™ device](images/vagus_device.png){width="10%," fig-align="left"}
+![Handheld Vagus™ device](images/vagus_device.png){width="10%," fig-align="left"}
 :::
-
 
 Manifest CAN was defined as two or more abnormal CARTs using age-specific cut-off values (ref.). The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility (ref.).
 
@@ -157,31 +156,23 @@ N-terminal prohormone of brain natriuretic peptide (NT-proBNP) is a neuretic pep
 
 ### Cardiovascular events
 
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| **Outcome**                          | **Diagnosis codes**                                                                                                                  |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| *Heart failure*                      | ICD: DI50                                                                                                                            |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| *Three-point MACE*                   |                                                                                                                                      |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| -   Stroke                           | ICD: DI61 - DI64                                                                                                                     |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| -   Myocardial infarction            | ICD: DI21-DI24                                                                                                                       |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| -   Cardiovascular death             | ICD: I20-I28, I42, I46                                                                                                               |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| -   Cardiovascular revascularization | SKA: KPAE10, KPAE25, KPAF10, KPAF20, KPAF21, KPAF22, KPAH10, KPAH20, KPAH21, KPEE, KPEF, KPEH, KPEP, KPEQ, KPFE,, KPFH, KPFP, KPFQ   |
-+--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+Information on CVD events and mortality was obtained from the Danish National Patient Registers until 2021. ICD-10 codes for stroke, myocardial infarction, cardiovascular death, cardiovascular revascularization, and heart failure. We defined three-point major adverse cardiovascular events (MACE) as myocardial infarction, stroke, cardiovascular revascularization, and cardiovascular death.
 
-Information on CVD events and mortality was obtained from the Danish National Patient Registers until 2021. ICD-10 codes for stroke, myocardial infarction, cardiovascular death, cardiovascular revascularization, and heart failure.
-
-**Ischemic heart disease**
-
-We defined three-point major adverse cardiovascular events (MACE) as myocardial infarction, stroke, cardiovascular revascularization, and cardiovascular death. \[include codes\]
-
-**Heart failure**
-
-We defined heart failure by all diagnosis codes, including “DI50,” for hospitalization with heart failure. \[include codes\]
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| **Outcome**                          | **Diagnosis codes**                                                                                                                |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| *Heart failure*                      | ICD: DI50                                                                                                                          |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| *Three-point MACE*                   |                                                                                                                                    |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| -   Stroke                           | ICD: DI61 - DI64                                                                                                                   |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| -   Myocardial infarction            | ICD: DI21-DI24                                                                                                                     |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| -   Cardiovascular death             | ICD: I20-I28, I42, I46                                                                                                             |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+| -   Cardiovascular revascularization | SKA: KPAE10, KPAE25, KPAF10, KPAF20, KPAF21, KPAF22, KPAH10, KPAH20, KPAH21, KPEE, KPEF, KPEH, KPEP, KPEQ, KPFE,, KPFH, KPFP, KPFQ |
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Statistical Methods
 
