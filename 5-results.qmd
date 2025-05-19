@@ -79,9 +79,44 @@ Prototypical individuals representing diabetes risk from normal glucose metaboli
 
 ### Descriptive
 
-In ADDITION-PRO population consisted of 1,627 participant with a least 48-hour HRV measures, while 1,432 had all hour represented with hourly HRV and physical acceleration. The study population included different tiers of diabetes risk: 154 individuals at low risk (9%), 889 at high risk (51%), 314 with impaired fasting glucose (IFG) (18%), 226 with impaired glucose tolerance (IGT) (13%), and 161 with both IFG and IGT (9%). We splitted SDNN into categories by very-low (SDNN\< 100 ms), low (SDNN 100-120 ms), middle (SDNN 121-140 ms), high (SDNN 141-160 ms) and very-high (SDNN \>160 ms).
+In ADDITION-PRO population consisted of 1,627 participant with a least 48-hour HRV measures, while 1,432 had all hour represented with hourly HRV and physical acceleration. The study population included different tiers of diabetes risk: 154 individuals at low risk (9%), 889 at high risk (51%), 314 with impaired fasting glucose (IFG) (18%), 226 with impaired glucose tolerance (IGT) (13%), and 161 with both IFG and IGT (9%). We splitted SDNN into categories by very-low (SDNN< 100 ms), low (SDNN 100-120 ms), middle (SDNN 121-140 ms), high (SDNN 141-160 ms) and very-high (SDNN >160 ms).
 
-\[Higher age (68 years (6.3)), BMI (28.2 kg/m\^2 (4.7)), HbA1c (5.9 % (0.6)), triglyceride (1.4 (0.8)), and higher proportion of men (63%), and users of anti-hypertensive medication (60%) was observed among participants who experienced MACE or heart failure compared to participants without any CVD\] replace with SDNN distribution\] .
+Participants in the lowest SDNN group (<100 ms) were older (67.4 ± 6.9 years), had higher BMI (28.1 ± 5.4), HbA1c (5.9 ± 0.9), triglycerides (1.5 ± 0.9 mmol/L), and resting heart rate (67.8 ± 5.7 bpm), were more likely to use antihypertensive medication (61%), and had lower physical activity energy expenditure (46.8 ± 24.0 kJ/day) compared to those with higher SDNN levels.
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(vroom)
+library(here)
+library(dplyr)
+
+table_add_pro <- readxl::read_xlsx(here("tables/table_1_dis.xlsx"))
+
+table_add_pro[-nrow(table_add_pro), ] %>% 
+  # dplyr::filter(!`**Characteristic**` %in% c("Ethnicity",
+  #                                            "White",
+  #                                            "Non-white",
+  #                                            "Education",
+  #                                            "Low (No education, (un)completed primary education, or lower vocational education)",
+  #                                            "Middle (intermediate vocational education or higher secondary education)",
+  #                                            "High (Higher vocational education or university education)",
+  #                                            "None", 
+  #                                            "Alcohol consumption",
+  #                                            "Low (Women: ≤ 7, Men: ≤ 14)", 
+  #                                            "High (Women: > 7, Men: > 14)",
+  #                                            "Low (Women: â‰¤ 7, Men: â‰¤ 14)",
+  #                                            "Smoking status", "Never", 
+  #                                            "Former (quit > 6 months ago)", 
+  #                                            "Former (quit < 6 months ago)", 
+  #                                            "Current",  
+  #                                            "ECGvar_LFHF", "ECGvar_NN50", 
+  #                                            "ECGvar_SDSD", "med_DM")) %>%
+      mutate_all(~ ifelse(is.na(.), "", .)) %>% 
+  knitr::kable() %>%
+  kableExtra::kable_classic() %>%
+  kableExtra::kable_styling(latex_options = "scale_down")
+```
 
 ### Week-long HRV and MACE, heart failure, and all-cause mortality.
 
@@ -100,6 +135,8 @@ From the hourly recordings, we observed a clear periodicity in SDNN, mean heart 
 ### Descriptive
 
 In study III, 179 participants with type 2 had measures of NT-proBNP and performed the CART test. CAN was present in 30% (n = 54) of participants (36% among those with valid CAN measurements). Meanwhile, 24% (n = 43) were unable to complete the CART assessment adequately, primarily due to irregular heart rhythms (n = 8) or insufficient air pressure during the Valsalva manoeuvre (n = 21). Compare to those without CAN, the participants with CAN were more women (41 % vs 33 %), were more sedentary (45% vs 36%), had a higher proportion with prior major CVD (41% vs 20%) and declined eGFR (\< 60) (36% vs 22%), higher levels of triglyceride (median 2.05 mmol/L vs 1.95 mmol/ L), were slightly older (median 62 years vs 61 years), had longer duration of type 2 diabetes (median 19 years vs 15 years), and higher use SGTL2-inhibitors (65% vs 60%) but lower use of GLP-1 RA (63% vs 70%). No other difference in clinical characteristic was observed.
+
+
 
 ### Relationship between CAN and elevated NT-proBNP
 

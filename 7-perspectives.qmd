@@ -31,7 +31,7 @@ hjertesvigt - progression - HRV - response to adapt to lifestyle and treatment
 :::
 
 ## Effective modifiable marker
-x
+
 -   Medelian randomization
 
 -   Medation in trails in CVD prevention
