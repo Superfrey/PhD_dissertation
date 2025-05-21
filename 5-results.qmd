@@ -87,9 +87,6 @@ Participants in the lowest SDNN group (<100 ms) were older (67.4 ± 6.9 years), 
 #| echo: false
 #| warning: false
 #| message: false
-library(vroom)
-library(here)
-library(dplyr)
 
 table_add_pro <- readxl::read_xlsx(here("tables/table_1_dis.xlsx"))
 
