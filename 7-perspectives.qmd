@@ -3,7 +3,7 @@ title: "Perspective [under construction]"
 ---
 
 
-Autonomic dysfunction and cardiovascular risk - pathofyioslogy
+Autonomic dysfunction and cardiovascular risk - pathofysiology
 
 Long-term HRV can serve as a risk indicator and may be divided into segments to identify responses with important implications for disease. Both long-term HRV and its hourly variation can be modulated through interventions targeting lifestyle patterns or medication. However, whether such modulation leads to a reduction in cardiovascular disease risk remains unproven. If subclinical autonomic dysfunction is not addressed, there may be a risk of further progression, including stages such as resting tachycardia with sympathetic overdrive, exercise intolerance, and orthostatic hypotension, where both the sympathetic and parasympathetic nervous systems fail to modulate appropriately (see Figure X).
 

@@ -117,9 +117,10 @@ table_add_pro[-nrow(table_add_pro), ] %>%
 
 ### Week-long HRV and MACE, heart failure, and all-cause mortality.
 
-The mean week-long SDNN was 139.0 (32.3) ms, and the mean heart rate was 73.5 (9.1) bpm. In the fully adjusted model, SDNN per SD was associated with a lower incidence rate ratio (IRR) for MACE 0.82 (CI: 0.69; 0.97), heart failure 0.76 (CI: 0.58; 0.99), and mortality rate ratio of 0.79 (CI: 0.66; 0.94). When we included knots in the model, the trends indicated that the risk increased when SDNN fell below 120-110 ms (approximately below 20th percentile), suggesting a potential cut-off point for higher risk. We therefore calculate incidence rate with SDNN levels at 100 ms, 120ms, and 160 ms, respectively, and plotted by a function of age.
+The mean week-long SDNN was 139.0 (32.3) ms, and the mean heart rate was 73.5 (9.1) bpm. In the fully adjusted model, SDNN per SD was associated with a lower incidence rate ratio (IRR) for MACE 0.82 (CI: 0.69; 0.97), heart failure 0.76 (CI: 0.58; 0.99), and mortality rate ratio of 0.79 (CI: 0.66; 0.94). When we included knots in the model, the trends indicated that the risk increased when SDNN fell below 120-110 ms (approximately below 20th percentile), suggesting a potential cut-off point for higher risk. We therefore calculate incidence rate (IR) with SDNN levels at 100 ms, 120ms, and 160 ms, respectively, and plotted by a function of age.
 
 \[Incedence rate curves\]
+For MACE at age 65 (Figure xA), the IR per 1000 person-years was 44.2 (CI: 33.5; 58.3) at SDNN = 100 ms, which was higher than the rate at SDNN = 120 ms (IR: 37.6 [CI: 29.2; 48.3]) and SDNN = 160 ms (IR: 34.7 [CI: 27.0; 44.5]). The IR became higher by age until at age 72. For heart failure at age 65 (Figure xB) , the IR per 1000 person-years was 20.5 (CI: 15.3; 27.5) at SDNN = 100 ms, which was slightly higher than the rate at SDNN = 120 ms (IR: 19.6 [CI: 14.8; 25.9]) and SDNN = 160 ms (IR: 19.8 [CI: 15.0; 26.2]). Then IR rate was unchanged until age 70 where the IR became higher. For all-cause mortality at age 65 (Figure xC), the IR per 1000 person-years was 11.6 (CI: 6.3; 21.4) at SDNN = 100 ms, which was higher than the rate at SDNN = 120 ms (IR: 7.6 [CI: 4.3; 13.3]) and SDNN = 160 ms (IR: 6.0 [CI: 3.4; 10.4]). The incidence rate became higher by age.
 
 
 
