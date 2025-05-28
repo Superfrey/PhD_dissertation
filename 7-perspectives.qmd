@@ -6,7 +6,7 @@ Autonomic dysfunction and cardiovascular risk - pathofysiology
 
 Long-term HRV can serve as a risk indicator and may be divided into segments to identify responses with important implications for disease. Both long-term HRV and its hourly variation can be modulated through interventions targeting lifestyle patterns or medication. However, whether such modulation leads to a reduction in cardiovascular disease risk remains unproven. If subclinical autonomic dysfunction is not addressed, there may be a risk of further progression, including stages such as resting tachycardia with sympathetic overdrive, exercise intolerance, and orthostatic hypotension, where both the sympathetic and parasympathetic nervous systems fail to modulate appropriately (see Figure X).
 
-The availability of wearable devices such as smartwatches is expanding the scale of physiological data collection. Data such as heart rate, temperature, and physical acceleration can now be easily obtained under free-living conditions or through app-guided tests. This opens new opportunities to study heart rate responses in everyday life. Combining heart rate with additional physiological signals may improve understanding of CVD risk. Machine learning methods could further help to integrate heart rate and movement data, identifying early signs and patterns in repsonse in the daily cycle that is linked to CVD risk.
+The availability of wearable devices such as smartwatches is expanding the scale of physiological data collection. Data such as heart rate, temperature, and physical acceleration can now be easily obtained under free-living conditions or through app-guided tests. This opens new opportunities to study heart rate responses in everyday life. Combining heart rate with additional physiological signals may improve understanding of CVD risk. Machine learning methods could further help to integrate heart rate and movement data, identifying early signs and patterns in response in the daily cycle that is linked to CVD risk.
 
 ## Risk-stratification
 
@@ -16,23 +16,22 @@ In terms of clinical application, the VAGUS device may serve as an effective str
 
 ::: {layout-ncol="1"} ![Risk-stratification by autonomic dysfunction](images/strafication_tree_of_CAN.png){width="100%," fig-align="left"} :::
 
-## Continuous monitoring of health
+## Continuous monitoring of cardiovascular health
 
-Over recent year the use of wearable devices has increased in the general population [@dhingra2023] allowing comprehensive data collection of behavioral (sleep and physical activity) and physiological (heart rate, ECG, temperature, etc.) [@keshet2023]. Wearable devices opens up of broader and more feasible data collection of heart rate data over long-term period which are less
+Over recent years, the use of wearable devices has increased in the general population [@dhingra2023], allowing comprehensive data collection of behavioral (sleep and physical activity) and physiological (heart rate, ECG, temperature, etc.) parameters [@keshet2023]. Wearable devices open up broader and more feasible data collection of heart rate over long-term periods, which is less demanding in terms of equipment compared to Holter monitors.
 
-Study I and II demonstrate the link between long-term HRV and CVD risk, and the stronger association in stages of prediabetes and type 2 diabetes. Thus, a perspective of wearable devices, e.g., smartwatches, is to monitor HRV in individuals at higher cardiometabolic risk and use available HRV measures to guide the progression of cardiometabolic risk. In the Whitehall II study, we demonstrated that a steeper 10-year decrease in 5-minute HRV was linked with higher aortic stiffness development in the subsequent 5 years \[\@schaarup2023\]. Thus, a decreasing tendency detected by smartwatches may help indicate individuals who need interventions.
+Study I and II demonstrate the link between long-term HRV and CVD risk, and the stronger association in stages of prediabetes and type 2 diabetes. Thus, a perspective of wearable devices, e.g., smartwatches, is to monitor HRV in individuals at higher cardiometabolic risk and use available HRV measures to guide the progression of cardiometabolic risk. In the Whitehall II study, we demonstrated that a steeper 10-year decrease in 5-minute HRV was linked with higher aortic stiffness development in the subsequent 5 years \[\@schaarup2023\]. Thus, a decreasing tendency of HRV detected by smartwatches may help indicate individuals who need more intensively interventions.
 
-Multmodal data including heart rate. sleep and physical activity may in combination
+In study II, we observed specific morning time point link to CVD, suggesting responses during free-living condition captures information about CVD risk. Instead of controlling for physical movement, prediction models, could seek to incorporate multimodal data e.g. heart rate. sleep and physical activity which in combination give a picture of CVD risk by their constellation and give suggestions to modified the risk.
 
-HRV
 
 hjertesvigt - progression - HRV - response to adapt to lifestyle and treatment
-
-Standardization and transparency across waerable devices reamins a challenge for implementation of monitoring of heart rate, HRV and it response to behaviour.
-
 ::: {layout-ncol="1"}
 ![Biofeedback HRV response to lifestyle and treatment solutions](images/smartwatch.png){width="100%," fig-align="left"}
 :::
+
+Standardization and transparency across brands of wearable devices remain a challenge for both research and the implementation of heart rate and HRV monitoring, particularly in relation to their response to behavioral factors. While smartwatches offer a convenient way to measure heart rate, their precision can vary, as the readings are based on photoplethysmography , which detects pulse at the wrist. This method can be imprecise under certain conditions, particularly during physical activity, due to motion artifacts and other external factors.
+
 
 ## Effective causal modifiable marker
 
