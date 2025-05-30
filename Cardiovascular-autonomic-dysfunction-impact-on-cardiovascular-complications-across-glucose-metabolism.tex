@@ -188,7 +188,7 @@ complications across glucose metabolism}
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, borderline west={3pt}{0pt}{shadecolor}, interior hidden, frame hidden, enhanced, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, sharp corners, frame hidden, enhanced, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, interior hidden]}{\end{tcolorbox}}\fi
 
 \mainmatter
 \bookmarksetup{startatroot}
@@ -293,34 +293,14 @@ liver and kidneys and utilized by body tissues. After a meal, rising
 blood glucose levels stimulate pancreatic beta cells to release insulin
 and trigger the secretion of incretins, such as glucagon-like peptide-1
 (GLP-1) from the intestines. Insulin and incretins work together to
-suppress hepatic glucose production and promote glucose uptake in muscle
-and adipose tissue. Excess glucose is primarily stored as glycogen in
-the liver and muscles, with some converted to triglycerides for
-long-term storage. Glucose homeostasis is dynamically regulated by
-inhibitory factors (insulin, hyperglycemia, parasympathetic activity,
-and substrate availability) and stimulatory factors (glucagon,
+suppress hepatic glucose production, while insulin promotes glucose
+uptake in muscle and adipose tissue. Excess glucose is primarily stored
+as glycogen in the liver and muscles, with some converted to
+triglycerides for long-term storage. Glucose homeostasis is dynamically
+regulated by inhibitory factors (insulin, hyperglycemia, parasympathetic
+activity, and substrate availability) and stimulatory factors (glucagon,
 counterregulatory hormones, hypoglycemia, sympathetic activity, and
 gluconeogenic substrates).
-
-\begin{figure}
-
-\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{figures/diabetes_pahtogensis_IDF.png}
-
-}
-
-\caption{Pathogenesis diagram}
-
-}
-
-\end{minipage}%
-
-\end{figure}
 
 The progression from normal glucose metabolism to type 2 diabetes is
 characterized by sustained elevations in blood glucose levels, primarily
@@ -333,39 +313,19 @@ leading to a diminished insulin response to glucose intake. Years before
 diagnosis, these changes contribute to rising fasting and postprandial
 glucose levels. {[}note: read Omar introduction!!!{]}
 
-\begin{figure}
-
-\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{images/pathogenesis_diabetes.png}
-
-}
-
-\caption{Figure from Tabák AG, Lancet. 2012 Jun 16;379(9833):2279-90}
-
-}
-
-\end{minipage}%
-
-\end{figure}
-
 Diabetes progression is a continuum, with type 2 diabetes defined based
 on glucose thresholds associated with an increased risk of
 diabetes-specific microvascular complications, particularly retinopathy.
 The WHO (2011) and ADA (2015) diagnostic criteria for type 2 diabetes
 include fasting plasma glucose ≥7.0 mmol/L, 2-hour plasma glucose ≥11.1
 mmol/L during an oral glucose tolerance test, or hemoglobin A1c (HbA1c)
-≥6.5\% (48 mmol/mol). However, many other complications of diabetes,
-such as macrovascular disease, neuropathy, cancer, and cognitive
-impairment, can begin to develop at earlier stages of dysglycemia. This
-stage, often referred to as prediabetes or high risk of diabetes, is
-defined by fasting plasma glucose levels between 6.1--6.9 mmol/L, 2-hour
-plasma glucose levels between 7.8--11.0 mmol/L (WHO criteria), and HbA1c
-levels between 5.7--6.4\% (39--47 mmol/mol) (ADA criteria) {[}ref.{]}.
+≥6.5\% (48 mmol/mol). However, many complications of diabetes, such as
+macrovascular disease, neuropathy, cancer, and cognitive impairment, can
+begin to develop at earlier stages of dysglycemia. This stage is
+referred to as prediabetes or high risk of diabetes and is defined by
+fasting plasma glucose levels between 6.1--6.9 mmol/L, 2-hour plasma
+glucose levels between 7.8--11.0 mmol/L (WHO criteria), and HbA1c levels
+between 5.7--6.4\% (39--47 mmol/mol) (ADA criteria) {[}ref.{]}.
 
 Risk factors for progression to type 2 diabetes and its complications
 range from genetic predisposition to lifestyle and socio-environmental
@@ -377,27 +337,6 @@ cardiometabolic markers, including increases in low-density lipoprotein
 blood pressure, along with decreases in high-density lipoprotein (HDL)
 cholesterol. {[}Lancet Diabetes Endocrinol 2013; 1: 43--51{]}.
 
-\begin{figure}
-
-\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{images/frimingham_risk_before_diabetes.png}
-
-}
-
-\caption{Trajectories of framingham CVD risk score before onset of type
-2 diabetes: Lancet Diabetes Endocrinol 2013; 1: 43--51}
-
-}
-
-\end{minipage}%
-
-\end{figure}
-
 Diabetes increases the risk of both microvascular and macrovascular
 complications, which are major determinants of the disease's associated
 morbidity and mortality. Diabetes and cardiovascular disease share
@@ -405,24 +344,24 @@ common risk factors, including lifestyle factors and conventional
 clinical markers. As individuals progress toward diabetes, their
 cardiovascular risk increases, making them more susceptible to
 developing cardiovascular disease (CVD). However, the identification of
-preclinical stages and how CVD risk differs among higher-risk
-individuals needs further definition. Complications of diabetes has been
-included into.
+preclinical stages of CVD and how CVD risk differs among individuals at
+high risk of diabetes and individuals with type 2 diabetes needs further
+definition.
 
 \hypertarget{cardiovascular-disease}{%
 \section{Cardiovascular disease}\label{cardiovascular-disease}}
 
 Globally, CVD remains the leading cause of death. However, the main
-cause of mortality varies now by country income levels, with cancer
-becoming the leading cause in some high-income countries. CVD risk is
-primarily attributed to modifiable lifestyle behaviour such as stress,
-sedentary behaviour, unhealthy diet, alcohol consumption, and smoking,
-as well as socio-environmental factors like socio-economic status and
-air pollution\textsuperscript{1}. Along the causal pathway towards CVD,
+cause of mortality varies by country income levels, with cancer becoming
+the leading cause in some high-income countries. CVD risk is primarily
+attributable to modifiable lifestyle behaviour such as stress, sedentary
+behaviour, unhealthy diet, alcohol consumption, and smoking, as well as
+socio-environmental factors like socio-economic status and air
+pollution\textsuperscript{1}. Along the causal pathway towards CVD,
 these risk factors contribute to comorbidities such as clinical obesity,
 diabetes, hypertension, and hypercholesterolemia, further accelerating
 overall CVD risk. While risk factors are largely shared across CVD
-types, the pathogenesis differs, involving structural, signalling,
+types, the mechanisms differs, involving structural, signalling,
 inflammatory, and dynamic changes in the cardiovascular system.
 
 \hypertarget{arteriosclerosis}{%
@@ -431,13 +370,13 @@ inflammatory, and dynamic changes in the cardiovascular system.
 Hard CVD end-points are the primary focus of CVD prevention measures.
 However earlier markers of arterial stiffness assess the gradual
 vascular pathology and reflect arteriosclerosis, atherosclerosis,
-vascular calcification. With aging, elastic fibers are gradually
+vascular calcification. With aging, elastin fibers are gradually
 replaced by collagen fibers, leading to increased vascular
 stiffness\textsuperscript{2}. Arterial stiffness is characterized by
 changes between collagen, elastin, and smooth muscle cells. Stiffening
 of the arterial vasculature increases systolic pressure, reduces
-coronary perfusion, and raises the pulsatile load on the
-microcirculation. This process can be accelerated by modifiable CVD risk
+coronary perfusion, and raises the pulsatile load on the micro- and
+macrocirculation. This process can be accelerated by modifiable CVD risk
 factors. The progression of arterial stiffness is an early marker in the
 trajectory of CVD development, as increased stiffness precedes rises in
 blood pressure and CVD.
@@ -451,9 +390,9 @@ haemorrhage. The underlying process of atherosclerosis is where
 cholesterol, fat, and other substances accumulate in the arterial walls,
 causing narrowing and reducing blood flow to the heart. When the oxygen
 supply to the heart is insufficient, it can result in chest pain
-(angina) or, in severe cases, myocardial infarction (heart attack). Over
-time, chronic ischemia can lead to structural and functional changes in
-the heart, increasing the risk of heart failure and arrhythmia.
+(angina) or, in severe cases, myocardial infarction. Over time, chronic
+ischemia can lead to structural and functional changes in the heart,
+increasing the risk of heart failure and arrhythmia.
 
 \textbf{Myocardial infarction}
 
@@ -483,24 +422,23 @@ lipohyalinotic aneurysms that subsequently rupture, causing
 intracerebral bleeding and increased intracranial
 pressure\textsuperscript{4}. Ischemic stroke remains one of the global
 leading contributor to mortality and disability\textsuperscript{5}. The
-trends of incidence, prevalence and cause-specific mortality of stroke
-is still elevated and mostly stagnated but has declined in high income
-countries\textsuperscript{6}. Stroke risk is already elevated at high
-levels of glucose (fasting plasma, OGTT, and HbA1c) among people in a
-pre-diabetic range where the the risk exceed of 26\% higher risk
-compared to population without diabetes
+incidence, prevalence, and cause-specific mortality of stroke remain
+high but have stagnated, although some declines have been observed in
+high-income countries\textsuperscript{6}. Stroke risk is already
+elevated at high levels of glucose (fasting plasma, OGTT, and HbA1c)
+among people in a pre-diabetic range where the the risk exceed of 26\%
+higher risk compared to population without diabetes
 {[}\textsuperscript{7}{]}\textsuperscript{8}. In type 2 diabetes, the
 ischemic stroke risk is elevated almost two-fold\textsuperscript{3}.
-Hence, the risk of stroke increases with the progression dysglycemia.
 
 \hypertarget{heart-failure}{%
 \subsection{Heart failure}\label{heart-failure}}
 
-Heart failure gradual develops with age and often. As treatment in
-ischemic CVD events has improved survival over the last years, the
-incidence and prevalence of heart failure increases. Therefore, early
-detection are important as heart failure leads to lower life-expectancy
-and quality of life.
+Heart failure develops gradual with age and often accelerates with the
+progression of type 2 diabetes.As treatment of ischemic CVD events has
+improved survival over the last years, the incidence and prevalence of
+heart failure has increased. Therefore, early detection are important as
+heart failure leads to lower life-expectancy and quality of life.
 
 Heart failure is a clinical condition characterized by symptoms of
 breathlessness, fatigue, and fluid retention, often accompanied by
@@ -523,28 +461,29 @@ dysfunction, caused by impaired relaxation and increased stiffness,
 leading to elevated left atrial pressure and reduced diastolic
 reserve\textsuperscript{9}. Over the past decades, the prevalence of
 HFpEF has increased with an aging population and more people living with
-pathological conditions such as hypertension, diabetes, and obesity. It
-is diagnosed based on abnormal echocardiographic measures of, e.g., left
-ventricular hypertrophy, left atrial enlargement, or elevated filling
+conditions such as hypertension, diabetes, and obesity. It is diagnosed
+based on abnormal echocardiographic measures of, e.g., left ventricular
+hypertrophy, left atrial enlargement, or elevated filling
 pressure\textsuperscript{10}. The diagnosis may seem straightforward,
 but it is often challenging in community settings, as patients
 frequently present without typical heart failure symptoms (e.g.,
 shortness of breath) and are not routinely assessed with biomarkers like
 NT-proBNP or brain-neuretic-peptide (BNP). As a result, HFpEF is
-commonly underdiagnosed\textsuperscript{10}.
+commonly underdiagnosed and consequently detected at more severe stages,
+leading to hospitalization\textsuperscript{10}.
 
 \hypertarget{cardiovascular-autonomic-dysfunction}{%
 \section{Cardiovascular autonomic
 dysfunction}\label{cardiovascular-autonomic-dysfunction}}
 
-The cardiovascular system is regulated the autonomic nervous system
-which influences heart rate and vasoconstrictuion through
-neurotransmitter release by the sympathetic and parasympathetic nerves.
-The primary neurotransmitter of the sympathetic nervous system is
-noradrenaline, while the parasympathetic nervous system primarily
-releases acetylcholine by stimulation through the vagus nerve.
-Sympathetic activation increases heart rate and myocardial contractility
-by stimulating the sinoatrial (SA) node, atrioventricular (AV) node, and
+The cardiovascular system is regulated by autonomic nervous system which
+influences heart rate and vasoconstrictuion through neurotransmitter
+release by the sympathetic and parasympathetic nerves. The primary
+neurotransmitter of the sympathetic nervous system is noradrenaline,
+while the parasympathetic nervous system primarily releases
+acetylcholine by stimulation through the Vagus nerve. Sympathetic
+activation increases heart rate and myocardial contractility by
+stimulating the sinoatrial (SA) node, atrioventricular (AV) node, and
 ventricular myocardium. In contrast, parasympathetic activation
 primarily reduces heart rate by directly modulating SA node activity
 through vagal stimulation. It also slows AV nodal conduction,
@@ -574,41 +513,44 @@ glucose metabolism\textsuperscript{11}. Therefore, the relationship
 between autonomic dysfunction and cardiometabolic factors is likely a
 vicious cycle\textsuperscript{12}. The consequences can lead to
 cardiovascular autonomic dysfunction/neuropathy (CAN), resulting
-inregulation in heart rate and vascular dynamics.
+dysregulation in heart rate and vascular dynamics.
 
-Cardiovascular autonomic function is assessed using heart rate
+Cardiovascular autonomic function can be assessed using heart rate
 variability (HRV) indices, which measure the variation in successive
 normal RR intervals in milliseconds. HRV provides time- and
 frequency-domain estimates of the balance between sympathetic and
 parasympathetic activity. High HRV reflects an autonomic nervous system
 with strong adaptability to the body's demands, whereas low variation
-indicates poor adaptation to changing conditions. Most studies have
-examined cardiovascular autonomic function using short-term ECG
-recordings at rest. However, extended HRV recordings across the
-circadian cycle may offer deeper insights into the influence of
-lower-frequency variability sources, such as very-low frequency
+indicates poor adaptation to changing conditions. HRV changes in
+response to different physiological or environmental conditions (e.g.,
+sleep, stress, posture, physical activity), and these changes can be
+observed in its natural 24-hour (diurnal) pattern\textsuperscript{13}.
+Most studies have examined cardiovascular autonomic function using
+short-term ECG recordings at rest. However, extended HRV recordings
+across the circadian cycle may offer deeper insights into the influence
+of lower-frequency variability sources, such as very-low frequency
 (0.003--0.04 Hz) and ultra-low frequency (≤0.003 Hz). Hear rate
 variability {[}from excercises physiology to psychology, to
 cardiovascular research, to diabetes research{]}. Type 2 diabetes has
-shown to significantly modified the expression of sympathetic burst, and
-even higher when co-exiting with hypertension compare to normotensive
-without diabetes\textsuperscript{13}. Parasympathetic activity is as
-well deteriorated among high cardiometabolic risk, and type 2 diabetes,
-shown by impaired baroreflex sensivity\textsuperscript{14} and lower HF
-and RMSSD short-term HRV. Before onset of diabetes and during
-progression of diabetes long-term (24-hour HRV) have shown to be lower
-compare to those with normal glucose metabolism
-{[}\textsuperscript{12}{]}\textsuperscript{15}. Cardiovascular autonomic
+shown to significantly modify the expression of sympathetic bursts,
+measured by resting muscle sympathetic nerve activity, and even higher
+when co-exiting with hypertension compared to normotensive without
+diabetes\textsuperscript{14}. Parasympathetic activity is as well
+deteriorated among high cardiometabolic risk, and type 2 diabetes, shown
+by impaired baroreflex sensivity\textsuperscript{15} and lower HF and
+RMSSD short-term HRV. Before onset of diabetes and during progression of
+diabetes long-term (24-hour) HRV has shown to be lower compare to those
+with normal glucose metabolism
+{[}\textsuperscript{12}{]}\textsuperscript{16}. Cardiovascular autonomic
 reflex tests (CARTs) are considered the gold standard for assessing CAN.
-The diagnosis includes assessing pulse ratio under test conditions, such
-as the deep breathing test, the lying-to-standing test, and the Valsalva
-maneuver. Both HRV and CARTs have been associated with cardiovascular
-disease, heart failure, and all-cause mortality, primarily in
-populations with type 2 diabetes or established cardiovascular disease.
-However, it remains unclear at which stage in the progression of
-diabetes these measures begin to influence the risk of cardiovascular
-complications. {[}Diabetes clinical practice and heart failure - no
-structured assessment of cardiac function{]}
+The diagnosis includes assessing pulse rate ratio under test conditions,
+such as the deep breathing test, the lying-to-standing test, and the
+Valsalva maneuver. Both HRV and CARTs have been associated with
+cardiovascular disease, heart failure, and all-cause mortality,
+primarily in populations with type 2 diabetes or established
+cardiovascular disease. However, it remains unclear at which stage in
+the progression of diabetes risk to pre-diabetes to diabetes these
+measures begin to influence the risk of cardiovascular complications.
 
 \hypertarget{risk-stratification}{%
 \section{Risk-stratification}\label{risk-stratification}}
@@ -623,12 +565,12 @@ documented HFrEF or HFpEF. High cardiovascular risk is defined as the
 presence of at least two risk factors at age \textgreater55 years, such
 as obesity, hypertension, smoking, dyslipidemia, or albuminuria.
 However, no additional preclinical markers are recommended to identify
-individuals at higher CVD risk. Despite their increased risk of
+individuals at higher CVD or HF risk. Despite their increased risk of
 cardiovascular complications, individuals at high risk of developing
 diabetes remain outside structured treatment options, even though
 diabetes risk and cardiometabolic markers can be successfully modified
 through lifestyle interventions and medication such as GLP-1 analogoues
-{[}\textsuperscript{16}{]}\textsuperscript{17}. During the progression
+{[}\textsuperscript{17}{]}\textsuperscript{18}. During the progression
 and after the onset of type 2 diabetes, preclinical stages may manifest
 with markers of higher cardiovascular risk, underscoring the potential
 for risk stratification. Risk stratification is the process of
@@ -690,30 +632,10 @@ causal processes, where the connection between these contributing
 factors and individual predisposition to cardiovascular disease remains
 a key question in understanding the underlying pathological mechanisms.
 
-\begin{figure}
-
-\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{images/physcosocial_model.png}
-
-}
-
-\caption{Biopsychosocial model}
-
-}
-
-\end{minipage}%
-
-\end{figure}
-
 Cardiovascular autonomic dysfunction is linked to CVD and all-cause
 mortality. However, many questions remain regarding the underlying
 causal mechanisms. Furthermore, as dysglycemia is known to be a primary
-driver of autonomic dysfunction\textsuperscript{18}, the questions is to
+driver of autonomic dysfunction\textsuperscript{19}, the questions is to
 which extent it modulates the relationship between cardiovascular
 autonomic dysfunction and CVD? This relationship remains unclear,
 highlighting the need for a deeper understanding of this interplay in
@@ -848,22 +770,22 @@ imputation of chained equations for CART and confounders \\
 Study}\label{study-i---the-maastricht-study}}
 
 The Maastricht Study is a prospective observational population-based
-study of the general population in the southern part of the Netherlands.
-The study emphasized the recruitment of people with type 2 diabetes,
-through the regional Diabetes Patient Registry, to extensively phenotype
-individuals with type 2 diabetes and those in intermediate stages of the
-disease. The eligibility criteria included an age range of 40--70 years.
-Participants were recruited through mass media campaigns and mailings
-from municipal registries (Gemeentelijke Basis Administratie; GBA). In
-the analysis of Study I, the study among 7449 population included
-participants with measurements of 24-hour HRV and at least one measure
-of arterial stiffness (carotid-femoral pulse wave velocity or carotid
-artery distensibility), both of which were completed within a
-three-month period between November 2010 and December 2020. The study
-has been approved by the institutional medical ethics committee
-(NL31329.068.10) and the Minister of Health, Welfare and Sports of the
-Netherlands (Permit 131088-105234-PG). All participants gave written
-informed consent.
+study of the general population of the province of Limburg, in the
+southern part of the Netherlands. The study emphasized the recruitment
+of people with type 2 diabetes, through the regional Diabetes Patient
+Registry, to extensively phenotype individuals with type 2 diabetes and
+those in intermediate stages of the disease. The eligibility criteria
+included an age range of 40--70 years. Participants were recruited
+through mass media campaigns and mailings from municipal registries
+(Gemeentelijke Basis Administratie; GBA). In the analysis of Study I,
+the study among 7449 population included participants with measurements
+of 24-hour HRV and at least one measure of arterial stiffness
+(carotid-femoral pulse wave velocity or carotid artery distensibility),
+both of which were completed within a three-month period between
+November 2010 and December 2020. The study has been approved by the
+institutional medical ethics committee (NL31329.068.10) and the Minister
+of Health, Welfare and Sports of the Netherlands (Permit
+131088-105234-PG). All participants gave written informed consent.
 
 \hypertarget{study-ii---addition-pro}{%
 \subsubsection{Study II - ADDITION-PRO}\label{study-ii---addition-pro}}
@@ -881,16 +803,16 @@ tolerance (IGT), and normoglycemia despite having risk factors for
 diabetes and CVD. Participants for ADDITION-PRO were recruited from the
 original ADDITION-DK screening cohort, which included individuals from
 190 general practices across Denmark. The recruitment strategy focused
-on individuals at high risk of diabetes withou type 2 diabetes,
+on individuals at high risk of diabetes without type 2 diabetes,
 identified through a stepwise screening program that incorporated the
 Danish diabetes risk score from the Inter99. This assessment, conducted
 between 2001 and 2006, considered factors such as age, sex, history of
 gestational diabetes, family history of diabetes, known hypertension,
-BMI, and physical activity. High risk individuals was further screen for
-type 2 diabetes by blood measurement including HbA1c, random blood
+BMI, and physical activity. High risk individuals were further screened
+for type 2 diabetes by blood measurements including HbA1c, random blood
 glucose, FPG, and OGTT, were identified patients were invited to the
-ADDITION-trail. High risk individuals without type 2 diabetes was
-further considered in a sampling fram for ADDITION-PRO.
+ADDITION-trial. High risk individuals without type 2 diabetes were
+further considered in as the sampling frame for ADDITION-PRO.
 
 Between 2009 and 2011, a follow-up health examination was conducted at
 four ADDITION-DK study centers to establish a longitudinal cohort.
@@ -903,12 +825,12 @@ screening in ADDITION-DK. Exclusion criteria included pregnancy,
 psychological or psychiatric disorder preventing informed consent, and
 life-limiting conditions. One key feature of the data collection was the
 precise measurement of physical activity and energy expenditure using
-ActiHeart, which recorded acceleration and heart rate over a week. We
-included participants with a least 48-hour recording for our first
-analysis, and then include those participants with hourly measures of
-physical acceleration during the hourly HRV recording for th second
-analysis. We also excluded participant with prior CVD ten years before
-inclusion.
+ActiHeart, which recorded acceleration and heart rate over a week. In
+study II, we included participants with a least 48-hour recording for
+our first analysis, and then include those participants with hourly
+measures of physical acceleration during the hourly HRV recording for th
+second analysis. We also excluded participant with prior CVD ten years
+before inclusion.
 
 The population were disease history and follow-up in the unique register
 system of Denmark, which allows linkage of health records using the
@@ -923,19 +845,19 @@ the Cause of Death Registry.
 \hypertarget{study-iii---cancan}{%
 \subsubsection{Study III - CANCAN}\label{study-iii---cancan}}
 
-The CANCAN Study was an observational pilot study conducted at two
+The CANCAN Study is an observational pilot study conducted at two
 hospital outpatient clinics in Viborg Regional Hospital and Regional
-Hospital Gødstrup. It aimed to implement a screening protocol for
+Hospital Gødstrup. It aims to implement a screening protocol for
 identifying high-risk individuals using CAN assessments, continuous
 glucose monitoring, and heart failure indicators. All measures were part
 of routine clinical care for type 2 diabetes in Central Denmark. We
-included 200 adults (\textgreater18 years) with type 2 diabetes for over
-one year. Exclusion criteria were recent laser-treated eye disease (≤3
-months), pregnancy, lactation, life-threatening illness, or cognitive
-impairment preventing consent. Participants were identified via
-electronic records and informed about the study by their doctor during
-telephone call. Those interested attended a dedicated meeting before
-their annual diabetes exam, where study details were discussed.
+included 200 adults (\textgreater18 years) with type 2 diabetes with
+duration of over one year. Exclusion criteria were recent laser-treated
+eye disease (≤3 months), pregnancy, lactation, life-threatening illness,
+or cognitive impairment preventing consent. Participants were identified
+via electronic records and informed about the study by their doctor
+during a telephone call. Those interested attended a dedicated meeting
+before their annual diabetes exam, where study details were discussed.
 Recruitment took place from 2021 to 2024. In study III, participants
 without a valid NT-proBNP measurement were excluded.
 
@@ -968,7 +890,7 @@ neuropathy}\label{measures-for-cardiovascular-autonomic-dysfunction-neuropathy}}
 
 \end{figure}
 
-In study I-III a device was used to capturing the distance between each
+In study I-III a device was used to capture the distance between each
 heartbeat defined as RR intervals from electrocardiogram traces either
 directly from heart-beat traces or indirectly from pulse traces. From
 this a sequence of successive heart beat intervals is extracted to
@@ -980,10 +902,8 @@ expiration, and valsalva maneuvre.
 \emph{Time-domain indices}
 
 Time-domain measures of HRV are based on the statistical distribution of
-normal-to-normal (NN) intervals. These include the standard deviation
-(SD) of NN intervals, the variation in successive NN intervals, and the
-proportion of successive intervals that differ by more than 50 ms.
-Description of time-domain indices are summarized in box 1.
+normal-to-normal (NN) heartbeat intervals. Description of time-domain
+indices are summarized in box 1.
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
@@ -1105,10 +1025,11 @@ consecutive normal heartbeats on the ECG. HRV calculations were
 performed using the RHRV package (version 4.2.7) in R, including SDNN,
 SDANN, SDNN index, TINN, and mean HR (mHR). We tested our approach on a
 dataset with full access to all interbeat intervals to validate our
-algorithm\textsuperscript{19}. These indices have shown high validity
-for global HRV assessment in 24-hour recordings. HRV indices were
-calculated by week, 24-hour cycle, and hour of the day, with hourly
-values averaged across recording days.
+algorithm\textsuperscript{20}. These indices have shown high validity
+for HRV indices based on global distribution (e.g.~SDNN, SDANN, SDNNi)
+in 24-hour recordings. HRV indices were calculated by week, 24-hour
+cycle, and hour of the day, with hourly values averaged across recording
+days.
 
 \textbf{Vagus device for cardiovascular autonomic reflex test in study
 III}
@@ -1220,7 +1141,7 @@ Montvale, NJ, USA).
 
 N-terminal prohormone of brain natriuretic peptide (NT-proBNP) is a
 neuretic peptide that can be used to detect patients with heart failure
-and the progression. It derives from B-type natriuretisk peptid (BNP)
+and the progression. It derives from B-type natriuretic peptid (BNP)
 which is a cardial neurohormon, that is syntezied and secreted as
 response to streched cariomycytes and cardiac volume overload. After
 secretion, proBNP is cleaved, releasing the active hormone BNP along
@@ -1255,14 +1176,14 @@ cardiovascular revascularization, and cardiovascular death.
 \item
   Stroke
 \end{itemize}
-\end{minipage} & ICD: DI61 - DI64 \\
+\end{minipage} & ICD: I61 - I64 \textbar{} \\
 \begin{minipage}[t]{\linewidth}\raggedright
 \begin{itemize}
 \tightlist
 \item
   Myocardial infarction
 \end{itemize}
-\end{minipage} & ICD: DI21-DI24 \\
+\end{minipage} & ICD: I21-I24 \textbar{} \\
 \begin{minipage}[t]{\linewidth}\raggedright
 \begin{itemize}
 \tightlist
@@ -1327,7 +1248,7 @@ stratifying HbA1c and fasting plasma glucose into deciles.
 In study II, we used Poisson regression models to quantify the
 associations between HRV and cardiovascular events, as follow-up data
 were undisturbed over time and to avoid assumptions of proportional
-hazards\textsuperscript{20}. Week-long HRV was modelled using splines
+hazards\textsuperscript{21}. Week-long HRV was modelled using splines
 with knots at predefined percentiles to assess non-linear associations.
 Hourly HRV was analysed separately for each hour to observe if the
 association of HRV had diurnal variation. Both HRV and mHR were
@@ -1579,19 +1500,23 @@ modified by both prediabetes and type 2 diabetes. Mean inter beat
 interval association with cf-PWV or CD was not significantly modified by
 diabetes status.
 
-Prototypical individuals representing diabetes risk from normal glucose
-metabolism, to prediabetes to type 2 diabetes {[}edit text from
-manuscript about comparison between 95th percentile and 5th
-percentile{]} showed to have xx\% higher PWV and xx\% lowed CD. Among
-people with prediabetes and type 2 diabetes the difference was xx\%
-higher PWV and xx\% lowed CD and xx\% higher PWV and xx\% lowed CD,
-respectively.
+As we did not observe a stepwise increase in the modification of glucose
+metabolism status from prediabetes to type 2 diabetes, we excluded the
+subgroup with type 2 diabetes to test whether the association was
+gradually modified by dysglycemia. In this subgroup, the association
+between HRV time and frequency domain Z-scores and measures of arterial
+stiffness was modified by HbA1c (range of interaction p-values: 0.1 to
+0.005) (see Figure x). For example, per SD lower HRV frequency domain
+Z-score at HbA1c 6.4\% was associated with a 5.4\% higher (CI: 3.5; 7.2)
+cf-PWV, which was 2.0\% to 4.0\% higher compared to the magnitude of
+association at HbA1c levels of 5.6\% and 4.8\% (see Figure xB). In CD,
+per SD lower HRV frequency domain Z-score at HbA1c 6.4\% was associated
+with an 8.1\% lower (CI: -13.5; -2.9) CD, which was 4.8\% to 9.5\% lower
+compared to the magnitude of association at HbA1c levels of 5.6\% and
+4.8\% (see Figure xD). No association between HRV frequency domain
+Z-score and CD was observed at HbA1c levels between 4.8\% and 5.2\%.
 
-{[}Different risk \% higher by diabetes status (NGT, prediabetes,
-T2D){]}
-
-{[}FPG and Hba1c values and the interaction and the magnitude of the
-association between HR and AS{]}
+{[}figure xx: Maastricht EM HbA1c{]}
 
 \hypertarget{study-ii}{%
 \section{Study II}\label{study-ii}}
@@ -1609,11 +1534,77 @@ impaired glucose tolerance (IGT) (13\%), and 161 with both IFG and IGT
 ms), low (SDNN 100-120 ms), middle (SDNN 121-140 ms), high (SDNN 141-160
 ms) and very-high (SDNN \textgreater160 ms).
 
-{[}Higher age (68 years (6.3)), BMI (28.2 kg/m\^{}2 (4.7)), HbA1c (5.9
-\% (0.6)), triglyceride (1.4 (0.8)), and higher proportion of men
-(63\%), and users of anti-hypertensive medication (60\%) was observed
-among participants who experienced MACE or heart failure compared to
-participants without any CVD{]} replace with SDNN distribution{]} .
+Participants in the lowest SDNN group (\textless100 ms) were older (67.4
+± 6.9 years), had higher BMI (28.1 ± 5.4), HbA1c (5.9 ± 0.9),
+triglycerides (1.5 ± 0.9 mmol/L), and resting heart rate (67.8 ± 5.7
+bpm), were more likely to use anti-hypertensive medication (61\%), and
+had lower physical activity energy expenditure (46.8 ± 24.0 kJ/day)
+compared to those with higher SDNN levels.
+
+\begin{table}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}{l|l|l|l|l|l|l}
+\hline
+Characteristic
+ & Overall, N = 1,625
+ & <100, N = 148
+ & 100-120, N = 312
+ & 120-140, N = 457
+ & 140-160, N = 346
+ & >160, N = 362
+\\
+\hline
+sex &  &  &  &  &  & \\
+\hline
+Men & 866 (53\%) & 68 (46\%) & 148 (47\%) & 206 (45\%) & 203 (59\%) & 241 (67\%)\\
+\hline
+Women & 759 (47\%) & 80 (54\%) & 164 (53\%) & 251 (55\%) & 143 (41\%) & 121 (33\%)\\
+\hline
+Age (years) & 65.9 (6.8) & 67.4 (6.9) & 65.7 (6.9) & 66.0 (6.7) & 65.5 (6.6) & 66.0 (7.0)\\
+\hline
+Physical activity energy expenditure (KJ / day) & 53.1 (25.1) & 46.8 (24.0) & 49.4 (21.0) & 50.7 (21.5) & 57.6 (27.2) & 57.5 (29.2)\\
+\hline
+Alcohol consumption (units per week) & 9.2 (9.5) & 11.3 (10.8) & 10.2 (11.3) & 8.9 (8.5) & 8.5 (9.2) & 8.7 (8.2)\\
+\hline
+Smoking status &  &  &  &  &  & \\
+\hline
+1 & 263 (16\%) & 40 (28\%) & 70 (23\%) & 65 (14\%) & 41 (12\%) & 47 (13\%)\\
+\hline
+2 & 750 (47\%) & 58 (40\%) & 145 (47\%) & 214 (47\%) & 162 (47\%) & 171 (48\%)\\
+\hline
+3 & 598 (37\%) & 47 (32\%) & 95 (31\%) & 174 (38\%) & 140 (41\%) & 142 (39\%)\\
+\hline
+BMI (kg/m² & 27.7 (4.7) & 28.1 (5.4) & 28.2 (4.6) & 28.0 (4.7) & 27.7 (4.9) & 26.9 (4.2)\\
+\hline
+Waist circumference (cm) & 96.7 (13.4) & 98.0 (14.9) & 98.2 (13.2) & 96.7 (13.6) & 96.7 (13.1) & 94.8 (12.5)\\
+\hline
+Systolic blood pressure (mmHg) & 133.7 (17.3) & 134.2 (16.3) & 133.7 (17.6) & 133.5 (17.8) & 133.4 (16.9) & 133.8 (17.5)\\
+\hline
+Diastolic blood pressure (mmHg) & 81.9 (10.4) & 83.8 (10.1) & 82.7 (10.2) & 81.7 (10.6) & 82.1 (10.2) & 80.6 (10.3)\\
+\hline
+Pulse rate (bpm) & 67.4 (10.9) & 77.7 (11.2) & 72.6 (9.3) & 67.9 (9.3) & 65.3 (9.3) & 60.0 (9.8)\\
+\hline
+HbA1c (\%) & 5.8 (0.5) & 5.9 (0.9) & 5.9 (0.6) & 5.8 (0.5) & 5.7 (0.4) & 5.7 (0.4)\\
+\hline
+Triglycerides (mmol/L) & 1.3 (0.7) & 1.5 (0.9) & 1.4 (0.7) & 1.3 (0.6) & 1.2 (0.7) & 1.1 (0.6)\\
+\hline
+Total cholesterol (mmol/L) & 5.4 (1.1) & 5.2 (1.0) & 5.4 (1.2) & 5.4 (1.1) & 5.4 (1.0) & 5.4 (1.0)\\
+\hline
+HDL cholesterol (mmol/L) & 1.6 (0.4) & 1.6 (0.4) & 1.5 (0.5) & 1.6 (0.4) & 1.6 (0.4) & 1.6 (0.4)\\
+\hline
+LDL cholesterol (mmol/L) & 3.2 (1.0) & 3.0 (1.0) & 3.2 (1.1) & 3.2 (1.0) & 3.3 (0.9) & 3.3 (0.9)\\
+\hline
+Urine albumin-creatine ratio (mg/g) & 25.9 (132.8) & 36.4 (105.9) & 47.9 (275.1) & 19.6 (48.2) & 19.4 (67.7) & 16.4 (36.3)\\
+\hline
+vo2max & 26.6 (7.8) & 24.8 (7.5) & 24.8 (7.5) & 26.1 (6.8) & 27.0 (8.0) & 28.7 (8.7)\\
+\hline
+rest\_hr & 57.3 (7.3) & 67.8 (5.7) & 63.3 (5.0) & 58.4 (4.5) & 55.0 (4.2) & 49.8 (4.9)\\
+\hline
+med\_any\_anti\_hypertensive & 753 (47\%) & 88 (61\%) & 149 (48\%) & 216 (47\%) & 147 (43\%) & 153 (43\%)\\
+\hline
+\end{tabular}}
+\end{table}
 
 \hypertarget{week-long-hrv-and-mace-heart-failure-and-all-cause-mortality.}{%
 \subsection{Week-long HRV and MACE, heart failure, and all-cause
@@ -1623,14 +1614,30 @@ The mean week-long SDNN was 139.0 (32.3) ms, and the mean heart rate was
 73.5 (9.1) bpm. In the fully adjusted model, SDNN per SD was associated
 with a lower incidence rate ratio (IRR) for MACE 0.82 (CI: 0.69; 0.97),
 heart failure 0.76 (CI: 0.58; 0.99), and mortality rate ratio of 0.79
-(CI: 0.66; 0.94). When we included knots in the model, the trends
-indicated that the risk increased when SDNN fell below 120-110 ms
-(approximately below 20th percentile), suggesting a potential cut-off
-point for higher risk. We therefore calculate incidence rate with SDNN
-levels at 100 ms, 120ms, and 160 ms, respectively, and plotted by a
-function of age.
+(CI: 0.66; 0.94). When we pre-adjusted for resting heart rate, the
+proportion of the association explained between HRV and MACE, HF, and
+all-cause mortality was 14\%, 25\%, and 19\%, respectively. We included
+knots in the model, which showed that the risk increased when SDNN fell
+below 120 to 110 ms (approximately below the 20th percentile),
+suggesting a potential cut-off point for higher risk. We therefore
+calculated the incidence rate (IR) at SDNN levels of 100 ms, 120 ms, and
+160 ms, respectively, and plotted these as a function of age.
 
 {[}Incedence rate curves{]}
+
+At age 65, the IR per 1000 person-years for MACE was 44.2 (CI: 33.5;
+58.3) at SDNN = 100 ms, which was higher than the rates observed at SDNN
+= 120 ms (IR: 37.6 {[}CI: 29.2; 48.3{]}) and SDNN = 160 ms (IR: 34.7
+{[}CI: 27.0; 44.5{]}) (Figure xA). The IR became higher with age,
+reaching its peak at age 72. For heart failure at age 65, the IR was
+20.5 (CI: 15.3; 27.5) at SDNN = 100 ms, slightly higher than at SDNN =
+120 ms (IR: 19.6 {[}CI: 14.8; 25.9{]}) and SDNN = 160 ms (IR: 19.8
+{[}CI: 15.0; 26.2{]}) (Figure xB). The IR remained stable until age 70,
+after which it became higher. For all-cause mortality at age 65, the IR
+was 11.6 (CI: 6.3; 21.4) at SDNN = 100 ms, higher than at SDNN = 120 ms
+(IR: 7.6 {[}CI: 4.3; 13.3{]}) and SDNN = 160 ms (IR: 6.0 {[}CI: 3.4;
+10.4{]}) (Figure xC). The IR for all-cause mortality became higher with
+age.
 
 \hypertarget{hourly-hrv-and-mace-heart-failure-and-all-cause-mortality.}{%
 \subsection{Hourly HRV and MACE, heart failure, and all-cause
@@ -1689,6 +1696,36 @@ using beta-blockers or those with a history of CVD, resulted in a
 smaller sample size and wider confidence intervals, though the overall
 association remained unchanged.
 
+\begin{figure}
+
+\begin{minipage}[t]{\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{images/heart_failure_distribution_can_figure_2.pdf}
+
+}
+
+\caption{Relationship betweeen CAN and indicators for heart failure}
+
+}
+
+\end{minipage}%
+
+\end{figure}
+
+\begin{verbatim}
+
+
+
+`<!-- quarto-file-metadata: eyJyZXNvdXJjZURpciI6Ii4ifQ== -->`{=html}
+
+```{=html}
+<!-- quarto-file-metadata: eyJyZXNvdXJjZURpciI6Ii4iLCJib29rSXRlbVR5cGUiOiJjaGFwdGVyIiwiYm9va0l0ZW1OdW1iZXIiOjYsImJvb2tJdGVtRmlsZSI6IjYtZGlzY3Vzc2lvbi5xbWQiLCJib29rSXRlbURlcHRoIjowfQ== -->
+\end{verbatim}
+
 \bookmarksetup{startatroot}
 
 \hypertarget{discussion-needs-to-be-fine-tuned}{%
@@ -1713,24 +1750,24 @@ direction of the studies based on physiological knowledge and in vivo
 studies. In Study I, we based our direction of the association based on
 longitudinal association based on data from Whitehall II study, showing
 steeper decrease in short-term HRV are associated with subsequent higher
-levels of cf-PWV. Moreover, {[}insert in vivo studies{]}. In Study II,
-we attempted to mimic temporarily by glucose metabolism, in individuals
-with type 2 diabetes and without known type 2 diabetes, instead of time,
-which shows deterioration of glucose metabolism increases the size of
-the association. The strength of study I, is that sample size is large,
-making our results more generalisable to wider populations across
-statuses of glucose metabolism.
+levels of cf-PWV\textsuperscript{22}. Moreover, {[}insert in vivo
+studies{]}. In Study II, we attempted to mimic temporarily by glucose
+metabolism, in individuals with type 2 diabetes and without known type 2
+diabetes, instead of time, which shows deterioration of glucose
+metabolism increases the size of the association. The strength of study
+I, is that sample size is large, making our results more generalisable
+to wider populations across statuses of glucose metabolism.
 
-In study III, our design are more focused on the clinical diagnosis of
-CAN and presence of heart failure. This the question are more focused on
-clinical utilization of CAN in detecting type 2 diabetes patients who
-early progress towards heart failure, and thus the aetiological question
-remain for other study design. Indeed, whether cardiac function
-progressively worsens due to the etiological mechanisms of CAN remains
-to be fully established. If confirmed, this would underscore the
-relevance of CAN as a preclinical marker for early progression to heart
-failure, one that may be effective to target in efforts to prevent or
-delay the development of overt heart failure.
+In study III, our study design are more focused on the clinical
+diagnosis of CAN and presence of heart failure. This the question are
+more focused on clinical utilization of CAN in detecting type 2 diabetes
+patients who early progress towards heart failure, and thus the
+aetiological question remain for other study design. Indeed, whether
+cardiac function progressively worsens due to the etiological mechanisms
+of CAN remains to be fully established. If confirmed, this would
+underscore the relevance of CAN as a preclinical marker for early
+progression to heart failure, one that may be effective to target in
+efforts to prevent or delay the development of overt heart failure.
 
 \emph{Longitudinal design}
 
@@ -1771,50 +1808,55 @@ Furthermore, I will address the validity of the included outcomes. I
 will as well discuss using the strength and limitation of using MACE as
 an time to event outcome.
 
-\hypertarget{measures-of-autonomic-dysfunction}{%
-\subsubsection{Measures of autonomic
-dysfunction}\label{measures-of-autonomic-dysfunction}}
+\hypertarget{long-term-hrv-24-hours-as-measurement-for-autonomic-function}{%
+\subsubsection{Long-term HRV (\textgreater24 hours) as measurement for
+autonomic
+function}\label{long-term-hrv-24-hours-as-measurement-for-autonomic-function}}
 
 {[}Actiheart and Holter monitor{]}
 
 HRV has been applied across several research domains. For example, in
 psychology as a marker of mental stress, in exercise physiology as an
 indicator of recovery, in cardiovascular research as a marker of
-autonomic dysfunction related to cardiac complications, and in diabetes
-research as a marker of autonomic neuropathy. In the context of this
-project, which focuses on long-term HRV in diabetes and cardiovascular
-research, it is important to acknowledge that the autonomic nervous
-function we aim to assess, may also be influenced by behavioural factors
-such as physical activity, sleep, meal timing, emotions, smoking,
-caffeine intake, alcohol consumption, use of medication, and prior
-cardiovascular complications which can potentially masking or mimicking
-underlying physiological dysfunction during recordings. Therefore,
-reduced long-term HRV cannot be interpreted solely as a marker of
-autonomic function. Moreover, HRV is also influenced by lifestyle
-patterns over time, making it sensitive not only to acute behaviors but
-also to long-term habits that affect autonomic balance. In study II, we
-observed that the lower ranges of HRV had both lower habitual physical
-activity and lower VO\textsubscript{2} max, suggesting that lower HRV
-reflects more sedentary lifestyle and lower cardiorespiratory fitness.
+autonomic dysfunction as a consequence to cardiac complications, and in
+diabetes research as a marker of autonomic neuropathy. In the context of
+this project, which focuses on long-term HRV in diabetes and
+cardiovascular research, it is important to acknowledge that the
+autonomic nervous function we aim to assess, may also be influenced by
+behavioral factors such as physical activity, sleep, meal timing,
+emotions, smoking, caffeine intake, alcohol consumption, use of
+medication, and prior cardiovascular complications which can potentially
+masking or mimicking underlying physiological dysfunction during
+recordings. Therefore, reduced long-term HRV cannot be interpreted
+solely as a marker of autonomic function. Moreover, HRV is also
+influenced by lifestyle patterns over time, making it sensitive not only
+to acute behaviors but also to long-term habits that affect autonomic
+balance. In study II, we observed that the lower ranges of HRV had both
+lower habitual physical activity and lower VO\textsubscript{2} max,
+suggesting that lower HRV reflects more sedentary lifestyle and lower
+cardiorespiratory fitness.
 
 In study I and II, we strived to account for habitual physical activity,
-while in study II, we also accounted hourly HRV for physical
-acceleration during the recording to test the influence. However,
-further studies are need to understand how lifestyle patterns affect the
-long-term recording the subsequent day, to understand the behavioral
-component in long-term HRV. In study I and II, we also excluded
-participants to ensure that in order to keep etiological order between
-autonomic dysfunction and the outcome of cardiovascular complication,
+while in study II, we also accounted hourly HRV for physical movement
+during the recording to test the influence of concurrent physical
+activity. However, further studies are need to understand how lifestyle
+patterns affect the long-term recording the subsequent day, to
+understand the behavioral component in long-term HRV. In study I and II,
+we also excluded participants with prior CVD to ensure that in order to
+keep etiological order between autonomic dysfunction and the outcome of
+cardiovascular complication.
 
-*Anti-hypertensive medication does influence autonomic modulation, the
-most is beta blockers that {[}what do they do{]}. In patients with
-coronary artery disease beta-blockers changes hourly
-HRV\textsuperscript{21}. In population-based cohort studies, despite it
-having improvement on HRV it also indicate presence of {[}which
-disease?{]}. In all studies, we did sensitivity analysis excluding user
-of beta- blockers which showed not to alter the main results, although
-in study II, while the direction an size of the incidence rate tion the
-confidence intervals broadens as the sample size became lower.*
+Anti-hypertensive medications, especially beta-blockers, are known to
+increase HRV in randomized controlled trials\textsuperscript{23}.
+However, in cohort studies, participants using anti-hypertensives
+generally show lower HRV, likely reflecting their higher burden of
+cardiovascular complications {[}ref{]}. Because beta-blockers target the
+autonomic nervous system, some anti-hypertensive medications may
+introduce bias in HRV measurements, as they interfere with the autonomic
+function we aim to assess. In the sensitivity analysis in study I and
+III, without participants on anti-hypertensive treatment, the estimates
+did not materially change, thus we included the population and adjusted
+for medication in the full model
 
 HRV levels are influenced by heart rate as lower heart rate allows
 higher variability. In study I, we chose not to adjust for heart rate in
@@ -1828,32 +1870,16 @@ In contrast, heart rate correction may be more relevant for short-term
 recordings of HRV, where standardized conditions can be affected by
 random influences such as time of day, smoking, or caffeine intake,
 which have been relevant for study III if we had included HRV measures.
-In Study II, we included HRV measures preadjusted for heart rate, which
+In Study II, we included HRV measures pre-adjusted for heart rate, which
 accounted for part of the observed associations, particularly with heart
 failure and all-cause mortality, but to a lesser extent for
 ischemic-related CVD events. Similar trends were observed in the hourly
-associations, where heart rate preadjustment had comparable effects on
+associations, where heart rate pre-adjustment had comparable effects on
 the outcomes.
 
-\emph{Physiological precise sympathetic and parasympathetic measures}
-
-As HRV is determined by sinoatrial heartbeats, it does not solely
-reflect the sympathetic tone and is not directly measured by sympathetic
-activity in peripheral nerves. Further studies of MSNA in a large cohort
-remain needed to elucidate the independent effect of sympathetic
-activity on arterial stiffening {[}ref{]}.
-
-In humans, direct measurement of parasympathetic nervous activity is
-challenging. Although acetylcholine is the primary neurotransmitter of
-the parasympathetic nervous system, its concentration is not practically
-measurable due to its rapid degradation by acetylcholinesterase, its
-highly localized synaptic activity, and lack of systemic spillover
-(ref.). Therefore, indirect assessments are preferred. Commonly used
-surrogate measures include high-frequency HRV, respiratory sinus
-arrhythmia, baroreflex sensitivity, and responses to pharmacological
-agents like atropine. These physiological markers provide insight into
-vagal tone and parasympathetic activity, although each method has
-limitations (ref.).
+\hypertarget{cardiovascular-autonomic-reflex-test}{%
+\subsubsection{Cardiovascular autonomic reflex
+test}\label{cardiovascular-autonomic-reflex-test}}
 
 \hypertarget{measures-of-cardiovascular-risk}{%
 \subsubsection{Measures of cardiovascular
@@ -1889,9 +1915,12 @@ mail invitations to encourage participation.
 \textbf{ADDITION-PRO}
 
 In Study II, participants were recruited through a stepwise screening
-procedure. First, they were selected based on a risk score, followed by
-HbA1c or random glucose measurements. These procedures introduce
-different risks of selection bias in the study population.
+procedure. First, they were selected based on a risk score by
+self-adminstrated questionnare sent by mail , followed by HbA1c or
+random glucose measurements. These procedures introduce different steps
+for selection bias as people have both to receive and sent a filled
+questionnaire, followed by a visit for blood testing if their risk score
+was high\textsuperscript{24}.
 
 First, the population consists of participants who responded to the
 screening questionnaire and those at higher risk who underwent further
@@ -1932,15 +1961,15 @@ participation was optimized by scheduling study assessments during
 routine consultations. In epidemiology, we aim to match the source
 population with our target population. However, limitations due to
 self-selection in participation arise. Consequently, this can affect the
-results, as participants may be healthier and better treated, leading to
-less contrast between determinants and outcomes in our etiological
-analysis. We suspect that one explanation for the lack of a stepwise
-increase in the association between HRV and arterial stiffness across
-prediabetes and type 2 diabetes in study II is that the participants
-with type 2 diabetes represent a well-treated population. Thus, the
-included participants may be sufficient to demonstrate a relationship,
-the magnitude of the association to the target population may be
-limited.
+results, as participants may be healthier and better using health care
+services, leading to less contrast between determinants and outcomes in
+our etiological analysis. We suspect that one explanation for the lack
+of a stepwise increase in the association between HRV and arterial
+stiffness across prediabetes and type 2 diabetes in study II is that the
+participants with type 2 diabetes represent a well-treated population.
+Thus, the included participants may be sufficient to demonstrate a
+relationship, the magnitude of the association to the target population
+may be limited.
 
 \hypertarget{generalisability}{%
 \subsubsection{Generalisability}\label{generalisability}}
@@ -1965,18 +1994,19 @@ observed relationship\textsuperscript{22}.
 The study populations in Studies II--III consist of individuals of
 Nordic descent, while Study I represents a population of Western
 European descent. Since the constellation of risk factors for diabetes
-varies and may manifest differently in Asian, South American, African,
-and other populations, our study findings may not be fully generalizable
-to these groups. This limitation affects the applicability of the
-observed associations and their magnitudes to a unknown degree. Further
-cohort studies including under-represented populations are warranted. As
-we are studying diabetes risk, all participants in the study were older
-adults aged 40 years and above. Therefore, our findings are limited to
-this age group, and whether the results extend to younger adults or
-children remains to be confirmed. Overall, while our study has the
-strength of including individuals across different levels of diabetes
-risk, some limitations in generalizability remain, particularly to more
-diverse and younger populations.
+varies and may manifest differently in population with Asian, South
+American, African, and other decent, and therefore our findings may not
+be fully generalizable to these groups. This limitation affects the
+applicability of the observed associations and their magnitudes to a
+unknown degree. Further cohort studies including under-represented
+populations are warranted. As we are studying diabetes risk, all
+participants in the study were older adults aged 40 years and above.
+Therefore, our findings are limited to this age group, and whether the
+results extend to younger adults or children remains to be confirmed.
+Overall, while our study has the strength of including individuals
+across different levels of diabetes risk, some limitations in
+generalizability remain, particularly to more diverse and younger
+populations.
 
 \hypertarget{cardiovascular-autonomic-dysfunction-impact-on-heart-disease-across-glucose-metabolism}{%
 \section{Cardiovascular autonomic dysfunction impact on heart disease
@@ -2026,17 +2056,22 @@ to living conditions or circadian rhythm variations. The modifying
 effect of by diabetes status, suggest a amplified effect of
 hyperglycemia of the consequences of autonomic dysfunction. Data from
 Whitehall II showed how aortic stiffness have a steeper increase by
-higher HbA1c values among non-diabetic individuals\textsuperscript{23}.
-Out data from study I extended this perspective by showing that the
+higher HbA1c values among non-diabetic individuals\textsuperscript{25}.
+Our data from Study I extended this perspective by showing that the
 association between cardiovascular autonomic dysfunction and arterial
-stiffness are modified by dysglcemia, suggesting that autonomic nervous
-system might lay on the pathway from dysglycemia to development of
-arterial stiffness and even before the onset of type 2 diabetes.
-Interestingly, while several time-domain and frequency-domain HRV
-measures based on the global distribution were modified by diabetes
+stiffness is modified by dysglycemia, suggesting that the autonomic
+nervous system may lie on the pathway from dysglycemia to the
+development of arterial stiffness, even before the onset of type 2
+diabetes. Interestingly, while several time-domain and frequency-domain
+HRV measures based on the global distribution were modified by diabetes
 status, the association of mean IBI was not. This suggests that the
-deterioration of HRV indicators might reflect different parthenogenesis
-to arterial stiffness in diabetes risk than heart rate.
+deterioration of HRV indicators may reflect a different pathogenesis of
+arterial stiffness in diabetes risk compared to heart rate. In the
+subpopulation without diabetes, we observed modification by HbA1c at
+both aortic and carotid stiffness. Hence, our findings support a
+stronger association within the prediabetes range defined by HbA1c
+levels of 5.7\% to 6.5\%\textsuperscript{26}, in addition to prediabetes
+defined by the combination of IGT and IFG.
 
 \hypertarget{atherosclerosis-1}{%
 \subsection{Atherosclerosis}\label{atherosclerosis-1}}
@@ -2060,21 +2095,21 @@ Arterial shear stress increases as a result of heightened sympathetic
 activity and parasympathetic withdrawal. As a result, the vasodilation
 of coronary blood vessels may be inhibited, and an increase in
 vasoconstriction, which can contribute to plaque rupture and thrombus
-formation\textsuperscript{24}. The autonomic nervous system reaches the
+formation\textsuperscript{27}. The autonomic nervous system reaches the
 adventitia layer, innervating the smooth muscles of blood vessels.
 Despite a separation between the atherosclerotic plaque in the intima
 layer and the surrounding nerves at the adventitia layer, recent in vivo
 animal studies have shown that higher plaque burden coexists with
 increased density of sympathetic nerves at local arteries through
 neuroinflammatory modulation. Furthermore, plaque formation can be
-lowered by reducing sympathetic nerve density\textsuperscript{25}. In
+lowered by reducing sympathetic nerve density\textsuperscript{28}. In
 this context, findings from Study II suggest that arterial stiffness is
 not entirely separate from atherosclerosis, which was been confirm by
-data from the Rotterdam Study\textsuperscript{26}. As plaques develop,
+data from the Rotterdam Study\textsuperscript{29}. As plaques develop,
 the associated increase in sympathetic nerve density around the arteries
 could reduce arterial elasticity. In a smaller study of people with type
 2 diabetes, it was shown that lower HRV was linked with increase in
-carotid atherosclerosis\textsuperscript{27}. However, as was asses only
+carotid atherosclerosis\textsuperscript{30}. However, as was asses only
 nervous response through variation of heart beat, structured studies
 with precise measures of sympathetic activity are needed to test these
 hypotheses and confirm them in humans.
@@ -2083,16 +2118,21 @@ A study of individuals with coronary artery disease showed that
 stress-induced HRV was associated with myocardial infarction, even more
 than resting HRV, suggesting that a missing modulation of heart rate by
 parasympathetic response under stress may play a role in
-ischemia\textsuperscript{28}. In our week-long recordings, our data
+ischemia\textsuperscript{31}. In our week-long recordings, our data
 likely included episodes of stress-induced HRV under free-living
 circumstances, e.g.~the first indication observed during the awakening
 stages in the morning. Hence, capturing autonomic responses to living
 circumstances and their alignment with the circadian rhythm may provide
 valuable information about cardiovascular risk. Therefore, understanding
 autonomic responses to tasks is relevant for comprehending their role in
-cardiovascular risk, beyond short-term measures taken at rest. However,
-including data to monitor contemporary activity e.g.~physical activity,
-will be important to identify response to changes in body recruitment.
+cardiovascular risk, beyond short-term measures taken at rest. Including
+data to monitor real-time activity, such as physical activity, would
+bring additional value to capture physiological responses to bodily
+demands. This could enable the inclusion of heart rate responses (e.g.,
+from rest to standing) and other relevant measures of autonomic
+function, such as heart rate recovery after physical movement, which is
+a known risk factor for CVD and all-cause mortality
+{[}\textsuperscript{\textbf{colechristopherr?}}.{]}\textsuperscript{32}.
 
 {[}Secondly, lower HRV may be a result of forming plaques that increase
 cardiac workload and density of sympathetic nerves. This means the
@@ -2103,9 +2143,9 @@ Moreover the basis of autonomic nervous dysfunction has show to
 interfere with signalling pathway controlling the heart rhythm and thus
 lead to arrhythmias disturbing contraction of the heart. Data from the
 Atherosclerosis Risk In Communities study of illustrated that lower
-short-term HRV was associated with incident arterial fibrillation over
-20 years, and the risk was higher among participants with type 2
-diabetes\textsuperscript{29}. This supports autonomic dysfunctions role
+short-term HRV was associated with incident atrial fibrillation over 20
+years, and the risk was higher among participants with type 2
+diabetes\textsuperscript{33}. This supports autonomic dysfunctions role
 in the development of arrhythmogenesis which increase the risk of MI and
 stroke. However, in Study II, we do not have incident atrial
 fibrillation included as an outcome, therefore it would be needed to be
@@ -2114,7 +2154,7 @@ explored to understand whether it could explain the higher risk of MACE.
 In a shifting paradigm from a focus on ischemia towards more preventive
 strategies targeting atheroma, individual risk factors leading to a
 higher predisposition for plaque formation are receiving greater
-attention\textsuperscript{30}. As increased sympathetic nervous system
+attention\textsuperscript{34}. As increased sympathetic nervous system
 activity has been linked to greater plaque formation, and may be
 modifiable by reducing sympathetic drive, the autonomic nervous system
 could play a role in reducing atherosclerotic thrombus formation.
@@ -2135,24 +2175,24 @@ in origin. It may arise as a consequence of atherosclerosis,
 arteriosclerosis, or both, contributing to myocardial ischemia, pressure
 overload, and structural cardiac changes. The relationship between
 cardiovascular autonomic dysfunction and heart failure is likely
-complex\textsuperscript{31}. On one hand, autonomic dysfunction may
+complex\textsuperscript{35}. On one hand, autonomic dysfunction may
 represent complication of that contributes to cardiac stress,
-sympathetic overactivation, and eventual heart failure autonomic
-dysfunction. On the other, it may reflect the progression of cardiac
-remodelling and declining cardiac output. Our findings demonstrated the
-relationship between autonomic dysfunction and heart failure both
-cross-sectionally in population with type 2 diabetes and prospectively
-in people with high risk of diabetes. However, our data are limited in
-determining the extent to which the relationship points toward one
-explanation or the other, as we lack baseline and follow-up measures of
-both heart failure and heart rate variability.
+sympathetic overactivation, and eventual heart failure. On the other, it
+may reflect the progression of cardiac remodeling and declining cardiac
+output. Our findings demonstrated the relationship between autonomic
+dysfunction and heart failure both cross-sectionally in population with
+type 2 diabetes and prospectively in people representing different tiers
+of risk of diabetes. However, our data are limited in determining the
+extent to which the relationship points toward one explanation or the
+other, as we lack baseline and follow-up measures of both heart failure
+and heart rate variability.
 
 Findings from Study I confirmed the relationship between autonomic
 dysfunction and arterial stiffness. It is well known that arterial
 stiffness is linked to cardiac remodelling, as increased pulse wave
 velocity leads to an earlier return of the reflected pulse wave to the
 aorta, which increases cardiac afterload and reduces coronary perfusion
-pressure\textsuperscript{32}. Therefore, arterial stiffness may have an
+pressure\textsuperscript{36}. Therefore, arterial stiffness may have an
 indirect effect on heart failure, potentially driven by autonomic
 dysfunction. However, structured analyses are needed to confirm these
 pathways, for example through mediation analysis to assess the direct
@@ -2160,10 +2200,9 @@ and indirect effects of autonomic dysfunction. In study II, we observed
 that week-long HRV was linked with incident heart failure and a fourth
 of the risk was explained by resting heart rate. Data from the Rotterdam
 Study showed that short-term HRV was longitudinally associated with
-echocardiographic measures reflecting systolic function. However, the
-association was observed in baseline levels rather than in changes over
-time, suggesting autonomic dysfunction contributes to cardiac
-remodelling\textsuperscript{33}. In contrast to MACE outcomes, findings
+echocardiographic measures reflecting systolic function, suggesting
+autonomic dysfunction contributes to cardiac
+remodelling\textsuperscript{37}. In contrast to MACE outcomes, findings
 from Study II showed no specific time point in hourly HRV associated
 with heart failure. Instead, it was the overall daily pattern captured
 by week-long HRV that was linked to heart failure risk. This suggests
@@ -2187,37 +2226,39 @@ heart failure or secondary compensating mechansim of cardiac
 dysfunction. In addition, it remains unclear to what extent the
 parasympathetic nervous system can act as a protective mechanisms to
 counterbalance sympathetic dominance, and whether a decline in the
-balance of HRV reflects a breakdown.
-
-The two pathways, autonomic neuropathy and cardiac remodelling, are not
-mutually exclusive and may interact in a reinforcing cycle. Autonomic
-dysfunction can lead to increased sympathetic tone and reduced
-parasympathetic modulation, placing the heart under chronic stress and
-promoting structural and functional changes. In turn, cardiac remodeling
-may impair autonomic regulation, further exacerbating the imbalance.
-This interplay may create a self-perpetuating loop that accelerates the
-progression of heart failure. This remains beyond the scope of our
-current data and analysis.
+balance of HRV reflects a breakdown. The two pathways, autonomic
+neuropathy and cardiac remodelling, are not mutually exclusive and may
+interact in a reinforcing cycle. Autonomic dysfunction can lead to
+increased sympathetic tone and reduced parasympathetic modulation,
+placing the heart under chronic stress and promoting structural and
+functional changes. In turn, cardiac remodeling may impair autonomic
+regulation, further exacerbating the imbalance. This interplay may
+create a self-perpetuating loop that accelerates the progression of
+heart failure. However, this remains beyond the scope of our current
+data and analysis.
 
 In study III, we showed presence of CAN was linked with indicators of
 heart failure by elevated NT-proBNP, higher WATCH-DM risk score and
-presence of symptoms defined by NYHA. Studies has shown that CAN is
+presence of symptoms defined by NYHA. We stratified by the presence of
+symptoms based on NYHA classification, showing that the association
+between CAN and elevated NT-proBNP remains. This supports the notion
+that CAN may help detect asymptomatic cases (ref.). {[}Discuss the
+challenge of assymptomatical HF{]}. Studies has shown that CAN is
 pronogstical linked with incident with heart failure and type 2
-diabetes\textsuperscript{34}. This suggest regardless of the direction
+diabetes\textsuperscript{38}. This suggest regardless of the direction
 between CAN and indication of heart failure, the detection of CAN could
 be utilize to define individuals with heart failure risk. These
 individuals could be benefit from further cardiovascular assessment
-e.g.~electrocardiography or intervention on to prevent further
-progression of CAN. Heart failure risk is above 2 times higher people
-with type 2 diabetes compared to people without
-diabetes\textsuperscript{35}. In populations with type 2 diabetes, the
-risk of heart failure varies considerably, making reliable indicators
-for risk stratification important. Our findings support the potential of
-CAN as a useful marker to identify people with type 2 diabetes at higher
-risk of heart failure. However, further studies including
-echocardiographic assessments are needed to validate this approach. If
-confirmed, this could open the door for targeted interventions based on
-risk stratification.
+e.g.~echocardiography or intervention on to prevent further progression
+of CAN. Heart failure risk is above 2 times higher people with type 2
+diabetes compared to people without diabetes\textsuperscript{39}. In
+populations with type 2 diabetes, the risk of heart failure varies
+considerably, making reliable indicators for risk stratification
+important. Our findings support the potential of CAN as a useful marker
+to identify people with type 2 diabetes at higher risk of heart failure.
+However, further studies including measures from echocardiography are
+needed to validate this approach. If confirmed, this could open the door
+for targeted interventions based on risk stratification.
 
 \hypertarget{the-utility-of-long-term-hrv-and-cart-in-cardiovascular-disease-under-construction}{%
 \section{The utility of long-term HRV and CART in cardiovascular disease
@@ -2227,20 +2268,23 @@ construction{]}}\label{the-utility-of-long-term-hrv-and-cart-in-cardiovascular-d
 When using long-term HRV recordings, careful consideration is needed to
 determine how best to utilize the data in relation to the specific
 research objectives. In diabetes and cardiovascular research, 24-hour
-HRV measures of high-frequency indices such as RMSSD and pNN50 are more
-sensitive to behavioral influences and therefore have not consistently
-shown strong associations with cardiovascular or metabolic outcomes,
-especially when compared to measures based on total variability.
-However, when HRV is analyzed in shorter segments (e.g., hourly or in
-5-minute intervals), high-frequency measures like RMSSD, pNN50, and HF
-appear to offer new insights into autonomic function and its relevance
-in diabetes and cardiovascular disease. {[}find reference!!!{]}. SDANN
-and SDNNi aim to reduce the impact of short-term variability, such as
-that caused by physical activity, by calculating either the standard
-deviation of 5-minute segment mean IBI (SDANN) or the mean of standard
-deviations across 5-minute segments (SDNNi). {[}include lower-frequency
-points{]}. This helps smooth out transient fluctuations and better
-capture long-term autonomic modulation. Thus, behavioral patterns pose a
+HRV measures of indices reflecting heart rate responses to in- and
+expiration such as RMSSD, HF and pNN50 are more sensitive to behavioral
+influences and therefore have not consistently shown strong associations
+with cardiovascular or metabolic outcomes, especially when compared to
+measures based on total variability
+{[}\textsuperscript{12}{]}\textsuperscript{16}. However, when HRV is
+analyzed in shorter segments (e.g., hourly or in 5-minute intervals),
+measures like RMSSD, pNN50, and HF appear to offer new insights into
+autonomic function and its relevance in diabetes and cardiovascular
+disease, e.g during night-time
+{[}\textsuperscript{40}{]}\textsuperscript{41}. SDANN and SDNNi aim to
+reduce the impact of short-term variability, such as that caused by
+physical activity, by calculating either the standard deviation of
+5-minute segment mean IBI (SDANN) or the mean of standard deviations
+across 5-minute segments (SDNNi). {[}include lower-frequency points{]}.
+This helps smooth out transient fluctuations and better capture
+long-term autonomic modulation. Thus, behavioral patterns pose a
 limitation in physiological research aiming to disentangle the causal
 pathways between autonomic dysfunction and cardiovascular disease when
 using long-term HRV measures. These patterns likely introduce high
@@ -2251,7 +2295,7 @@ lifestyle patterns. For instance, behavioral patterns such as disrupted
 sleep or irregular meal timing may influence circadian fluctuations in
 HRV. Evidence from studies on night-shift workers suggests that meal
 timing affects HRV, with daytime meals leading to higher HRV during
-night hours\textsuperscript{36}. Thus, although long-term HRV may lack
+night hours\textsuperscript{41}. Thus, although long-term HRV may lack
 the precision to disentangle sympathetic and parasympathetic activity
 due to overlapping behavioral and physiological influences, it may be a
 valuable tool for assessing autonomic responses in free-living
@@ -2261,7 +2305,7 @@ to monitor successfullness in CVD risk management.
 
 While GLP-1 receptor agonists are proven to lower cardiovascular risk,
 they have also been shown to increase heart rate and reduce HRV in
-short-term trials\textsuperscript{37}. This may seem conflicting with
+short-term trials\textsuperscript{42}. This may seem conflicting with
 the hypothesis that reduced HRV reflects higher cardiovascular risk.
 However, the beneficial effects of GLP-1 agonists on cardiometabolic
 risk factors, including improved glycaemic control, weight loss, blood
@@ -2276,46 +2320,60 @@ but a proxy from heart rate signals.{]}
 \hypertarget{risk-stratification-1}{%
 \subsection{Risk-stratification}\label{risk-stratification-1}}
 
-We demonstrated that autonomic dysfunction and autonomic neuropathy are
-linked to cardiovascular risk and complications. Beyond the question of
-the etiological explanation lies the question of whether the condition
-can serve as a risk indicator for CVD and therefore be used to identify
-patients at higher risk and thus improve risk stratification of CVD.
-This perspective can be viewed from two angles: (1) long-term HRV may
-improve precision in predicting individual CVD risk when added to
-clinical risk scores, and (2) long-term HRV may help identify
-preclinical manifestations of cardiovascular autonomic dysfunction,
-which could be targeted to prevent future CVD. If the added value of
-long-term HRV would change or improve traditional CVD risk score
-e.g.~SCORE-2 and Framingham. Howvever, most biomarkers has shown low
-incremental value, as sex, age, lipids, diabetes status and blood
-pressure remains most important. Stratifying presence of preclinical
-manifestation of autonomic dysfunction remains to be understood. These
-considerations are only relevant if specific interventions demonstrate a
-mediating effecr of targeting autonomic function in preventing CVD
-outcomes. In other words, interventions aimed at patients with autonomic
-dysfunction must show greater benefits in preventing CVD compared to
-those without autonomic dysfunction. Studies have shown that medication
-and lifestyle interventions can improve HRV in the short term
-{[}\textsuperscript{36}{]}\textsuperscript{38}. However, it remains to
-be proven whether these effects are sustainable in maintaining of
-autonomic function and secondly is effective in preventing CVD.
-Particularly for lifestyle improvements and intensified diabetes
-management, a large proportion of the enhancement in autonomic function
-may be explained by indirect effects through improvements in
+We demonstrated that autonomic dysfunction and CAN are linked to
+cardiovascular risk and complications. Beyond the question of the
+etiological explanation lies the question of whether the condition can
+serve as a risk indicator for CVD/heart failure and therefore be used to
+identify patients at higher risk and thus improve risk stratification of
+CVD/heart failure. This perspective can be viewed from two angles: (1)
+long-term HRV may improve precision in predicting individual CVD risk
+when added to clinical risk scores, and (2) long-term HRV may help
+identify preclinical manifestations of cardiovascular autonomic
+dysfunction, which could be targeted to prevent future CVD. If the added
+value of long-term HRV would change or improve traditional CVD risk
+score e.g.~SCORE-2 and Framingham
+{[}\textsuperscript{43}{]}\textsuperscript{44}. However, most biomarkers
+has shown low incremental value, as sex, age, lipids, diabetes status
+and blood pressure remains most important. Earlier studies support that
+24-hour HRV adds value by improving risk discrimination for
+cardiovascular disease and all-cause mortality in type 2
+diabetes\textsuperscript{45} and stroke in older
+adults\textsuperscript{46}. However, a limitation of these studies is
+that the reference model has not been calibrated or validated on a
+larger scale compared to SCORE2 and Framingham.
+
+Stratifying presence of preclinical manifestation of autonomic
+dysfunction remains to be understood. These considerations are only
+relevant if specific interventions demonstrate a mediating effect of
+targeting autonomic function in preventing CVD outcomes. In other words,
+interventions aimed at patients with autonomic dysfunction must show
+greater benefits in preventing CVD compared to those without autonomic
+dysfunction. Studies have shown that medication and lifestyle
+interventions can improve HRV in the short term
+{[}\textsuperscript{41}{]}\textsuperscript{47}. High-intensity interval
+training (HIIT) improves autonomic function in obese individuals with
+and without type 2 diabetes, with HRV benefits seen only in those
+without diabetes {[}@bönhof2022{]}, while lifestyle changes in
+prediabetes enhance short-term HRV, which seems to explain the reduction
+in diabetes risk independently of weight loss {[}@carnethon2006{]}.
+However, it remains to be proven whether these effects are sustainable
+in maintaining of autonomic function and secondly is effective in
+preventing CVD. Particularly for lifestyle improvements and intensified
+diabetes management, a large proportion of the enhancement in autonomic
+function may be explained by indirect effects through improvements in
 cardiometabolic markers such as glucose levels, lipid profile, body
 weight, VO2max, and blood pressure.
 
 If long-term HRV or CART is to be considered for improving risk
 stratification, it remains important to determine at what stage in the
-progression of diabetes autonomic dysfunction becomes meaningful for
-early detection and intervention. In Study I, we observed that 24-hour
-HRV was more strongly associated with arterial stiffness in individuals
-with prediabetes and type 2 diabetes compared to those with normal
-glucose metabolism. The modifying association of type 2 diabetes between
-autonomic dysfunction and cardiovascular complications has been
+progression of diabetes risk, autonomic dysfunction becomes meaningful
+for early detection and intervention. In Study I, we observed that
+24-hour HRV was more strongly associated with arterial stiffness in
+individuals with prediabetes and type 2 diabetes compared to those with
+normal glucose metabolism. The modifying association of type 2 diabetes
+between autonomic dysfunction and cardiovascular complications has been
 demonstrated in multiple cohorts
-{[}\textsuperscript{29}{]}\textsuperscript{39}. In Study II, we observed
+{[}\textsuperscript{33}{]}\textsuperscript{40}. In Study II, we observed
 that long-term measures of HRV were strongly associated with
 cardiovascular risk, with an association equivalent to 4.5 additional
 years of aging for MACE risk and 2.2 to 2.4 additional years for heart
@@ -2324,7 +2382,18 @@ Hence, our findings demonstrate that autonomic dysfunction has a strong
 link with cardiovascular risk in people with prediabetes or those at
 high risk of developing diabetes, suggesting that autonomic dysfunction
 is relevant for cardiovascular risk already in the early stages of
-diabetes progression.
+diabetes progression. In Study III, we demonstrated promising results
+supporting the potential of using CART-based CAN screening to identify
+individuals with type 2 diabetes who may be living with asymptomatic
+heart failure.
+
+A main limitation of our findings in terms of risk stratification is
+that we did not investigate, in metabolically at-risk populations,
+whether incorporating measures from long-term HRV or CART as individual
+risk factors or as components of a risk score improves risk detection by
+enhancing sensitivity or specificity compared to existing structured
+guidelines for screening, prevention, and treatment of CVD and heart
+failure.
 
 \bookmarksetup{startatroot}
 
@@ -2332,7 +2401,7 @@ diabetes progression.
 \chapter{Perspective {[}under
 construction{]}}\label{perspective-under-construction}}
 
-Autonomic dysfunction and cardiovascular risk - pathofyioslogy
+Autonomic dysfunction and cardiovascular risk - pathofysiology
 
 Long-term HRV can serve as a risk indicator and may be divided into
 segments to identify responses with important implications for disease.
@@ -2346,41 +2415,6 @@ intolerance, and orthostatic hypotension, where both the sympathetic and
 parasympathetic nervous systems fail to modulate appropriately (see
 Figure X).
 
-\begin{figure}
-
-\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{images/CAN_trajectory.png}
-
-}
-
-\caption{Figure x: Progression of cardiac autonomic neuropathy. The
-earliest detectable subclinical signs of CAN are impaired spectral
-analysis of HRV and abnormal BRS, which can be present at the time of
-diagnosis of diabetes mellitus. Impaired left ventricular torsion can
-also be seen in the subclinical stage of CAN. Initial parasympathetic
-denervation enables augmentation of sympathetic tone in the early stages
-of CAN. Over time, sympathetic denervation follows and correlates
-clinically with the development of resting tachycardia and impaired
-exercise tolerance. The presence of orthostatic hypotension often
-indicates the presence of advanced or severe CAN. Abbreviations: BRS,
-baroreflex sensitivity; CAN, cardiovascular autonomic neuropathy; HRV,
-heart rate variability. \emph{Figure 2 from Kuehl, M., Stevens, M.
-Cardiovascular autonomic neuropathies as complications of diabetes
-mellitus. Nat Rev Endocrinol 8, 405--416
-(2012)}\textsuperscript{40}\emph{.
-https://doi.org/10.1038/nrendo.2012.21}}
-
-}
-
-\end{minipage}%
-
-\end{figure}
-
 The availability of wearable devices such as smartwatches is expanding
 the scale of physiological data collection. Data such as heart rate,
 temperature, and physical acceleration can now be easily obtained under
@@ -2389,58 +2423,88 @@ opportunities to study heart rate responses in everyday life. Combining
 heart rate with additional physiological signals may improve
 understanding of CVD risk. Machine learning methods could further help
 to integrate heart rate and movement data, identifying early signs and
-patterns in repsonse in the daily cycle that is linked to CVD risk.
+patterns in response in the daily cycle that is linked to CVD risk.
 
 \hypertarget{risk-stratification-2}{%
 \section{Risk-stratification}\label{risk-stratification-2}}
 
-In terms of clincal use the VAGUS device may be be effective strategy to
-. The measurement is non-invasive and takes 8-10 minutes to perform.
-However, standidized procedures are needed in order to make sure
-measurement are not impacted by other circumstances such as.
-{[}Reliability of VAGUSTM{]}.
+Individuals with elevated glucose levels are at increased risk of
+developing metabolic complications and cardiovascular disease. However,
+many remain metabolically stable or even return to normal glucose
+regulation over time. As a result, structured treatment strategies for
+this group have not been widely adopted in clinical practice. This is
+partly due to the high degree of heterogeneity within this population.
+Therefore, additional indicators beyond glucose levels may be useful to
+identify those most likely to benefit from early intervention.
 
-People at high risk of diabetes, with glucose levels in the prediabetic
-range, face an increased risk of developing diabetes and its
-complications. However, since many individuals either remain in the
-prediabetic state or revert to normoglycemia, structured treatment
-strategies for prediabetes have not been widely implemented in clinical
-practice. This is partly due to the high heterogeneity within the
-prediabetic population. Therefore, additional indicators beyond glucose
-levels may be useful to identify individuals who are most likely to
-benefit from early intervention. In our study, we demonstrated that
-autonomic dysfunction, as measured by long-term HRV, was more strongly
-associated with cardiovascular risk in this population. Future
-perspectives include evaluating whether individuals subclassified as
-high-risk based on autonomic dysfunction may benefit from targeted
+In Studies I and II, we demonstrated that autonomic dysfunction, as
+measured by long-term HRV, was more strongly associated with
+cardiovascular risk in this population. These findings suggest that HRV
+may serve as a valuable marker for identifying individuals at elevated
+risk who could benefit from targeted preventive strategies. Future
+directions include evaluating whether individuals classified as
+high-risk based on autonomic dysfunction respond to specific
+interventions. However, a limitation of long-term HRV measurement is the
+lack of standardization, as data are collected under free-living
+conditions and may be influenced by daily behaviors, potentially
+affecting risk classification.
+
+From a clinical perspective, CART offers a practical approach to
+screening for autonomic dysfunction, as the test has been shown to be
+reliable\textsuperscript{48}. It is non-invasive and typically takes 8
+to 10 minutes to complete. While some CART indices may be influenced by
+the time of day or recent physical activity, these effects are generally
+considered minimal. Additionally, no impact of caffeine intake on the
+reference age-specific values was observed\textsuperscript{49}.
+
+In Study III, we demonstrated a relationship between CAN and cardiac
+dysfunction, as measured by NT-proBNP. Depsite . Heart failure is
+characterized by both structural and functional changes in the heart,
+such as left ventricular dysfunction, which can be assessed using
+echocardiography. However, the link between these structural and
+functional changes and their impact on systolic and diastolic pumping
+function in relation to CAN remains to be fully understood. Furthermore,
+the diagnostic and prognostic value of CAN, particularly its sensitivity
+and specificity in detecting HFrEF and HFpEF, requires further
+investigation.
+
+::: \{layout-ncol=``1''\}
+\includegraphics{images/strafication_tree_of_CAN.png} :::
+
+\hypertarget{continuous-monitoring-of-cardiovascular-health}{%
+\section{Continuous monitoring of cardiovascular
+health}\label{continuous-monitoring-of-cardiovascular-health}}
+
+Over recent years, the use of wearable devices has increased in the
+general population\textsuperscript{50}, enabling comprehensive data
+collection on behavioral (e.g., sleep and physical activity) and
+physiological (e.g., heart rate, ECG, temperature)
+parameters\textsuperscript{51}. These devices offer a broader and more
+feasible approach to long-term heart rate monitoring, requiring less
+equipment and user burden compared to traditional Holter monitors.
+Despite growing interest in wearable-based monitoring, the integration
+of HRV into routine cardiometabolic risk assessment remains limited.
+
+Studies I and II demonstrated a strong association between long-term HRV
+and CVD risk, with particularly pronounced associations in individuals
+with prediabetes and type 2 diabetes. These findings suggest that HRV
+metrics could serve as early indicators for stratifying individuals who
+may benefit from preventive interventions. In the Whitehall II study, we
+further showed that a steeper 10-year decline in 5-minute HRV was
+associated with greater aortic stiffness development over the subsequent
+five years\textsuperscript{22}. Thus, a declining HRV trend detected by
+smartwatches may help identify individuals who require more intensive
 interventions.
 
-\begin{figure}
-
-\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{images/strafication_tree_of_CAN.png}
-
-}
-
-\caption{Risk-stratification by autonomic dysfunction}
-
-}
-
-\end{minipage}%
-
-\end{figure}
-
-\hypertarget{continous-monitoring-of-progression}{%
-\section{Continous monitoring of
-progression}\label{continous-monitoring-of-progression}}
-
-hjertesvigt - progression - HRV - response to adapt to lifestyle and
-treatment
+In Study II, we also observed that specific morning time points were
+linked to CVD risk, suggesting that physiological responses captured
+under free-living conditions may provide valuable insights. Rather than
+adjusting for physical activity as a confounder, future predictive
+models could integrate multimodal data such as HRV, sleep, and activity
+patterns to capture dynamic physiological states and improve risk
+prediction. Incorporating HRV into digital health platforms may support
+personalized feedback loops, enabling timely lifestyle or therapeutic
+adjustments.
 
 \begin{figure}
 
@@ -2462,9 +2526,44 @@ treatment
 
 \end{figure}
 
-\hypertarget{effective-modifiable-marker}{%
-\section{Effective modifiable
-marker}\label{effective-modifiable-marker}}
+Hence, future studies can leverage wearable devices to continuously
+monitor risk by HRV and better understand the behavioral factors that
+contribute to its improvement or deterioration. This approach may help
+identify effective lifestyle patterns or medications that improve
+cardiovascular health through modulation of HRV.
+
+However, standardization and transparency across different brands of
+wearable devices remain a challenge for both research and clinical
+implementation of heart rate and HRV monitoring. While smartwatches
+offer a convenient method for heart rate measurement, their accuracy can
+vary, as they rely on photoplethysmography to detect pulse rate at the
+wrist. This method can be imprecise under certain conditions,
+particularly during physical activity, due to motion artifacts and other
+external factors\textsuperscript{52}. Despite these limitations, ongoing
+improvements in sensor technology and algorithm calibration are likely
+to enhance the reliability of wearable-derived heart rate and HRV data.
+
+\hypertarget{effective-causal-modifiable-marker}{%
+\section{Effective causal modifiable
+marker}\label{effective-causal-modifiable-marker}}
+
+{[}Closer attention to the mechanisms underlying autonomic dysfunction
+offers promising opportunities for identifying new intervention targets.
+While it is plausible that multifactorial risk management may slow the
+progression of arterial stiffening in part by modulating autonomic
+function, it remains unproven whether direct modification of heart rate
+variability (HRV) itself causally reduces cardiovascular disease (CVD)
+risk. Recent Mendelian randomization studies have emerged as a valuable
+tool to explore such causal relationships, offering unconfounded
+estimates by using genetic variants as proxies for exposures.
+
+. These studies can provide a first line of evidence to assess whether
+HRV is a modifiable causal factor in CVD development. Furthermore,
+cardiometabolic intervention trials---whether focused on lifestyle
+modification or pharmacological treatment---should, where feasible,
+include HRV measurements to enable structured mediation analyses and
+better understand the role of autonomic function in cardiovascular
+outcomes.{]}
 
 \begin{itemize}
 \item
@@ -2481,10 +2580,10 @@ marker}\label{effective-modifiable-marker}}
 \end{itemize}
 
 The Diabetes Prevention Program (DPP) showed that HRV may modify the
-effect of lifestyle intervention in preventing type 2 diabetes. However,
-it remains unclear to what extent this modification applies to
-cardiovascular outcomes, and whether the intervention was more effective
-among individuals with lower HRV.
+effect of lifestyle intervention in preventing type 2
+diabetes\textsuperscript{53}. However, it remains unclear to what extent
+this modification applies to cardiovascular outcomes, and whether the
+intervention was more effective among individuals with lower HRV.
 
 Similar people with type 2 diabetes from young age to a majority of
 older population. In many cases for prevention effective physical
@@ -2518,50 +2617,52 @@ and thus management of medication seems the choice.
 fine-tuned{]}}\label{conclusion-needs-to-be-fine-tuned}}
 
 Autonomic dysfunction, assessed through 24-hour HRV, is associated with
-increased arterial stiffness. This relationship is already present in
-individuals with normal glucose metabolism and becomes stronger in
-stages of prediabetes and type 2 diabetes. In people at high risk of
-diabetes, lower long-term HRV over a week has been linked to ischemic
-events, heart failure, and all-cause mortality, highlighting HRV
-potential as a marker of cardiovascular health. Both HRV and heart rate
-exhibit circadian patterns in relation to cardiovascular events, with
-higher nighttime heart rate associated with increased risk of heart
-failure and specific time-of-day patterns linked to ischemic events.
-These findings suggest that both long-term and hourly HRV measures
-provide valuable prognostic information. Further studies are needed to
-determine whether modifying these measures can yield sustained
-preventive effects on cardiovascular disease and mortality, thereby
-clarifying the clinical role of HRV. Structured testing of
-cardiovascular autonomic function in people with type 2 diabetes may
-help identify those with CAN, who are at higher risk of heart failure.
-Notably, non-completion of the test itself may also indicate elevated
-risk, but becomes are a challenge for clinical implementation. Studies
-of echocardiographic measures can ascertain the link between CAN and
-risk of subtypes of heart failure.
+increased arterial stiffness. This relationship is already evident in
+individuals with normal glucose metabolism and becomes more pronounced
+in those with prediabetes and type 2 diabetes. In individuals at high
+risk of type 2 diabetes, lower long-term HRV measured over a week has
+been linked to ischemic events, heart failure, and all-cause mortality,
+highlighting HRV's potential as a marker of cardiovascular health. Both
+HRV and heart rate follow circadian patterns in relation to
+cardiovascular events. Higher nighttime heart rate is associated with
+increased risk of heart failure, and specific morning patterns of HRV
+have been linked to ischemic events. These findings suggest that both
+long-term and hourly HRV measures provide valuable prognostic
+information. Structured testing of cardiovascular autonomic function in
+individuals with type 2 diabetes can detect those with CAN and may help
+identify individuals at higher risk of heart failure.
+
+We have established an association between HRV and cardiovascular
+complications. However, the underlying mechanism remains unclear. It is
+not yet known whether autonomic dysfunction, as indicated by low HRV, is
+a marker of developing arteriosclerosis, atheroma, or cardiac
+remodeling, or whether it plays a causal role in their development.
+While the pathogenic pathways leading to cardiovascular risk appear
+similar across the spectrum of glucose metabolism, dysglycemia may
+amplify the impact of autonomic dysfunction. Whether lower long-term HRV
+in individuals with prediabetes or type 2 diabetes reflects a distinct
+physiological mechanism involving neuropathy, compared to those with
+normal glucose metabolism, remains an open question.
 
 Structured studies assessing screening strategies and trial designs,
 whether focused on lifestyle interventions or targeted pharmacological
 modulation of HRV, are needed to clarify the clinical role of HRV and
-CART in CVD prevention. Long-term HRV and its hourly fluctuations
-provide insight into autonomic responses under free-living conditions,
-while CARTs offer a standardized approach for diagnosing cardiovascular
-autonomic dysfunction. {[}Future research should carefully select and
-integrate these measures to determine whether assessments of autonomic
-function can serve as targets for monitoring treatment and lifestyle
-effectiveness, or as indicators to guide stratified decisions for
-further cardiovascular assessment or intervention.{]} {[}Clinical
-relevance of CART to determine CAN patients{]}
-
-We ascertain the association between HRV and cardiovascular
-complications. However, the mechanism remains unclear, whether autonomic
-dysfunction, measured by low HRV, is an indicator of developing
-arteriosclerosis, atheroma, or cardiac remodeling, or a precursor for
-their development. While pathogenic pathways leading to CVD risk are
-similar across glucose metabolism, dysglycemia may amplifies the effect
-of autonomic dysfunction on cardiovascular risk. Whether lower long-term
-HRV in individuals with dysglycemia reflects a distinct underlying
-physiological mechanism involving neuropathy, compared to those with
-normal glucose metabolism, remains an open question.
+CART in cardiovascular prevention. Long-term HRV and its hourly
+fluctuations provide insight into autonomic responses under free-living
+conditions. Further research is needed to determine whether modifying
+these measures can yield sustained preventive effects on cardiovascular
+disease and mortality. CARTs offer a standardized approach for
+diagnosing CAN. Clarifying the clinical utility of CARTs in assessing
+cardiovascular and heart failure risk through the identification of CAN
+is essential for advancing precision care in individuals with type 2
+diabetes. Echocardiographic studies can help establish the link between
+CAN and the risk of specific heart failure subtypes. Future research
+should carefully select HRV measures aligned with specific clinical or
+research objectives. Long-term HRV and CART have demonstrated potential
+in cardiovascular risk assessment and should be integrated to evaluate
+whether autonomic function assessments can monitor treatment or
+lifestyle effectiveness, or guide stratified cardiovascular risk
+decisions in individuals with prediabetes or type 2 diabetes.
 
 \bookmarksetup{startatroot}
 
@@ -2666,8 +2767,16 @@ worse beta cell response to a glycemic load in vivo{\textemdash}the
 maastricht study}. \emph{Cardiovascular Diabetology} 2023; \textbf{22}:
 105.}
 
-\leavevmode\vadjust pre{\hypertarget{ref-huggett2003}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-natarajan2020}{}}%
 \CSLLeftMargin{13 }%
+\CSLRightInline{Natarajan A, Pantelopoulos A, Emir-Farinas H, Natarajan
+P. \href{https://doi.org/10.1016/S2589-7500(20)30246-6}{Heart rate
+variability with photoplethysmography in 8 million individuals: A
+cross-sectional study}. \emph{The Lancet Digital Health} 2020;
+\textbf{2}: e650--7.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-huggett2003}{}}%
+\CSLLeftMargin{14 }%
 \CSLRightInline{Huggett RJ, Scott EM, Gilbey SG, Stoker JB, Mackintosh
 AF, Mary DASG.
 \href{https://doi.org/10.1161/01.CIR.0000103123.66264.FE}{Impact of type
@@ -2675,7 +2784,7 @@ AF, Mary DASG.
 \emph{Circulation} 2003; \textbf{108}: 3097--101.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-cseh2020}{}}%
-\CSLLeftMargin{14 }%
+\CSLLeftMargin{15 }%
 \CSLRightInline{Cseh D, Climie RE, Offredo L, \emph{et al.}
 \href{https://doi.org/10.1161/ATVBAHA.120.314102}{Type 2 diabetes
 mellitus is independently associated with decreased neural baroreflex
@@ -2683,21 +2792,21 @@ sensitivity}. \emph{Arteriosclerosis, Thrombosis, and Vascular Biology}
 2020; \textbf{40}: 1420--8.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-coopmans2020}{}}%
-\CSLLeftMargin{15 }%
+\CSLLeftMargin{16 }%
 \CSLRightInline{Coopmans C, Zhou TL, Henry RMA, \emph{et al.}
 \href{https://doi.org/10.2337/dc19-2367}{Both prediabetes and type 2
 diabetes are associated with lower heart rate variability: The
 maastricht study}. \emph{Diabetes Care} 2020; \textbf{43}: 1126--33.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-reductio2002}{}}%
-\CSLLeftMargin{16 }%
+\CSLLeftMargin{17 }%
 \CSLRightInline{\href{https://doi.org/10.1056/NEJMoa012512}{Reduction in
 the incidence of type 2 diabetes with lifestyle intervention or
 metformin}. \emph{New England Journal of Medicine} 2002; \textbf{346}:
 393--403.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-kahn2024}{}}%
-\CSLLeftMargin{17 }%
+\CSLLeftMargin{18 }%
 \CSLRightInline{Kahn SE, Deanfield JE, Jeppesen OK, \emph{et al.}
 \href{https://doi.org/10.2337/dc24-0491}{Effect of semaglutide on
 regression and progression of glycemia in people with overweight or
@@ -2705,7 +2814,7 @@ obesity but without diabetes in the SELECT trial}. \emph{Diabetes Care}
 2024; \textbf{47}: 1350--9.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-jeffreyj.goldberger2019}{}}%
-\CSLLeftMargin{18 }%
+\CSLLeftMargin{19 }%
 \CSLRightInline{Jeffrey J. Goldberger, Rishi Arora, Una Buckley,
 Kalyanam Shivkumar.
 \href{https://doi.org/doi:10.1016/j.jacc.2018.12.064}{Autonomic nervous
@@ -2713,23 +2822,15 @@ system dysfunction}. \emph{Journal of the American College of
 Cardiology} 2019; \textbf{73}: 1189--206.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-schaarup2024a}{}}%
-\CSLLeftMargin{19 }%
+\CSLLeftMargin{20 }%
 \CSLRightInline{Schaarup J. Actiheart validation of time-domain heart
 rate variability. 2024.
 \url{https://figshare.com/articles/online_resource/Actiheart_validation_of_time-domain_heart_rate_variability/26182361}.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-whoneed2012}{}}%
-\CSLLeftMargin{20 }%
+\CSLLeftMargin{21 }%
 \CSLRightInline{Bendix Carstensen Steno Diabetes Center. Who needs the
 cox model anyway. \emph{Stat Med} 2012; \textbf{31}: 10741088.}
-
-\leavevmode\vadjust pre{\hypertarget{ref-niemeluxe41994}{}}%
-\CSLLeftMargin{21 }%
-\CSLRightInline{Niemelä MJ, Airaksinen KE, Huikuri HV.
-\href{https://doi.org/10.1016/0735-1097(94)90379-4}{Effect of
-beta-blockade on heart rate variability in patients with coronary artery
-disease.} \emph{Journal of the American College of Cardiology} 1994;
-\textbf{23}: 1370--7.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-schaarup2023}{}}%
 \CSLLeftMargin{22 }%
@@ -2738,36 +2839,60 @@ disease.} \emph{Journal of the American College of Cardiology} 1994;
 is associated with the development of arterial stiffness: The whitehall
 II cohort}. \emph{GeroScience} 2023; \textbf{45}: 2443--55.}
 
-\leavevmode\vadjust pre{\hypertarget{ref-mceniery2017}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-niemeluxe41994}{}}%
 \CSLLeftMargin{23 }%
+\CSLRightInline{Niemelä MJ, Airaksinen KE, Huikuri HV.
+\href{https://doi.org/10.1016/0735-1097(94)90379-4}{Effect of
+beta-blockade on heart rate variability in patients with coronary artery
+disease.} \emph{Journal of the American College of Cardiology} 1994;
+\textbf{23}: 1370--7.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-christensen2004}{}}%
+\CSLLeftMargin{24 }%
+\CSLRightInline{Christensen JO, Sandbaek A, Lauritzen T, Borch-Johnsen
+K. \href{https://doi.org/10.1007/s00125-004-1496-2}{Population-based
+stepwise screening for unrecognised Type 2 diabetes is ineffective in
+general practice despite reliable algorithms}. \emph{Diabetologia} 2004;
+\textbf{47}: 1566--73.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-mceniery2017}{}}%
+\CSLLeftMargin{25 }%
 \CSLRightInline{McEniery CM, Wilkinson IB, Johansen NB, \emph{et al.}
 \href{https://doi.org/10.2337/dc16-1773}{Nondiabetic glucometabolic
 status and progression of aortic stiffness: The whitehall II study}.
 \emph{Diabetes Care} 2017; \textbf{40}: 599--606.}
 
+\leavevmode\vadjust pre{\hypertarget{ref-americandiabetesassociationprofessionalpracticecommittee2023}{}}%
+\CSLLeftMargin{26 }%
+\CSLRightInline{American Diabetes Association Professional Practice
+Committee. \href{https://doi.org/10.2337/dc24-S002}{2. Diagnosis and
+classification of diabetes: Standards of care in
+diabetes{\textemdash}2024}. \emph{Diabetes Care} 2023; \textbf{47}:
+S20--42.}
+
 \leavevmode\vadjust pre{\hypertarget{ref-bentzon2014}{}}%
-\CSLLeftMargin{24 }%
+\CSLLeftMargin{27 }%
 \CSLRightInline{Bentzon JF, Otsuka F, Virmani R, Falk E.
 \href{https://doi.org/10.1161/CIRCRESAHA.114.302721}{Mechanisms of
 plaque formation and rupture}. \emph{Circulation Research} 2014;
 \textbf{114}: 1852--66.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-mohanta2022}{}}%
-\CSLLeftMargin{25 }%
+\CSLLeftMargin{28 }%
 \CSLRightInline{Mohanta SK, Peng L, Li Y, \emph{et al.}
 \href{https://doi.org/10.1038/s41586-022-04673-6}{Neuroimmune
 cardiovascular interfaces control atherosclerosis}. \emph{Nature} 2022;
 \textbf{605}: 152--9.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-vanpopele2001}{}}%
-\CSLLeftMargin{26 }%
+\CSLLeftMargin{29 }%
 \CSLRightInline{Popele NM van, Grobbee DE, Bots ML, \emph{et al.}
 \href{https://doi.org/10.1161/01.STR.32.2.454}{Association between
 arterial stiffness and atherosclerosis}. \emph{Stroke} 2001;
 \textbf{32}: 454--60.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-gottsuxe4ter2006}{}}%
-\CSLLeftMargin{27 }%
+\CSLLeftMargin{30 }%
 \CSLRightInline{Gottsäter A, Ahlgren ÅR, Taimour S, Sundkvist G.
 \href{https://doi.org/10.1007/s10286-006-0345-4}{Decreased heart rate
 variability may predict the progression of carotid atherosclerosis in
@@ -2775,7 +2900,7 @@ type 2 diabetes}. \emph{Clinical Autonomic Research} 2006; \textbf{16}:
 228--34.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-osei2024}{}}%
-\CSLLeftMargin{28 }%
+\CSLLeftMargin{31 }%
 \CSLRightInline{Osei J, Vaccarino V, Wang M, \emph{et al.}
 \href{https://doi.org/10.1161/CIRCIMAGING.124.016596}{Stress-induced
 autonomic dysfunction is associated with mental
@@ -2783,36 +2908,43 @@ stress{\textendash}induced myocardial ischemia in patients with coronary
 artery disease}. \emph{Circulation: Cardiovascular Imaging} 2024;
 \textbf{17}: e016596.}
 
+\leavevmode\vadjust pre{\hypertarget{ref-vandevegte}{}}%
+\CSLLeftMargin{32 }%
+\CSLRightInline{Vegte YJ van de, Harst P van der, Verweij N.
+\href{https://doi.org/10.1161/JAHA.117.008341}{Heart rate recovery 10
+seconds after cessation of exercise predicts death}. \emph{Journal of
+the American Heart Association}; \textbf{7}: e008341.}
+
 \leavevmode\vadjust pre{\hypertarget{ref-agarwalsunilk.2017}{}}%
-\CSLLeftMargin{29 }%
+\CSLLeftMargin{33 }%
 \CSLRightInline{Agarwal Sunil K., Norby Faye L., Whitsel Eric A.,
 \emph{et al.} \href{https://doi.org/10.1016/j.jacc.2016.10.059}{Cardiac
 autonomic dysfunction and incidence of atrial fibrillation}. \emph{JACC}
 2017; \textbf{69}: 291--9.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-zaman}{}}%
-\CSLLeftMargin{30 }%
+\CSLLeftMargin{34 }%
 \CSLRightInline{Zaman S, Wasfy JH, Kapil V, \emph{et al.} The lancet
 commission on rethinking coronary artery disease: Moving from ischaemia
 to atheroma. \emph{The Lancet}
 DOI:\href{https://doi.org/10.1016/S0140-6736(25)00055-8}{10.1016/S0140-6736(25)00055-8}.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-shen2014}{}}%
-\CSLLeftMargin{31 }%
+\CSLLeftMargin{35 }%
 \CSLRightInline{Shen MJ, Zipes DP.
 \href{https://doi.org/10.1161/CIRCRESAHA.113.302549}{Role of the
 autonomic nervous system in modulating cardiac arrhythmias}.
 \emph{Circulation Research} 2014; \textbf{114}: 1004--21.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-boutouyrie2021}{}}%
-\CSLLeftMargin{32 }%
+\CSLLeftMargin{36 }%
 \CSLRightInline{Boutouyrie P, Chowienczyk P, Humphrey JD, Mitchell GF.
 \href{https://doi.org/10.1161/CIRCRESAHA.121.318061}{Arterial stiffness
 and cardiovascular risk in hypertension}. \emph{Circulation Research}
 2021; \textbf{128}: 864--86.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-arshi2022}{}}%
-\CSLLeftMargin{33 }%
+\CSLLeftMargin{37 }%
 \CSLRightInline{Arshi B, Geurts S, Tilly MJ, \emph{et al.}
 \href{https://doi.org/10.1186/s12916-022-02273-9}{Heart rate variability
 is associated with left ventricular systolic, diastolic function and
@@ -2820,7 +2952,7 @@ incident heart failure in the general population}. \emph{BMC Medicine}
 2022; \textbf{20}: 91.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-kaze2022}{}}%
-\CSLLeftMargin{34 }%
+\CSLLeftMargin{38 }%
 \CSLRightInline{Kaze AD, Yuyun MF, Erqou S, Fonarow GC,
 Echouffo-Tcheugui JB. \href{https://doi.org/10.1002/ejhf.2432}{Cardiac
 autonomic neuropathy and risk of incident heart failure among adults
@@ -2828,14 +2960,22 @@ with type 2 diabetes}. \emph{European Journal of Heart Failure} 2022;
 \textbf{24}: 634--41.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-kenny2019}{}}%
-\CSLLeftMargin{35 }%
+\CSLLeftMargin{39 }%
 \CSLRightInline{Kenny HC, Abel ED.
 \href{https://doi.org/10.1161/CIRCRESAHA.118.311371}{Heart failure in
 type 2 diabetes mellitus}. \emph{Circulation Research} 2019;
 \textbf{124}: 121--41.}
 
+\leavevmode\vadjust pre{\hypertarget{ref-hadad2021}{}}%
+\CSLLeftMargin{40 }%
+\CSLRightInline{Hadad R, Larsen BS, Weber P, \emph{et al.}
+\href{https://doi.org/10.1111/dme.14559}{Night-time heart rate
+variability identifies high-risk people among people with uncomplicated
+type 2 diabetes mellitus}. \emph{Diabetic Medicine} 2021; \textbf{38}:
+e14559.}
+
 \leavevmode\vadjust pre{\hypertarget{ref-chellappa2025}{}}%
-\CSLLeftMargin{36 }%
+\CSLLeftMargin{41 }%
 \CSLRightInline{Chellappa SL, Gao L, Qian J, \emph{et al.}
 \href{https://doi.org/10.1038/s41467-025-57846-y}{Daytime eating during
 simulated night work~mitigates changes in cardiovascular risk factors:
@@ -2843,35 +2983,101 @@ Secondary analyses of a randomized controlled trial}. \emph{Nature
 Communications} 2025; \textbf{16}: 3186.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-kumarathurai2016}{}}%
-\CSLLeftMargin{37 }%
+\CSLLeftMargin{42 }%
 \CSLRightInline{Kumarathurai P, Anholm C, Larsen BS, \emph{et al.}
 \href{https://doi.org/10.2337/dc16-1580}{Effects of liraglutide on heart
 rate and heart rate variability: A randomized, double-blind,
 placebo-controlled crossover study}. \emph{Diabetes Care} 2016;
 \textbf{40}: 117--24.}
 
+\leavevmode\vadjust pre{\hypertarget{ref-score2workinggroupandesccardiovascularriskcollaboration2021}{}}%
+\CSLLeftMargin{43 }%
+\CSLRightInline{group S working, ESC Cardiovascular risk collaboration.
+\href{https://doi.org/10.1093/eurheartj/ehab309}{SCORE2 risk prediction
+algorithms: New models to estimate 10-year risk of cardiovascular
+disease in europe}. \emph{European Heart Journal} 2021; \textbf{42}:
+2439--54.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-dagostino2008}{}}%
+\CSLLeftMargin{44 }%
+\CSLRightInline{D'Agostino RB, Vasan RS, Pencina MJ, \emph{et al.}
+\href{https://doi.org/10.1161/CIRCULATIONAHA.107.699579}{General
+cardiovascular risk profile for use in primary care}. \emph{Circulation}
+2008; \textbf{117}: 743--53.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-cardoso2023}{}}%
+\CSLLeftMargin{45 }%
+\CSLRightInline{Cardoso CRL, Oliveira VAG de, Leite NC, Salles GF.
+\href{https://doi.org/10.1016/j.diabres.2022.110232}{Prognostic
+importance of cardiovascular autonomic neuropathy on cardiovascular and
+mortality outcomes in individuals with type 2 diabetes: The rio de
+janeiro type 2 diabetes cohort}. \emph{Diabetes Research and Clinical
+Practice} 2023; \textbf{196}: 110232.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-bodapati2017}{}}%
+\CSLLeftMargin{46 }%
+\CSLRightInline{Bodapati RK, Kizer JR, Kop WJ, Kamel H, Stein PK.
+Addition of 24-Hour Heart Rate Variability Parameters to the
+Cardiovascular Health Study Stroke Risk Score and Prediction of Incident
+Stroke: The Cardiovascular Health Study. \emph{Journal of the American
+Heart Association} 2017; \textbf{6}.
+DOI:\href{https://doi.org/10.1161/JAHA.116.004305}{10.1161/JAHA.116.004305}.}
+
 \leavevmode\vadjust pre{\hypertarget{ref-picard2021}{}}%
-\CSLLeftMargin{38 }%
+\CSLLeftMargin{47 }%
 \CSLRightInline{Picard M, Tauveron I, Magdasy S, \emph{et al.}
 \href{https://doi.org/10.1371/journal.pone.0251863}{Effect of exercise
 training on heart rate variability in type 2 diabetes mellitus patients:
 A systematic review and meta-analysis}. \emph{PLOS ONE} 2021;
 \textbf{16}: e0251863.}
 
-\leavevmode\vadjust pre{\hypertarget{ref-hadad2021}{}}%
-\CSLLeftMargin{39 }%
-\CSLRightInline{Hadad R, Larsen BS, Weber P, \emph{et al.}
-\href{https://doi.org/10.1111/dme.14559}{Night-time heart rate
-variability identifies high-risk people among people with uncomplicated
-type 2 diabetes mellitus}. \emph{Diabetic Medicine} 2021; \textbf{38}:
-e14559.}
+\leavevmode\vadjust pre{\hypertarget{ref-fleischer2011}{}}%
+\CSLLeftMargin{48 }%
+\CSLRightInline{Fleischer J, Nielsen R, Laugesen E, Nygaard H, Poulsen
+PL, Ejskjaer N.
+\href{https://doi.org/10.1177/193229681100500115}{Self-monitoring of
+cardiac autonomic function at home is feasible.} \emph{Journal of
+diabetes science and technology} 2011; \textbf{5}: 107--12.}
 
-\leavevmode\vadjust pre{\hypertarget{ref-kuehl2012}{}}%
-\CSLLeftMargin{40 }%
-\CSLRightInline{Kuehl M, Stevens MJ.
-\href{https://doi.org/10.1038/nrendo.2012.21}{Cardiovascular autonomic
-neuropathies as complications of diabetes mellitus}. \emph{Nature
-Reviews Endocrinology} 2012; \textbf{8}: 405--16.}
+\leavevmode\vadjust pre{\hypertarget{ref-hansen2025}{}}%
+\CSLLeftMargin{49 }%
+\CSLRightInline{Hansen CS, Christensen MMB, Vistisen D, \emph{et al.}
+\href{https://doi.org/10.1007/s10286-024-01069-6}{Normative data on
+measures of cardiovascular autonomic neuropathy and the effect of
+pretest conditions in a large danish non-diabetic CVD-free population
+from the lolland-falster health study}. \emph{Clinical Autonomic
+Research} 2025; \textbf{35}: 101--13.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-dhingra2023}{}}%
+\CSLLeftMargin{50 }%
+\CSLRightInline{Dhingra LS, Aminorroaya A, Oikonomou EK, \emph{et al.}
+\href{https://doi.org/10.1001/jamanetworkopen.2023.16634}{Use of
+wearable devices in individuals with or at risk for cardiovascular
+disease in the US, 2019 to 2020}. \emph{JAMA Network Open} 2023;
+\textbf{6}: e2316634--4.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-keshet2023}{}}%
+\CSLLeftMargin{51 }%
+\CSLRightInline{Keshet A, Reicher L, Bar N, Segal E.
+\href{https://doi.org/10.1038/s42255-023-00778-y}{Wearable and digital
+devices to monitor and treat metabolic diseases}. \emph{Nature
+Metabolism} 2023; \textbf{5}: 563--71.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-fuller2020}{}}%
+\CSLLeftMargin{52 }%
+\CSLRightInline{Fuller D, Colwell E, Low J, \emph{et al.}
+\href{https://doi.org/10.2196/18694}{Reliability and validity of
+commercially available wearable devices for measuring steps, energy
+expenditure, and heart rate: Systematic review}. \emph{JMIR Mhealth
+Uhealth} 2020; \textbf{8}: e18694.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-carnethon2006}{}}%
+\CSLLeftMargin{53 }%
+\CSLRightInline{Carnethon MR, Prineas RJ, Temprosa M, \emph{et al.}
+\href{https://doi.org/10.2337/diacare.29.04.06.dc05-1729}{The
+association among autonomic nervous system function, incident diabetes,
+and intervention arm in the diabetes prevention program}. \emph{Diabetes
+Care} 2006; \textbf{29}: 914--9.}
 
 \end{CSLReferences}
 

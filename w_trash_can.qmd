@@ -108,3 +108,13 @@ LVM = 0.8 \times \left[ 1.04 \times (LVID + IVS + PWT)^3 - (LVID)^3 \right] + 0.
 $$
 
 Trails has demonstrated intensive glucose and blood pressure management have low efficacy in improving CAN [32]. SGLT2 inhibitors and finerenone protect against HF and kidney function decline, which are complications of CAN , but their potential effect in patients with CAN on cardiorenal outcomes progression requires further investigation [6]. Since there is no proven effective treatment for CAN, the focus may shift toward managing the cardiovascular consequences associated with CAN.  
+
+
+## Dissertation
+
+*Physiological precise sympathetic and parasympathetic measures*
+
+As HRV is determined by sinoatrial heartbeats, it does not solely reflect the sympathetic tone and is not directly measured by sympathetic activity in peripheral nerves. Further studies of MSNA in a large cohort remain needed to elucidate the independent effect of sympathetic activity on arterial stiffening \[ref\].
+
+In humans, direct measurement of parasympathetic nervous activity is challenging. Although acetylcholine is the primary neurotransmitter of the parasympathetic nervous system, its concentration is not practically measurable due to its rapid degradation by acetylcholinesterase, its highly localized synaptic activity, and lack of systemic spillover (ref.). Therefore, indirect assessments are preferred. Commonly used surrogate measures include high-frequency HRV, respiratory sinus arrhythmia, baroreflex sensitivity, and responses to pharmacological agents like atropine. These physiological markers provide insight into vagal tone and parasympathetic activity, although each method has limitations (ref.).
+

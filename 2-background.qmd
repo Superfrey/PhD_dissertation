@@ -12,7 +12,6 @@ Diabetes progression is a continuum, with type 2 diabetes defined based on gluco
 
 Risk factors for progression to type 2 diabetes and its complications range from genetic predisposition to lifestyle and socio-environmental factors. The most common precursor to diabetes is central obesity, characterized by excess body fat. The accumulation of diabetes risk factors is linked with a combination of adverse changes in cardiometabolic markers, including increases in low-density lipoprotein (LDL) cholesterol, triglycerides, body mass index (BMI), and systolic blood pressure, along with decreases in high-density lipoprotein (HDL) cholesterol. \[Lancet Diabetes Endocrinol 2013; 1: 43–51\].
 
-
 Diabetes increases the risk of both microvascular and macrovascular complications, which are major determinants of the disease’s associated morbidity and mortality. Diabetes and cardiovascular disease share common risk factors, including lifestyle factors and conventional clinical markers. As individuals progress toward diabetes, their cardiovascular risk increases, making them more susceptible to developing cardiovascular disease (CVD). However, the identification of preclinical stages of CVD and how CVD risk differs among individuals at high risk of diabetes and individuals with type 2 diabetes needs further definition.
 
 ## Cardiovascular disease
