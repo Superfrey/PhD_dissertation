@@ -31,7 +31,7 @@ title: "Materials and methods [needs to be fine-tuned]"
 ### Study population
 
 ::: {layout-ncol="1"}
-![Study populations](images/cohort_map.png){width="100%," fig-align="left"}
+![Study populations](images/cohort_map.png){width = 8in}
 :::
 
 #### Study I - The Maastricht Study
@@ -59,7 +59,7 @@ The CANCAN Study is an observational pilot study conducted at two hospital outpa
 **Heart rate variability**
 
 ::: {layout-ncol="1"}
-![Heart rate variability](images/measurements_hrv.png){width="100%," fig-align="left"}
+![Heart rate variability](images/measurements_hrv.png){width=8in}
 :::
 
 In study I-III a device was used to capture  the distance between each heartbeat defined as RR intervals from electrocardiogram traces either directly from heart-beat traces or indirectly from pulse traces. From this a sequence of successive heart beat intervals is extracted to calculate HRV. The pool of hearbeat data, we extrapolated time-domain and frequency-domain HRV indices. In study III, we used the ratio in pulse rate in test under different conditions lying-to-stading, in- expiration, and valsalva maneuvre.

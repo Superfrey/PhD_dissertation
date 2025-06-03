@@ -36,6 +36,8 @@ HRV levels are influenced by heart rate as lower heart rate allows higher variab
 
 #### Cardiovascular autonomic reflex test
 
+CART offers a practical approach to screening for autonomic dysfunction, as the test has been shown to be reliable [@fleischer2011]. While some CART indices may be influenced by the time of day or recent physical activity, these effects are generally considered minimal. Additionally, no impact of caffeine intake on the reference age-specific values was observed [@hansen2025].
+
 #### Measures of cardiovascular risk
 
 \[ Arterial stiffness - NT-proBNP - MACE limitation in aetiological research - Non-specific heart failure and MI and stroke and death - HRV stronger link with MI or stroke - Perspective: decreasing number of events with prolonging time-to-event - Clinical trail moved to high risk population in lower-income countries (South America) - Challenge for coming observational cohorts (need to increase sample size) \[The Problem With Composite End Points in Cardiovascular Studies The Story of Major Adverse Cardiac Events and Percutaneous Coronary Intervention\]\]

@@ -2,15 +2,34 @@
 
 ## Study I
 
-Isaksen AA, Sandbæk A, Bjerg L. Validation of Register-Based Diabetes Classifiers in Danish Data. *Clinical Epidemiology*. 2023;15:569-581. <https://doi.org/10.2147/CLEP.S407019>
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen van Greevenbroek, Miranda T. Schram, Bastiaan E. de Galan, Coen Stehouwer, Daniel R. Witte (2025). Cardiovascular autonomic dysfunction is linked with arterial stiffness across glucose metabolism: The Maastricht Study. medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865 (under review at BMJ open diabetes research & care)
 
 ## Study II
 
-Isaksen AA, Sandbæk A, Skriver MV, Andersen GS, Bjerg L (2023) Guideline-level monitoring, biomarker levels and pharmacological treatment in migrants and native Danes with type 2 diabetes: Population-wide analyses. PLOS Global Public Health 3(10): e0001277 <https://doi.org/10.1371/journal.pgph.0001277>
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove, Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel R. Witte (2025). Cardiovascular autonomic dysfunction precedes cardiovascular disease and all-cause mortality: 11-year follow-up of the ADDITION-PRO study. medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18.24319131 (under review at Diabetes, Obesity and Metabolism)
 
 ## Study III
 
-Isaksen, AA, Sandbæk, A, Skriver, MV, Bjerg, L. Glucose-lowering drug use in migrants and native Danes with type 2 diabetes: Disparities in combination therapy and drug types. *Diabetes Obesity and Metabolism*. 2023; 1-10. <https://doi.org/10.1111/dom.15230>
+Cardiovascular autonomic neuropathy and indices of heart failure in type 2 diabetes: The CANCAN Study - add pieces!!!!!
+
+\newpage
+
+## Additional publications
+
+The 2 following original research studies and 2 preprints have been published during the PhD period, but have not been included in the dissertation.
+
+### Peer-reviewed
+
+**Schaarup JR**, Christensen MS, Hulman A, Hansen CS, Vistisen D, Tabák AG, Witte DR, Bjerg L. Autonomic dysfunction is associated with the development of arterial stiffness: The Whitehall II cohort.GeroScience, 2023. https://doi.org/10.1007/s11357-023-00762-0
+
+**Schaarup JR**, Aggarwal R, Dalsgaard E-M, Norman K, Dollerup OL, Ashrafian H, Witte DR, Sandbæk A, Hulman A.Perception of artificial intelligence-based solutions in healthcare among people with and without diabetes: A cross-sectional survey from the health in Central Denmark cohort.Diabetes Epidemiology and Management, 2023. https://doi.org/10.1016/j.deman.2022.100114
+
+### Pre-prints
+
+**Jonas R. Schaarup**, Anders Aasted Isaksen, Kasper Norman, Lasse Bjerg, Adam Hulman. (2025).Trust in large language model-based solutions in healthcare among people with and without diabetes: a cross-sectional survey from the Health in Central Denmark cohort. medRxiv 2025.02.24.25322734; doi: https://doi.org/10.1101/2025.02.24.25322734 (under review at BMJ digital health and AI)
+
+Anders Aasted Isaksen, **Jonas R. Schaarup**, Lasse Bjerg, Adam Hulman. (2025). Changes in public perception of AI in healthcare after exposure to ChatGPT. medRxiv 2025.01.23.25321048; doi: https://doi.org/10.1101/2025.01.23.25321048 (under review at npj digital medicine)
+
 
 ```{=tex}
 \newpage

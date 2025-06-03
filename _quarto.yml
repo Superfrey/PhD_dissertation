@@ -12,7 +12,7 @@ book:
     - pdf1-supervisors.qmd
     # - 0-disclosure.qmd
     # - 0-preface.qmd
-    # - 0-papers.qmd
+    - 0-papers.qmd
     # - 0-abbreviations.qmd
 #    - acknowledgements.qmd         # uncomment this line to see acknowledgements in html (will appear twice in pfd)
     - 0-abstract.qmd
