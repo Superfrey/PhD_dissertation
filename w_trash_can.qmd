@@ -101,6 +101,10 @@ Questions about sharing different types of data included whether participants wo
 
 HRV was obtained from all CART, using spectral analysis based on an autoregressive modeling approach. Time domain measures included the standard deviation of normal-to-normal intervals (SDNN) and the root mean square of successive differences between normal-to-normal heartbeats (RMSSD). Frequency domain metrics comprised the low-frequency power band (LF: 0.04–0.15 Hz), high-frequency power band (HF: 0.15–0.4 Hz), and total power.
 
+History of CVD are a risk factor for CAN and higher levels of NT-proBNP (ref.). In guidelines for the detection of HF, patients with prior cardiovascular complications, such as myocardial infarction, or stroke are already considered a patient group who may benefit from routine measurement of NT-proBNP [30]. 
+
+Figure S3: Venn diagram of patients with elevated NT-proBNP (>125 pg/ml) in google docs
+
 # PREDICT
 
 $$

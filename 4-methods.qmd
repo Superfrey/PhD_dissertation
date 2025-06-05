@@ -30,8 +30,8 @@ title: "Materials and methods [needs to be fine-tuned]"
 
 ### Study population
 
-::: {layout-ncol="1"}
-![Study populations](images/cohort_map.png){width = 8in}
+::: {.center}
+![Study populations](images/cohort_map.png){width=8in}
 :::
 
 #### Study I - The Maastricht Study
@@ -116,8 +116,8 @@ Heart rate was measured using a combined accelerometer and heart rate monitor (A
 
 CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold standard for CAN assessment. R-R intervals were derived from an ECG signal using the Vagus™ device (Medicus Engineering, Aarhus, Denmark). Three standardized CARTs were performed: lying-to-standing, deep breathing, and the Valsalva manoeuvre, following a standardized protocol between 8:00 a.m. and 2:00 p.m. after 10 minutes of supine rest. Smoking and caffeine intake were prohibited two hours before testing. Each test was conducted once by trained examiners.
 
-::: {layout-ncol="1"}
-![Handheld Vagus™ device](images/vagus_device.png){width="10%," fig-align="left"}
+::: {.center}
+![Handheld Vagus™ device](images/vagus_device.png){width=2in}
 :::
 
 Manifest CAN was defined as two or more abnormal CARTs using age-specific cut-off values (ref.). The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility (ref.).
@@ -161,7 +161,7 @@ Information on CVD events and mortality was obtained from the Danish National Pa
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | **Outcome**                          | **Diagnosis codes**                                                                                                                |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| *Heart failure*                      | ICD: DI50                                                                                                                          |
+| *Heart failure*                      | ICD: I50                                                                                                                          |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | *Three-point MACE*                   |                                                                                                                                    |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
