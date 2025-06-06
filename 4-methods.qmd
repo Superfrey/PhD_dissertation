@@ -30,8 +30,8 @@ title: "Materials and methods [needs to be fine-tuned]"
 
 ### Study population
 
-::: {.center}
-![Study populations](images/cohort_map.png){width=8in}
+::: center
+![Study populations](images/cohort_map.png){width="8in"}
 :::
 
 #### Study I - The Maastricht Study
@@ -50,7 +50,7 @@ The population were disease history and follow-up in the unique register system 
 
 #### Study III - CANCAN
 
-The CANCAN Study is an observational pilot study conducted at two hospital outpatient clinics in Viborg Regional Hospital and Regional Hospital Gødstrup. It aims to implement a screening protocol for identifying high-risk individuals using CAN assessments, continuous glucose monitoring, and heart failure indicators. All measures were part of routine clinical care for type 2 diabetes in Central Denmark. We included 200 adults (>18 years) with type 2 diabetes with duration of over one year. Exclusion criteria were recent laser-treated eye disease (≤3 months), pregnancy, lactation, life-threatening illness, or cognitive impairment preventing consent. Participants were identified via electronic records and informed about the study by their doctor during a telephone call. Those interested attended a dedicated meeting before their annual diabetes exam, where study details were discussed. Recruitment took place from 2021 to 2024. In study III, participants without a valid NT-proBNP measurement were excluded.
+The CANCAN Study is an observational pilot study conducted at two hospital outpatient clinics in Viborg Regional Hospital and Regional Hospital Gødstrup. It aims to implement a screening protocol for identifying high-risk individuals using CAN assessments, continuous glucose monitoring, and heart failure indicators. All measures were part of routine clinical care for type 2 diabetes in Central Denmark. We included 200 adults (\>18 years) with type 2 diabetes with duration of over one year. Exclusion criteria were recent laser-treated eye disease (≤3 months), pregnancy, lactation, life-threatening illness, or cognitive impairment preventing consent. Participants were identified via electronic records and informed about the study by their doctor during a telephone call. Those interested attended a dedicated meeting before their annual diabetes exam, where study details were discussed. Recruitment took place from 2021 to 2024. In study III, participants without a valid NT-proBNP measurement were excluded.
 
 ## Study variables
 
@@ -59,10 +59,10 @@ The CANCAN Study is an observational pilot study conducted at two hospital outpa
 **Heart rate variability**
 
 ::: {layout-ncol="1"}
-![Heart rate variability](images/measurements_hrv.png){width=8in}
+![Heart rate variability](images/measurements_hrv.png){width="8in"}
 :::
 
-In study I-III a device was used to capture  the distance between each heartbeat defined as RR intervals from electrocardiogram traces either directly from heart-beat traces or indirectly from pulse traces. From this a sequence of successive heart beat intervals is extracted to calculate HRV. The pool of hearbeat data, we extrapolated time-domain and frequency-domain HRV indices. In study III, we used the ratio in pulse rate in test under different conditions lying-to-stading, in- expiration, and valsalva maneuvre.
+In study I-III a device was used to capture the distance between each heartbeat defined as RR intervals from electrocardiogram traces either directly from heart-beat traces or indirectly from pulse traces. From this a sequence of successive heart beat intervals is extracted to calculate HRV. The pool of hearbeat data, we extrapolated time-domain and frequency-domain HRV indices. In study III, we used the ratio in pulse rate in test under different conditions lying-to-stading, in- expiration, and valsalva maneuvre.
 
 *Time-domain indices*
 
@@ -116,8 +116,8 @@ Heart rate was measured using a combined accelerometer and heart rate monitor (A
 
 CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold standard for CAN assessment. R-R intervals were derived from an ECG signal using the Vagus™ device (Medicus Engineering, Aarhus, Denmark). Three standardized CARTs were performed: lying-to-standing, deep breathing, and the Valsalva manoeuvre, following a standardized protocol between 8:00 a.m. and 2:00 p.m. after 10 minutes of supine rest. Smoking and caffeine intake were prohibited two hours before testing. Each test was conducted once by trained examiners.
 
-::: {.center}
-![Handheld Vagus™ device](images/vagus_device.png){width=2in}
+::: center
+![Handheld Vagus™ device](images/vagus_device.png){width="2in"}
 :::
 
 Manifest CAN was defined as two or more abnormal CARTs using age-specific cut-off values (ref.). The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility (ref.).
@@ -130,11 +130,13 @@ HRV was derived from all CARTs using autoregressive spectral analysis. Time doma
 
 ### Confounders and variables for instrumental bias
 
-\[**Lifestyle** Smoking status was
+Across Studies I, II, and III, a comprehensive set of covariates and potential confounders were assessed, including lifestyle factors, clinical measurements, biochemical markers, and socioeconomic indicators.
 
-**Clinical markers**
+Smoking status was self-reported in all studies, categorized as never, former, or current (Study I), current/ex/never (Study II), and smoker/non-smoker (Study III). Alcohol consumption was recorded as average weekly units in all three studies. Physical activity was assessed via self-report in Studies I, II, III, with Study I capturing total and moderate-to-vigorous activity (hours/week), Study II used the Recent Physical Activity Questionnaire (RPAQ) to calculate physical activity energy expenditure (PAEE), and Study III classifying activity as sedentary or non-sedentary. In Study II also used combined accelerometry and heart rate monitoring (ActiHeart) to estimate PAEE. Study II included register-based data on socioeconomic status at baseline, including education length, income, and employment status. All studies included measurements of body mass index (BMI), waist circumference, and systolic and diastolic blood pressure, obtained during clinical examinations.
 
-**Medication**\]
+Blood samples were analyzed in all studies for HbA1c, fasting plasma glucose (FPG), triglycerides, total cholesterol, high-density lipoprotein (HDL), and low-density lipoprotein (LDL) cholesterol. Study I also included a 2-hour oral glucose tolerance test (OGTT) to classify glucose metabolism status based on FPG and OGTT (normal, prediabetes, type 2 diabetes) using WHO 2006 criteria, excluding HbA1c as a diagnostic criterion. Study III additionally measured creatinine, estimated glomerular filtration rate (eGFR), and urine albumin-to-creatinine ratio.
+
+Self-reported history of cardiovascular disease (CVD) and use of anti-hypertensive, glucose-lowering, and lipid-lowering medications were collected in all studies. In study II, history of CVD events in the 10 years prior to baseline were retrieved from national registers. In study III, history of CVD was collected electronic patient records.
 
 ## Outcomes
 
@@ -150,7 +152,7 @@ Carotid stiffness was assessed by the carotid artery distensibility coefficient 
 
 \[insert figure of PWV and CD\]
 
-### Biomarker
+### Biomarker of heart failure
 
 N-terminal prohormone of brain natriuretic peptide (NT-proBNP) is a neuretic peptide that can be used to detect patients with heart failure and the progression. It derives from B-type natriuretic peptid (BNP) which is a cardial neurohormon, that is syntezied and secreted as response to streched cariomycytes and cardiac volume overload. After secretion, proBNP is cleaved, releasing the active hormone BNP along with the remaining N-terminal fragment, known as NT-proBNP. In study III, blood sample were taken at study cite. Description of the NT-proBNP analysis of plasma samples is described in supplementary material \[ref.\].
 
@@ -161,13 +163,13 @@ Information on CVD events and mortality was obtained from the Danish National Pa
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | **Outcome**                          | **Diagnosis codes**                                                                                                                |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| *Heart failure*                      | ICD: I50                                                                                                                          |
+| *Heart failure*                      | ICD: I50 \|                                                                                                                        |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | *Three-point MACE*                   |                                                                                                                                    |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| -   Stroke                           | ICD: I61 - I64                                                                                                                   |
+| -   Stroke                           | ICD: I61 - I64 \|                                                                                                                  |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-| -   Myocardial infarction            | ICD: I21-I24                                                                                                                     |
+| -   Myocardial infarction            | ICD: I21-I24 \|                                                                                                                    |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | -   Cardiovascular death             | ICD: I20-I28, I42, I46                                                                                                             |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
@@ -182,7 +184,13 @@ In study I, we used multiple linear regression to investigate associations betwe
 
 ##### Effect modification
 
-In study I, we hypothesize that the association between 24-hour and arterial stiffness was stronger in strata of progression of diabetes (normal glucose metabolism, prediabetes, type 2 diabetes). We therefore first stratified by diabetes status to observe the size of the association across strata. We then combine all groups and include an interaction term between HRV and diabetes status. We did subsidiary analysis to check if the effect was modified by dysglycemia by stratifying HbA1c and fasting plasma glucose into deciles.
+Effect modification is used to assess whether the association between an exposure and an outcome varies depending on the level of a third variable, known as the effect modifier. This means that the observed relationship between the exposure and the outcome is not uniform across all subgroups. Instead, it differs across strata defined by the effect modifier [@knol2012].
+
+In study I, we hypothesize that the association between 24-hour and arterial stiffness was stronger in strata of progression of diabetes (normal glucose metabolism, prediabetes, type 2 diabetes). We therefore first stratified by diabetes status to observe the size of the association across strata. We then combine all groups and include an interaction term between HRV and diabetes status. We did subsidiary analysis to check if the effect was modified by dysglycemia by stratifying HbA1c and fasting plasma glucose into deciles. In Study II, we quatified whether the association between multiday HRV and CVD endpoints varied by sex to explore potential biological dimorphism.
+
+In Study III, we aimed to determine whether the association between CAN and elevated NT-proBNP is present in the subgroup without symptoms, defined as NYHA class \< II. Hence, we hypothesized no significant effect modification between groups with and without symptoms. Similarly, we explored whether the association remains present in the group classified as low to moderate risk of heart failure, based on the WATCH-DM risk score.
+
+A significant effect modification between the exposure and the effect modifier in all analyses was defined as an interaction term with a p-value \< 0.05.
 
 #### Time-to-event analysis
 
@@ -192,7 +200,7 @@ In study II, we used Poisson regression models to quantify the associations betw
 
 Multiple Imputation by Chained Equations (MICE) is a method for handling missing data in datasets. This procedure imputes missing values through an iterative series of predictive models, generating plausible estimates while preserving the relationships within the data. To avoid one imputation for missing value could give the value the same confidence as the a non-missing value, we followed Rubins Rule. Rubin’s rules in MICE combine results from multiple imputed datasets by pooling estimates of interest (e.g., means or regression coefficients) using their within- and between-imputation variances. Thus, we ensure valid statistical inferences by accounting for the uncertainty introduced by missing data.
 
-In study II, we imputed confounders to include as many participants and avoid excluding population with our without cardiovascular or mortality events. We imputed dataset 10 times. In study III, we imputed missing CART, as a proportion of participants had non-valid test due to insufficient air in the valsalva manuevre, unstable heart beats or data error. All available variables of biochemical measures, diagnosis, medication and cause of non-valid CART was used to impute CART using predictive mean matching.
+In study II, we imputed confounders to include as many participants and avoid excluding population with our without cardiovascular or mortality events. We imputed dataset 10 times. In study III, we imputed missing CART, as a proportion of participants had non-valid test due to insufficient air in the valsalva manuevre, unstable heart beats or data error. These variables was used as auxiliary variables in imputation to reduce bias [@hughes2019]. All available variables of biochemical measures, diagnosis, medication and cause of non-valid CART was used to impute each missing CART using predictive mean matching.
 
 ### Instrumental bias
 
@@ -208,4 +216,4 @@ In Study II, we assessed cardiovascular autonomic function using week-long HRV r
 
 *Biomarker of Heart Failure*
 
-In Study III, kidney function and overweight are know to influence NT-proBNP levels beyond heart failure. We adjusted the model to account for the blurred effect of eGFR on NT-proBNP levels in the analysis.
+In Study III, kidney function and overweight are know to influence NT-proBNP levels independently of heart failure. We adjusted the model to account for the blurred effect of eGFR on NT-proBNP levels in the analysis.

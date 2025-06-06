@@ -71,7 +71,9 @@ The association between HRV frequency-domain Z-score and cf-PWV was significantl
 
 As we did not observe a stepwise increase in the modification of glucose metabolism status from prediabetes to type 2 diabetes, we excluded the subgroup with type 2 diabetes to test whether the association was gradually modified by dysglycemia. In this subgroup, the association between HRV time and frequency domain Z-scores and measures of arterial stiffness was modified by HbA1c (range of interaction p-values: 0.1 to 0.005) (see Figure x). For example, per SD lower HRV frequency domain Z-score at HbA1c 6.4% was associated with a 5.4% higher (CI: 3.5; 7.2) cf-PWV, which was 2.0% to 4.0% higher compared to the magnitude of association at HbA1c levels of 5.6% and 4.8% (see Figure xB). In CD, per SD lower HRV frequency domain Z-score at HbA1c 6.4% was associated with an 8.1% lower (CI: -13.5; -2.9) CD, which was 4.8% to 9.5% lower compared to the magnitude of association at HbA1c levels of 5.6% and 4.8% (see Figure xD). No association between HRV frequency domain Z-score and CD was observed at HbA1c levels between 4.8% and 5.2%.
 
-[figure xx: Maastricht EM HbA1c]
+::: {.center}
+![](images/em_hba1c.pdf){width=4in}
+:::
 
 ## Study II
 
