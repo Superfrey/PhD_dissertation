@@ -4,6 +4,7 @@ editor: visual
 ---
 
 Summary of Supervisor Feedback – Part 1: Background
+
 • Structure: Keep the current structure of the Background section.
 • Edits:
 • Review long or complex sentences and shorten them for clarity.
@@ -16,6 +17,7 @@ Summary of Supervisor Feedback – Part 1: Background
 • Make sure each term is framed so readers can follow their relevance throughout the paper.
 
 Summary of Supervisor Feedback – Part 2: Discussion
+
 • General assessment: The Discussion section is strong and contains important elements.
 • Structure:
 • Begin by introducing the overarching problem (e.g. the burden of cardiovascular risk in prediabetes and type 2 diabetes).
@@ -24,6 +26,7 @@ Summary of Supervisor Feedback – Part 2: Discussion
 1. Public health perspective – focuses on prevention, early detection, and population-level risk.
 2. General practitioner’s perspective – emphasizes relevance to clinical decision-making in primary care.
 3. Endocrinologist’s perspective – connects your findings on autonomic dysfunction and cardiovascular risk with specialized care pathways.
+
 • Place your results in the context of these three viewpoints to show their broader relevance and applicability.
 • Structural recommendation:
 • Keep the current logical structure:

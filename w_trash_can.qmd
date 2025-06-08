@@ -101,9 +101,9 @@ Questions about sharing different types of data included whether participants wo
 
 HRV was obtained from all CART, using spectral analysis based on an autoregressive modeling approach. Time domain measures included the standard deviation of normal-to-normal intervals (SDNN) and the root mean square of successive differences between normal-to-normal heartbeats (RMSSD). Frequency domain metrics comprised the low-frequency power band (LF: 0.04–0.15 Hz), high-frequency power band (HF: 0.15–0.4 Hz), and total power.
 
-History of CVD are a risk factor for CAN and higher levels of NT-proBNP (ref.). In guidelines for the detection of HF, patients with prior cardiovascular complications, such as myocardial infarction, or stroke are already considered a patient group who may benefit from routine measurement of NT-proBNP [30]. 
+History of CVD are a risk factor for CAN and higher levels of NT-proBNP (ref.). In guidelines for the detection of HF, patients with prior cardiovascular complications, such as myocardial infarction, or stroke are already considered a patient group who may benefit from routine measurement of NT-proBNP \[30\].
 
-Figure S3: Venn diagram of patients with elevated NT-proBNP (>125 pg/ml) in google docs
+Figure S3: Venn diagram of patients with elevated NT-proBNP (\>125 pg/ml) in google docs
 
 # PREDICT
 
@@ -111,10 +111,11 @@ $$
 LVM = 0.8 \times \left[ 1.04 \times (LVID + IVS + PWT)^3 - (LVID)^3 \right] + 0.6
 $$
 
-Trails has demonstrated intensive glucose and blood pressure management have low efficacy in improving CAN [32]. SGLT2 inhibitors and finerenone protect against HF and kidney function decline, which are complications of CAN , but their potential effect in patients with CAN on cardiorenal outcomes progression requires further investigation [6]. Since there is no proven effective treatment for CAN, the focus may shift toward managing the cardiovascular consequences associated with CAN.  
-
+Trails has demonstrated intensive glucose and blood pressure management have low efficacy in improving CAN \[32\]. SGLT2 inhibitors and finerenone protect against HF and kidney function decline, which are complications of CAN , but their potential effect in patients with CAN on cardiorenal outcomes progression requires further investigation \[6\]. Since there is no proven effective treatment for CAN, the focus may shift toward managing the cardiovascular consequences associated with CAN.
 
 # Dissertation
+
+However, as was asses only nervous response through variation of heart beat, structured studies with precise measures of sympathetic activity are needed to test these hypotheses and confirm them in humans.
 
 *Physiological precise sympathetic and parasympathetic measures*
 
@@ -122,13 +123,11 @@ As HRV is determined by sinoatrial heartbeats, it does not solely reflect the sy
 
 In humans, direct measurement of parasympathetic nervous activity is challenging. Although acetylcholine is the primary neurotransmitter of the parasympathetic nervous system, its concentration is not practically measurable due to its rapid degradation by acetylcholinesterase, its highly localized synaptic activity, and lack of systemic spillover (ref.). Therefore, indirect assessments are preferred. Commonly used surrogate measures include high-frequency HRV, respiratory sinus arrhythmia, baroreflex sensitivity, and responses to pharmacological agents like atropine. These physiological markers provide insight into vagal tone and parasympathetic activity, although each method has limitations (ref.).
 
-
 ## Perspectives Autonomic dysfunction and cardiovascular risk - pathofysiology
 
 Long-term HRV can serve as a risk indicator and may be divided into segments to identify responses with important implications for disease. Both long-term HRV and its hourly variation can be modulated through interventions targeting lifestyle patterns or medication. However, whether such modulation leads to a reduction in cardiovascular disease risk remains unproven. If subclinical autonomic dysfunction is not addressed, there may be a risk of further progression, including stages such as resting tachycardia with sympathetic overdrive, exercise intolerance, and orthostatic hypotension, where both the sympathetic and parasympathetic nervous systems fail to modulate appropriately (see Figure X).
 
 The availability of wearable devices such as smartwatches is expanding the scale of physiological data collection. Data such as heart rate, temperature, and physical acceleration can now be easily obtained under free-living conditions or through app-guided tests. This opens new opportunities to study heart rate responses in everyday life. Combining heart rate with additional physiological signals may improve understanding of CVD risk. Machine learning methods could further help to integrate heart rate and movement data, identifying early signs and patterns in response in the daily cycle that is linked to CVD risk.
-
 
 ## Suggestions to use - conclusions
 
