@@ -86,7 +86,7 @@ The aim of this thesis is to understand how cardiovascular autonomic dysfunction
 
 To address this aim, we used three different cohorts that reflect various levels of prevention and care. In Study I, we approached the question from a public health perspective by using data from The Maastricht Study including individuals aged 40 and above, representing all stages from normal glucose metabolism to type 2 diabetes. In this broader population, we demonstrated a link between lower 24-hour heart rate variability and cardiovascular risk, measured by arterial stiffness. This association was modified by glucose metabolism, showing a stronger relationship in individuals with prediabetes and type 2 diabetes.
 
-This led to a focus on individuals at higher risk of developing diabetes, using data from the ADDITION-PRO cohort. Individuals with prediabtes may benefit from structured guidance in primary care to prevent progression to type 2 diabetes and related complications. In study II, we showed lower multiday HRV was linked to higher risk of CVD, heart failure and all-cause mortality.
+This led to a focus on individuals at higher risk of developing diabetes, using data from the ADDITION-PRO cohort. Individuals with prediabtes may benefit from structured guidance in primary care to prevent progression to type 2 diabetes and related complications such as CVD. In study II, we showed in a population with prediabtes, that lower multiday HRV was linked to higher risk of CVD, heart failure and all-cause mortality.
 
 A key challenge in managing type 2 diabetes lies in the complexity of clinical decision-making, which is often applied uniformly across a heterogeneous patient population. As the duration of diabetes increases, the disease typically progresses, leading to a higher prevalence of both microvascular and macrovascular complications. This raises the need to early identify subgroups of individuals who may benefit from more structured and personalized treatment strategies based on their risk profile. However, to support such an approach, reliable and standardized tools are required to accurately detect and classify high-risk phenotypes. To uncover this perspective, we collected data for the CANCAN study, which included individuals with type 2 diabetes who were referred to secondary care at an outpatient clinic by general practitioners. In Study III, we showed among individuals with type 2 diabetes that those with CAN had higher heart failure risk, measured by elevated NT-proBNP levels, and this association remained significant in subgroups without heart failure symptoms.
 
@@ -126,12 +126,6 @@ We cannot exclude the possibility that autonomic dysfunction represents an eleva
 
 ### Clinical implications
 
--   General practitioner
-    -   CAN in T2D for risk stratified solutions
--   Endocrinologist
-    -   CAN in T2D for risk stratified solutions
-    -   circadian rhythm in research and HRV + heart rate.
-
 We have discussed the utility of different cohorts representing public health, primary care, and secondary care in addressing the impact of autonomic dysfunction on cardiovascular disease, as well as the possible mechanisms involved. We will now focus on the clinical implications of using autonomic dysfunction in the prevention of cardiovascular disease. If long-term HRV or CART is to be considered for improving risk stratification, it remains important to determine at what stage in the progression of diabetes risk, and at which level of care, autonomic dysfunction becomes meaningful for early detection and intervention.
 
 #### Public health
@@ -144,9 +138,9 @@ If HRV monitoring proves effective by helping individuals maintain healthy, age-
 
 #### Primary care
 
-As the clinical paradigm shifts from a focus on ischemia toward more preventive strategies targeting atherogenesis, greater attention is being paid to individual risk factors that predispose patients to plaque formation [@zaman]. Individuals with prediabetes live with an elevated cardiometabolic risk, which underscores the need for early and precise risk assessment[@birkenfeld2024]. In this context, our findings support the integration of autonomic function assessment into routine cardiovascular risk stratification, particularly in patients with prediabetes or type 2 diabetes.
+Cardiovascular risk in primary care is assessed using clinical evaluations and standardized risk prediction tools to identify individuals at elevated risk (ref.). Management focuses on lifestyle modification, pharmacological therapy, and regular monitoring to reduce cardiovascular events (ref.). As the clinical paradigm shifts from a focus on ischemia toward more preventive strategies targeting atherogenesis, greater attention is being paid to individual risk factors that predispose patients to plaque formation [@zaman]. Individuals with prediabetes live with an elevated cardiometabolic risk, particular ischemic CVD and heart failure[@cai2021a]. This underscores the need for early and precise risk assessment [@birkenfeld2024]. Despite the increased risk, they often remain outside structured assessment pathways in primary care, highlighting a critical gap in preventive strategies. We will discuss our findings to evaluate the integration of autonomic function assessment into routine cardiovascular risk stratification, with a particular emphasis on individuals with prediabetes or type 2 diabetes
 
-A central question that arises is whether autonomic dysfunction can serve not only as a potential marker of underlying pathophysiology but also as a clinically useful risk indicator for cardiovascular disease and heart failure. If so, it could help identify patients at higher risk and thereby improve risk stratification. This concept can be explored from two complementary perspectives. First, long-term measurements of HRV may enhance the precision of individual cardiovascular risk prediction when added to established clinical risk scores. Second, these measurements may help detect preclinical manifestations of cardiovascular autonomic dysfunction, which could be targeted to prevent future cardiovascular events.
+A central question that arises is whether autonomic dysfunction can serve not only as a potential marker of underlying pathophysiology but also as a clinically useful risk indicator for CVD and heart failure. If so, it could help identify patients at higher risk and thereby improve risk stratification. This concept can be explored from two complementary perspectives. First, long-term measurements of HRV may enhance the precision of individual cardiovascular risk prediction when added to established clinical risk scores. Second, these measurements may help identify preclinical manifestations of cardiovascular autonomic dysfunction, enabling targeted interventions in a subgroup of patients to prevent future CVD.
 
 This raises the question of whether incorporating long-term HRV into traditional cardiovascular risk models, such as the Systematic COronary Risk Evaluation 2 (SCORE-2) and the Framingham Risk Score, adds meaningful predictive value [@score2workinggroupandesccardiovascularriskcollaboration2021; @dagostino2008]. While most biomarkers have shown limited incremental value beyond established predictors such as age, sex, lipid levels, diabetes status, and blood pressure, some studies suggest that 24-hour HRV may improve risk discrimination for cardiovascular disease and all-cause mortality in individuals with type 2 diabetes [@cardoso2023], and for stroke in older adults [@bodapati2017]. However, a key limitation of these studies is that their reference models have not been calibrated or validated on a large scale cohorts, unlike SCORE2 and the Framingham Risk Score.
 
@@ -158,9 +152,18 @@ Nevertheless, it remains unclear whether these effects are sustainable over time
 
 #### Secondary care
 
+In secondary care, endocrinologists contribute to cardiovascular and heart failure risk management by integrating advanced diagnostics, biomarker analysis, and imaging to detect early dysfunction. Treatment
+is guided by evidence-based therapies and multidisciplinary collaboration, particularly in patients with type 2 diabetes.
+
 In Study III, our results supports the potential of using CART-based CAN screening to identify individuals with type 2 diabetes who may be living with asymptomatic heart failure.
 
 In Study III, we showed presence of CAN was linked with indicators of heart failure by elevated NT-proBNP, higher WATCH-DM risk score and presence of symptoms defined by NYHA. In subgroups without symptoms, defined as NYHA Class I, the association between CAN and elevated NT-proBNP remains. This supports the notion that CAN may help detect asymptomatic cases (ref.). \[Discuss the challenge of assymptomatical HF\]. Studies has shown that CAN is pronogstical linked with incident with heart failure and type 2 diabetes [@kaze2022]. This suggest regardless of the direction between CAN and indication of heart failure, the detection of CAN could be utilize to define individuals with heart failure risk. These individuals could be benefit from further cardiovascular assessment e.g. echocardiography or intervention on to prevent further progression of CAN. Heart failure risk is above 2 times higher people with type 2 diabetes compared to people without diabetes [@kenny2019]. In populations with type 2 diabetes, the risk of heart failure varies considerably, making reliable indicators for risk stratification important. Our findings support the notion of CAN as a useful marker to identify people with type 2 diabetes at higher risk of heart failure. However, further studies including measures from echocardiography are needed to validate this approach. If confirmed, this could open the door for targeted interventions based on risk stratification.
+
+-   General practitioner
+    -   CAN in T2D for risk stratified solutions
+-   Endocrinologist
+    -   CAN in T2D for risk stratified solutions
+    -   circadian rhythm in research and HRV + heart rate.
 
 ### HRV implication in research
 
