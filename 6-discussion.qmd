@@ -152,7 +152,9 @@ Nevertheless, it remains unclear whether these effects are sustainable over time
 
 #### Secondary care
 
-In secondary care, endocrinologists contribute to cardiovascular and heart failure risk management by integrating advanced diagnostics, biomarker analysis, and imaging to detect early dysfunction. Treatment of patients with type 2 diabetes is guided by evidence-based therapies and multidisciplinary collaboration. The ADA/EASD consensus 
+In secondary care, endocrinologists contribute to cardiovascular and heart failure risk management by integrating advanced diagnostics, biomarker analysis, and imaging to detect early dysfunction. Treatment of patients with type 2 diabetes is guided by evidence-based therapies and multidisciplinary collaboration. The ADA/EASD consensus
+
+AHA/ACC/HFSA 2022 Guideline for identify HF risk based on factors such as diabetes, poor glycaemic control, uncontrolled hypertension, hyperlipidaemia, higher BMI, albuminuria, renal dysfunction, and history of CVD[@heidenreich2022]. In our population with T2D, the high prevalence of CAN suggests an overlooked group in routine care, which may aid in identifying individuals at increased risk of HF, beyond what is captured by symptoms or existing risk scores. Therefore, our findings support considering CAN as a relevant risk factor for HF and suggest it may have value in future risk stratification strategies in T2D.
 
 In Study III, we observed a high proportion of individuals with prior CVD events.
 
@@ -160,8 +162,7 @@ In Study III, our results supports the potential of using CART-based CAN screeni
 
 In Study III, we showed presence of CAN was linked with indicators of heart failure by elevated NT-proBNP, higher WATCH-DM risk score and presence of symptoms defined by NYHA. In subgroups without symptoms, defined as NYHA Class I, the association between CAN and elevated NT-proBNP remains. This supports the notion that CAN may help detect asymptomatic cases (ref.). \[Discuss the challenge of assymptomatical HF\]. Studies has shown that CAN is pronogstical linked with incident with heart failure and type 2 diabetes [@kaze2022]. This suggest regardless of the direction between CAN and indication of heart failure, the detection of CAN could be utilize to define individuals with heart failure risk. These individuals could be benefit from further cardiovascular assessment e.g. echocardiography or intervention on to prevent further progression of CAN. Heart failure risk is above 2 times higher people with type 2 diabetes compared to people without diabetes [@kenny2019]. In populations with type 2 diabetes, the risk of heart failure varies considerably, making reliable indicators for risk stratification important. Our findings support the notion of CAN as a useful marker to identify people with type 2 diabetes at higher risk of heart failure. However, further studies including measures from echocardiography are needed to validate this approach. If confirmed, this could open the door for targeted interventions based on risk stratification.
 
-AHA/ACC/HFSA 2022 Guideline for identify HF risk based on factors such as diabetes, poor glycaemic control, uncontrolled hypertension, hyperlipidaemia, higher BMI, albuminuria, renal dysfunction, and history of CVD [27]. In our population with T2D, the high prevalence of CAN suggests an overlooked group in routine care, which may aid in identifying individuals at increased risk of HF, beyond what is captured by symptoms or existing risk scores. Therefore, our findings support considering CAN as a relevant risk factor for HF and suggest it may have value in future risk stratification strategies in T2D.
-
+NT-proBNP is a strong predictor of HF and a validated biomarker for ruling out the condition \[27, 28\]. However, its specificity varies across HF phenotypes, being less specific for detecting HFpEF compared to HFrEF \[28, 29\]. This variation is important when considering stage B HF, a preclinical phase characterized by structural heart changes or elevated biomarkers such as NT-proBNP, in the absence of symptoms(ref.). Individuals in stage B are at increased risk of progressing to symptomatic HF, whether it manifests as HFpEF or HFrEF \[9\]. NT-proBNP is increasingly regarded as a marker of early-stage HF and may offer a valuable opportunity for early intervention before clinical HF symptoms appear \[28, 30\].
 
 -   General practitioner
     -   CAN in T2D for risk stratified solutions
@@ -169,7 +170,7 @@ AHA/ACC/HFSA 2022 Guideline for identify HF risk based on factors such as diabet
     -   CAN in T2D for risk stratified solutions
     -   circadian rhythm in research and HRV + heart rate.
 
-### HRV implication in research
+### HRV implication in research (in progress)
 
 Perspectives: 1) Descriptive 2) Etiological 3) Diagnostic 4) Prognogstic
 
