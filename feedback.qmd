@@ -9,11 +9,6 @@ Summary of Supervisor Feedback – Part 1: Background
 • Edits:
 • Review long or complex sentences and shorten them for clarity.
 • Remove any redundant information to improve focus and flow.
-• Conceptual clarity:
-• Introduce and clearly define the following concepts early in the Background:
-• HIF-PIF: High-Incidence Framework – Population-Independent Factors
-• HIF-RIF: High-Incidence Framework – Risk-Independent Factors
-• HIF-MRIF: High-Incidence Framework – Mechanism-Relevant Independent Factors
 • Make sure each term is framed so readers can follow their relevance throughout the paper.
 
 Summary of Supervisor Feedback – Part 2: Discussion

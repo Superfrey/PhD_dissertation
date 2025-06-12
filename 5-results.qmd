@@ -115,9 +115,9 @@ table_add_pro[-nrow(table_add_pro), ] %>%
   kableExtra::kable_styling(latex_options = "scale_down")
 ```
 
-### Week-long HRV and MACE, heart failure, and all-cause mortality.
+### multiday HRV and MACE, heart failure, and all-cause mortality.
 
-The mean week-long SDNN was 139.0 (32.3) ms, and the mean heart rate was 73.5 (9.1) bpm. In the fully adjusted model, SDNN per SD was associated with a lower incidence rate ratio (IRR) for MACE 0.82 (CI: 0.69; 0.97), heart failure 0.76 (CI: 0.58; 0.99), and mortality rate ratio of 0.79 (CI: 0.66; 0.94). When we pre-adjusted for resting heart rate, the proportion of the association explained between HRV and MACE, HF, and all-cause mortality was 14%, 25%, and 19%, respectively. We included knots in the model, which showed that the risk increased when SDNN fell below 120 to 110 ms (approximately below the 20th percentile), suggesting a potential cut-off point for higher risk. We therefore calculated the incidence rate (IR) at SDNN levels of 100 ms, 120 ms, and 160 ms, respectively, and plotted these as a function of age.
+The mean multiday SDNN was 139.0 (32.3) ms, and the mean heart rate was 73.5 (9.1) bpm. In the fully adjusted model, SDNN per SD was associated with a lower incidence rate ratio (IRR) for MACE 0.82 (CI: 0.69; 0.97), heart failure 0.76 (CI: 0.58; 0.99), and mortality rate ratio of 0.79 (CI: 0.66; 0.94). When we pre-adjusted for resting heart rate, the proportion of the association explained between HRV and MACE, HF, and all-cause mortality was 14%, 25%, and 19%, respectively. We included knots in the model, which showed that the risk increased when SDNN fell below 120 to 110 ms (approximately below the 20th percentile), suggesting a potential cut-off point for higher risk. We therefore calculated the incidence rate (IR) at SDNN levels of 100 ms, 120 ms, and 160 ms, respectively, and plotted these as a function of age.
 ::: {.center}
 ![Multiday SDNN levels (100 ms, 120 ms, 160 ms) by age-specific incidence rates for A) major adverse cardiovascular events, B) heart failure, and C) all-cause mortality](images/addition_pro_hrv_ir_mace.pdf){width=4in}
 :::
