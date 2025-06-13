@@ -2,6 +2,24 @@
 title: "Perspective [needs to be fine-tuned]"
 ---
 
+### HRV implication in research (in progress)
+
+Perspectives: 1) Descriptive 2) Etiological 3) Diagnostic 4) Prognogstic
+
+When using long-term HRV recordings, careful consideration is needed to determine how best to utilize the data in relation to the specific research objectives.
+
+When HRV is analyzed in shorter segments (e.g., hourly or in 5-minute intervals), measures like RMSSD, pNN50, and HF appear to offer new insights into autonomic function and its relevance in diabetes and cardiovascular disease, e.g during night-time [@hadad2021][@chellappa2025]. SDANN and SDNNi aim to reduce the impact of short-term variability, such as that caused by physical activity, by calculating either the standard deviation of 5-minute segment mean IBI (SDANN) or the mean of standard deviations across 5-minute segments (SDNNi). \[include lower-frequency points\]. This helps smooth out transient fluctuations and better capture long-term autonomic modulation. Thus, behavioral patterns pose a limitation in physiological research aiming to disentangle the causal pathways between autonomic dysfunction and cardiovascular disease when using long-term HRV measures. These patterns likely introduce high variability between observations that is not attributable to autonomic function itself. However, it simultaneously highlights a potential target for intervention, given that low HRV may be indicative of adverse lifestyle patterns. For instance, behavioral patterns such as disrupted sleep or irregular meal timing may influence circadian fluctuations in HRV. Evidence from studies on night-shift workers suggests that meal timing affects HRV, with daytime meals leading to higher HRV during night hours [@chellappa2025]. Thus, although long-term HRV may lack the precision to disentangle sympathetic and parasympathetic activity due to overlapping behavioral and physiological influences, it may be a valuable tool for assessing autonomic responses in free-living conditions and informing lifestyle-based strategies to improve cardiovascular health. Hence, HRV show potential as a responsive marker to monitor successfullness in CVD risk management.
+
+Earlier studies have shown an association between autonomic dysfunction, as measured by short-term HRV during rest, and arterial stiffness[@angelaberos2023]\[add cvd\]. In Study I, we extended perspective of but long-term HRV, does link with arterial stiffness, suggesting autonomic response to free-living conditions contribute to the development of arterial stiffness. In addition, we found that HRV was associated with locally measured carotid distensibility. However, our results are limited by the inability to distinguish between sympathetic and parasympathetic contributions to arterial stiffness, or to determine whether the observed risk is driven by specific responses to living conditions or circadian rhythm variations.
+
+As increased sympathetic nervous system activity has been linked to greater plaque formation, and may be modifiable by reducing sympathetic drive, the autonomic nervous system could play a role in reducing atherosclerotic thrombus formation. However, more physiological studies are needed to understand the mechanisms of atherosclerosis in the presence of autonomic nervous dysfunction, including the causal direction between the two, and how this interplay may be altered during the progression from normal glucose metabolism to type 2 diabetes. This requires more precise measures of both sympathetic and parasympathetic activity, as well as markers of endothelial dysfunction, beyond what is currently captured by HRV and common indices of arterial stiffness.
+
+While GLP-1 receptor agonists are proven to lower cardiovascular risk, they have also been shown to increase heart rate and reduce HRV in short-term trials [@kumarathurai2016]. This may seem conflicting with the hypothesis that reduced HRV reflects higher cardiovascular risk. However, the beneficial effects of GLP-1 agonists on cardiometabolic risk factors, including improved glycaemic control, weight loss, blood pressure reduction, and anti-inflammatory actions, likely outweigh the mild adverse effects on autonomic markers. Thus, the overall cardiovascular benefit is preserved despite small autonomic changes.
+
+\[\[HRV is just a proxy for heart rate, controversy?\] - HRV is just a proxy for heart rate - direct sympathetic activity at the location, but a proxy from heart rate signals.\]
+
+\[A main limitation of our findings in terms of risk stratification is that we did not investigate, in metabolically at-risk populations, whether incorporating measures from long-term HRV or CART as individual risk factors or as components of a risk score improves risk detection by enhancing sensitivity or specificity compared to existing structured guidelines for screening, prevention, and treatment of CVD and heart failure.\]
+
 
 ## Risk-stratification
 
