@@ -150,7 +150,9 @@ Arterial stiffness can be characterized by measuring arteriosclerosis and athero
 
 Carotid stiffness was assessed by the carotid artery distensibility coefficient (CD), based on ultrasound imaging of the left common carotid artery using a 7.5 MHz linear probe (MyLab 70, Esaote Europe, Maastricht, the Netherlands). CD was calculated as ΔD/braPP, where ΔD represents carotid distension and braPP is brachial pulse pressure. Mean heart rate and mean arterial pressure (MAP) were recorded every five minutes using an oscillometer device (Accutorr Plus, Datascope, Montvale, NJ, USA).
 
-\[insert figure of PWV and CD\]
+::: {layout-ncol="1"}
+![description missing](images/Methods_arterial_stiffness.pdf){width="100%," fig-align="left"}
+:::
 
 ### Biomarker of heart failure
 
