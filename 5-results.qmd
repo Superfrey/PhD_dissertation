@@ -130,7 +130,7 @@ From the hourly recordings, we observed a clear periodicity in SDNN, mean heart 
 [Add IRR results]
 
 ::: {.center}
-![Hourly SDNN levels (100 ms, 120 ms, 160 ms) by age-specific incidence rates for A) major adverse cardiovascular events, B) heart failure, and C) all-cause mortality. Figure adapted from [authors]. ---. (Paper II, appendix)](images/figure_ADD_PRO_risk_by_hour.pdf){width=7in}
+![Hourly SDNN levels (100 ms, 120 ms, 160 ms) by age-specific incidence rates for A) major adverse cardiovascular events, B) heart failure, and C) all-cause mortality. Figure adapted from [authors]. ---. (Paper II, appendix)](images/figure_ADD_PRO_risk_by_hour.pdf){width=6.5in}
 :::
 
 

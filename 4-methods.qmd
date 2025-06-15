@@ -56,10 +56,14 @@ The CANCAN Study is an observational pilot study conducted at two hospital outpa
 
 ### Measures for cardiovascular autonomic dysfunction/ neuropathy
 
+::: center
+![Left: Holter monitor Middle: Actiheart Right: Handheld Vagus™ device](images/can_tools.pdf){width="5in"}
+:::
+
 **Heart rate variability**
 
 ::: {layout-ncol="1"}
-![Heart rate variability](images/measurements_hrv.png){width="8in"}
+![Heart rate variability](images/measurements_hrv.png){width="7in"}
 :::
 
 In study I-III a device was used to capture the distance between each heartbeat defined as RR intervals from electrocardiogram traces either directly from heart-beat traces or indirectly from pulse traces. From this a sequence of successive heart beat intervals is extracted to calculate HRV. The pool of hearbeat data, we extrapolated time-domain and frequency-domain HRV indices. In study III, we used the ratio in pulse rate in test under different conditions lying-to-stading, in- expiration, and valsalva maneuvre.
@@ -116,9 +120,7 @@ Heart rate was measured using a combined accelerometer and heart rate monitor (A
 
 CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold standard for CAN assessment. R-R intervals were derived from an ECG signal using the Vagus™ device (Medicus Engineering, Aarhus, Denmark). Three standardized CARTs were performed: lying-to-standing, deep breathing, and the Valsalva manoeuvre, following a standardized protocol between 8:00 a.m. and 2:00 p.m. after 10 minutes of supine rest. Smoking and caffeine intake were prohibited two hours before testing. Each test was conducted once by trained examiners.
 
-::: center
-![Handheld Vagus™ device](images/vagus_device.png){width="2in"}
-:::
+
 
 Manifest CAN was defined as two or more abnormal CARTs using age-specific cut-off values (ref.). The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility (ref.).
 
