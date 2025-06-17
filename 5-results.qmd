@@ -79,11 +79,11 @@ As we did not observe a stepwise increase in the modification of glucose metabol
 
 ### Descriptive
 
-In ADDITION-PRO population consisted of 1,627 participant with a least 48-hour HRV measures, while 1,432 had all hour represented with hourly HRV and physical acceleration. The study population included different tiers of diabetes risk: 154 individuals at low risk (9%), 889 at high risk (51%), 314 with impaired fasting glucose (IFG) (18%), 226 with impaired glucose tolerance (IGT) (13%), and 161 with both IFG and IGT (9%). We splitted SDNN into categories by very-low (SDNN< 100 ms), low (SDNN 100-120 ms), middle (SDNN 121-140 ms), high (SDNN 141-160 ms) and very-high (SDNN >160 ms).
+In ADDITION-PRO population consisted of 1,627 participant with a least 48-hour HRV measures, while 1,432 had all hour represented with hourly HRV and physical acceleration. The study population included different tiers of diabetes risk: 154 individuals at low risk (9%), 889 at high risk (51%), 314 with impaired fasting glucose (IFG) (18%), 226 with impaired glucose tolerance (IGT) (13%), and 161 with both IFG and IGT (9%). We splitted SDNN into categories by very-low (SDNN< 100 ms), low (SDNN 100-120 ms), middle (SDNN 121-140 ms), high (SDNN 141-160 ms) and very-high (SDNN >160 ms). Charteristics are desribed in \@ref(tab:add_pro)\, 
 
 Participants in the lowest SDNN group (<100 ms) were older (67.4 ± 6.9 years), had higher BMI (28.1 ± 5.4), HbA1c (5.9 ± 0.9), triglycerides (1.5 ± 0.9 mmol/L), and resting heart rate (67.8 ± 5.7 bpm), were more likely to use anti-hypertensive medication (61%), and had lower physical activity energy expenditure (46.8 ± 24.0 kJ/day) compared to those with higher SDNN levels.
 
-```{r}
+```{r tab:add_pro}
 #| echo: false
 #| warning: false
 #| message: false
