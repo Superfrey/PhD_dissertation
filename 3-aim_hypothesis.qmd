@@ -9,7 +9,7 @@ editor: visual
 
 The overall aim of this PhD is to understand how cardiovascular autonomic dysfunction/neuropathy (CAN) affects cardiovascular disease risk (i.e. heart failure, stroke, myocardial infarction) and specific subclinical markers of CVD: carotid-femoral pulse wave velocity and carotid artery distensibility in populations covering the whole glycemic continuum, from healthy glucose metabolism to type 2 diabetes.
 
-Study I: Quantify the cross-sectional association between 24-hour HRV and subclinical markers of cardiovascular complications: carotid-femoral pulse wave velocity and carotid artery distensibility, in a participants with normoglycemia, prediabetes or type 2 diabetes.
+Study I: Quantify the cross-sectional association between 24-hour HRV and subclinical markers of cardiovascular complications: carotid-femoral pulse wave velocity and carotid artery distensibility, in a participants with normal glucose metabolism, prediabetes or type 2 diabetes.
 
 Study II: Quantify the longitudinal association of week-long and hourly HRV with incidence ischemic-CVD, heart failure, and all-cause mortality in a population with high-risk of diabetes.
 
@@ -17,4 +17,4 @@ Study III: Quantify the cross-sectional association between CAN and heart failur
 
 The hypotheses of this dissertation are:
 
-CAN and autonomic dysfunction is associated with CVD and acts as an early risk factor for heart failure and other cardiovascular complications, including stroke, and myocardial infarction in patients with prediabetes and/or type 2 diabetes. In addition autonomic dysfunction is associated with higher levels of carotid-femoral pulse wave velocity and carotid artery distensibility.
+CAN and autonomic dysfunction is associated with CVD and acts as an early risk factor for heart failure and other cardiovascular complications, including stroke, and myocardial infarction in patients with prediabetes and/or type 2 diabetes. In addition autonomic dysfunction is associated with higher levels of sub-clinical meassures such as carotid-femoral pulse wave velocity and carotid artery distensibility.
