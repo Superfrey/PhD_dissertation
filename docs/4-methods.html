@@ -280,7 +280,7 @@ div.csl-indent {
 <table class="table">
 <caption>Table 1: Overview of studies</caption>
 <colgroup>
-<col style="width: 5%">
+<col style="width: 6%">
 <col style="width: 30%">
 <col style="width: 35%">
 <col style="width: 26%">
@@ -355,7 +355,7 @@ div.csl-indent {
 <div class="center">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/cohort_map.png" class="img-fluid figure-img" style="width:8in"></p>
+<p><embed src="images/cohort_map.pdf" class="img-fluid" style="width:8in"></p>
 <figcaption class="figure-caption">Study populations</figcaption>
 </figure>
 </div>
@@ -395,7 +395,7 @@ div.csl-indent {
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/measurements_hrv.png" class="img-fluid figure-img" style="width:7in"></p>
+<p><embed src="images/measurements_hrv.pdf" class="img-fluid" style="width:7in"></p>
 <figcaption class="figure-caption">Heart rate variability. (Source: Author)</figcaption>
 </figure>
 </div>
@@ -404,83 +404,99 @@ div.csl-indent {
 </div>
 <p>In study I-III a device was used to capture the distance between each heartbeat defined as RR intervals from electrocardiogram traces either directly from heart-beat traces or indirectly from pulse traces. From this a sequence of successive heart beat intervals is extracted to calculate HRV. The pool of hearbeat data, we extrapolated time-domain and frequency-domain HRV indices.</p>
 <p><em>Time-domain indices</em></p>
-<p>Time-domain measures of HRV are based on the statistical distribution of normal-to-normal (NN) heartbeat intervals. Description of time-domain indices are summarized in box 1.</p>
+<p>Time-domain measures of HRV are based on the statistical distribution of normal-to-normal (NN) heartbeat intervals. Description of time-domain indices are summarized in <span class="quarto-unresolved-ref">?tbl-td</span>.</p>
+<div id="tbl-td" class="tbl-parent quarto-layout-panel anchored">
+<div class="panel-caption table-caption">
+<p><strong>Box 1</strong> Time-domain indices reflections of autonomic function</p>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <table class="table">
-<caption>Box 1: Time-domain HRV indices</caption>
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Time-domain HRV</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Standard deviation of NN heart beat intervals (SDNN, in ms)</strong></td>
-<td>Reflects overall HRV and total autonomic nervous system activity over the recording period.</td>
-</tr>
-<tr class="even">
-<td><strong>SD of the averages of NN intervals in 5-minute segments throughout the recording (SDANN, in ms)</strong></td>
-<td>Measures long-term HRV variations, primarily reflecting circadian and autonomic fluctuations.</td>
-</tr>
-<tr class="odd">
-<td><strong>Mean of the SDs of all NN intervals for all 5-minute segments (SDNN index, in ms)</strong></td>
-<td>Estimates short-term HRV fluctuations and vagal tone by averaging segmental variations.</td>
-</tr>
-<tr class="even">
-<td><strong>NN50 count divided by the total number of all NN intervals (pNN50, percentage)</strong></td>
-<td>Represents the proportion of successive NN intervals differing by more than 50 ms, indicating vagal activity.</td>
-</tr>
-<tr class="odd">
-<td><strong>Square root of the mean of the sum of squares of differences between adjacent NN intervals (RMSSD, in ms)</strong></td>
-<td>Reflects short-term HRV, mainly parasympathetic (vagal) activity.</td>
-</tr>
-</tbody>
-</table>
-<p><em>Frequency-domain indices</em></p>
-<p>Frequency-domain HRV indices are derived from sequences of NN intervals transformed into the spectral domain using Fourier transformation. These indices quantify heart rate oscillations over different timescales. Short-term variations, such as respiratory sinus arrhythmia, reflect rapid autonomic changes, while longer oscillations capture autonomic responses to posture changes, circadian rhythms, or other physiological processes. Description of frequency-domain indices are summarized in box 2.</p>
-<table class="table">
-<caption>Box 2: Frequency-domain HRV indices</caption>
 <colgroup>
 <col style="width: 34%">
 <col style="width: 65%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Frequency domain HRV</th>
-<th>Description</th>
+<th style="text-align: left;">Time-domain HRV</th>
+<th style="text-align: left;">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Variance of all NN intervals ≤ 0.4 Hz, total power (TP, in ms²)</strong></td>
-<td>Represents overall HRV, reflecting both short- and long-term autonomic regulation.</td>
+<td style="text-align: left;"><strong>Standard deviation of NN heart beat intervals (SDNN, in ms)</strong></td>
+<td style="text-align: left;">Measures the total variation in interbeat intervals and reflects both sympathetic and parasympathetic activity<span class="citation" data-cites="taskforceoftheeuropeansocietyofcardiologythenorthamericansocietyofpacingelectrophysiology1996"><sup><a href="references.html#ref-taskforceoftheeuropeansocietyofcardiologythenorthamericansocietyofpacingelectrophysiology1996" role="doc-biblioref">1</a></sup></span>.</td>
 </tr>
 <tr class="even">
-<td><strong>Ultralow-frequency range (ULF, in ms² ≤ 0.003 Hz)</strong></td>
-<td>Captures very long-term oscillations, influenced by circadian rhythms, metabolism, and thermoregulation.</td>
+<td style="text-align: left;"><strong>SD of the averages of NN intervals in 5-minute segments throughout the recording (SDANN, in ms)</strong></td>
+<td style="text-align: left;">Measures variations in 5-minute mean interbeat intervals, primarily reflecting autonomic fluctuations associated with the circadian rhythm</td>
 </tr>
 <tr class="odd">
-<td><strong>Very-low-frequency range (VLF, in ms²; 0.003–0.04 Hz)</strong></td>
-<td>Associated with sympathetic activity, inflammation, and hormonal regulation.</td>
+<td style="text-align: left;"><strong>Mean of the SDs of all NN intervals for all 5-minute segments (SDNN index, in ms)</strong></td>
+<td style="text-align: left;">Estimates short-term HRV fluctuations and vagal tone by averaging segmental variations.</td>
 </tr>
 <tr class="even">
-<td><strong>Low-frequency range (LF, in ms²; 0.04–0.15 Hz)</strong></td>
-<td>Reflects a mix of sympathetic and parasympathetic activity, often linked to blood pressure regulation and baroreflex sensitivity.</td>
+<td style="text-align: left;"><strong>NN50 count divided by the total number of all NN intervals (pNN50, percentage)</strong></td>
+<td style="text-align: left;">Represents the proportion of successive NN intervals differing by more than 50 ms, indicating vagal activity<span class="citation" data-cites="umetani1998"><sup><a href="references.html#ref-umetani1998" role="doc-biblioref">2</a></sup></span>.</td>
 </tr>
 <tr class="odd">
-<td><strong>High-frequency range (HF, in ms²; 0.15–0.4 Hz)</strong></td>
-<td>Represents parasympathetic (vagal) modulation of heart rate, closely related to respiratory sinus arrhythmia.</td>
+<td style="text-align: left;"><strong>Square root of the mean of the sum of squares of differences between adjacent NN intervals (RMSSD, in ms)</strong></td>
+<td style="text-align: left;">Measures variation in successive interbeat intervals during inhalation and exhalation, primarily reflecting parasympathetic (vagal) activity<span class="citation" data-cites="umetani1998"><sup><a href="references.html#ref-umetani1998" role="doc-biblioref">2</a></sup></span></td>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</div>
+<p><em>Frequency-domain indices</em></p>
+<p>Frequency-domain HRV indices are derived from sequences of NN intervals transformed into the spectral domain using Fourier transformation. These indices quantify heart rate oscillations over different timescales. Short-term variations, such as respiratory sinus arrhythmia, reflect rapid autonomic changes, while longer oscillations capture autonomic responses to posture changes, circadian rhythms, or other physiological processes. Description of frequency-domain indices are summarized in <span class="quarto-unresolved-ref">?tbl-fq</span>.</p>
+<div id="tbl-fq" class="tbl-parent quarto-layout-panel anchored">
+<div class="panel-caption table-caption">
+<p><strong>Box 2</strong> Frequency-domain indices reflections of autonomic function</p>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 74%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Frequency domain HRV</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Variance of all NN intervals ≤ 0.4 Hz, total power (TP, in ms²)</strong></td>
+<td style="text-align: left;">Measures the total variation in interbeat intervals, reflecting both short- and long-term autonomic regulation by the sympathetic and parasympathetic nervous system<span class="citation" data-cites="taskforceoftheeuropeansocietyofcardiologythenorthamericansocietyofpacingelectrophysiology1996"><sup><a href="references.html#ref-taskforceoftheeuropeansocietyofcardiologythenorthamericansocietyofpacingelectrophysiology1996" role="doc-biblioref">1</a></sup></span>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Ultra low-frequency range (ULF, in ms² ≤ 0.003 Hz)</strong></td>
+<td style="text-align: left;">Measures very long-term oscillations in interbeat intervals, influenced by autonomic responses to circadian rhythms, physical activity, metabolic processes, and thermoregulation [<span class="citation" data-cites="serrador1999"><sup><a href="references.html#ref-serrador1999" role="doc-biblioref">3</a></sup></span>]<span class="citation" data-cites="akselrod1981"><sup><a href="references.html#ref-akselrod1981" role="doc-biblioref">4</a></sup></span>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Very-low-frequency range (VLF, in ms²; 0.003–0.04 Hz)</strong></td>
+<td style="text-align: left;">Measures oscillations in interbeat intervals over 5-minute periods, reflecting activity of the renin-angiotensin system and dependent on parasympathetic modulation<span class="citation" data-cites="taylor1998"><sup><a href="references.html#ref-taylor1998" role="doc-biblioref">5</a></sup></span>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Low-frequency range (LF, in ms²; 0.04–0.15 Hz)</strong></td>
+<td style="text-align: left;">Reflects a mix of sympathetic and parasympathetic activity, often linked to blood pressure regulation and baroreflex sensitivity<span class="citation" data-cites="mccraty2015"><sup><a href="references.html#ref-mccraty2015" role="doc-biblioref">6</a></sup></span>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>High-frequency range (HF, in ms²; 0.15–0.4 Hz)</strong></td>
+<td style="text-align: left;">Represents short-term parasympathetic modulation of heart rate via the vagus nerve, closely associated with respiratory sinus arrhythmia<span class="citation" data-cites="elghozi1991"><sup><a href="references.html#ref-elghozi1991" role="doc-biblioref">7</a></sup></span>.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 <p><strong>Holter recordings in study I</strong></p>
 <p>All ECG recordings were obtained using a 12-lead Holter system (Fysiologic ECG Services, Amsterdam, the Netherlands) over 24 hours, as previously described. Participants were instructed to follow their regular daily activities but avoid showering during the recording. The ECG data were processed using proprietary Holter Analysis Software (Fysiologic ECG Services), where artefacts and ectopic beats were excluded through automated processing and manual validation. A minimum recording duration of 18 hours was required for further analysis. Inter-beat intervals between consecutive sinus beats were provided in milliseconds (ms). Time-domain HRV indices were calculated, including SDNN, SDANN, RMSSD, SDNN index, and pNN50. Frequency-domain measures were derived using Fast Fourier Transform, including TP, ULF, VLF, LF, and HF. Outliers were removed. HRV indices were standardised by their mean and SD, and composite Z-scores were computed for time and frequency-domain measures, respectively. This selection of indices covers the main sources of HRV variance.</p>
 <p><strong>ActiHeart heart rate and physical activity in study II</strong></p>
-<p>Heart rate was measured using a combined accelerometer and heart rate monitor (ActiHeart, CamNTech, Cambridge, UK), recording uniaxial acceleration and heart rate. The data collection and processing methods have been described previously. Mean heart rates were recorded in 30-second epochs, and HRV was derived as the variation between consecutive normal heartbeats on the ECG. HRV calculations were performed using the RHRV package (version 4.2.7) in R, including SDNN, SDANN, SDNN index, TINN, and mean HR (mHR). We tested our approach on a dataset with full access to all interbeat intervals to validate our algorithm<span class="citation" data-cites="schaarup2024a"><sup><a href="references.html#ref-schaarup2024a" role="doc-biblioref">1</a></sup></span>. These indices have shown high validity for HRV indices based on global distribution (e.g.&nbsp;SDNN, SDANN, SDNNi) in 24-hour recordings. HRV indices were calculated by week, 24-hour cycle, and hour of the day, with hourly values averaged across recording days.</p>
+<p>Heart rate was measured using a combined accelerometer and heart rate monitor (ActiHeart, CamNTech, Cambridge, UK), recording uniaxial acceleration and heart rate. The data collection and processing methods have been described previously. Mean heart rates were recorded in 30-second epochs, and HRV was derived as the variation between consecutive normal heartbeats on the ECG. HRV calculations were performed using the RHRV package (version 4.2.7) in R, including SDNN, SDANN, SDNN index, TINN, and mean HR (mHR). We tested our approach on a dataset with full access to all interbeat intervals to validate our algorithm<span class="citation" data-cites="schaarup2024a"><sup><a href="references.html#ref-schaarup2024a" role="doc-biblioref">8</a></sup></span>. These indices have shown high validity for HRV indices based on global distribution (e.g.&nbsp;SDNN, SDANN, SDNNi) in 24-hour recordings. HRV indices were calculated by week, 24-hour cycle, and hour of the day, with hourly values averaged across recording days.</p>
 <p><strong>Vagus device for cardiovascular autonomic reflex test in study III</strong></p>
 <p>CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold standard for CAN assessment. R-R intervals were derived from an ECG signal using the Vagus™ device (Medicus Engineering, Aarhus, Denmark). We used pulse rate ratios measured under different conditions. Three standardized cardiovascular autonomic reflex tests (CARTs) were performed—lying-to-standing, deep breathing, and the Valsalva manoeuvre, following a standardized protocol conducted between 8:00 a.m. and 2:00 p.m., after 10 minutes of supine rest. Smoking and caffeine intake were prohibited two hours before testing. Each test was conducted once by trained examiners.</p>
 <p>Manifest CAN was defined as two or more abnormal CARTs using age-specific cut-off values (ref.). The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility (ref.).</p>
@@ -535,6 +551,12 @@ div.csl-indent {
 <section id="cardiovascular-events" class="level3" data-number="4.3.3">
 <h3 data-number="4.3.3" class="anchored" data-anchor-id="cardiovascular-events"><span class="header-section-number">4.3.3</span> Cardiovascular events</h3>
 <p>Information on CVD events and mortality was obtained from the Danish National Patient Registers until 2021. ICD-10 codes for stroke, myocardial infarction, cardiovascular death, cardiovascular revascularization, and heart failure. We defined three-point major adverse cardiovascular events (MACE) as myocardial infarction, stroke, cardiovascular revascularization, and cardiovascular death.</p>
+<div id="tbl-mace" class="tbl-parent quarto-layout-panel anchored">
+<div class="panel-caption table-caption">
+<p><strong>?(caption)</strong></p>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
 <table class="table">
 <colgroup>
 <col style="width: 22%">
@@ -542,43 +564,46 @@ div.csl-indent {
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Outcome</strong></td>
-<td><strong>Diagnosis codes</strong></td>
+<td style="text-align: left;"><strong>Outcome</strong></td>
+<td style="text-align: left;"><strong>Diagnosis codes</strong></td>
 </tr>
 <tr class="even">
-<td><em>Heart failure</em></td>
-<td>ICD: I50 |</td>
+<td style="text-align: left;"><em>Heart failure</em></td>
+<td style="text-align: left;">ICD: I50 |</td>
 </tr>
 <tr class="odd">
-<td><em>Three-point MACE</em></td>
-<td></td>
+<td style="text-align: left;"><em>Three-point MACE</em></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td><ul>
+<td style="text-align: left;"><ul>
 <li>Stroke</li>
 </ul></td>
-<td>ICD: I61 - I64 |</td>
+<td style="text-align: left;">ICD: I61 - I64 |</td>
 </tr>
 <tr class="odd">
-<td><ul>
+<td style="text-align: left;"><ul>
 <li>Myocardial infarction</li>
 </ul></td>
-<td>ICD: I21-I24 |</td>
+<td style="text-align: left;">ICD: I21-I24 |</td>
 </tr>
 <tr class="even">
-<td><ul>
+<td style="text-align: left;"><ul>
 <li>Cardiovascular death</li>
 </ul></td>
-<td>ICD: I20-I28, I42, I46</td>
+<td style="text-align: left;">ICD: I20-I28, I42, I46</td>
 </tr>
 <tr class="odd">
-<td><ul>
+<td style="text-align: left;"><ul>
 <li>Cardiovascular revascularization</li>
 </ul></td>
-<td>SKA: KPAE10, KPAE25, KPAF10, KPAF20, KPAF21, KPAF22, KPAH10, KPAH20, KPAH21, KPEE, KPEF, KPEH, KPEP, KPEQ, KPFE,, KPFH, KPFP, KPFQ</td>
+<td style="text-align: left;">SKA: KPAE10, KPAE25, KPAF10, KPAF20, KPAF21, KPAF22, KPAH10, KPAH20, KPAH21, KPEE, KPEF, KPEH, KPEP, KPEQ, KPFE,, KPFH, KPFP, KPFQ</td>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="statistical-methods" class="level2" data-number="4.4">
@@ -589,11 +614,11 @@ div.csl-indent {
 </section>
 <section id="time-to-event-analysis" class="level3" data-number="4.4.2">
 <h3 data-number="4.4.2" class="anchored" data-anchor-id="time-to-event-analysis"><span class="header-section-number">4.4.2</span> Time-to-event analysis</h3>
-<p>In Study II, we used Poisson regression models to quantify the associations between HRV and cardiovascular events, as follow-up data were undisturbed over time and to avoid assumptions of proportional hazards<span class="citation" data-cites="whoneed2012"><sup><a href="references.html#ref-whoneed2012" role="doc-biblioref">2</a></sup></span>. Multiday HRV was modelled using splines with knots at predefined percentiles to assess non-linear associations. Hourly HRV was analysed separately for each hour to observe if the association of HRV had diurnal variation. Both HRV and mHR were standardized by their mean and standard deviation to ensure comparability. Based on assumptions about potential confounding pathways summarized in directed acyclic graphs (DAG), we fitted two models: Model 1 adjusted for age and sex, while Model 2 further adjusted for education, smoking, alcohol consumption, physical activity (physical activity energy expenditure (PAEE) calculated from Recent Physical Activity Questionnaire RPAQ), body mass index, total cholesterol, and HbA1c. Additional analyses were performed with HRV pre-adjusted for concurrent heart rate and physical acceleration to account the influence of these factors. Missing covariates were handled using multiple imputation. [Add age specific incidence rates]</p>
+<p>In Study II, we used Poisson regression models to quantify the associations between HRV and cardiovascular events, as follow-up data were undisturbed over time and to avoid assumptions of proportional hazards<span class="citation" data-cites="whoneed2012"><sup><a href="references.html#ref-whoneed2012" role="doc-biblioref">9</a></sup></span>. Multiday HRV was modelled using splines with knots at predefined percentiles to assess non-linear associations. Hourly HRV was analysed separately for each hour to observe if the association of HRV had diurnal variation. Both HRV and mHR were standardized by their mean and standard deviation to ensure comparability. Based on assumptions about potential confounding pathways summarized in directed acyclic graphs (DAG), we fitted two models: Model 1 adjusted for age and sex, while Model 2 further adjusted for education, smoking, alcohol consumption, physical activity (physical activity energy expenditure (PAEE) calculated from Recent Physical Activity Questionnaire RPAQ), body mass index, total cholesterol, and HbA1c. Additional analyses were performed with HRV pre-adjusted for concurrent heart rate and physical acceleration to account the influence of these factors. Missing covariates were handled using multiple imputation. [Add age specific incidence rates]</p>
 </section>
 <section id="effect-modification-det-kan-evt.-kortes-ned" class="level3" data-number="4.4.3">
 <h3 data-number="4.4.3" class="anchored" data-anchor-id="effect-modification-det-kan-evt.-kortes-ned"><span class="header-section-number">4.4.3</span> Effect modification [det kan evt. kortes ned]</h3>
-<p>Effect modification is used to assess whether the association between an exposure and an outcome varies depending on the level of a third variable, known as the effect modifier. This means that the observed relationship between the exposure and the outcome is not uniform across all subgroups. Instead, it differs across strata defined by the effect modifier<span class="citation" data-cites="knol2012"><sup><a href="references.html#ref-knol2012" role="doc-biblioref">3</a></sup></span>.</p>
+<p>Effect modification is used to assess whether the association between an exposure and an outcome varies depending on the level of a third variable, known as the effect modifier. This means that the observed relationship between the exposure and the outcome is not uniform across all subgroups. Instead, it differs across strata defined by the effect modifier<span class="citation" data-cites="knol2012"><sup><a href="references.html#ref-knol2012" role="doc-biblioref">10</a></sup></span>.</p>
 <p>In Study I, we hypothesize that the association between 24-hour and arterial stiffness was stronger in strata of progression of diabetes (normal glucose metabolism, prediabetes, type 2 diabetes). We therefore first stratified by diabetes status to observe the size of the association across strata. We then combine all groups and include an interaction term between HRV and diabetes status. We did subsidiary analysis to check if the effect was modified by dysglycemia by stratifying HbA1c and fasting plasma glucose into deciles. In Study II, we quatified whether the association between multiday HRV and CVD endpoints varied by sex to explore potential biological dimorphism.</p>
 <p>In Study III, we aimed to determine whether the association between CAN and elevated NT-proBNP is present in the subgroup without symptoms, defined as NYHA class &lt; II. Hence, we hypothesized no significant effect modification between groups with and without symptoms. Similarly, we explored whether the association remains present in the group classified as low to moderate risk of heart failure, based on the WATCH-DM risk score.</p>
 <p>A significant effect modification between the exposure and the effect modifier in all analyses was defined as an interaction term with a p-value &lt; 0.05.</p>
@@ -601,7 +626,7 @@ div.csl-indent {
 <section id="multiple-imputed-by-chained-equations" class="level3" data-number="4.4.4">
 <h3 data-number="4.4.4" class="anchored" data-anchor-id="multiple-imputed-by-chained-equations"><span class="header-section-number">4.4.4</span> Multiple imputed by chained equations</h3>
 <p>Multiple Imputation by Chained Equations (MICE) is a method for handling missing data in datasets. This procedure imputes missing values through an iterative series of predictive models, generating plausible estimates while preserving the relationships within the data. To avoid one imputation for missing value could give the value the same confidence as the a non-missing value, we followed Rubins Rule. Rubin’s rules in MICE combine results from multiple imputed datasets by pooling estimates of interest (e.g., means or regression coefficients) using their within- and between-imputation variances. Thus, we ensure valid statistical inferences by accounting for the uncertainty introduced by missing data.</p>
-<p>In Study II, we imputed confounders to include as many participants and avoid excluding population with our without cardiovascular or mortality events. We imputed dataset 10 times. In Study III, we imputed missing CART, as a proportion of participants had non-valid test due to insufficient air in the valsalva manuevre, unstable heart beats or data error. These variables was used as auxiliary variables in imputation to reduce bias<span class="citation" data-cites="hughes2019"><sup><a href="references.html#ref-hughes2019" role="doc-biblioref">4</a></sup></span>. All available variables of biochemical measures, diagnosis, medication and cause of non-valid CART was used to impute each missing CART using predictive mean matching.</p>
+<p>In Study II, we imputed confounders to include as many participants and avoid excluding population with our without cardiovascular or mortality events. We imputed dataset 10 times. In Study III, we imputed missing CART, as a proportion of participants had non-valid test due to insufficient air in the valsalva manuevre, unstable heart beats or data error. These variables was used as auxiliary variables in imputation to reduce bias<span class="citation" data-cites="hughes2019"><sup><a href="references.html#ref-hughes2019" role="doc-biblioref">11</a></sup></span>. All available variables of biochemical measures, diagnosis, medication and cause of non-valid CART was used to impute each missing CART using predictive mean matching.</p>
 </section>
 <section id="instrumental-bias" class="level3" data-number="4.4.5">
 <h3 data-number="4.4.5" class="anchored" data-anchor-id="instrumental-bias"><span class="header-section-number">4.4.5</span> Instrumental bias</h3>
@@ -615,17 +640,38 @@ div.csl-indent {
 
 
 <div id="refs" class="references csl-bib-body" role="list" style="display: none">
+<div id="ref-taskforceoftheeuropeansocietyofcardiologythenorthamericansocietyofpacingelectrophysiology1996" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1 </div><div class="csl-right-inline">Task Force of the European Society of Cardiology the North American Society of Pacing Electrophysiology. <a href="https://doi.org/doi:10.1161/01.CIR.93.5.1043">Heart rate variability</a>. <em>Circulation</em> 1996; <strong>93</strong>: 1043–65.</div>
+</div>
+<div id="ref-umetani1998" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2 </div><div class="csl-right-inline">Umetani K, Singer DH, McCraty R, Atkinson M. <a href="https://doi.org/10.1016/S0735-1097(97)00554-8">Twenty-four hour time domain heart rate variability and heart rate: Relations to age and gender over nine decades</a>. <em>Journal of the American College of Cardiology</em> 1998; <strong>31</strong>: 593–601.</div>
+</div>
+<div id="ref-serrador1999" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3 </div><div class="csl-right-inline">Serrador JM, Finlayson HC, Hughson RL. <a href="https://doi.org/10.1136/hrt.82.6.e9">Physical activity is a major contributor to the ultra low frequency components of heart rate variability</a>. <em>Heart</em> 1999; <strong>82</strong>: e9.</div>
+</div>
+<div id="ref-akselrod1981" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4 </div><div class="csl-right-inline">Akselrod S, Gordon D, Ubel FA, Shannon DC, Berger AC, Cohen RJ. <a href="https://doi.org/10.1126/science.6166045">Power spectrum analysis of heart rate fluctuation: A quantitative probe of beat-to-beat cardiovascular control</a>. <em>Science</em> 1981; <strong>213</strong>: 220–2.</div>
+</div>
+<div id="ref-taylor1998" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5 </div><div class="csl-right-inline">Taylor JA, Carr DL, Myers CW, Eckberg DL. <a href="https://doi.org/10.1161/01.CIR.98.6.547">Mechanisms underlying very-low-frequency RR-interval oscillations in humans</a>. <em>Circulation</em> 1998; <strong>98</strong>: 547–55.</div>
+</div>
+<div id="ref-mccraty2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6 </div><div class="csl-right-inline">Mccraty R, Shaffer F. <a href="https://doi.org/10.7453/gahmj.2014.073">Heart rate variability: New perspectives on physiological mechanisms, assessment of self-regulatory capacity, and health risk</a>. <em>Global Advances in Health and Medicine</em> 2015; <strong>4</strong>: 46–61.</div>
+</div>
+<div id="ref-elghozi1991" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7 </div><div class="csl-right-inline">Elghozi J-L, Laude D, Girard A. <a href="https://doi.org/10.1111/j.1440-1681.1991.tb01391.x">EFFECTS OF RESPIRATION ON BLOOD PRESSURE AND HEART RATE VARIABILITY IN HUMANS</a>. <em>Clinical and Experimental Pharmacology and Physiology</em> 1991; <strong>18</strong>: 735–42.</div>
+</div>
 <div id="ref-schaarup2024a" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1 </div><div class="csl-right-inline">Schaarup J. Actiheart validation of time-domain heart rate variability. 2024. <a href="https://figshare.com/articles/online_resource/Actiheart_validation_of_time-domain_heart_rate_variability/26182361">https://figshare.com/articles/online_resource/Actiheart_validation_of_time-domain_heart_rate_variability/26182361</a>.</div>
+<div class="csl-left-margin">8 </div><div class="csl-right-inline">Schaarup J. Actiheart validation of time-domain heart rate variability. 2024. <a href="https://figshare.com/articles/online_resource/Actiheart_validation_of_time-domain_heart_rate_variability/26182361">https://figshare.com/articles/online_resource/Actiheart_validation_of_time-domain_heart_rate_variability/26182361</a>.</div>
 </div>
 <div id="ref-whoneed2012" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2 </div><div class="csl-right-inline">Bendix Carstensen Steno Diabetes Center. Who needs the cox model anyway. <em>Stat Med</em> 2012; <strong>31</strong>: 10741088.</div>
+<div class="csl-left-margin">9 </div><div class="csl-right-inline">Bendix Carstensen Steno Diabetes Center. Who needs the cox model anyway. <em>Stat Med</em> 2012; <strong>31</strong>: 10741088.</div>
 </div>
 <div id="ref-knol2012" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3 </div><div class="csl-right-inline">Knol MJ, VanderWeele TJ. <a href="https://doi.org/10.1093/ije/dyr218">Recommendations for presenting analyses of effect modification and interaction</a>. <em>International Journal of Epidemiology</em> 2012; <strong>41</strong>: 514–20.</div>
+<div class="csl-left-margin">10 </div><div class="csl-right-inline">Knol MJ, VanderWeele TJ. <a href="https://doi.org/10.1093/ije/dyr218">Recommendations for presenting analyses of effect modification and interaction</a>. <em>International Journal of Epidemiology</em> 2012; <strong>41</strong>: 514–20.</div>
 </div>
 <div id="ref-hughes2019" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4 </div><div class="csl-right-inline">Hughes RA, Heron J, Sterne JAC, Tilling K. <a href="https://doi.org/10.1093/ije/dyz032">Accounting for missing data in statistical analyses: Multiple imputation is not always the answer</a>. <em>International Journal of Epidemiology</em> 2019; <strong>48</strong>: 1294–304.</div>
+<div class="csl-left-margin">11 </div><div class="csl-right-inline">Hughes RA, Heron J, Sterne JAC, Tilling K. <a href="https://doi.org/10.1093/ije/dyz032">Accounting for missing data in statistical analyses: Multiple imputation is not always the answer</a>. <em>International Journal of Epidemiology</em> 2019; <strong>48</strong>: 1294–304.</div>
 </div>
 </div>
 </section>

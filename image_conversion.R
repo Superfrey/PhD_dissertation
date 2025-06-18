@@ -26,3 +26,24 @@ image_write(img, format = "svg", path = here::here("images/risk_stratification.s
 image_write(img, format = "pdf", path = here::here("images/risk_stratification.pdf"))
 image_write(img, format = "tiff", path = here::here("images/risk_stratification.tiff"))
 
+#error!!
+convert_pdfs_to_png <- function(images_dir = here::here("images")) {
+  # Get all PDF files in the directory
+  pdf_files <- list.files(images_dir, pattern = "\\.pdf$", full.names = TRUE)
+  
+  # Loop through each PDF and convert to PNG
+  for (pdf_path in pdf_files) {
+    # Read the PDF
+    img <- image_read(pdf_path)
+    
+    # Create PNG file path
+    png_path <- sub("\\.pdf$", ".png", pdf_path)
+    
+    # Write as PNG
+    image_write(img, format = "png", path = png_path)
+    
+    message("Converted: ", pdf_path, " -> ", png_path)
+  }
+}
+
+convert_pdfs_to_png()
