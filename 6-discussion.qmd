@@ -98,7 +98,7 @@ A key challenge in managing type 2 diabetes lies in the complexity of clinical d
 
 Cardiovascular autonomic dysfunction, indicated by lower HRV or abnormal values in CARTs, is associated with increased cardiovascular risk across all stages of glucose metabolism. In the next section, we will discuss potential mechanisms and explore the clinical utility of HRV and CARTs at different stages of diabetes risk.
 
-Cardiovascular autonomic dysfunction and its impact on heart disease across glucose metabolism
+## Cardiovascular autonomic dysfunction and its impact on heart disease across glucose metabolism
 
 Based on our studies, we have shown that cardiovascular autonomic dysfunction, measured by HRV and CARTs, is associated with cardiovascular disease risk across the spectrum of glucose metabolism. This association is evident through measures of arteriosclerosis, atherosclerotic events, all-cause mortality, and heart failure in individuals at high risk of diabetes, as well as through indications of heart failure in patients with type 2 diabetes.
 
