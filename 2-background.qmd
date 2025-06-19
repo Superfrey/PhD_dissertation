@@ -1,10 +1,7 @@
 ---
 title: "Background"
 ---
-
-Diabetes mellitus is a growing global health concern, highlighting its pressing challenges for public health systems[@diabetes2025]. As prevalence rises, more individuals are exposed to an increased risk of premature mortality and cardiovascular disease (CVD)[@diabetes2025]. Despite advancements in cardiovascular care, many cardiovascular complications are still detected at more severe stages[@zamana][@pop-busui2022].
-
-In this thesis, we introduce the concept of type 2 diabetes and its associated risk with CVD. We provide an overview of various cardiovascular complications, including arteriosclerosis, atherosclerosis, and heart failure. Following this, we describe cardiovascular autonomic function and its potential to enhance our understanding of CVD. We further assess the role of cardiovascular autonomic function in healthcare, particularly in risk stratification and enabling the early detection of individuals at high risk for cardiovascular complications.
+I will strart introduce the concept of type 2 diabetes and its associated risk with CVD. Following, I will provide an overview of various cardiovascular complications, including arteriosclerosis, atherosclerosis, and heart failure. Lastly, I describe cardiovascular autonomic function and its potential to enhance our understanding of CVD.
 
 ## Type 2 diabetes and prediabetes
 
