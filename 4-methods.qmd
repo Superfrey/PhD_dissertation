@@ -160,9 +160,13 @@ Carotid stiffness was assessed by the carotid artery distensibility coefficient 
 ![Measures of arterial stiffness, measured dynamically at the aortic and local carotid sites. (Source: Author)](images/Methods_arterial_stiffness.pdf){width="100%," fig-align="left"}
 :::
 
-### Biomarker of heart failure
+### Indicators of heart failure
 
 N-terminal prohormone of brain natriuretic peptide (NT-proBNP) is a neuretic peptide that can be used to detect patients with heart failure and the progression. It derives from B-type natriuretic peptid (BNP) which is a cardial neurohormon, that is syntezied and secreted as response to streched cariomycytes and cardiac volume overload. After secretion, proBNP is cleaved, releasing the active hormone BNP along with the remaining N-terminal fragment, known as NT-proBNP. In Study III, blood sample were taken at Study cite. Description of the NT-proBNP analysis of plasma samples is described in supplementary material \[ref.\].
+
+We used a modified version validated The WATCH-DM heart failure risk score. The risk score is based on 9 variables: two binary (history of myocardial infarction and coronary artery bypass grafting) and seven continuous (age, BMI, systolic/diastolic BP, serum creatinine, HDL cholesterol, and HbA1c). Scores range from 0–39, categorized as very low (≤11), low (12–13), moderate (14–15), high (16–18), and very high (≥19) risk.
+
+NYHA class stage I-IV was included. Heart failure symptoms were defined as NYHA class II–IV, assessed by a physician.
 
 ### Cardiovascular events
 
