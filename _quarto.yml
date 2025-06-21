@@ -25,6 +25,7 @@ book:
     - 8-conclusion.qmd
     - 7-perspectives.qmd
     - references.qmd
+    - 0-abstract.qmd
   appendices:
     - app1-resources.qmd
     - app2-tools.qmd

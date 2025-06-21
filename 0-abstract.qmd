@@ -1,11 +1,23 @@
-# Abstract {.unnumbered}
+# Resume {.unnumbered}
 
-This is a thesis skeleton written with quarto.
-Make a copy of this thesis repo and start to write!
+**På dansk:**
 
-Make a new paragraph by leaving a blank line.
+Denne afhandling undersøgte, om kardiovaskulær autonom dysfunktion er forbundet med kardiovaskulære komplikationer hos personer med normal glukosemetabolisme, prædiabetes og type 2-diabetes. Kardiovaskulær autonom dysfunktion blev målt igennme hjeretrymevariabilitet (HRV) og standardiserede kardiovaskulære autonome refleksundersøgelser (CARTs). Blandt målingerne gav 24-timers HRV indsigt i den autonome balance og døgnrytmens skift mellem sympatisk og parasympatisk aktivitet. Lavere værdier var konsekvent forbundet med ugunstige kardiovaskulære udfald.
 
-```{=tex}
+På tværs af tre studier blev autonom dysfunktion forbundet med højere niveauer af arteriel stivhed, en højere forekomst af iskæmiske hjertekarsygedom, hjertesvigt og dødelighed. Sammenhængen med arteriel stivhed blev observeret på tværs af hele spektret af glukosemetabolisme og var særligt forhøjet hos personer med prædiabetes, hvilket antyder, at autonom dysfunktion. På baggrund af dette fokuserede det efterfølgende studie på personer med høj risiko for at udvikle diabetes. I denne population var kardiovaskulær autonom dysfunktion forbundet med højere risiko for kardiovaskulær sygdom, hjertesvigt og dødelighed.
+
+Kardiovaskulær autonom neuropati, defineret gennem abnormale CARTs, var forbundet med en højere risiko for hjertesvigt hos individer med type 2 diabetes, selv hos personer uden symptomer. Disse fund tyder på, at kardiovaskulær autonom dysfunktion kan fungere som en tidlig og uafhængig markør for risikoen for hjertesvigt, især i populationer med risiko for type 2-diabetes.
+
+Afhandlingen konkluderer, at kardiovaskulær autonom dysfunktion er en klinisk relevant risikofaktor, som bør tiltrække større opmærksomhed i både forskning og klinisk praksis. Fremtidige studier bør undersøge, om forbedring af autonom funktion kan reducere kardiovaskulær risiko, og om målinger af autonom dysfunktion kan integreres i eksisterende risikomodeller. Derudover er potentialet i smarture til kontinuerlig overvågning og tidlig opsporing en mulighed, der kan vurderes i både kliniske og generelle populationer.
+
 \newpage
-\tableofcontents
-```
+
+**In english:**
+
+This dissertation investigated whether cardiovascular autonomic dysfunction is associated with cardiovascular complications in individuals with normal glucose metabolism, prediabetes, and type 2 diabetes. Cardiovascular autonomic dysfunction was assessed using heart rate variability and standardized cardiovascular autonomic reflex tests. Among the measures, 24-hour heart rate variability reflected autonomic balance and circadian shifts in sympathetic and parasympathetic activity. Lower long-term heart rate variability was consistently associated with adverse cardiovascular outcomes.
+
+Across three studies, autonomic dysfunction was linked to higher levels of arterial stiffness, a higher incidence of ischemic cardiovascular events, heart failure, and all-cause mortality. The association with arterial stiffness was observed across the full spectrum of glucose metabolism and was particularly pronounced in individuals with prediabetes, suggesting that autonomic dysfunction may play a role early in the pathophysiological process. Building on this, the subsequent studies focused on individuals at high risk of developing diabetes. In this population, cardiovascular autonomic dysfunction was associated with a higher risk of cardiovascular disease, heart failure, and mortality.
+
+Cardiovascular autonomic neuropathy, as identified through abnormal cardiovascular reflex testing, was associated with a higher risk of heart failure, even in individuals without symptoms. These findings suggest that cardiovascular autonomic dysfunction may serve as an early and independent marker of heart failure risk, particularly in populations at risk of type 2 diabetes.
+
+The dissertation concludes that cardiovascular autonomic dysfunction is a clinically relevant risk factor that warrants further attention in both research and clinical practice. Future studies should explore whether improving autonomic function can reduce cardiovascular risk and whether measures of autonomic dysfunction can be integrated into existing risk models. Additionally, the potential of wearable technologies for continuous monitoring and early detection is a possibility to be evaluated in both clinical and general populations.
