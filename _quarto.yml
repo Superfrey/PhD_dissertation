@@ -22,8 +22,8 @@ book:
     - 4-methods.qmd
     - 5-results.qmd
     - 6-discussion.qmd
-    - 7-perspectives.qmd
     - 8-conclusion.qmd
+    - 7-perspectives.qmd
     - references.qmd
   appendices:
     - app1-resources.qmd

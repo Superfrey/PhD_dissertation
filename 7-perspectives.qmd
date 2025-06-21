@@ -2,7 +2,7 @@
 title: "Perspective"
 ---
 
-We have discussed the mechanisms and clinical implications of cardiovascular autonomic function across different stages of glucose metabolism. Based on our findings and discussion, we propose further perspectives to define its role in research and healthcare from three aspects: (1) continuous non-invasive health monitoring, (2) risk stratification, and (3) identification as a causal and modifiable marker.
+We have investigated cardiovascular autonomic function ipact on cardiovascular complications across different stages of glucose metabolism. Based on our findings and conlcusions, we propose further perspectives to define its role in research and healthcare from three aspects: (1) continuous non-invasive health monitoring, (2) risk stratification, and (3) identification as a causal and modifiable marker.
 
 ## Continuous monitoring of cardiovascular health
 

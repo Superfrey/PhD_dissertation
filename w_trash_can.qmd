@@ -152,6 +152,11 @@ I further assess the role of cardiovascular autonomic function in healthcare, pa
 Chronic hyperglycemia, reflected in elevated HbA1c levels, promotes the formation of advanced glycation end products and the overproduction of reactive oxygen species[@ritchie2020]. These byproducts contribute to oxidative stress, which in turn exacerbates autonomic dysfunction, often evidenced by reduced HRV[@meerwaldt2005][@lee2020]. 
 
  I suspect that the deterioration of HRV indicators may partly reflect the pathogenesis of autonomic neuropathy, as a consequence of harmful byproducts resulting from hyperglycemia.
+ 
+ In our analysis with arterial stiffness as the outcome, several time-domain and frequency-domain HRV measures based on the total variability were modified by diabetes status, whereas the association with mean interbeat interval remained unchanged. This divergence may suggests that HRV captures a distinct physiological mechanism related to arterial stiffness, one that is not reflected by heart rate alone. Hyperglycemia affects the autonomic nervous system by damaging peripheral nerves, potentially leading to CAN, for which HRV is considered an early marker[@kuehl2012][@shah2019]. Therefore, lower HRV in dysglycemia may indicate early CAN, potentially exerting a stronger influence on arterial stiffness[@shah2019] than autonomic dysfunction under normoglycemic conditions.
+ 
+ As the clinical paradigm shifts from a focus on ischemia toward more preventive strategies targeting atherogenesis, greater attention is being paid to individual risk factors that predispose patients to plaque formation [@zaman]
+
 
 ## Perspectives
 

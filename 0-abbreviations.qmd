@@ -1,10 +1,6 @@
 # Abbreviations {.unnumbered}
 
 
-**ACEI:** Angiotensin-converting enzyme-inhibitors  
-**APT:** Antiplatelet therapy  
-**ARB:** Angiotensin receptor blockers  
-**ATC:** Anatomical Therapeutic Chemical (classification)  
 **BMI:** Body mass index  
 **CAN:** Cardiovascular autonomic neuropathy  
 **CARTs:** Cardiovascular autonomic reflex tests    
@@ -15,7 +11,6 @@
 **DKD:** Diabetic kidney disease  
 **eGFR:** Estimated glomerular filtration rate  
 **FPG:** Fasting plasma glucose  
-**GLD:** Glucose-lowering drugs  
 **GLP1RA:** Glucagon-like peptide-1 receptor agonists  
 **HDL:** High-density lipoprotein cholesterol  
 **HRV:** Heart rate variability  
@@ -24,6 +19,7 @@
 **HbA1c:** Haemoglobin-A1c  
 **LDL-C:** Low-density lipoprotein cholesterol  
 **MACE:** Three-point major adverse cardiovascular events   
+**NT-proBNP:**
 **OGTT:** Oral glucose tolerance test  
 **OR:** Odds ratio  
 **PAEE:** Physical activity energy expenditure  
@@ -32,6 +28,7 @@
 **DBP:** Diastolic blood pressure  
 **SGLT2i:** Sodium glucose co-transporter type 2 inhibitors  
 **SES:** Socioeconomic status  
+**SD:** Standard deviation
 **SDNN:** Standard deviation of NN intervals  
 **SDANN:** Standard deviation of the averages of NN intervals in 5-minute segments  
 **SDNN index:** Mean of the SDs of all NN intervals for all 5-minute segments  
