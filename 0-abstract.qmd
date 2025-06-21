@@ -1,6 +1,4 @@
-# Summary {.unnumbered}
-
-**På dansk:**
+# Resume{.unnumbered}
 
 Denne afhandling undersøgte, om kardiovaskulær autonom dysfunktion er forbundet med kardiovaskulære komplikationer hos personer med normal glukosemetabolisme, prædiabetes og type 2-diabetes. Kardiovaskulær autonom dysfunktion blev målt igennme hjeretrymevariabilitet (HRV) og standardiserede kardiovaskulære autonome refleksundersøgelser (CARTs). Blandt målingerne gav 24-timers HRV indsigt i den autonome balance og døgnrytmens skift mellem sympatisk og parasympatisk aktivitet. Lavere værdier var konsekvent forbundet med ugunstige kardiovaskulære udfald.
 
@@ -12,7 +10,7 @@ Afhandlingen konkluderer, at kardiovaskulær autonom dysfunktion er en klinisk r
 
 \newpage
 
-**In english:**
+# Summary
 
 This dissertation investigated whether cardiovascular autonomic dysfunction is associated with cardiovascular complications in individuals with normal glucose metabolism, prediabetes, and type 2 diabetes. Cardiovascular autonomic dysfunction was assessed using heart rate variability and standardized cardiovascular autonomic reflex tests. Among the measures, 24-hour heart rate variability reflected autonomic balance and circadian shifts in sympathetic and parasympathetic activity. Lower long-term heart rate variability was consistently associated with adverse cardiovascular outcomes.
 
