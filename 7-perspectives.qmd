@@ -2,7 +2,7 @@
 title: "Perspective"
 ---
 
-We have investigated cardiovascular autonomic function ipact on cardiovascular complications across different stages of glucose metabolism. Based on our findings and conlcusions, we propose further perspectives to define its role in research and healthcare from three aspects: (1) continuous non-invasive health monitoring, (2) risk stratification, and (3) identification as a causal and modifiable marker.
+We have investigated autonomic function impact on cardiovascular complications across different stages of glucose metabolism. Based on our findings and conlcusions, we propose further perspectives to define its role in research and healthcare from three aspects: (1) continuous non-invasive health monitoring, (2) risk stratification, and (3) identification as a causal and modifiable marker.
 
 ## Continuous monitoring of cardiovascular health
 
@@ -28,7 +28,13 @@ However, standardization and transparency across wearable device brands remain a
 
 ## Risk-stratification
 
-The distinct roles of long-term HRV and CART in cardiovascular risk stratification remain to be fully established and warrant further investigation. From a wearable technology standpoint, it is still unclear whether HRV can serve as an early indicator of CVD risk when incorporated into a risk score alongside simple, non-invasive markers such as age, sex, and BMI. Additionally, its comparative value against established CVD risk scores that include blood-based biomarkers and blood pressure remains to be determined.
+The distinct roles of long-term HRV and CART in cardiovascular risk stratification remain to be fully established. From a wearable technology perspective, long-term HRV offers two promising avenues that warrant further investigation:
+
+1. Non-invasive risk identification: HRV measured via wearable devices may help identify individuals at elevated cardiovascular risk without the need for invasive measures such as blood pressure readings or blood samples.
+
+2. Enhancement of existing risk scores: HRV may improve the predictive accuracy of established cardiovascular risk models, such as SCORE2 or the Framingham Risk Score.
+
+Both applications require further research to determine their clinical utility and integration into routine risk assessment.
 
 A key limitation of long-term HRV measurement is the lack of standardization, as data collected under free-living conditions may be influenced by daily behaviors, potentially affecting risk classification. This highlights the need for standardized protocols. In contrast, CART is a reliable, non-invasive method that typically takes around 10 minutes to perform. A standardized and validated diagnosis of CAN using CART may help identify individuals with T2D who are at elevated risk of complications. However, the extent to which CAN diagnosis predicts heart failure risk and applies to broader populations with T2D or prediabetes remains to be clarified.
 
