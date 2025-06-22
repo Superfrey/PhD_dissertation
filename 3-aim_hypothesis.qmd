@@ -15,6 +15,6 @@ This dissertation investigates the hypothesis by addressing the following three 
 
 Study I: Quantify the cross-sectional association between 24-hour HRV and subclinical markers of cardiovascular complications: carotid-femoral pulse wave velocity and carotid artery distensibility, in a participants with normal glucose metabolism, prediabetes or T2D.
 
-Study II: Quantify the longitudinal association of week-long and hourly HRV with incidence ischemic-CVD, heart failure, and all-cause mortality in a population with high-risk of diabetes.
+Study II: Quantify the longitudinal association of multiday and hourly HRV with incidence of ischemic-related CVD, heart failure, and all-cause mortality in a population with high-risk of diabetes.
 
 Study III: Quantify the cross-sectional association between CAN and heart failure. Heart failure will be defined by clinical measures i.e. N-terminal-pro-BNP (Pro-BNP), WATCH-DM risk, and New York Heart Association (NYHA) scores among individuals with T2D.
