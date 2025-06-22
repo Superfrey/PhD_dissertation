@@ -1,9 +1,9 @@
 ---
 title: "Background"
 ---
-The the concept of type 2 diabetes (T2D) and its associated risk with CVD. Following, I will provide an overview of various cardiovascular complications, including arteriosclerosis, atherosclerosis, and heart failure. Lastly, I describe cardiovascular autonomic function and its potential to enhance our understanding of CVD.
+This background introduces the concept of type 2 diabetes (T2D) and its associated cardiovascular risk. It then provides an overview of various cardiovascular complications, including arteriosclerosis, atherosclerosis, and heart failure. Finally, it describes cardiovascular autonomic function and its potential to enhance our understanding of CVD.
 
-## T2D and prediabetes
+## Type 2 diabetes and prediabetes
 
 The progression from normal glucose metabolism to T2D is characterized by sustained elevations in blood glucose levels. T2D is characterized by a progressive decline in beta-cell function, most often as a consequence of chronic insulin resistance [@tabák2012][@bonora2018]. Insulin resistance occurs when certain tissues, such as muscle and liver tissues, lose their sensitivity to insulin. As a result, glucose is not effectively taken up by these tissues and remains in the blood circulation. Meanwhile, beta-cell function deteriorates, leading to a diminished insulin response to glucose intake. Years before diagnosis, these changes contribute to rising fasting and postprandial glucose levels[@tabák2012].
 

@@ -10,7 +10,7 @@ Afhandlingen konkluderer, at kardiovaskulær autonom dysfunktion er en klinisk r
 
 \newpage
 
-# Summary
+# Summary{.unnumbered}
 
 This dissertation investigated whether cardiovascular autonomic dysfunction is associated with cardiovascular complications in individuals with normal glucose metabolism, prediabetes, and type 2 diabetes. Cardiovascular autonomic dysfunction was assessed using heart rate variability and standardized cardiovascular autonomic reflex tests. Among the measures, 24-hour heart rate variability reflected autonomic balance and circadian shifts in sympathetic and parasympathetic activity. Lower long-term heart rate variability was consistently associated with adverse cardiovascular outcomes.
 
