@@ -156,8 +156,16 @@ Chronic hyperglycemia, reflected in elevated HbA1c levels, promotes the formatio
  In our analysis with arterial stiffness as the outcome, several time-domain and frequency-domain HRV measures based on the total variability were modified by diabetes status, whereas the association with mean interbeat interval remained unchanged. This divergence may suggests that HRV captures a distinct physiological mechanism related to arterial stiffness, one that is not reflected by heart rate alone. Hyperglycemia affects the autonomic nervous system by damaging peripheral nerves, potentially leading to CAN, for which HRV is considered an early marker[@kuehl2012][@shah2019]. Therefore, lower HRV in dysglycemia may indicate early CAN, potentially exerting a stronger influence on arterial stiffness[@shah2019] than autonomic dysfunction under normoglycemic conditions.
  
  As the clinical paradigm shifts from a focus on ischemia toward more preventive strategies targeting atherogenesis, greater attention is being paid to individual risk factors that predispose patients to plaque formation [@zaman]
+ 
 
 
 ## Perspectives
 
 In our multiday recordings, our data likely captured episodes of stress-induced HRV under free-living conditions, such as during the awakening stages in the morning. Capturing autonomic responses to daily living and their alignment with circadian rhythms may provide valuable insights into cardiovascular risk. Therefore, understanding autonomic responses to tasks is relevant for comprehending their role in cardiovascular risk, beyond short-term measures taken at rest. Including data to monitor real-time activity, such as physical activity, would add value by capturing physiological responses to bodily demands. This could enable the inclusion of heart rate responses (e.g., from rest to standing) and other relevant measures of autonomic function, such as heart rate recovery after physical movement, which is a known risk factor for cardiovascular disease and all-cause mortality [@colechristopherr][@vandevegte].
+
+
+**Idea: Using Registry ECG Data and Target Trial Emulation to Study Treatment Effects in Cardiovascular Autonomic Neuropathy (CAN)**
+
+In observational epidemiology, it is challenging to determine whether a specific medication improves outcomes among patients with cardiovascular autonomic neuropathy (CAN), largely due to confounding and limitations in measuring CAN at scale. One potential approach is to leverage large-scale health registries that include electrocardiogram (ECG) recordings from a broad population. If we can validate a method for identifying CAN from these ECGs, we could classify individuals as having or not having CAN across the registry. This opens the possibility of studying the long-term effects of different treatments in this subgroup.
+
+To address confounding and approximate causal effects, we could apply target trial emulation methodology. By explicitly specifying a hypothetical randomized trial and mimicking its design and analysis using observational data, we can evaluate whether specific treatments are associated with better outcomes in patients with CAN. This approach would enable a rigorous assessment of real-world treatment effectiveness at scale.
