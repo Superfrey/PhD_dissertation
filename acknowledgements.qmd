@@ -1,3 +1,20 @@
 # Acknowledgements {.unnumbered}
 
-Thanks for all the fish.
+This PhD journey has been an adventure marked by both challenges and solutions, with its share of ups and downs.
+I would like to extend my great gratitude to colleagues, collaborators, friends, and family for supporting me in this journey and for making the ride fun and exciting.
+
+
+Daniel -
+Signe - clincal relevance
+Lasse - methodlogical support and cutting through
+Christian for probmt support when needed
+Adam Hulman
+
+Livie, Helene, Sidsel, Manu, Ole-Emil 
+
+Peter, Ieva, Javier
+
+Professor Dianna Magliano and Professor Jonathan Shaw, thank you for including me in the Epidemiology group at the Baker Heart and Diabetes Institute in Melbourne. It was a truly enriching stay, both scientifically and socially. I would like to extend my sincere thanks to Julian Sacre for his valuable assistance and insightful contributions in deepening my understanding of the challenges involved in diagnosing heart failure subtypes. To the PhD students and post-docs at 7/11, Della, Forough, Elizabeth, Jedidiah, Lei, Mahtab, Kanika and Joanna, thank you for making me feel so welcomed and giving me a wonderful and fun experience of Melbourne.
+
+To my brothers Esben and Jalte, thank you for putting up with me and for helping me loosen up and have fun. Thank you to parents for supporting me through a lifetime. Much of my curiosity for applying mathematics and statistics originates from my grandfather, Ebbe Schaarup, who spent countless hours teaching me. A large part of this work is dedicated to him.
+
