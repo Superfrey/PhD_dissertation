@@ -1,0 +1,20 @@
+{
+  "hash": "b2c275f03826238907f7a84b295b05b3",
+  "result": {
+    "markdown": "# Notes and disclosures {.unnumbered}\n\n## Financial support{.unnumbered}\n\nThe PhD project was supported by research grant from **European Foundation for the Study of Diabetes/Sanofi** (*European Diabetes Research Programme in Diabetes associated with Cardiovascular Disease*), **Department of Public Health at Aarhus University** and **Steno Diabetes Center Aarhus**, which is partially funded by an unrestricted donation from the *Novo Nordisk Foundation*.\n\n\n\n\n::: {.cell layout-ncol=\"3\" layout-align=\"center\"}\n::: {.cell-output-display}\n![](images/efsd-logo.png){fig-align='center' width=80%}\n:::\n\n::: {.cell-output-display}\n![](images/au_health_cropped.png){fig-align='center' width=80%}\n:::\n\n::: {.cell-output-display}\n![](images/sdca.png){fig-align='center' width=80%}\n:::\n:::\n",
+    "supporting": [
+      "0-disclosure_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
