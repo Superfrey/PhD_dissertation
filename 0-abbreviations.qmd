@@ -19,7 +19,8 @@
 **HbA1c:** Haemoglobin-A1c  
 **LDL-C:** Low-density lipoprotein cholesterol  
 **MACE:** Three-point major adverse cardiovascular events   
-**NT-proBNP:**
+**NGM:** Normal glucose metabolism    
+**NT-proBNP:** N-terminal pro-B-type natriuretic peptide
 **OGTT:** Oral glucose tolerance test  
 **OR:** Odds ratio  
 **PAEE:** Physical activity energy expenditure  
