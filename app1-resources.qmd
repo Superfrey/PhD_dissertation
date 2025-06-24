@@ -13,17 +13,12 @@
 
 \newpage
 
-\includepdf[pages=-]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
-- suppleentatyr
 
 \newpage
 
 ## Study III
 
 \newpage
-
-\includepdf[pages=-]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
-- suppleentatyr
 
 \newpage
 
