@@ -202,7 +202,7 @@ In Study II, we used Poisson regression models to quantify the associations betw
 
 ### Effect modification \[det kan evt. kortes ned\]
 
-Effect modification is used to assess whether the association between an exposure and an outcome varies depending on the level of a third variable, known as the effect modifier. This means that the observed relationship between the exposure and the outcome is not uniform across all subgroups. Instead, it differs across strata defined by the effect modifier [@knol2012].
+Effect modification is used to assess whether the association between an exposure and an outcome varies depending on the level of a third variable, known as the effect modifier [@knol2012].
 
 In Study I, we hypothesize that the association between 24-hour and arterial stiffness was stronger in strata of progression of diabetes (normal glucose metabolism, prediabetes, T2D). We therefore first stratified by diabetes status to observe the size of the association across strata. We then combine all groups and include an interaction term between HRV and diabetes status. We did subsidiary analysis to check if the effect was modified by dysglycemia by stratifying HbA1c and fasting plasma glucose into deciles. In Study II, we quatified whether the association between multiday HRV and CVD endpoints varied by sex to explore potential biological dimorphism.
 
@@ -230,4 +230,4 @@ In Study II, we assessed autonomic function using multiday HRV recordings and ho
 
 *Biomarker of Heart Failure*
 
-In Study III, kidney function and overweight are know to influence NT-proBNP levels independently of heart failure. We adjusted the model to account for the blurred effect of eGFR on NT-proBNP levels in the analysis.
+In Study III, kidney function and overweight are know to influence NT-proBNP levels independently of heart failure[@heidenreich2022]. We adjusted the model to account for the blurred effect of eGFR on NT-proBNP levels in the analysis.
