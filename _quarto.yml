@@ -27,7 +27,6 @@ book:
     - 0-abstract.qmd
   appendices:
     - app1-resources.qmd
-    - app2-tools.qmd
 
 bibliography: references.bib
 csl: the-lancet.csl
@@ -74,3 +73,6 @@ format:
     toc-depth: 2
     toc: false
     papersize: a4
+    include-in-header: latex-header.tex
+
+    
