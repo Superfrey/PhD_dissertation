@@ -141,7 +141,8 @@ table_add_pro[-nrow(table_add_pro), ] %>%
     kableExtra::kable_styling(
     latex_options = c("striped", "scale_down"), 
     #full_width = TRUE, 
-    font_size = 10)
+    font_size = 10) %>% 
+    kableExtra::landscape()
 ```
 *Categorical variables: n (%)*
 *Continous variables: Mean (SD)*
