@@ -2,11 +2,13 @@
 title: "Perspective"
 ---
 
-We have investigated autonomic function impact on cardiovascular complications across different stages of glucose metabolism. Based on our findings and conlcusions, we propose further perspectives to define its role in research and healthcare from three aspects: (1) continuous non-invasive health monitoring, (2) risk stratification, and (3) identification as a causal and modifiable marker.
+\newpage
+
+This dissertation has investigated autonomic function impact on cardiovascular complications across different stages of glucose metabolism. Based on our findings and conclusions, we propose further perspectives to define its role in research and healthcare from three aspects: (1) continuous non-invasive health monitoring, (2) risk stratification, and (3) identification as a causal and modifiable marker.
 
 ## Continuous monitoring of cardiovascular health
 
-Understanding when and how physiological signals reflect elevated CVD risk is essential for developing early and effective prevention strategies. Incorporating HRV into digital health solutions could support personalized feedback mechanisms, enabling timely lifestyle or therapeutic interventions and contributing to more adaptive and preventive healthcare strategies. Wearable devices enable comprehensive data collection on behavioral (e.g., sleep and physical activity) and physiological (e.g., heart rate, ECG, temperature) parameters [@keshet2023]. These devices offer a broader and more feasible approach to long-term heart rate monitoring. Despite growing interest in wearable-based monitoring, the integration of HRV into routine cardiometabolic risk assessment remains limited.
+Understanding when and how physiological signals reflect elevated CVD risk is essential for developing early and effective prevention strategies. Incorporating HRV into digital health solutions could support personalized feedback mechanisms, enabling timely lifestyle or therapeutic interventions and contributing to more adaptive and preventive healthcare strategies. Digital CVD risk calculators can help optimize the timing of follow-up assessments or the initiation of treatment. In type 1 diabetes, for example, such tools are used to guide decisions on starting lipid-lowering therapy. Similarly, recent analyses at Steno Diabetes Center Copenhagen have shown that not all patients require annual retinopathy screening. Instead, prediction models using clinical variables can determine optimal re-screening intervals. Wearable devices enable comprehensive data collection on behavioral (e.g., sleep and physical activity) and physiological (e.g., heart rate, ECG, temperature) parameters [@keshet2023]. These devices offer a broader and more feasible approach to long-term heart rate monitoring. Despite growing interest in wearable-based monitoring, the integration of HRV into routine cardiometabolic risk assessment remains limited.
 
 Two key aspects highlight the potential applications of monitoring: (1) identification of risk and (2) assessment of response to intervention.
 
@@ -22,9 +24,9 @@ HRV represents a potential target for intervention, as low HRV may reflect adver
 ![HRV feedback in response to lifestyle and treatment interventions. (Source: Author)](images/smartwatch.png){width="4in"}
 :::
 
-Future research can leverage wearable devices to better understand how behavioral and pharmacological factors influence HRV. This approach may help identify effective lifestyle patterns or treatments that support cardiovascular health through HRV modulation.
+Future research can leverage wearable devices to monitor the effectiveness of behavioral and pharmacological interventions on HRV at the individual level. This approach may support precision real-time monitoring to identify lifestyle patterns or treatments that promote cardiovascular health through HRV modulation or uncover potential side effects[@franks2023].
 
-However, standardization and transparency across wearable device brands remain a challenge for both research and clinical use. While smartwatches offer convenient heart rate monitoring, their accuracy varies due to reliance on photoplethysmography, which can be affected by motion and other external factors, especially during physical activity [@nelson2019][@fuller2020]. Despite these limitations, ongoing improvements in sensor technology and algorithm calibration are likely to enhance the reliability of wearable-derived HRV and heart rate data.
+However, standardization and transparency across wearable device brands remain a challenge for both research and clinical use. While smartwatches offer convenient heart rate monitoring, their accuracy varies due to reliance on photoplethysmography, which can be affected by motion and other external factors, especially during physical activity [@nelson2019][@fuller2020]. Despite these limitations, ongoing improvements in sensor technology and algorithm calibration are likely to enhance the reliability of wearable-derived HRV and heart rate data. Open data formats are important to ensure that detailed data (e.g. interbeat intervals) from various devices can be used consistently in health prediction algorithms, rather than relying only on summarized outputs.
 
 ## Risk-stratification
 
@@ -38,10 +40,10 @@ Both applications require further research to determine their clinical utility a
 
 A key limitation of long-term HRV measurement is the lack of standardization, as data collected under free-living conditions may be influenced by daily behaviors, potentially affecting risk classification. This highlights the need for standardized protocols. In contrast, CART is a reliable, non-invasive method that typically takes around 10 minutes to perform. A standardized and validated diagnosis of CAN using CART may help identify individuals with T2D who are at elevated risk of complications. However, the extent to which CAN diagnosis predicts heart failure risk and applies to broader populations with T2D or prediabetes remains to be clarified.
 
-Our findings suggest that long-term HRV and CAN may serve as useful markers for identifying individuals at elevated metabolic risk who could benefit from targeted preventive strategies. Future research should explore whether those classified as high-risk based on autonomic dysfunction or CAN would benefit from earlier cardiovascular screening or tailored interventions.
+Our findings suggest that long-term HRV and CAN may serve as useful markers for identifying individuals at elevated metabolic risk who could benefit from targeted preventive strategies. Future research should explore whether identifying individuals as high-risk based on autonomic dysfunction or CAN could support personalized and timely cardiovascular screening or interventions[@franks2023].
 
 ::: {layout-ncol="1"}
-![Risk-stratification by autonomic dysfunction. (Source: Author)](images/strafication_tree_of_CAN(1).png){width="5in"}
+![Conceptual model for risk stratification by autonomic dysfunction. (Source: Author)](images/strafication_tree_of_CAN(1).png){width="5in"}
 :::
 
 ## Effective causal modifiable marker
@@ -54,4 +56,4 @@ To address these limitations, modern epidemiological methods such as Mendelian r
 ![Mediation of HRV by intervention in prevention of CVD. (Source: Author)](images/Mediation_HRV.png){width="6in"}
 :::
 
-Future cardiometabolic intervention trials and observation, whether focused on lifestyle or pharmacological strategies, should, where feasible, include HRV measurements. This would enable structured mediation analyses and help determine whether modifying autonomic function leads to sustained improvements in cardiovascular outcomes. Such evidence could clarify whether interventions like antihypertensive medications or lifestyle changes in physical activity, diet, and sleep can causally and sustainably improve CVD risk through HRV modulation.
+Future cardiometabolic intervention trials and longitudinal cohorts, whether focused on lifestyle or pharmacological strategies, should, where feasible, include repeated HRV measurements measurements. This would enable structured mediation analyses and help determine whether modifying autonomic function leads to sustained improvements in cardiovascular outcomes. Such evidence could clarify whether interventions like antihypertensive medications or lifestyle changes in physical activity, diet, and sleep can causally and sustainably improve CVD risk through HRV modulation.

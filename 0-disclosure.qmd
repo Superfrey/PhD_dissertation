@@ -15,5 +15,3 @@ knitr::include_graphics("images/efsd-logo.png")
 knitr::include_graphics("images/au_health_cropped.png")
 knitr::include_graphics("images/sdca.png")
 ```
-
-

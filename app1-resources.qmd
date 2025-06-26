@@ -5,7 +5,8 @@
 \newpage
 
 \includepdf[pages=-]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
-- suppleentatyr
+
+\includepdf[pages=-]{appendix/Supplemental_Material_MS.pdf}
 
 \newpage
 
@@ -13,6 +14,9 @@
 
 \newpage
 
+\includepdf[pages=-]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
+
+\includepdf[pages=-]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
 
 \newpage
 

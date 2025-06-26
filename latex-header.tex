@@ -1,1 +1,81 @@
-\usepackage{pdfpages}
+    \usepackage{booktabs}
+    \usepackage{longtable}
+    \usepackage{array}
+    \usepackage{multirow}
+    \usepackage{wrapfig}
+    \usepackage{float}
+    \usepackage{colortbl}
+    \usepackage{pdflscape}
+    \usepackage{tabu}
+    \usepackage{threeparttable}
+    \usepackage{threeparttablex}
+    \usepackage[normalem]{ulem}
+    \usepackage{makecell}
+    \usepackage{xcolor}
+    \usepackage{pdfpages}
+     \usepackage{float}
+     \floatplacement{figure}{H}
+     \raggedbottom
+     \usepackage[automark]{scrlayer-scrpage}
+     \clearpairofpagestyles
+
+     \lofoot*{\vspace{10mm} \\ \pagemark}
+     \refoot*{\vspace{10mm} \\ \pagemark}
+
+     \chead{\headmark}
+     \addtokomafont{pagehead}{\bfseries\upshape\color{white}}
+     \addtokomafont{pagenumber}{\bfseries\color{blue!40!black}}
+     % shift the predefined head layers
+     \ForEachLayerOfPageStyle*{scrheadings}{%
+     \ifstrstart{#1}{scrheadings.head.}
+     {\ModifyLayer[addvoffset=-.5in-.5\voffset-.5\topmargin]{#1}}
+     {}%
+     }
+     \ForEachLayerOfPageStyle*{plain.scrheadings}{%
+     \ifstrstart{#1}{plain.scrheadings.head.}
+     {\ModifyLayer[addvoffset=-.5in-.5\voffset-.5\topmargin]{#1}}
+     {}%
+     }
+     % Defining the Layer
+     \DeclareLayer[
+     background,
+     topmargin,
+     addheight=\headheight,
+     contents={%
+        \color{blue!40!black}%
+        \rule{\layerwidth}{\layerheight}%
+     }%
+     ]{my.head.background}
+     %Adding the Layer to the pagestyles
+     \AddLayersAtBeginOfPageStyle{scrheadings}{my.head.background}
+     \AddLayersAtBeginOfPageStyle{plain.scrheadings}{my.head.background}
+
+      \usepackage{tocbibind}
+      \usepackage{titling}
+      \setlength{\droptitle}{-2cm}
+      \preauthor{
+        \begin{center}
+        \large
+        \lineskip 0.5em%
+        PhD dissertation\\
+        \vspace{25mm}
+      }
+      \postauthor{
+        \end{center}
+      }
+      \predate{
+        \begin{center}
+        \vspace*{\fill}
+        Health\\        % Degree stream
+        Aarhus University\\                       % University
+      }
+      \postdate{
+        \\
+        \resizebox{.9\textwidth}{!}{%
+        \includegraphics[width=7in]{images/au_health.png}%
+        \quad
+        }
+        \end{center}
+
+
+       }

@@ -100,7 +100,87 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
-\usepackage{pdfpages}
+    \usepackage{booktabs}
+    \usepackage{longtable}
+    \usepackage{array}
+    \usepackage{multirow}
+    \usepackage{wrapfig}
+    \usepackage{float}
+    \usepackage{colortbl}
+    \usepackage{pdflscape}
+    \usepackage{tabu}
+    \usepackage{threeparttable}
+    \usepackage{threeparttablex}
+    \usepackage[normalem]{ulem}
+    \usepackage{makecell}
+    \usepackage{xcolor}
+    \usepackage{pdfpages}
+     \usepackage{float}
+     \floatplacement{figure}{H}
+     \raggedbottom
+     \usepackage[automark]{scrlayer-scrpage}
+     \clearpairofpagestyles
+
+     \lofoot*{\vspace{10mm} \\ \pagemark}
+     \refoot*{\vspace{10mm} \\ \pagemark}
+
+     \chead{\headmark}
+     \addtokomafont{pagehead}{\bfseries\upshape\color{white}}
+     \addtokomafont{pagenumber}{\bfseries\color{blue!40!black}}
+     % shift the predefined head layers
+     \ForEachLayerOfPageStyle*{scrheadings}{%
+     \ifstrstart{#1}{scrheadings.head.}
+     {\ModifyLayer[addvoffset=-.5in-.5\voffset-.5\topmargin]{#1}}
+     {}%
+     }
+     \ForEachLayerOfPageStyle*{plain.scrheadings}{%
+     \ifstrstart{#1}{plain.scrheadings.head.}
+     {\ModifyLayer[addvoffset=-.5in-.5\voffset-.5\topmargin]{#1}}
+     {}%
+     }
+     % Defining the Layer
+     \DeclareLayer[
+     background,
+     topmargin,
+     addheight=\headheight,
+     contents={%
+        \color{blue!40!black}%
+        \rule{\layerwidth}{\layerheight}%
+     }%
+     ]{my.head.background}
+     %Adding the Layer to the pagestyles
+     \AddLayersAtBeginOfPageStyle{scrheadings}{my.head.background}
+     \AddLayersAtBeginOfPageStyle{plain.scrheadings}{my.head.background}
+
+      \usepackage{tocbibind}
+      \usepackage{titling}
+      \setlength{\droptitle}{-2cm}
+      \preauthor{
+        \begin{center}
+        \large
+        \lineskip 0.5em%
+        PhD dissertation\\
+        \vspace{25mm}
+      }
+      \postauthor{
+        \end{center}
+      }
+      \predate{
+        \begin{center}
+        \vspace*{\fill}
+        Health\\        % Degree stream
+        Aarhus University\\                       % University
+      }
+      \postdate{
+        \\
+        \resizebox{.9\textwidth}{!}{%
+        \includegraphics[width=7in]{images/au_health.png}%
+        \quad
+        }
+        \end{center}
+
+
+       }
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{array}
@@ -189,18 +269,15 @@ complications across glucose metabolism}
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, interior hidden, sharp corners, borderline west={3pt}{0pt}{shadecolor}, enhanced, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, interior hidden, sharp corners, enhanced, breakable, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
 
 \mainmatter
 \bookmarksetup{startatroot}
 
-\hypertarget{acknowledgements}{%
-\chapter*{Acknowledgements}\label{acknowledgements}}
-\addcontentsline{toc}{chapter}{Acknowledgements}
+\hypertarget{cover-page}{%
+\chapter*{Cover Page}\label{cover-page}}
 
-\markboth{Acknowledgements}{Acknowledgements}
-
-Thanks for all the fish.
+\markboth{Cover Page}{Cover Page}
 
 \bookmarksetup{startatroot}
 
@@ -232,25 +309,26 @@ Department of Public Health, Aarhus University, Denmark\\
 Steno Diabetes Center Aarhus, Denmark
 
 \textbf{Signe Toft Andersen, MD PhD}\\
-Department of Public Health, Aarhus University, Denmark Steno Diabetes
-Center Aarhus, Denmark
+Department of Public Health, Aarhus University, Denmark\\
+Steno Diabetes Center Aarhus, Denmark
 
 \textbf{Christian Stevns Hansen, MD PhD}\\
-Steno Diabetes Center Copenhagen, Denmark
+Steno Diabetes Center Copenhagen, Copenhagen, Denmark
 
 \hypertarget{assessment-committee}{%
 \subsubsection*{Assessment committee:}\label{assessment-committee}}
 \addcontentsline{toc}{subsubsection}{Assessment committee:}
 
-\textbf{Professor Morten Schmidt (chair and moderator of the defence)}
-Department of Clinical Medicin - Department of Clinical Epidemiology,
+\textbf{Professor Morten Schmidt (chair and moderator of the defence)}\\
+Department of Clinical Medicin, Department of Clinical Epidemiology,
 Aarhus University
 
-\textbf{Associate Professor Ilonca Vaartjes} University Medical Center
-Utrecht, Julius Center, Department of Epidemiology and Health Economics
+\textbf{Associate Professor Ilonca Vaartjes}\\
+University Medical Center Utrecht, Julius Center, Department of
+Epidemiology and Health Economics
 
-\textbf{Cardiologist Peter Godsk Jørgensen} Herlev and Gentofte
-Hospital, Capital Region of Denmark
+\textbf{Cardiologist Peter Godsk Jørgensen}\\
+Herlev and Gentofte Hospital, Capital Region of Denmark
 
 \bookmarksetup{startatroot}
 
@@ -373,22 +451,22 @@ foundation in critical thinking, focused on machine learning and
 clinical prediction. Together with Adam Hulman and Anders Isaksen, we
 investigated how people perceive the use of artificial intelligence in
 healthcare. On this project, I am grateful to Lasse Bjerg and Annelli
-Sandbæk and rest of Health Central Denmark (HICD) steering comitees for
-integrating our questionnaire into their cohort, which greatly supported
-our quest. I also appreciate Kasper Normann's help with prompt data
-management. This collaboration resulted in one original research paper
-and two preprints based on two waves of data collection from the HICD
+Sandbæk and rest of Health in Central Denmark (HICD) steering comitees
+for integrating our questionnaire into their cohort. I also appreciate
+Kasper Normann's help with prompt data management. This collaboration
+resulted in one original research paper and two other submitted
+manuscript based on wave 2022 and 2024 of data collection from the HICD
 cohort.
 
-In this PhD project, we set out to extend the generalisability of the
-CANCAN findings to populations without type 2 diabetes. This led us to
-use data from the Lolland-Falster Health Study (LOFUS). I am deeply
-grateful to Randi Jepsen for the collaboration on accessing the cohort
-and for her support in getting the biobank samples analysed. The data is
-now ready for use in the study. Further appreciation goes to Marie
-Mathilde Bjerg Christensen, Christian Stevns Hansen, and Jesper
-Fleischer for updating reference values for CARTs using LOFUS data and
-for generously sharing their expertise on the measurements.
+We set out to extend the generalisability of the CANCAN findings to
+populations without type 2 diabetes. This led us to use data from the
+Lolland-Falster Health Study (LOFUS). I am deeply grateful to Randi
+Jepsen for the collaboration on accessing the cohort and for her support
+in getting the biobank samples analysed. The data is now ready for use
+in the study. Further appreciation goes to Marie Mathilde Bjerg
+Christensen, Christian Stevns Hansen, and Jesper Fleischer for updating
+reference values for CARTs using LOFUS data and for generously sharing
+their expertise on the measurements.
 
 In my last year of the PhD is was lucky to exchange research environment
 to Baker Heart and Diabetes Institute. I had the privilege of working
@@ -405,6 +483,78 @@ shape a study that will be submitted soon.
 
 \bookmarksetup{startatroot}
 
+\hypertarget{acknowledgements}{%
+\chapter*{Acknowledgements}\label{acknowledgements}}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+
+\markboth{Acknowledgements}{Acknowledgements}
+
+This PhD journey has been a remarkable adventure. The best part has
+undoubtedly been all the people I have met and worked with along the
+way. I would like to express my deepest gratitude to colleagues,
+collaborators, friends, and family for their support throughout this
+journey and for making the ride both fun and exciting.
+
+First and foremost, I would like to thank my main supervisor, Daniel
+Witte. His unwavering support, thought-provoking challenges, and
+brilliant guidance have kept me motivated to learn about diabetes
+epidemiology throughout this journey. His ability to expand horizons in
+research has been truly inspiring, and I am deeply grateful for the
+opportunities to grow under his mentorship. I would like thank the rest
+of the supervisor team. Lasse Bjerg for his methodological support, high
+spirits and sharp minded, always cutting straight to the core of the
+research. Signe T. Andersen for her guidance and support throughout the
+design and data collection of the CANCAN study. As a non-clinician
+researcher, it was eye-opening to witness the complex challenges of
+diabetes consultations, and I admire her ability to understand each
+patient. Christian Stevns Hansen for his prompt support and strong
+physiological expertise.
+
+Thank you to all my friends at Steno Diabetes Center Aarhus (SDCA) and
+the Department of Public Health at Aarhus University who have supported
+my project, inspired great discussions, and shared fun times: Adam,
+Omar, Luke, Daniel I, Anders, Benjamin, Jie, Livie, Helene, Sidsel,
+Manuel, Christian, and Ole-Emil.
+
+In The Maastricht Study, I would like to thank Marleen van Greevenbroek,
+Miranda Schram, Carla van der Kallen, and the rest of the team for
+granting me access to the cohort and for showing me the data collection
+facilities. Thanks to Marion Feijge for guiding me through the data. I
+am also grateful to Professor Coen Stehouwer for his sharp insight and
+deep expertise in diabetes epidemiology. In the ADDITION-PRO study, I
+would like to thank Anne-Louise Bjerre and Søren Brage for their help in
+explaining variables, and data manager Marianne at the Department of
+Public Health for her generous support. In the CANCAN study, I would
+like to acknowledge Henrik Holm Thomsen and Gitte Jensen for their help
+with recruitment, and Anne Katrine Møller Gramstrup for extracting
+clinical data for the study population. I am also deeply grateful to the
+people who generously agreed to participate in the CANCAN study.
+
+No adventure is truly exciting without cultural exchange---whether
+through the lovely visits from Peter and Ieva at SDCA or by immersing
+myself in new research environments. To Professor Dianna Magliano and
+Professor Jonathan Shaw, thank you for including me in the Epidemiology
+group at the Baker Heart and Diabetes Institute in Melbourne. It was a
+truly enriching stay, both scientifically and socially. I would like to
+extend my sincere thanks to Julian Sacre for his valuable support and
+insightful contributions in deepening my understanding of the challenges
+involved in diagnosing heart failure subtypes. To the PhD students and
+post-docs at 7/11, Della, Forough, Elizabeth, Jedidiah, Lei, Mahtab,
+Kanika and Joanna, thank you for making me feel so welcomed and giving
+me a wonderful and fun experience of Melbourne.
+
+To my brothers Esben and Jalte, thank you for putting up with me and for
+helping me loosen up and have fun. To my parents, thank you for
+supporting me throughout my life and for standing by me in every path I
+have chosen. Much of my curiosity for applying mathematics and
+statistics to understand the world stems from my grandfather, Ebbe
+Schaarup, who spent countless hours teaching and inspiring me. A large
+part of this work is dedicated to him. Last but not least, to my lovely
+girlfriend Freja, thank you for always being kind, supportive, and
+willing to join the adventure.
+
+\bookmarksetup{startatroot}
+
 \hypertarget{sec-linked-papers}{%
 \chapter*{Papers in the dissertation}\label{sec-linked-papers}}
 \addcontentsline{toc}{chapter}{Papers in the dissertation}
@@ -413,28 +563,32 @@ shape a study that will be submitted soon.
 
 \textbf{Study I}
 
+\textbf{Cardiovascular autonomic dysfunction is linked with arterial
+stiffness across glucose metabolism: The Maastricht Study}\\
 Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen,
 Marleen van Greevenbroek, Miranda T. Schram, Bastiaan E. de Galan, Coen
-Stehouwer, Daniel R. Witte (2025). Cardiovascular autonomic dysfunction
-is linked with arterial stiffness across glucose metabolism: The
-Maastricht Study. medRxiv 2024.12.03.24317865; doi:
-https://doi.org/10.1101/2024.12.03.24317865 (under peer-review at BMJ
-Open Diabetes Research \& Care)
+Stehouwer, Daniel R. Witte (2025). medRxiv 2024.12.03.24317865; doi:
+https://doi.org/10.1101/2024.12.03.24317865 (preprint) (under
+peer-review at BMJ Open Diabetes Research \& Care)
 
 \textbf{Study II}
 
+\textbf{Cardiovascular autonomic dysfunction precedes cardiovascular
+disease and all-cause mortality: 11-year follow-up of the ADDITION-PRO
+study}\\
 Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove,
 Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel
-R. Witte (2025). Cardiovascular autonomic dysfunction precedes
-cardiovascular disease and all-cause mortality: 11-year follow-up of the
-ADDITION-PRO study. medRxiv 2024.12.18.24319131; doi:
+R. Witte (2025). medRxiv 2024.12.18.24319131; doi:
 https://doi.org/10.1101/2024.12.18.24319131 (accepted at Diabetes,
 Obesity and Metabolism)
 
 \textbf{Study III}
 
-Cardiovascular autonomic neuropathy and indices of heart failure in type
-2 diabetes: The CANCAN Study - add pieces!!!!!
+\textbf{Cardiovascular autonomic neuropathy and indices of heart failure
+in type 2 diabetes: The CANCAN Study}\\
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Daniel R. Witte,
+Henrik H. Thomsen, Jesper Fleischer, Rodica Pop-Busui, Annelli Sandbæk,
+Signe T. Andersen. (submitted?)
 
 \newpage
 
@@ -496,7 +650,6 @@ medicine)
 \textbf{cf-PWV:} Carotid-femoral pulse wave velocity\\
 \textbf{CI:} Confidence interval\\
 \textbf{CVD:} Cardiovascular disease\\
-\textbf{DKD:} Diabetic kidney disease\\
 \textbf{eGFR:} Estimated glomerular filtration rate\\
 \textbf{FPG:} Fasting plasma glucose\\
 \textbf{GLP1RA:} Glucagon-like peptide-1 receptor agonists\\
@@ -542,11 +695,13 @@ intervals\\
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
 
+\newpage
+
 Diabetes mellitus is a growing global health concern, posing pressing
 challenges for public health systems\textsuperscript{1}. As prevalence
 rises, more individuals are exposed to an increased risk of premature
 mortality and cardiovascular disease (CVD)\textsuperscript{1}. At the
-same time, people live longer with diabetes, and therfore endure
+same time, people live longer with diabetes, and therefore endure
 extended periods under the burden of diabetes-related
 complications\textsuperscript{2}. Despite advancements in cardiovascular
 care, coronary artery disease and heart failure are still often detected
@@ -594,6 +749,8 @@ continuum, from healthy glucose metabolism to type 2 diabetes.
 
 \hypertarget{background}{%
 \chapter{Background}\label{background}}
+
+\newpage
 
 This background introduces the concept of type 2 diabetes (T2D) and its
 associated cardiovascular risk. It then provides an overview of various
@@ -1021,13 +1178,15 @@ risk-stratification.
 \hypertarget{aim-and-hypothesis}{%
 \chapter{Aim and hypothesis}\label{aim-and-hypothesis}}
 
+\newpage
+
 The hypotheses of this dissertation are:
 
 CAN and autonomic dysfunction is associated with CVD and acts as an
 early risk factor for heart failure and other cardiovascular
 complications, including stroke, and myocardial infarction in patients
 with prediabetes and/or T2D. In addition autonomic dysfunction is
-associated with higher levels of sub-clinical meassures such as
+associated with higher levels of sub-clinical measures such as
 carotid-femoral pulse wave velocity and carotid artery distensibility.
 
 This dissertation investigates the hypothesis by addressing the
@@ -1052,14 +1211,16 @@ Association (NYHA) scores among individuals with T2D.
 \hypertarget{materials-and-methods}{%
 \chapter{Materials and methods}\label{materials-and-methods}}
 
+\newpage
+
 \hypertarget{overview-of-the-studies}{%
 \section{Overview of the studies}\label{overview-of-the-studies}}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0602}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3168}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3665}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2513}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0604}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3176}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3675}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2493}}@{}}
 \caption{Table 1: Overview of studies}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
@@ -1090,7 +1251,7 @@ stiffness across glucose metabolism: The Maastricht Study &
 Cardiovascular autonomic dysfunction precedes cardiovascular disease and
 all-cause mortality: 11-year follow-up in the ADDITION-PRO study &
 Cardiovascular autonomic neuropathy and subclinical heart failure in
-T2D: The CANCAN study \textbar{} \\
+T2D: The CANCAN study \\
 Design & Aetiological cross-sectional study & Aetiological prospective
 cohort study & Descriptive cross-sectional study \\
 Cohort & Maastricht study & ADDITION-PRO study & CANCAN study \\
@@ -1682,7 +1843,11 @@ for age, sex, and diabetes duration, smoking behavior, alcohol
 consumption, body mass index, HbA1c, triglycerides, total cholesterol,
 and antihypertensive medication, eGFR and prior CVD. We performed
 sensitivity analyses excluded participants with beta-blocker treatment
-or prior CVD.
+or prior CVD. We applied logistic regression to assess the odds of CAN
+asoociation wtih heart failure symptoms, defined by a NYHA class II or
+higher, adjusting for covaties in primary analysis. Linear regression
+was employed to evaluate differences in the WATCH-DM risk score between
+individuals with and without CAN.
 
 \hypertarget{time-to-event-analysis}{%
 \subsection{Time-to-event analysis}\label{time-to-event-analysis}}
@@ -1814,6 +1979,8 @@ NT-proBNP levels in the analysis.
 \hypertarget{results}{%
 \chapter{Results}\label{results}}
 
+\newpage
+
 In this section, study population characteristics and findings from
 analysis will be presented.
 
@@ -1830,97 +1997,70 @@ of either CD or cf-PWV. Study population included 3673 participants.
 Further characteristic are described in the study in manuscript Table 1
 in appendix\textsuperscript{63}.
 
+:::
+
+\hypertarget{tbl-ms}{}
 \begin{table}
+\caption{\label{tbl-ms}Study charteristics by diabetes status }\tabularnewline
 
-\caption{\label{tbl-ms}\textbf{?(caption)}}\begin{minipage}[t]{\linewidth}
-\subcaption{\label{tbl-ms-1}}
+\centering\begingroup\fontsize{10}{12}\selectfont
 
-{\centering 
-
-\begin{tabu} to \linewidth {>{\raggedright}X>{\raggedright}X>{\raggedright}X>{\raggedright}X}
-\hline
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{llll}
+\toprule
 **Characteristic** & **Normal glucose metabolism**  
 N = 2,389 & **Prediabetes**  
 N = 538 & **Type 2 Diabetes**  
 N = 746\\
-\hline
-Sex &  &  & \\
-\hline
+\midrule
+\cellcolor{gray!6}{Sex} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{}\\
 Men & 1,028 (43\%) & 280 (52\%) & 481 (64\%)\\
-\hline
-Women & 1,361 (57\%) & 258 (48\%) & 265 (36\%)\\
-\hline
+\cellcolor{gray!6}{Women} & \cellcolor{gray!6}{1,361 (57\%)} & \cellcolor{gray!6}{258 (48\%)} & \cellcolor{gray!6}{265 (36\%)}\\
 Age (years) & 58 (51, 64) & 62 (57, 68) & 63 (57, 68)\\
-\hline
-Total physical activity (hours/week) & 13 (9, 19) & 13 (9, 19) & 12 (7, 17)\\
-\hline
+\cellcolor{gray!6}{Total physical activity (hours/week)} & \cellcolor{gray!6}{13 (9, 19)} & \cellcolor{gray!6}{13 (9, 19)} & \cellcolor{gray!6}{12 (7, 17)}\\
+\addlinespace
 Moderate to vigorous physical activity (hours/week) & 5.3 (3.0, 8.3) & 4.5 (2.3, 7.5) & 3.8 (1.5, 6.8)\\
-\hline
-BMI (kg/m²) & 25.0 (22.9, 27.4) & 27.2 (24.9, 30.1) & 28.8 (26.0, 31.7)\\
-\hline
+\cellcolor{gray!6}{BMI (kg/m²)} & \cellcolor{gray!6}{25.0 (22.9, 27.4)} & \cellcolor{gray!6}{27.2 (24.9, 30.1)} & \cellcolor{gray!6}{28.8 (26.0, 31.7)}\\
 Waist (cm) & 89 (81, 97) & 98 (90, 105) & 103 (96, 112)\\
-\hline
-HbA1c (\%) & 5.35 (5.17, 5.63) & 5.63 (5.35, 5.90) & 6.54 (6.08, 7.09)\\
-\hline
+\cellcolor{gray!6}{HbA1c (\%)} & \cellcolor{gray!6}{5.35 (5.17, 5.63)} & \cellcolor{gray!6}{5.63 (5.35, 5.90)} & \cellcolor{gray!6}{6.54 (6.08, 7.09)}\\
 Fasting plasma glucose (mmol/L) & 5.10 (4.80, 5.40) & 5.90 (5.40, 6.30) & 7.40 (6.60, 8.50)\\
-\hline
-LDL (mmol/L) & 3.20 (2.70, 3.90) & 3.30 (2.60, 4.00) & 2.40 (1.80, 3.10)\\
-\hline
+\addlinespace
+\cellcolor{gray!6}{LDL (mmol/L)} & \cellcolor{gray!6}{3.20 (2.70, 3.90)} & \cellcolor{gray!6}{3.30 (2.60, 4.00)} & \cellcolor{gray!6}{2.40 (1.80, 3.10)}\\
 HDL (mmol/L) & 1.60 (1.30, 2.00) & 1.40 (1.20, 1.80) & 1.30 (1.00, 1.50)\\
-\hline
-Total cholesterol (mmol/L) & 5.50 (4.80, 6.20) & 5.50 (4.80, 6.30) & 4.50 (3.90, 5.20)\\
-\hline
+\cellcolor{gray!6}{Total cholesterol (mmol/L)} & \cellcolor{gray!6}{5.50 (4.80, 6.20)} & \cellcolor{gray!6}{5.50 (4.80, 6.30)} & \cellcolor{gray!6}{4.50 (3.90, 5.20)}\\
 Triglycerides (mmol/L) & 1.05 (0.80, 1.45) & 1.39 (1.03, 1.90) & 1.51 (1.08, 2.14)\\
-\hline
-Duration of type-2 diabetes (only for diagnosed participants) & NA (NA, NA) & NA (NA, NA) & 3 (0, 9)\\
-\hline
+\cellcolor{gray!6}{Duration of type-2 diabetes (only for diagnosed participants)} & \cellcolor{gray!6}{NA (NA, NA)} & \cellcolor{gray!6}{NA (NA, NA)} & \cellcolor{gray!6}{3 (0, 9)}\\
+\addlinespace
 Mean IBI (ms) & 838 (775, 907) & 815 (760, 897) & 806 (744, 889)\\
-\hline
-SDNN (ms) & 138 (117, 164) & 127 (106, 152) & 116 (96, 139)\\
-\hline
+\cellcolor{gray!6}{SDNN (ms)} & \cellcolor{gray!6}{138 (117, 164)} & \cellcolor{gray!6}{127 (106, 152)} & \cellcolor{gray!6}{116 (96, 139)}\\
 RMSSD (ms) & 26 (21, 34) & 24 (19, 33) & 22 (17, 31)\\
-\hline
-SDANN (ms) & 125 (103, 149) & 113 (92, 139) & 103 (84, 127)\\
-\hline
+\cellcolor{gray!6}{SDANN (ms)} & \cellcolor{gray!6}{125 (103, 149)} & \cellcolor{gray!6}{113 (92, 139)} & \cellcolor{gray!6}{103 (84, 127)}\\
 SDNNi (ms) & 55 (46, 65) & 50 (41, 60) & 44 (36, 54)\\
-\hline
-pNN50 (\%) & 7 (3, 13) & 5 (2, 10) & 4 (2, 9)\\
-\hline
+\addlinespace
+\cellcolor{gray!6}{pNN50 (\%)} & \cellcolor{gray!6}{7 (3, 13)} & \cellcolor{gray!6}{5 (2, 10)} & \cellcolor{gray!6}{4 (2, 9)}\\
 TP (ms²) & 12,596 (8,880, 17,498) & 10,615 (7,134, 15,374) & 8,880 (6,064, 12,722)\\
-\hline
-ULF (ms²) & 10,771 (7,392, 15,142) & 8,948 (5,852, 13,374) & 7,524 (5,036, 11,001)\\
-\hline
+\cellcolor{gray!6}{ULF (ms²)} & \cellcolor{gray!6}{10,771 (7,392, 15,142)} & \cellcolor{gray!6}{8,948 (5,852, 13,374)} & \cellcolor{gray!6}{7,524 (5,036, 11,001)}\\
 VLF (ms²) & 1,198 (833, 1,692) & 1,015 (685, 1,478) & 816 (541, 1,267)\\
-\hline
-LF (ms²) & 421 (257, 651) & 328 (200, 540) & 261 (154, 422)\\
-\hline
+\cellcolor{gray!6}{LF (ms²)} & \cellcolor{gray!6}{421 (257, 651)} & \cellcolor{gray!6}{328 (200, 540)} & \cellcolor{gray!6}{261 (154, 422)}\\
+\addlinespace
 HF (ms²) & 94 (57, 158) & 78 (47, 138) & 63 (36, 117)\\
-\hline
-Systolic blood pressure (mmHg) & 123 (114, 133) & 129 (122, 140) & 130 (122, 139)\\
-\hline
+\cellcolor{gray!6}{Systolic blood pressure (mmHg)} & \cellcolor{gray!6}{123 (114, 133)} & \cellcolor{gray!6}{129 (122, 140)} & \cellcolor{gray!6}{130 (122, 139)}\\
 Diastolic blood pressure (mmHg) & 75 (71, 80) & 78 (73, 83) & 76 (72, 81)\\
-\hline
-Mean arterial pressure (mmHg) & 95 (88, 102) & 99 (93, 107) & 98 (92, 105)\\
-\hline
+\cellcolor{gray!6}{Mean arterial pressure (mmHg)} & \cellcolor{gray!6}{95 (88, 102)} & \cellcolor{gray!6}{99 (93, 107)} & \cellcolor{gray!6}{98 (92, 105)}\\
 Carotid artery distensibility (10-3/kPa) & 15.0 (11.8, 18.8) & 13.5 (10.4, 16.9) & 12.5 (9.9, 16.0)\\
-\hline
-Carotid-femoral pulse wave velocity (m/s) & 8.08 (7.28, 9.16) & 8.96 (7.84, 10.32) & 9.36 (8.16, 10.80)\\
-\hline
+\addlinespace
+\cellcolor{gray!6}{Carotid-femoral pulse wave velocity (m/s)} & \cellcolor{gray!6}{8.08 (7.28, 9.16)} & \cellcolor{gray!6}{8.96 (7.84, 10.32)} & \cellcolor{gray!6}{9.36 (8.16, 10.80)}\\
 N\_HT & 833 (35\%) & 317 (59\%) & 590 (79\%)\\
-\hline
-Antihypertensive medication & 431 (18\%) & 199 (37\%) & 478 (64\%)\\
-\hline
+\cellcolor{gray!6}{Antihypertensive medication} & \cellcolor{gray!6}{431 (18\%)} & \cellcolor{gray!6}{199 (37\%)} & \cellcolor{gray!6}{478 (64\%)}\\
 med\_HT\_beta & 149 (6.2\%) & 77 (14\%) & 195 (26\%)\\
-\hline
-Lipid-lowering medication & 280 (12\%) & 141 (26\%) & 484 (65\%)\\
-\hline
-\end{tabu}
-
-}
-
-\end{minipage}%
-
+\cellcolor{gray!6}{Lipid-lowering medication} & \cellcolor{gray!6}{280 (12\%)} & \cellcolor{gray!6}{141 (26\%)} & \cellcolor{gray!6}{484 (65\%)}\\
+\bottomrule
+\end{tabular}}
+\endgroup{}
 \end{table}
+
+\emph{Categorical variables: n (\%)} \emph{Continuous variables: Median
+(IQT range 25\(^th-75\)\^{}th)} :::
 
 \hypertarget{hour-hrv-and-arterial-stiffness}{%
 \subsection{24-hour HRV and arterial
@@ -1930,7 +2070,7 @@ stiffness}\label{hour-hrv-and-arterial-stiffness}}
 
 In the fully adjusted model 2, cf-PWV was 2.8\% (CI: 2.1; 3.4) lower,
 while CD was 3.3\% (CI: 1.5; 5.1) higher per SD higher in HRV
-time-domain Z-score (see see Figure~\ref{fig-MS-HRV_overall} A and B).
+time-domain Z-score (see see \textbf{?@fig-MS-HRV\_overall} A and B).
 Among the time-domain indices, SDNN, SDNNi, and SDANN showed the
 strongest associations, with cf-PWV being lower by 2.5\% (CI: 2.0; 3.1),
 2.5\% (CI: 1.9; 3.4), and 2.2\% (CI: 1.7; 2.7),
@@ -1944,7 +2084,7 @@ evidence for an association was found with CD\textsuperscript{63}.
 
 In the fully adjusted model 2, cf-PWV was 2.8\% (CI: 2.1; 3.5) lower,
 while CD was 3.2\% (CI: 1.3; 5.1) higher per SD higher in HRV
-frequency-domain Z-score (see see Figure~\ref{fig-MS-HRV_overall} C and
+frequency-domain Z-score (see see \textbf{?@fig-MS-HRV\_overall} C and
 D). Among the frequency-domain indices, total power, VLF, and ULF showed
 the strongest associations, with cf-PWV being lower by 2.2\% (CI: 1.7;
 2.8 ), 2.4\% (CI: 1.9; 4.0), and 2.1\% (CI: 1.5; 2.6),
@@ -1957,13 +2097,23 @@ cf-PWV and 4.5\% (3.1; 6.1) higher CD\textsuperscript{63}.
 
 \begin{figure}
 
-{\centering \includegraphics{images/figure3_linear_plot.pdf}
+{\centering 
+
+\includegraphics{images/figure3_linear_plot.pdf}
+
+\emph{A: Percentage PWV per SD in time-domain composite z-score B:
+Percentage PWV per SD in frequency-domain composite z-score C:
+Percentage higher CD per SD in time-domain composite z-score D:
+Percentage CD per SD in frequency-domain composite z-score. All
+regression lines were adjusted for being a male, 60 years old, low
+educational level, without prediabetes or type-2 diabetes, and with
+96mmHg mean arterial pressure. From Figure 1 in Appendix Study
+I\textsuperscript{63}}
 
 }
 
-\caption{\label{fig-MS-HRV_overall}Figure from {[}authors{]}.
-Cardiovascular autonomic neuropathy and indices of heart failure in T2D:
-The CANCAN Study\textsuperscript{63}. (Paper I, appendix)}
+\caption{\label{fig-MS-HRV}\textbf{Association between HRV and arterial
+stiffness}}
 
 \end{figure}
 
@@ -2022,11 +2172,24 @@ Z-score and CD was observed at HbA1c levels between 4.8\% and 5.2\%.
 
 \begin{figure}
 
-{\centering \includegraphics{images/em_hba1c.pdf}
+{\centering 
+
+\includegraphics{images/em_hba1c.pdf}
+
+\emph{A: Percentage PWV per SD in time-domain composite z-score B:
+Percentage PWV per SD in frequency-domain composite z-score C:
+Percentage higher CD per SD in time-domain composite z-score D:
+Percentage CD per SD in frequency-domain composite z-score. Model
+adjusted for sex, age, educational status, diabetes status, and mean
+arterial pressure, physical activity, smoking behaviour, alcohol use,
+body mass index, hba1c, triglycerides, total-to-high density lipoprotein
+cholesterol ratio, lipid-modifying- and antihypertensive medication.
+Figure was based on data in Study I\textsuperscript{63}}
 
 }
 
-\caption{\label{fig-MS-HRV}\textbf{?(caption)}}
+\caption{\label{fig-MS-HRV}\textbf{Association between HRV and arterial
+stiffness modified by HbA1c in subpopulation without T2D}}
 
 \end{figure}
 
@@ -2042,9 +2205,9 @@ HRV and physical acceleration. The study population included different
 tiers of diabetes risk: 154 individuals at low risk (9\%), 889 at high
 risk (51\%), 314 with impaired fasting glucose (IFG) (18\%), 226 with
 impaired glucose tolerance (IGT) (13\%), and 161 with both IFG and IGT
-(9\%). I splitted SDNN into categories by very-low (SDNN\textless{} 100
-ms), low (SDNN 100-120 ms), middle (SDNN 121-140 ms), high (SDNN 141-160
-ms) and very-high (SDNN \textgreater160 ms).
+(9\%). SDNN was splitted into categories by very-low (SDNN\textless{}
+100 ms), low (SDNN 100-120 ms), middle (SDNN 121-140 ms), high (SDNN
+141-160 ms) and very-high (SDNN \textgreater160 ms).
 
 Charteristics are desribed in Table~\ref{tbl-add}. Participants in the
 lowest SDNN group (\textless100 ms) were older (67.4 ± 6.9 years), had
@@ -2054,14 +2217,17 @@ use anti-hypertensive medication (61\%), and had lower physical activity
 energy expenditure (46.8 ± 24.0 kJ/day) compared to those with higher
 SDNN levels.
 
+:::
+
 \hypertarget{tbl-add}{}
 \begin{table}
 \caption{\label{tbl-add}Study participants charteristics }\tabularnewline
 
-\centering
+\centering\begingroup\fontsize{10}{12}\selectfont
+
 \resizebox{\linewidth}{!}{
-\begin{tabular}{l|l|l|l|l|l|l}
-\hline
+\begin{tabular}[t]{lllllll}
+\toprule
 Characteristic
  & Overall, N = 1,625
  & <100, N = 148
@@ -2070,84 +2236,81 @@ Characteristic
  & 140-160, N = 346
  & >160, N = 362
 \\
-\hline
-sex &  &  &  &  &  & \\
-\hline
+\midrule
+\cellcolor{gray!6}{sex} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{}\\
 Men & 866 (53\%) & 68 (46\%) & 148 (47\%) & 206 (45\%) & 203 (59\%) & 241 (67\%)\\
-\hline
-Women & 759 (47\%) & 80 (54\%) & 164 (53\%) & 251 (55\%) & 143 (41\%) & 121 (33\%)\\
-\hline
+\cellcolor{gray!6}{Women} & \cellcolor{gray!6}{759 (47\%)} & \cellcolor{gray!6}{80 (54\%)} & \cellcolor{gray!6}{164 (53\%)} & \cellcolor{gray!6}{251 (55\%)} & \cellcolor{gray!6}{143 (41\%)} & \cellcolor{gray!6}{121 (33\%)}\\
 Age (years) & 65.9 (6.8) & 67.4 (6.9) & 65.7 (6.9) & 66.0 (6.7) & 65.5 (6.6) & 66.0 (7.0)\\
-\hline
-Physical activity energy expenditure (KJ / day) & 53.1 (25.1) & 46.8 (24.0) & 49.4 (21.0) & 50.7 (21.5) & 57.6 (27.2) & 57.5 (29.2)\\
-\hline
+\cellcolor{gray!6}{Physical activity energy expenditure (KJ / day)} & \cellcolor{gray!6}{53.1 (25.1)} & \cellcolor{gray!6}{46.8 (24.0)} & \cellcolor{gray!6}{49.4 (21.0)} & \cellcolor{gray!6}{50.7 (21.5)} & \cellcolor{gray!6}{57.6 (27.2)} & \cellcolor{gray!6}{57.5 (29.2)}\\
+\addlinespace
 Alcohol consumption (units per week) & 9.2 (9.5) & 11.3 (10.8) & 10.2 (11.3) & 8.9 (8.5) & 8.5 (9.2) & 8.7 (8.2)\\
-\hline
-Smoking status &  &  &  &  &  & \\
-\hline
+\cellcolor{gray!6}{Smoking status} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{}\\
 1 & 263 (16\%) & 40 (28\%) & 70 (23\%) & 65 (14\%) & 41 (12\%) & 47 (13\%)\\
-\hline
-2 & 750 (47\%) & 58 (40\%) & 145 (47\%) & 214 (47\%) & 162 (47\%) & 171 (48\%)\\
-\hline
+\cellcolor{gray!6}{2} & \cellcolor{gray!6}{750 (47\%)} & \cellcolor{gray!6}{58 (40\%)} & \cellcolor{gray!6}{145 (47\%)} & \cellcolor{gray!6}{214 (47\%)} & \cellcolor{gray!6}{162 (47\%)} & \cellcolor{gray!6}{171 (48\%)}\\
 3 & 598 (37\%) & 47 (32\%) & 95 (31\%) & 174 (38\%) & 140 (41\%) & 142 (39\%)\\
-\hline
-BMI (kg/m² & 27.7 (4.7) & 28.1 (5.4) & 28.2 (4.6) & 28.0 (4.7) & 27.7 (4.9) & 26.9 (4.2)\\
-\hline
+\addlinespace
+\cellcolor{gray!6}{BMI (kg/m²} & \cellcolor{gray!6}{27.7 (4.7)} & \cellcolor{gray!6}{28.1 (5.4)} & \cellcolor{gray!6}{28.2 (4.6)} & \cellcolor{gray!6}{28.0 (4.7)} & \cellcolor{gray!6}{27.7 (4.9)} & \cellcolor{gray!6}{26.9 (4.2)}\\
 Waist circumference (cm) & 96.7 (13.4) & 98.0 (14.9) & 98.2 (13.2) & 96.7 (13.6) & 96.7 (13.1) & 94.8 (12.5)\\
-\hline
-Systolic blood pressure (mmHg) & 133.7 (17.3) & 134.2 (16.3) & 133.7 (17.6) & 133.5 (17.8) & 133.4 (16.9) & 133.8 (17.5)\\
-\hline
+\cellcolor{gray!6}{Systolic blood pressure (mmHg)} & \cellcolor{gray!6}{133.7 (17.3)} & \cellcolor{gray!6}{134.2 (16.3)} & \cellcolor{gray!6}{133.7 (17.6)} & \cellcolor{gray!6}{133.5 (17.8)} & \cellcolor{gray!6}{133.4 (16.9)} & \cellcolor{gray!6}{133.8 (17.5)}\\
 Diastolic blood pressure (mmHg) & 81.9 (10.4) & 83.8 (10.1) & 82.7 (10.2) & 81.7 (10.6) & 82.1 (10.2) & 80.6 (10.3)\\
-\hline
-Pulse rate (bpm) & 67.4 (10.9) & 77.7 (11.2) & 72.6 (9.3) & 67.9 (9.3) & 65.3 (9.3) & 60.0 (9.8)\\
-\hline
+\cellcolor{gray!6}{Pulse rate (bpm)} & \cellcolor{gray!6}{67.4 (10.9)} & \cellcolor{gray!6}{77.7 (11.2)} & \cellcolor{gray!6}{72.6 (9.3)} & \cellcolor{gray!6}{67.9 (9.3)} & \cellcolor{gray!6}{65.3 (9.3)} & \cellcolor{gray!6}{60.0 (9.8)}\\
+\addlinespace
 HbA1c (\%) & 5.8 (0.5) & 5.9 (0.9) & 5.9 (0.6) & 5.8 (0.5) & 5.7 (0.4) & 5.7 (0.4)\\
-\hline
-Triglycerides (mmol/L) & 1.3 (0.7) & 1.5 (0.9) & 1.4 (0.7) & 1.3 (0.6) & 1.2 (0.7) & 1.1 (0.6)\\
-\hline
+\cellcolor{gray!6}{Triglycerides (mmol/L)} & \cellcolor{gray!6}{1.3 (0.7)} & \cellcolor{gray!6}{1.5 (0.9)} & \cellcolor{gray!6}{1.4 (0.7)} & \cellcolor{gray!6}{1.3 (0.6)} & \cellcolor{gray!6}{1.2 (0.7)} & \cellcolor{gray!6}{1.1 (0.6)}\\
 Total cholesterol (mmol/L) & 5.4 (1.1) & 5.2 (1.0) & 5.4 (1.2) & 5.4 (1.1) & 5.4 (1.0) & 5.4 (1.0)\\
-\hline
-HDL cholesterol (mmol/L) & 1.6 (0.4) & 1.6 (0.4) & 1.5 (0.5) & 1.6 (0.4) & 1.6 (0.4) & 1.6 (0.4)\\
-\hline
+\cellcolor{gray!6}{HDL cholesterol (mmol/L)} & \cellcolor{gray!6}{1.6 (0.4)} & \cellcolor{gray!6}{1.6 (0.4)} & \cellcolor{gray!6}{1.5 (0.5)} & \cellcolor{gray!6}{1.6 (0.4)} & \cellcolor{gray!6}{1.6 (0.4)} & \cellcolor{gray!6}{1.6 (0.4)}\\
 LDL cholesterol (mmol/L) & 3.2 (1.0) & 3.0 (1.0) & 3.2 (1.1) & 3.2 (1.0) & 3.3 (0.9) & 3.3 (0.9)\\
-\hline
-Urine albumin-creatine ratio (mg/g) & 25.9 (132.8) & 36.4 (105.9) & 47.9 (275.1) & 19.6 (48.2) & 19.4 (67.7) & 16.4 (36.3)\\
-\hline
+\addlinespace
+\cellcolor{gray!6}{Urine albumin-creatine ratio (mg/g)} & \cellcolor{gray!6}{25.9 (132.8)} & \cellcolor{gray!6}{36.4 (105.9)} & \cellcolor{gray!6}{47.9 (275.1)} & \cellcolor{gray!6}{19.6 (48.2)} & \cellcolor{gray!6}{19.4 (67.7)} & \cellcolor{gray!6}{16.4 (36.3)}\\
 vo2max & 26.6 (7.8) & 24.8 (7.5) & 24.8 (7.5) & 26.1 (6.8) & 27.0 (8.0) & 28.7 (8.7)\\
-\hline
-rest\_hr & 57.3 (7.3) & 67.8 (5.7) & 63.3 (5.0) & 58.4 (4.5) & 55.0 (4.2) & 49.8 (4.9)\\
-\hline
+\cellcolor{gray!6}{rest\_hr} & \cellcolor{gray!6}{57.3 (7.3)} & \cellcolor{gray!6}{67.8 (5.7)} & \cellcolor{gray!6}{63.3 (5.0)} & \cellcolor{gray!6}{58.4 (4.5)} & \cellcolor{gray!6}{55.0 (4.2)} & \cellcolor{gray!6}{49.8 (4.9)}\\
 med\_any\_anti\_hypertensive & 753 (47\%) & 88 (61\%) & 149 (48\%) & 216 (47\%) & 147 (43\%) & 153 (43\%)\\
-\hline
+\bottomrule
 \end{tabular}}
+\endgroup{}
 \end{table}
+
+\emph{Categorical variables: n (\%)} \emph{Continous variables: Mean
+(SD)}
+
+:::
 
 \hypertarget{multiday-hrv-and-mace-heart-failure-and-all-cause-mortality.}{%
 \subsection{Multiday HRV and MACE, heart failure, and all-cause
 mortality.}\label{multiday-hrv-and-mace-heart-failure-and-all-cause-mortality.}}
 
 The mean multiday SDNN was 139.0 (32.3) ms, and the mean heart rate was
-73.5 (9.1) bpm. In the fully adjusted model, SDNN per SD was associated
-with a lower incidence rate ratio (IRR) for MACE 0.82 (CI: 0.69; 0.97),
-heart failure 0.76 (CI: 0.58; 0.99), and mortality rate ratio of 0.79
-(CI: 0.66; 0.94). When I pre-adjusted for resting heart rate, the
-proportion of the association explained between HRV and MACE, HF, and
-all-cause mortality was 14\%, 25\%, and 19\%, respectively. I included
-knots in the model, which showed that the risk became higher when SDNN
-fell below 120 to 110 ms (approximately below the 20th percentile),
-suggesting a potential cut-off point for higher risk. I therefore
-calculated the incidence rate (IR) at SDNN levels of 100 ms, 120 ms, and
+73.5 (9.1) bpm\textsuperscript{64}. In the fully adjusted model, SDNN
+per SD was associated with a lower incidence rate ratio (IRR) for MACE
+0.82 (CI: 0.69; 0.97), heart failure 0.76 (CI: 0.58; 0.99), and
+mortality rate ratio of 0.79 (CI: 0.66; 0.94)\textsuperscript{64}. In
+model with pre-adjustment for resting heart rate, the proportion of the
+association explained between HRV and MACE, HF, and all-cause mortality
+was 14\%, 25\%, and 19\%, respectively\textsuperscript{64}. When knots
+were included in the model, the risk higher as SDNN dropped below
+approximately 120--110 ms (around the 20th percentile), suggesting a
+potential threshold for elevated risk\textsuperscript{64}. Therefore,
+incidence rate (IR) was calculated at SDNN levels of 100 ms, 120 ms, and
 160 ms, respectively, and plotted these as a function of age.
 
 \begin{figure}
 
-{\centering \includegraphics{images/addition_pro_hrv_ir_mace.pdf}
+{\centering 
+
+\includegraphics{images/addition_pro_hrv_ir_mace.pdf}
+
+\emph{Multiday SDNN levels (100 ms, 120 ms, 160 ms) by age-specific
+incidence rates for A) major adverse cardiovascular events, B) heart
+failure hospitalisation, and C) all-cause mortality. Model adjusted for
+age, sex, education, alcohol consumption, smoking behavior, physical
+activity, body mass index, total cholesterol, and Hba1c. Figure was
+based on data in Study II\textsuperscript{64}.}
 
 }
 
-\caption{\label{fig-addprohrv}Multiday SDNN levels (100 ms, 120 ms, 160
-ms) by age-specific incidence rates for A) major adverse cardiovascular
-events, B) heart failure, and C) all-cause mortality}
+\caption{\label{fig-addprohrv}\textbf{Multiday SDNN and mean HR
+association with major adverse cardiovascular events, heart failure, and
+all-cause mortality}}
 
 \end{figure}
 
@@ -2173,10 +2336,12 @@ From the hourly recordings, I observed a clear periodicity in SDNN,
 heart rate, sleep patterns, and physical acceleration. Mean (SD) SDNN
 increased from 5--6 AM (70.2 {[}28.8{]} ms), peaking at 8--9 AM (92.1
 {[}29.0{]} ms), followed by a gradual decline, reaching its lowest point
-around 2 AM the next day (64.1 {[}28.1{]} ms). A similar circadian
-pattern was observed in heart rate, although its peak occurred two hours
-later, starting at 9 AM (76.7 {[}10.9{]} bpm). After peaking, heart rate
-remained stable throughout the afternoon before gradually decreasing.
+around 2 AM the next day (64.1 {[}28.1{]} ms)\textsuperscript{64}. A
+similar circadian pattern was observed in heart rate, although its peak
+occurred two hours later, starting at 9 AM (76.7 {[}10.9{]}
+bpm)\textsuperscript{64}. After peaking, heart rate remained stable
+throughout the afternoon before gradually
+decreasing\textsuperscript{64}.
 
 In Figure~\ref{fig-ADD_PRO_risk_by_hour}, I observe hourly SDNN
 (preadjusted for heart rate and physical acceleration), heart rate, and
@@ -2185,33 +2350,45 @@ education, alcohol consumption, smoking behavior, BMI, total
 cholesterol, and Hba1c. The morning response of SDNN was most indicative
 of MACE, with the strongest association observed from 6--7 AM (IRR:
 0.84; 95\% CI: 0.71 to 1.00 per SD higher SDNN) (see
-Figure~\ref{fig-ADD_PRO_risk_by_hour} A).Heart rate between 12 AM and 6
-AM showed a small trend toward higher risk of MACE (IRR range: 1.11 to
-1.15 per SD higher heart rate), although none of the confidence
-intervals exceeded one (see Figure~\ref{fig-ADD_PRO_risk_by_hour} D).
-Across all hours, there was a plausible association between SDNN and
-heart failure. However, this association disappeared after adjusting for
-physical acceleration and heart rate (see
-Figure~\ref{fig-ADD_PRO_risk_by_hour} B). In contrast, heart rate
-between 10 PM and 9 AM was associated with heart failure (IRR range:
-1.37 to 1.58 per SD higher heart rate) (see
-Figure~\ref{fig-ADD_PRO_risk_by_hour} E). SDNN was consistently
-associated with all-cause mortality across all hours, with a stronger
-inverse association observed between 12 PM and 1 AM (IRR range: 0.79 to
-0.88 per SD higher SDNN) (see Figure~\ref{fig-ADD_PRO_risk_by_hour} C).
-No clear trends of association were observed between heart rate and
-all-cause mortality.
+Figure~\ref{fig-ADD_PRO_risk_by_hour} A)\textsuperscript{64}. Heart rate
+between 12 AM and 6 AM showed a small trend toward higher risk of MACE
+(IRR range: 1.11 to 1.15 per SD higher heart rate), although none of the
+confidence intervals exceeded one (see
+Figure~\ref{fig-ADD_PRO_risk_by_hour} D)\textsuperscript{64}. Across all
+hours, there was a plausible association between SDNN and heart failure.
+However, this association disappeared after adjusting for physical
+acceleration and heart rate (see Figure~\ref{fig-ADD_PRO_risk_by_hour}
+B)\textsuperscript{64}. In contrast, heart rate between 10 PM and 9 AM
+was associated with heart failure (IRR range: 1.37 to 1.58 per SD higher
+heart rate) (see Figure~\ref{fig-ADD_PRO_risk_by_hour} E). SDNN was
+consistently associated with all-cause mortality across all hours, with
+a stronger inverse association observed between 12 PM and 1 AM (IRR
+range: 0.79 to 0.88 per SD higher SDNN) (see
+Figure~\ref{fig-ADD_PRO_risk_by_hour} C)\textsuperscript{64}. No clear
+trends of association were observed between heart rate and all-cause
+mortality\textsuperscript{64}.
 
 \begin{figure}
 
-{\centering \includegraphics{images/figure_ADD_PRO_risk_by_hour.pdf}
+{\centering 
+
+\includegraphics{images/figure_ADD_PRO_risk_by_hour.pdf}
+
+\emph{SDNN preadjusted for concurrent physical acceleration and heart
+rate, as well as mean heart rate (HR) and physical acceleration, were
+measured hourly from 00:00 to 24:00. The IRR for MACE, heart failure
+hospitalization, and all-cause mortality are shown by hourly
+associations of: (A--C) preadjusted SDNN, (D--F) mean HR, and (G--I)
+physical acceleration. Models were adjusted for age, sex, education,
+alcohol consumption, smoking behavior, body mass index, total
+cholesterol, and HbA1c. Figure adapted from Appendix Study
+II\textsuperscript{64}}
 
 }
 
-\caption{\label{fig-ADD_PRO_risk_by_hour}Hourly SDNN levels (100 ms, 120
-ms, 160 ms) by age-specific incidence rates for A) major adverse
-cardiovascular events, B) heart failure, and C) all-cause mortality.
-Figure adapted from {[}authors{]}. ---. (Paper II, appendix)}
+\caption{\label{fig-ADD_PRO_risk_by_hour}\textbf{Diurnal heart rate
+variability and heart rate association with major adverse cardiovascular
+events, heart failure, and all-cause mortality risk}}
 
 \end{figure}
 
@@ -2243,50 +2420,57 @@ failure}\label{can-and-indicators-of-heart-failure}}
 
 A greater proportion of individuals with CAN exhibited elevated
 NT-proBNP levels (\textgreater125 pg/ml) (51.9\%, n=52/78) compared to
-those without CAN (23.2\%, n=26/112)(Figure~\ref{fig-CAN} E). The fully
-adjusted odds ratio (OR) for elevated NT-proBNP in individuals with CAN
-was 5.69 (95\% CI: 1.95; 18.49) relative to those without CAN. Among the
+those without CAN (23.2\%, n=26/112)(Figure~\ref{fig-CAN}
+E)\textsuperscript{65}. The fully adjusted odds ratio (OR) for elevated
+NT-proBNP in individuals with CAN was 5.69 (95\% CI: 1.95; 18.49)
+relative to those without CAN\textsuperscript{65}. Among the
 cardiovascular autonomic reflex tests (CART), the Valsalva maneuver
 demonstrated the strongest association with NT-proBNP (OR 9.00, 95\% CI:
 2.88; 33.09; n=51/75), followed by deep breathing (OR 3.30, 95\% CI:
 1.17; 9.77; n=33/133) and orthostatic hypertension (OR 4.04, 95\% CI:
-1.27; 13.77; n=24/146). No significant association was identified for
-the lying-to-standing test (OR 0.80, 95\% CI: 0.32; 1.97; n=54/108).
-After imputing missing CART data, the OR for CAN in relation to elevated
-NT-proBNP declined to 2.94 (95\% CI: 1.37; 6.56). Sensitivity analyses,
-which excluded participants using beta-blockers or those with a history
-of CVD, resulted in a smaller sample size and wider confidence
-intervals, though the overall association remained unchanged. CAN was
-associated with elevated NT-proBNP in individuals both without (NYHA I;
-OR = 4.3, 95\% CI: 1.1; 16.3) and with heart failure symptoms (NYHA ≥
-II; OR = 16.4, 95\% CI: 1.2; 222.0), though the interaction was not
-significant (p = 0.4). Similar associations were seen across WATCH-DM
-risk groups: very-low-to-moderate (OR = 6.1, 95\% CI: 1.6; 23.5) and
-high-to-very-high (OR = 6.3, 95\% CI: 0.83; 46.9). Participants with CAN
-had 1.7 (95\% CI: 0.3 to 3.0) point higher WATCH-DM risk score compared
-to those without CAN. The OR of presenting with NYHA class II or higher
-was 5.51 (95\% CI: 1.9 to 15.97) in the group with CAN.
+1.27; 13.77; n=24/146)\textsuperscript{65}. No significant association
+was identified for the lying-to-standing test (OR 0.80, 95\% CI: 0.32;
+1.97; n=54/108)\textsuperscript{65}. After imputing missing CART data,
+the OR for CAN in relation to elevated NT-proBNP declined to 2.94 (95\%
+CI: 1.37; 6.56). Sensitivity analyses, which excluded participants using
+beta-blockers or those with a history of CVD, resulted in a smaller
+sample size and wider confidence intervals, though the overall
+association remained unchanged\textsuperscript{65}. CAN was associated
+with elevated NT-proBNP in individuals both without (NYHA I; OR = 4.3,
+95\% CI: 1.1; 16.3) and with heart failure symptoms (NYHA ≥ II; OR =
+16.4, 95\% CI: 1.2; 222.0), though the interaction was not significant
+(p = 0.4)\textsuperscript{65}. Similar associations were seen across
+WATCH-DM risk groups: very-low-to-moderate (OR = 6.1, 95\% CI: 1.6;
+23.5) and high-to-very-high (OR = 6.3, 95\% CI: 0.83;
+46.9)\textsuperscript{65}. Participants with CAN had 1.7 (95\% CI: 0.3
+to 3.0) point higher WATCH-DM risk score compared to those without
+CAN\textsuperscript{65}. The OR of presenting with NYHA class II or
+higher was 5.51 (95\% CI: 1.9 to 15.97) in the group with CAN.
 
 \begin{figure}
 
-\begin{minipage}[t]{\linewidth}
-
 {\centering 
-
-\raisebox{-\height}{
 
 \includegraphics{images/heart_failure_distribution_can_figure_2.pdf}
 
+\emph{A: Percentage distribution by CAN status (no CAN, CAN). B:
+Percentage distribution of NT-proBNP level categories stratified by
+individuals with and without CAN. C: Percentage distribution of WATCH-DM
+risk score stratified by individuals with and without CAN. C: Percentage
+distribution of NYHA classification stratified by individuals with and
+without CAN. E: Percentage of individuals with NT-proBNP \textgreater{}
+125 pg/ml among those with and without CAN and adjusted odds ratio from
+Model 4. F: Effect modification of the association between CAN and
+NT-proBNP by symptoms defined by NYHA classification (symptoms: NYHA ≥
+II vs no symptoms: NYHA = I) and risk score defined by WATCH-DM risk
+(very-low-to-moderate vs high-to-very-high risk). Figure from Appendix
+Study III\textsuperscript{65}}.
+
 }
 
-\caption{\label{fig-CAN}Relationship betweeen CAN and indicators for
-heart failure. Figure from {[}authors{]}. Cardiovascular autonomic
-neuropathy and indices of heart failure in T2D: The CANCAN Study. (Paper
-III, appendix)}
-
-}
-
-\end{minipage}%
+\caption{\label{fig-CAN}\textbf{Distribution of NT-proBNP, NYHA Class,
+and WATCH-DM Score by CAN Status, and association of CAN with Elevated
+NT-proBNP}}
 
 \end{figure}
 
@@ -2294,6 +2478,8 @@ III, appendix)}
 
 \hypertarget{discussion}{%
 \chapter{Discussion}\label{discussion}}
+
+\newpage
 
 The aim of this dissertation is to understand how cardiovascular
 autonomic dysfunction and CAN affect the risk of CVD across stages of
@@ -2404,7 +2590,7 @@ free-living conditions contribute to the development of arterial
 stiffness. The majority of studies in the field have shown an
 association between autonomic dysfunction, as measured by short-term HRV
 during rest, and arterial stiffness in populations with either type 1 or
-T2D.\textsuperscript{64}. Study I extended this perspective by examining
+T2D.\textsuperscript{66}. Study I extended this perspective by examining
 long-term HRV and focusing on a population without diabetes or
 prediabetes.
 
@@ -2423,7 +2609,7 @@ Arterial stiffness is not only a structural marker of vascular ageing
 but is also dynamically modulated by local endothelial signals and
 autonomic nervous system activity. Several studies have demonstrated a
 link between elevated sympathetic tone and increased arterial
-stiffness{[}\textsuperscript{65}{]}\textsuperscript{66}. Two possible
+stiffness{[}\textsuperscript{67}{]}\textsuperscript{68}. Two possible
 mechanisms may explain how autonomic dysfunction is related to arterial
 stiffness. First, autonomic dysfunction may increase the vascular tone
 of large arteries, thereby impairing arterial elasticity dynamically.
@@ -2434,11 +2620,11 @@ dysfunction and arterial stiffness might be considered an immediate, and
 likely transient effect, expected to reverse if autonomic function is
 restored. Conversely, chronic overstimulation of sympathetic activity
 can lead to structural remodeling and increased arterial
-stiffness\textsuperscript{67}. While such findings cannot be directly
+stiffness\textsuperscript{69}. While such findings cannot be directly
 extrapolated to humans, they suggest plausible biological pathways.
 Although the initial effects of autonomic dysfunction are dynamic and
 amenable to change by intervention, they may become progressively less
-reversible over time{[}\textsuperscript{67}{]}\textsuperscript{68}.
+reversible over time{[}\textsuperscript{69}{]}\textsuperscript{70}.
 Second, the autonomic nervous system regulates heart rate and cardiac
 contractility. Autonomic dysfunction typically manifests as both reduced
 HRV and elevated resting heart rate. Arterial shear stress increases as
@@ -2448,15 +2634,15 @@ stiffer arteries by altering blood flow dynamics and by increasing shear
 stress. Our earlier study using data from the Whitehall II cohort showed
 that a steeper decrease in short-term (5-minute) HRV over a ten-year
 period was linked with higher levels of aortic stiffness in the
-subsequent five years\textsuperscript{69}.
+subsequent five years\textsuperscript{71}.
 
 The association between 24-hour HRV and arterial stiffness (Study II)
 was modified by dysglycemia, suggesting dysclycemia may induce CAN that
 can affect arterial stiffness, even before the onset of
-T2D{[}\textsuperscript{70}{]}\textsuperscript{71}\textsuperscript{72}.
+T2D{[}\textsuperscript{72}{]}\textsuperscript{73}\textsuperscript{74}.
 Data from the Whitehall II study showed that aortic stiffness increased
 more steeply with higher HbA1c values among non-diabetic
-individuals\textsuperscript{73}, supporting this notion. In the
+individuals\textsuperscript{75}, supporting this notion. In the
 subpopulation in Study I without diabetes, a modification by HbA1c in
 both aortic and carotid stiffness was observed. The modifying effect of
 HbA1c suggests that hyperglycaemia amplifies the consequences of
@@ -2473,7 +2659,7 @@ Multiday HRV was assessed to capture autonomic activity in real-life
 settings across several days. Our results are consistent with earlier
 research linking lower HRV (including measures from 10 seconds to 24
 hours) to CVD and mortality
-{[}\textsuperscript{74}{]}\textsuperscript{5}. Our findings build on
+{[}\textsuperscript{76}{]}\textsuperscript{5}. Our findings build on
 existing evidence by (1) focusing on a population at elevated risk of
 diabetes, (2) utilizing multiday HRV recordings, and (3) identifying
 specific periods within the day where HRV patterns were indicative of
@@ -2484,7 +2670,7 @@ provide more robust insights into individual autonomic patterns by
 averaging autonomic responses across typical daily conditions. This
 reduces the influence of random fluctuations caused by factors such as
 physical activity, emotional states, or sleep on any single
-day\textsuperscript{75}.
+day\textsuperscript{77}.
 
 Multiple mechanisms may explain how autonomic dysfunction contributes to
 the initiation and progression of ischemic events and stroke. First, as
@@ -2492,15 +2678,15 @@ discussed in Study I, autonomic dysfunction may promote
 arteriosclerosis, leading to arterial stiffness through a dynamic and
 potentially modifiable process. Arterial stiffness impairs vasodilation,
 increasing hemodynamic stress and the risk of plaque rupture and
-thrombus formation {[}\textsuperscript{76}{]}\textsuperscript{77}. In
+thrombus formation {[}\textsuperscript{78}{]}\textsuperscript{79}. In
 this context, findings from Study I may not entirely distinguish between
 arterial stiffness and atherosclerosis, as shown by data from the
-Rotterdam Study\textsuperscript{78}. As plaques develop, the associated
+Rotterdam Study\textsuperscript{80}. As plaques develop, the associated
 increase in sympathetic nerve density around the arteries could
 transiently reduce vascular tone which over time reduce arterial
-elasticity\textsuperscript{79}. In a smaller study of people with T2D,
+elasticity\textsuperscript{81}. In a smaller study of people with T2D,
 lower HRV was linked with increased carotid
-atherosclerosis\textsuperscript{80}.
+atherosclerosis\textsuperscript{82}.
 
 Second, the autonomic nervous system innervates the adventitia layer of
 blood vessels, where it modulates vascular tone via sympathetic fibres.
@@ -2509,28 +2695,26 @@ vivo studies have demonstrated that increased plaque burden is
 associated with higher local sympathetic nerve density, likely mediated
 by neuroinflammatory processes. Notably, reducing sympathetic
 innervation has been shown to attenuate plaque formation in animal
-models\textsuperscript{81}. These findings suggest that autonomic
+models\textsuperscript{83}. These findings suggest that autonomic
 dysfunction may not only reflect but also actively contribute to
 atherogenesis.
 
 Third, autonomic nervous dysfunction has been shown to interfere with
 signalling pathways controlling heart rhythm, potentially leading to
 arrhythmias that disturb cardiac contraction. Ealier studies have shwon
-lower short-term HRV was associated with incident atrial fibrillation,
-with a higher risk among participants with T2D
-{[}\textsuperscript{74}{]}\textsuperscript{82}. This supports the role
+lower short-term HRV was associated with incident atrial fibrillation
+(AF), with a higher risk among participants with T2D
+{[}\textsuperscript{76}{]}\textsuperscript{84}. This supports the role
 of autonomic dysfunction in arrhythmogenesis, which increases the risk
-of myocardial infarction and stroke. Study II did not include atrial
-fibrillation as an outcome due to limitations in Danish registries,
-which often do not distinguish between short- and long-term AF, thereby
-affecting diagnostic validity. Future research is needed to explore
-whether it could explain the higher risk of major adverse cardiovascular
-events.
+of myocardial infarction and stroke. Study II did not include AF as an
+outcome due to limitations in Danish registries, which often do not
+distinguish between short- and long-term AF, thereby affecting
+diagnostic validity.
 
 A study of individuals with coronary artery disease showed that
 stress-induced HRV was associated with myocardial infarction, even more
 than resting HRV, suggesting that lower parasympathetic modulation of
-heart rate under stress may play a role in ischemia\textsuperscript{83}.
+heart rate under stress may play a role in ischemia\textsuperscript{85}.
 Our study focused on long-term HRV under free-living conditions,
 capturing stress-responsive periods such as morning awakening. These
 recordings likely reflect underlying autonomic dynamics relevant to
@@ -2539,21 +2723,21 @@ biobank of short-term HRV supports this by identifying mechanisms
 involving G-protein signaling, pacemaker activity, and mitochondrial
 function as likely mediators of the genetic contribution to HRV. These
 pathways influence vagal control, cardiac excitability, and energy
-metabolism\textsuperscript{84}. Although derived from short-term
+metabolism\textsuperscript{86}. Although derived from short-term
 recordings, these genetic associations may reflect autonomic traits that
 persist across different time scales, and reinforce the notion of a
 biological basis for inter-individual differences in HRV, preceding and
 independent of the onset of dysglaecemia. A Mendelian randomization
 study using data from the Rotterdam Study found that genetically
-predicted HRV was associated with an higher risk of atrial
-fibrillation\textsuperscript{85}. However, this association did not
-extend to all-cause mortality or cardiovascular death in the UK Biobank
-cohort, where only phenotypically measured HRV showed a significant
-relationship with these outcomes\textsuperscript{86}. Interestingly, the
-genetic determinants of HRV exhibited pleiotropic relationships with
-several autonomic traits, including resting heart rate, heart rate
-response during exercise, and post-exercise recovery
-dynamics\textsuperscript{86}. No GWAS has yet been conducted for
+predicted HRV was associated with an higher risk of
+AF\textsuperscript{87}. However, this association did not extend to
+all-cause mortality or cardiovascular death in the UK Biobank cohort,
+where only phenotypically measured HRV showed a significant relationship
+with these outcomes\textsuperscript{88}. Interestingly, the genetic
+determinants of HRV exhibited pleiotropic relationships with several
+autonomic traits, including resting heart rate, heart rate response
+during exercise, and post-exercise recovery
+dynamics\textsuperscript{88}. No GWAS has yet been conducted for
 long-term HRV. Therefore, it is unclear whether the genetic influences
 identified for short-term HRV are applicable to long-term HRV. Future
 GWAS efforts targeting long-term HRV could help establish causal
@@ -2565,7 +2749,7 @@ architecture underlying autonomic regulation under a full day.
 \subsubsection{Heart failure}\label{heart-failure-1}}
 
 The relationship between cardiovascular autonomic dysfunction and heart
-failure is complex\textsuperscript{87}. On one hand, autonomic
+failure is complex\textsuperscript{89}. On one hand, autonomic
 dysfunction contributes to cardiac remodelling and eventual heart
 failure. On the other hand, it may reflect compensatory mechanisms of
 the progression of cardiac remodelling and declining cardiac output. Our
@@ -2577,7 +2761,7 @@ this relationship supports one explanation over the other, as we lack
 baseline and follow-up measures of both heart failure and HRV. Earlier
 studies have demonstrated that both short-term and long-term HRV are
 associated with incident heart failure in populations with and without
-T2D.{[}\textsuperscript{88}{]}\textsuperscript{89}{[}\textsuperscript{90}{]}\textsuperscript{91}.
+T2D.{[}\textsuperscript{90}{]}\textsuperscript{91}{[}\textsuperscript{92}{]}\textsuperscript{93}.
 Beyond examining a population at elevated risk of diabetes using
 multiday HRV recordings, we expanded previous research by (1) unmasking
 the role of resting heart rate in the relationship between HRV and heart
@@ -2590,18 +2774,20 @@ relationship between autonomic dysfunction and arterial stiffness. It is
 well established that arterial stiffness is linked to cardiac
 remodelling, as increased cf-PWV leads to an earlier return of the
 reflected pulse wave to the aorta, which increases cardiac afterload and
-reduces coronary perfusion pressure\textsuperscript{92}. Therefore,
+reduces coronary perfusion pressure\textsuperscript{94}. Therefore,
 autonomic dysfunction may have an indirect effect on heart failure,
 potentially mediated by arterial stiffness. However, structured analyses
-are needed to confirm these pathways. For example, through mediation
-analysis to assess the direct and indirect effects of arterial
-stiffness, with autonomic dysfunction as the main determinant. In Study
-II, I observed that multiday HRV was associated with incident heart
+are needed to confirm these pathways. For example, mediation analysis
+with repeated measurements could be employed to assess the temporal
+direct and indirect effects of autonomic dysfunction on measures of
+cardiac remodeling, with arterial stiffness as the mediator.
+
+Study II showed that multiday HRV was associated with incident heart
 failure, and approximately one-fourth of the risk was explained by
 resting heart rate. Data from the Rotterdam Study showed that short-term
 HRV was longitudinally associated with echocardiographic measures
 reflecting systolic function, suggesting that autonomic dysfunction
-contributes to cardiac remodelling\textsuperscript{93}. In contrast to
+contributes to cardiac remodelling\textsuperscript{95}. In contrast to
 MACE outcomes, findings from Study II showed no specific time point in
 hourly HRV that was associated with heart failure. Instead, it was the
 overall daily pattern captured by multiday HRV that was linked to heart
@@ -2618,22 +2804,12 @@ hemodynamic consequences that contribute to both structural and
 functional cardiac remodeling, which in turn leads to elevated NT-proBNP
 levels.
 
-We cannot exclude the possibility that autonomic dysfunction represents
-an elevated demand for compensatory mechanisms as heart failure
-progresses. Studies have shown that patients with heart failure and
-lower HRV tend to have a worse prognosis in terms of mortality. If low
-HRV or the presence of CAN were primarily driven by existing cardiac
-complications, it would suggest that individuals with these conditions
-exhibit more pronounced sympathetic overactivity as a consequence of
-heart failure progression, indicating potential reverse causation.
-Hence, elevated sympathetic activity during rest may reflect a greater
-reliance on compensatory mechanisms to maintain cardiac output. More
-precise measures are needed to assess whether sympathetic activity acts
-as a primary driver of heart failure or as a secondary compensatory
-response to cardiac dysfunction. In addition, it remains unclear to what
-extent the parasympathetic nervous system can act as a protective
-mechanism to counterbalance sympathetic dominance, and whether a decline
-in HRV reflects a breakdown of this balance. The two pathways (autonomic
+We cannot rule out that autonomic dysfunction reflects a compensatory
+response to progressing heart failure, suggesting potential reverse
+causation. In addition, it remains unclear to what extent the
+parasympathetic nervous system can act as a protective mechanism to
+counterbalance sympathetic dominance, and whether a decline in HRV
+reflects a breakdown of this balance. The two pathways (autonomic
 neuropathy and cardiac remodelling) are not mutually exclusive and may
 interact in a reinforcing cycle. Autonomic dysfunction can lead to
 increased sympathetic tone and reduced parasympathetic modulation,
@@ -2669,7 +2845,7 @@ dysfunction becomes meaningful for early detection and intervention.
 
 A central strategy in preventing CVD is the early identification and
 multifactorial treatment of individuals at high
-risk\textsuperscript{94}. Public health initiatives support this by
+risk\textsuperscript{96}. Public health initiatives support this by
 promoting healthy lifestyles, facilitating early screening for risk
 factors, and improving access to essential care and medications.
 Long-term HRV may enhance these efforts by identifying individuals with
@@ -2689,7 +2865,7 @@ the potential of HRV as a indicator of vascular health.
 
 Within the public health setting, individuals with prediabetes represent
 a particularly vulnerable group at risk for
-comorbidities\textsuperscript{95}. They often fall between structured
+comorbidities\textsuperscript{97}. They often fall between structured
 care pathways, sometimes encouraged to reassess their cardiovascular
 risk at more frequent intervals, other times not offered any additional
 measures or attention beyond general lifestyle advice. Notably, Studies
@@ -2697,7 +2873,7 @@ I and II demonstrated that the associations between long-term HRV and
 CVD risk were especially pronounced in this population. In those at high
 risk of diabetes, a one standard deviation (33 ms) lower multiday SDNN
 was equivalent to 4.5 additional years of aging for ischemic-related CVD
-and 2.2 to 2.4 years for heart failure\textsuperscript{96}. On a
+and 2.2 to 2.4 years for heart failure\textsuperscript{64}. On a
 population level, lower HRV (SDNN: 100 ms) in individuals with
 prediabetes was associated with a higher incidence rate of CVD, heart
 failure, and all-cause mortality compared to individuals with
@@ -2728,7 +2904,7 @@ disparities. Despite this, there is encouraging evidence that the
 general population is receptive to digital health innovations. Many are
 willing to share health data with public institutions and support the
 use of AI in disease
-monitoring{[}\textsuperscript{11}{]}\textsuperscript{97}.
+monitoring{[}\textsuperscript{11}{]}\textsuperscript{98}.
 
 Integrating wearable HRV monitoring into public health strategies could
 represent a transformative step in proactive cardiovascular care. It may
@@ -2742,7 +2918,7 @@ Cardiovascular risk in primary care is assessed using clinical
 evaluations and standardized risk prediction tools to identify
 individuals at elevated risk. Management focuses on lifestyle
 modification, pharmacological therapy, and regular monitoring to reduce
-cardiovascular events\textsuperscript{98}. In this context, long-term
+cardiovascular events\textsuperscript{99}. In this context, long-term
 HRV may offer added value by improving the precision of cardiovascular
 risk stratification and by serving as a marker to monitor the
 effectiveness of preventive strategies.
@@ -2750,21 +2926,27 @@ effectiveness of preventive strategies.
 Long-term HRV may improve ranking of individual risk when added to
 established clinical risk scores. Tools such as SCORE2 and the
 Framingham Risk Score are widely used in primary care to guide
-cardiovascular risk assessment\textsuperscript{99,100}. In Study I,
+cardiovascular risk assessment\textsuperscript{100,101}. In Study I,
 models adjusted for conventional CVD risk factors supported the
 potential added value of 24-hour HRV in relation to arterial stiffness,
 a surrogate marker of CVD risk. Study II extended this perspective by
 demonstrating associations between multiday HRV and incident CVD and
 heart failure. However, these findings are based on associations and do
-not include formal prediction modeling\textsuperscript{101}, and
+not include formal prediction modeling\textsuperscript{102}, and
 therefore cannot determine whether incorporating long-term HRV or CARTs
 into existing risk scores improves predictive performance beyond current
-guidelines. While most biomarkers have shown limited incremental value
+guidelines. This analysis is limited in ADDITION-PRO, as the cohort
+doesn't reflect high-risk groups typically identified in primary care,
+such as those with elevated HbA1c. Similarly, CANCAN is constrained by
+its small sample size and selection from secondary care. To properly
+assess predictive value, cohorts should broadly represent individuals
+with T2D or those at high risk, as identified by current clinical
+practice. While most biomarkers have shown limited incremental value
 beyond established predictors (including age, sex, lipid profiles,
 diabetes status, and blood pressure), some studies suggest that 24-hour
 HRV may improve risk discrimination for CVD and all-cause mortality in
-individuals with T2D\textsuperscript{102}, and for stroke and heart
-failure in older adults{[}\textsuperscript{88}{]}\textsuperscript{103}.
+individuals with T2D\textsuperscript{103}, and for stroke and heart
+failure in older adults{[}\textsuperscript{90}{]}\textsuperscript{104}.
 However, these studies often lack calibration or validation in
 large-scale cohorts and have not been integrated with widely used risk
 scores such as SCORE2 or the Framingham Risk Score.
@@ -2781,13 +2963,13 @@ dysfunction remains uncertain. These considerations are only actionable
 if interventions in this subgroup can be shown to reduce cardiovascular
 risk. Emerging evidence suggests that both pharmacological and lifestyle
 interventions can improve HRV in the short
-term\textsuperscript{104,105}. For example, high-intensity interval
+term\textsuperscript{105,106}. For example, high-intensity interval
 training has been shown to improve autonomic function in obese
-individuals with and without T2D\textsuperscript{106}. Similarly,
+individuals with and without T2D\textsuperscript{107}. Similarly,
 lifestyle changes in individuals with prediabetes have been associated
 with improvements in short-term HRV, which may partly explain a
 reduction in diabetes risk independently of weight
-loss\textsuperscript{107}. Nevertheless, it remains unclear whether
+loss\textsuperscript{108}. Nevertheless, it remains unclear whether
 these effects on HRV are sustainable over time and whether they
 translate into long-term cardiovascular protection. In many cases,
 improvements in autonomic function may be mediated indirectly through
@@ -2798,10 +2980,10 @@ Despite these uncertainties, monitoring autonomic function through
 long-term HRV may offer a valuable tool for assessing cardiovascular
 risk and tracking the impact of preventive strategies. In Denmark,
 prediabetes, defined by HbA1c, is present in 7.1\% of
-adults\textsuperscript{108}. One in five of these individuals develops
-T2D within five years\textsuperscript{108}, while others either remain
+adults\textsuperscript{109}. One in five of these individuals develops
+T2D within five years\textsuperscript{109}, while others either remain
 in the prediabetic stage or return to normoglycemia. Despite their
-higher risk of CVD and heart failure\textsuperscript{109}, individuals
+higher risk of CVD and heart failure\textsuperscript{110}, individuals
 with prediabetes are not captured by existing preventive strategies.
 This underscores the need for early and precise risk
 assessment\textsuperscript{10}. Given that the cardiovascular
@@ -2824,7 +3006,7 @@ consensus on Management of Hyperglycemia in T2D emphasizes that early
 detection of heart failure in individuals with T2D is crucial, as it
 enables timely initiation of therapies such as SGLT2 inhibitors, which
 have demonstrated significant benefits in reducing heart failure-related
-outcomes\textsuperscript{110}. A major challenge in diabetes care is
+outcomes\textsuperscript{111}. A major challenge in diabetes care is
 detecting heart failure before symptoms appear, as patients with
 symptomatic heart failure face a higher risk of mortality and more
 frequent hospitalizations\textsuperscript{4}. The AHA, ACC, and HFSA
@@ -2847,7 +3029,7 @@ established in large population studies\textsuperscript{47}. Beyond
 these findings and the established evidence of increased heart failure
 risk, CAN also identifies individuals at high risk for overall CVD,
 kidney disease, and early mortality in the T2D
-population{[}\textsuperscript{111}{]}\textsuperscript{112}. In Study
+population{[}\textsuperscript{112}{]}\textsuperscript{113}. In Study
 III, I observed that two out of five participants had CAN, highlighting
 it as a complication with considerable prevalence. Therefore, detecting
 CAN may uncover an often-overlooked condition that is common in
@@ -2912,7 +3094,7 @@ exposure led to the outcome or vice versa. As a result, we cannot
 establish temporality or confirm whether changes in the outcome were
 caused by the exposure. Based on prior evidence, the direction of the
 associations in Study I was inferred using physiological knowledge and
-findings from epidemiological and in vivo studies\textsuperscript{69}.
+findings from epidemiological and in vivo studies\textsuperscript{71}.
 
 Study III focused on the clinical diagnosis of CAN and the presence of
 heart failure. The research question was oriented toward the clinical
@@ -2980,11 +3162,7 @@ established metrics, including SDNN, SDANN, and the SDNN index
 {[}\textsuperscript{6}{]}\textsuperscript{57}. However, a limitation of
 this dataset is that it did not allow for the calculation of
 frequency-domain measures or specific time-domain metrics such as RMSSD
-or pNN50. HF power, RMSSD, and pNN50 typically show earlier diurnal
-peaks compared to low-frequency power and SDNN\textsuperscript{13}.
-These measures are more reflective of parasympathetic activity during
-in- and expiration. It remains to be determined how these hourly
-measures relate to CVD, heart failure, and all-cause mortality.
+or pNN50.
 
 In the context of this study, which focuses on long-term HRV in
 free-living conditions, it is important to acknowledge that the
@@ -3009,7 +3187,7 @@ participants with prior CVD to preserve the etiological order between
 autonomic dysfunction and cardiovascular outcomes.
 
 Anti-hypertensive medications, especially beta-blockers, are known to
-increase HRV in randomized controlled trials\textsuperscript{113}.
+increase HRV in randomized controlled trials\textsuperscript{114}.
 However, in cohort studies, participants using anti-hypertensives
 generally show lower HRV, likely reflecting a higher burden of
 cardiovascular complications {[}ref{]}. Because beta-blockers target the
@@ -3025,7 +3203,7 @@ driven by increased sympathetic activity or reduced parasympathetic
 tone. Much of the current evidence on autonomic contributions to HRV
 originates from studies involving experimental manipulation of the
 autonomic nervous system, such as physiological tests (e.g., tilt
-response, deep breathing, stress reactivity) or pharmacological
+response, deep breathing, stress response) or pharmacological
 interventions. Therefore, it remains uncertain whether the mechanisms
 linking HRV indices to cardiovascular complications are predominantly
 due to sympathetic over activity or parasympathetic withdrawal.
@@ -3054,7 +3232,7 @@ selecting appropriate HRV indices, (2) segmenting time intervals, and
 findings reveal varying associations across HRV indices, with RMSSD and
 HF showing weaker associations. However, previous research has shown
 that these indices can be informative when analyzed in 5-minute
-segments\textsuperscript{104,114}. Additionally, SDNN exhibited varying
+segments\textsuperscript{105,115}. Additionally, SDNN exhibited varying
 associations with CVD risk depending on the time of day. We also
 observed that, in CARTs, the Valsalva maneuver and deep breathing test
 were more indicative of heart failure. These insights highlight the need
@@ -3068,7 +3246,7 @@ test}\label{cardiovascular-autonomic-reflex-test}}
 
 CART provides a practical approach for screening for autonomic
 dysfunction and has been shown to be a reliable
-method\textsuperscript{115}. Although certain indices from CARTs may be
+method\textsuperscript{116}. Although certain indices from CARTs may be
 influenced by factors such as time of day or recent physical activity,
 these effects are generally minimal. Furthermore, no impact of caffeine
 intake has been observed on the reference age-based
@@ -3091,19 +3269,19 @@ significant.
 In Study II, outcomes were based on CVD events, heart failure, and
 causes of death from Danish national registries. Potential
 misclassification and underreporting, especially of heart failure, may
-have led to underestimation of associations\textsuperscript{116}.
+have led to underestimation of associations\textsuperscript{117}.
 
 In Study III, NT-proBNP was used as a primary indicator of heart
 failure. While NT-proBNP is a validated biomarker for early-stage heart
 failure and useful for ruling out the condition, its specificity varies
 by HF phenotype\textsuperscript{62}. Thus, we cannot determine HFpEF or
-HFrEF. Its diagnostic accuracy is influenced by factors such as atrial
-fibrillation, obesity, and kidney function\textsuperscript{62}.
-Individuals with atrial fibrillation were excluded by design. Analysis
-was adjusted for BMI, which did not affect the association between CAN
-and elevated NT-proBNP. After adjusting for eGFR, the association became
-stronger, suggesting that reduced kidney function may have masked the
-true link between CAN and heart failure risk.
+HFrEF. Its diagnostic accuracy is influenced by factors such as AF,
+obesity, and kidney function\textsuperscript{62}. Individuals with AF
+were excluded by design. Analysis was adjusted for BMI, which did not
+affect the association between CAN and elevated NT-proBNP. After
+adjusting for eGFR, the association became stronger, suggesting that
+reduced kidney function may have masked the true link between CAN and
+heart failure risk.
 
 \hypertarget{external-validity}{%
 \subsection{External validity}\label{external-validity}}
@@ -3140,7 +3318,7 @@ HbA1c or random glucose measurements.
 This recruitment strategy involved selection by design, as it defined
 the source population based on specific risk criteria. The questionnaire
 prioritized risk factors such as older age and hypertension, leading to
-overrepresentation of these groups\textsuperscript{117}. Prediabetes was
+overrepresentation of these groups\textsuperscript{118}. Prediabetes was
 identified only after biochemical testing, while the risk score was
 primarily designed to detect undiagnosed T2D. Although this selection
 process was intentional and aligned with the ADDITION-PRO objectives, it
@@ -3150,7 +3328,7 @@ at risk for T2D.
 In addition, selection bias may have occurred due to differential
 participation in the ADDITION screening program. Healthier individuals
 were more likely to participate, both by completing the risk
-questionnaire and by attending follow-up testing\textsuperscript{118}.
+questionnaire and by attending follow-up testing\textsuperscript{119}.
 As a result, the baseline risk for CVD in ADDITION-PRO participants may
 have been lower compared to the target population.
 
@@ -3165,7 +3343,7 @@ were already attending endocrinology consultations, and the study
 examination required only additional time during their visit, without
 the need for extra transportation or appointments. Assessing selection
 bias in this study is challenging, as inclusion depended on referral
-practices by general practitioners\textsuperscript{119}. These practices
+practices by general practitioners\textsuperscript{120}. These practices
 may vary individually, with differing thresholds for referring patients
 to specialized care based on clinical judgment and patient
 characteristics.
@@ -3187,7 +3365,7 @@ relevant to individuals with some degree of diabetes risk and progressed
 T2D. Study I suggests that the link between autonomic dysfunction and
 cardiovascular risk, as measured by arterial stiffness, is also present
 in individuals with NGM, though to a lesser extent. This finding,
-supported by replication in the Whitehall II cohort\textsuperscript{69},
+supported by replication in the Whitehall II cohort\textsuperscript{71},
 indicates that the observed relationship may extend beyond high-risk
 groups and into the general population. In study III, participants
 represent a higher-risk diabetes group among Danish diabetes patients,
@@ -3199,7 +3377,7 @@ care, and thus limits extending our finding to broader T2D populations.
 By design, younger individuals with prediabetes or young-adult-onset
 type 2 diabetes are underrepresented in our studies. This group may be
 overlooked in current research and warrants further attention in future
-studies\textsuperscript{108,120}. The applicability of our findings to
+studies\textsuperscript{109,121}. The applicability of our findings to
 other countries may be influenced by differences in demographic
 composition, risk factor distributions, healthcare systems, and stages
 of economic development. These factors can affect both the prevalence of
@@ -3213,48 +3391,18 @@ world and further affect the applicability of our findings.
 
 \bookmarksetup{startatroot}
 
-\hypertarget{conclusion}{%
-\chapter{Conclusion}\label{conclusion}}
-
-This dissertation aimed to investigate how autonomic dysfunction,
-assessed by minimum 24-hour HRV and CARTs, is associated with
-cardiovascular complications across different stages of glucose
-metabolism. The findings support the hypothesis that autonomic
-dysfunction is an early and independent marker of cardiovascular risk.
-
-Autonomic dysfunction was associated with higher arterial stiffness not
-only in individuals with T2D, but also in those with prediabetes and
-normal glucose metabolism. A particularly pronounced association was
-observed in individuals with prediabetes, where lower multiday HRV was
-linked to a higher risk of cardiovascular disease, heart failure, and
-mortality. These findings suggest that autonomic dysfunction may
-contribute to cardiovascular complications even before the onset of T2D,
-potentially through a modifying effect during the early stages of
-dysglycemia. Among individuals with T2D, standardized CARTs identified
-those with CAN who had a higher risk of heart failure, even when
-asymptomatic and not classified as high risk by risk scores.
-
-Early detection is important, as CVD and heart failure are associated
-with reduced life expectancy and quality of life. This dissertation
-demonstrates the potential of autonomic dysfunction as a clinically
-relevant marker of cardiovascular risk across the full spectrum of
-glucose metabolism, including stages prior to the onset of T2D. However,
-it remains unclear whether this dysfunction plays a causal role or
-reflects underlying pathophysiological processes. Further research is
-needed to determine its clinical utility in risk stratification and its
-potential as a target for intervention.
-
-\bookmarksetup{startatroot}
-
 \hypertarget{perspective}{%
 \chapter{Perspective}\label{perspective}}
 
-We have investigated autonomic function impact on cardiovascular
-complications across different stages of glucose metabolism. Based on
-our findings and conlcusions, we propose further perspectives to define
-its role in research and healthcare from three aspects: (1) continuous
-non-invasive health monitoring, (2) risk stratification, and (3)
-identification as a causal and modifiable marker.
+\newpage
+
+This dissertation has investigated autonomic function impact on
+cardiovascular complications across different stages of glucose
+metabolism. Based on our findings and conclusions, we propose further
+perspectives to define its role in research and healthcare from three
+aspects: (1) continuous non-invasive health monitoring, (2) risk
+stratification, and (3) identification as a causal and modifiable
+marker.
 
 \hypertarget{continuous-monitoring-of-cardiovascular-health}{%
 \section{Continuous monitoring of cardiovascular
@@ -3265,13 +3413,19 @@ risk is essential for developing early and effective prevention
 strategies. Incorporating HRV into digital health solutions could
 support personalized feedback mechanisms, enabling timely lifestyle or
 therapeutic interventions and contributing to more adaptive and
-preventive healthcare strategies. Wearable devices enable comprehensive
-data collection on behavioral (e.g., sleep and physical activity) and
-physiological (e.g., heart rate, ECG, temperature)
-parameters\textsuperscript{121}. These devices offer a broader and more
-feasible approach to long-term heart rate monitoring. Despite growing
-interest in wearable-based monitoring, the integration of HRV into
-routine cardiometabolic risk assessment remains limited.
+preventive healthcare strategies. Digital CVD risk calculators can help
+optimize the timing of follow-up assessments or the initiation of
+treatment. In type 1 diabetes, for example, such tools are used to guide
+decisions on starting lipid-lowering therapy. Similarly, recent analyses
+at Steno Diabetes Center Copenhagen have shown that not all patients
+require annual retinopathy screening. Instead, prediction models using
+clinical variables can determine optimal re-screening intervals.
+Wearable devices enable comprehensive data collection on behavioral
+(e.g., sleep and physical activity) and physiological (e.g., heart rate,
+ECG, temperature) parameters\textsuperscript{122}. These devices offer a
+broader and more feasible approach to long-term heart rate monitoring.
+Despite growing interest in wearable-based monitoring, the integration
+of HRV into routine cardiometabolic risk assessment remains limited.
 
 Two key aspects highlight the potential applications of monitoring: (1)
 identification of risk and (2) assessment of response to intervention.
@@ -3297,10 +3451,10 @@ barrier to clinical adoption.
 HRV represents a potential target for intervention, as low HRV may
 reflect adverse lifestyle patterns. Behaviors such as disrupted sleep,
 physical inactivity, and irregular meal timing can influence circadian
-fluctuations in HRV (ref. sleep, activity)\textsuperscript{104}.
+fluctuations in HRV (ref. sleep, activity)\textsuperscript{105}.
 Pharmacological interventions also impact HRV: beta-blockers have been
 shown to increase HRV, while GLP-1 receptor agonists may reduce it
-{[}\textsuperscript{113}{]}\textsuperscript{122}.
+{[}\textsuperscript{114}{]}\textsuperscript{123}.
 
 \begin{figure}
 
@@ -3323,20 +3477,25 @@ interventions. (Source: Author)}
 
 \end{figure}
 
-Future research can leverage wearable devices to better understand how
-behavioral and pharmacological factors influence HRV. This approach may
-help identify effective lifestyle patterns or treatments that support
-cardiovascular health through HRV modulation.
+Future research can leverage wearable devices to monitor the
+effectiveness of behavioral and pharmacological interventions on HRV at
+the individual level. This approach may support precision real-time
+monitoring to identify lifestyle patterns or treatments that promote
+cardiovascular health through HRV modulation or uncover potential side
+effects\textsuperscript{124}.
 
 However, standardization and transparency across wearable device brands
 remain a challenge for both research and clinical use. While
 smartwatches offer convenient heart rate monitoring, their accuracy
 varies due to reliance on photoplethysmography, which can be affected by
 motion and other external factors, especially during physical activity
-{[}\textsuperscript{123}{]}\textsuperscript{124}. Despite these
+{[}\textsuperscript{125}{]}\textsuperscript{126}. Despite these
 limitations, ongoing improvements in sensor technology and algorithm
 calibration are likely to enhance the reliability of wearable-derived
-HRV and heart rate data.
+HRV and heart rate data. Open data formats are important to ensure that
+detailed data (e.g.~interbeat intervals) from various devices can be
+used consistently in health prediction algorithms, rather than relying
+only on summarized outputs.
 
 \hypertarget{risk-stratification-1}{%
 \section{Risk-stratification}\label{risk-stratification-1}}
@@ -3376,9 +3535,9 @@ with T2D or prediabetes remains to be clarified.
 Our findings suggest that long-term HRV and CAN may serve as useful
 markers for identifying individuals at elevated metabolic risk who could
 benefit from targeted preventive strategies. Future research should
-explore whether those classified as high-risk based on autonomic
-dysfunction or CAN would benefit from earlier cardiovascular screening
-or tailored interventions.
+explore whether identifying individuals as high-risk based on autonomic
+dysfunction or CAN could support personalized and timely cardiovascular
+screening or interventions\textsuperscript{124}.
 
 \begin{figure}
 
@@ -3392,7 +3551,8 @@ or tailored interventions.
 
 }
 
-\caption{Risk-stratification by autonomic dysfunction. (Source: Author)}
+\caption{Conceptual model for risk stratification by autonomic
+dysfunction. (Source: Author)}
 
 }
 
@@ -3405,15 +3565,15 @@ or tailored interventions.
 marker}\label{effective-causal-modifiable-marker}}
 
 Our findings support a potential etiological link between long-term HRV
-and CVD risk, providing preliminary evidence for a causal relationship.
-However, the observed association does not confirm causality, and
-further research is needed to determine whether HRV directly influences
-CVD outcomes. While randomized controlled trials are the gold standard
-for establishing causality, isolating the direct effect of HRV is
-particularly challenging. Interventions that affect HRV often do so
-indirectly through changes in weight, inflammation, or insulin
-sensitivity. Similarly, pharmacological treatments may improve HRV as a
-secondary effect, such as through blood pressure reduction from
+and CVD risk, providing preliminary evidence consistent with a causal
+relationship. However, the observed association does not confirm
+causality, and further research is needed to determine whether HRV
+directly influences CVD outcomes. While randomized controlled trials are
+the gold standard for establishing causality, isolating the direct
+effect of HRV is particularly challenging. Interventions that affect HRV
+often do so indirectly through changes in weight, inflammation, or
+insulin sensitivity. Similarly, pharmacological treatments may improve
+HRV as a secondary effect, such as through blood pressure reduction from
 antihypertensive medications. This makes it difficult to determine
 whether modifying HRV itself leads to improved cardiovascular outcomes.
 
@@ -3421,11 +3581,14 @@ To address these limitations, modern epidemiological methods such as
 Mendelian randomization and structured causal mediation analysis offer
 promising alternatives. These approaches can help infer causality from
 observational data and estimate indirect effects using trial data.
-Notably, no genome-wide association study has yet investigated the
-genetic determinants of long-term HRV. Establishing such associations is
-essential for understanding its genetic architecture and for using
-genetic variants as unconfounded proxies to assess HRV's causal role in
-CVD.
+Notably, no GWAS has yet investigated the genetic determinants of
+long-term HRV. Establishing such associations is essential for
+understanding its genetic architecture and for using genetic variants as
+unconfounded proxies to assess HRV's causal role in CVD. However, a
+challenge arises from findings in short-term HRV, which show
+considerable pleiotropy. This may complicate the use of Mendelian
+randomization, as the method relies on the assumption of no horizontal
+pleiotropy\textsuperscript{127}.
 
 \begin{figure}
 
@@ -3448,14 +3611,50 @@ Author)}
 
 \end{figure}
 
-Future cardiometabolic intervention trials, whether focused on lifestyle
-or pharmacological strategies, should, where feasible, include HRV
-measurements. This would enable structured mediation analyses and help
-determine whether modifying autonomic function leads to sustained
-improvements in cardiovascular outcomes. Such evidence could clarify
-whether interventions like antihypertensive medications or lifestyle
-changes in physical activity, diet, and sleep can causally and
-sustainably improve CVD risk through HRV modulation.
+Future cardiometabolic intervention trials and longitudinal cohorts,
+whether focused on lifestyle or pharmacological strategies, should,
+where feasible, include repeated HRV measurements measurements. This
+would enable structured mediation analyses and help determine whether
+modifying autonomic function leads to sustained improvements in
+cardiovascular outcomes. Such evidence could clarify whether
+interventions like antihypertensive medications or lifestyle changes in
+physical activity, diet, and sleep can causally and sustainably improve
+CVD risk through HRV modulation.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{conclusion}{%
+\chapter{Conclusion}\label{conclusion}}
+
+\newpage
+
+This dissertation aimed to investigate how autonomic dysfunction,
+assessed by HRV and CARTs, is associated with cardiovascular
+complications across different stages of glucose metabolism. The
+findings support the hypothesis that autonomic dysfunction is an early
+and independent marker of cardiovascular risk.
+
+Autonomic dysfunction was associated with higher arterial stiffness not
+only in individuals with T2D, but also in those with prediabetes and
+normal glucose metabolism. A particularly pronounced association was
+observed in individuals with prediabetes, where lower multiday HRV was
+linked to a higher risk of cardiovascular disease, heart failure, and
+mortality. These findings suggest that autonomic dysfunction may
+contribute to cardiovascular complications even before the onset of T2D,
+potentially through a modifying effect during the early stages of
+dysglycemia. Among individuals with T2D, standardized CARTs identified
+those with CAN who had a higher risk of heart failure, even when
+asymptomatic and not classified as high risk by risk scores.
+
+Early detection is important, as CVD and heart failure are associated
+with reduced life expectancy and quality of life. This dissertation
+demonstrates the potential of autonomic dysfunction as a clinically
+relevant marker of cardiovascular risk across the full spectrum of
+glucose metabolism, including stages prior to the onset of T2D. However,
+it remains unclear whether this dysfunction plays a causal role or
+reflects underlying pathophysiological processes. Further research is
+needed to determine its clinical utility in risk stratification and its
+potential as a target for intervention.
 
 \bookmarksetup{startatroot}
 
@@ -3931,8 +4130,23 @@ Cardiovascular autonomic dysfunction is linked with arterial stiffness
 across glucose metabolism: The maastricht study. 2024
 DOI:\href{https://doi.org/10.1101/2024.12.03.24317865}{10.1101/2024.12.03.24317865}.}
 
-\leavevmode\vadjust pre{\hypertarget{ref-angelaberos2023}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-schaarup2024b}{}}%
 \CSLLeftMargin{64 }%
+\CSLRightInline{Schaarup JR, Bjerg L, Hansen CS, \emph{et al.}
+\href{https://doi.org/10.1101/2024.12.18.24319131}{Cardiovascular
+autonomic dysfunction precedes cardiovascular disease and all-cause
+mortality: 11-year follow-up of the ADDITION-PRO study}. \emph{medRxiv}
+2024; : 2024.12.18.24319131.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-schaarup2025}{}}%
+\CSLLeftMargin{65 }%
+\CSLRightInline{Schaarup JR, Bjerg L, Hansen CS, \emph{et al.}
+Cardiovascular autonomic neuropathy and indices of heart failure in type
+2 diabetes: The CANCAN study. \emph{(unpublished)} 2025; published
+online June 25.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-angelaberos2023}{}}%
+\CSLLeftMargin{66 }%
 \CSLRightInline{Angela Beros, John Sluyter, Robert Keith Rhodes Scragg.
 \href{https://doi.org/10.1136/bmjdrc-2022-003140}{Association of
 arterial stiffness and neuropathy in diabetes: A systematic review and
@@ -3940,7 +4154,7 @@ meta-analysis}. \emph{BMJ Open Diabetes Research \& Care} 2023;
 \textbf{11}: e003140.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-casey2011}{}}%
-\CSLLeftMargin{65 }%
+\CSLLeftMargin{67 }%
 \CSLRightInline{Casey DP, Curry TB, Joyner MJ, Charkoudian N, Hart EC.
 \href{https://doi.org/10.1161/HYPERTENSIONAHA.110.164517}{Relationship
 between muscle sympathetic nerve activity and aortic wave reflection
@@ -3948,7 +4162,7 @@ characteristics in young men and women}. \emph{Hypertension} 2011;
 \textbf{57}: 421--7.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-nardone2020}{}}%
-\CSLLeftMargin{66 }%
+\CSLLeftMargin{68 }%
 \CSLRightInline{Nardone M, Floras JS, Millar PJ.
 \href{https://doi.org/10.1152/ajpheart.00734.2020}{Sympathetic neural
 modulation of arterial stiffness in humans}. \emph{American Journal of
@@ -3956,35 +4170,35 @@ Physiology-Heart and Circulatory Physiology} 2020; \textbf{319}:
 H1338--46.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-mangoni1997}{}}%
-\CSLLeftMargin{67 }%
+\CSLLeftMargin{69 }%
 \CSLRightInline{Mangoni AA, Mircoli L, Giannattasio C, Mancia G, Ferrari
 AU. \href{https://doi.org/10.1161/01.HYP.30.5.1085}{Effect of
 sympathectomy on mechanical properties of common carotid and femoral
 arteries}. \emph{Hypertension} 1997; \textbf{30}: 1085--8.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-zhongjiesun2015}{}}%
-\CSLLeftMargin{68 }%
+\CSLLeftMargin{70 }%
 \CSLRightInline{Zhongjie Sun.
 \href{https://doi.org/doi:10.1161/HYPERTENSIONAHA.114.03617}{Aging,
 arterial stiffness, and hypertension}. \emph{Hypertension} 2015;
 \textbf{65}: 252--6.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-schaarup2023}{}}%
-\CSLLeftMargin{69 }%
+\CSLLeftMargin{71 }%
 \CSLRightInline{Schaarup JR, Christensen MS, Hulman A, \emph{et al.}
 \href{https://doi.org/10.1007/s11357-023-00762-0}{Autonomic dysfunction
 is associated with the development of arterial stiffness: The whitehall
 II cohort}. \emph{GeroScience} 2023; \textbf{45}: 2443--55.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-kuehl2012}{}}%
-\CSLLeftMargin{70 }%
+\CSLLeftMargin{72 }%
 \CSLRightInline{Kuehl M, Stevens MJ.
 \href{https://doi.org/10.1038/nrendo.2012.21}{Cardiovascular autonomic
 neuropathies as complications of diabetes mellitus}. \emph{Nature
 Reviews Endocrinology} 2012; \textbf{8}: 405--16.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-shah2019}{}}%
-\CSLLeftMargin{71 }%
+\CSLLeftMargin{73 }%
 \CSLRightInline{Shah AS, El ghormli L, Vajravelu ME, \emph{et al.}
 \href{https://doi.org/10.2337/dc19-0993}{Heart rate variability and
 cardiac autonomic dysfunction: Prevalence, risk factors, and
@@ -3993,28 +4207,28 @@ diabetes in adolescents and youth (TODAY) study}. \emph{Diabetes Care}
 2019; \textbf{42}: 2143--50.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-coopmans2020a}{}}%
-\CSLLeftMargin{72 }%
+\CSLLeftMargin{74 }%
 \CSLRightInline{Coopmans C, Zhou TL, Henry RMA, \emph{et al.}
 \href{https://doi.org/10.2337/dc19-2367}{Both prediabetes and type 2
 diabetes are associated with lower heart rate variability: The
 maastricht study}. \emph{Diabetes Care} 2020; \textbf{43}: 1126--33.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-mceniery2017}{}}%
-\CSLLeftMargin{73 }%
+\CSLLeftMargin{75 }%
 \CSLRightInline{McEniery CM, Wilkinson IB, Johansen NB, \emph{et al.}
 \href{https://doi.org/10.2337/dc16-1773}{Nondiabetic glucometabolic
 status and progression of aortic stiffness: The whitehall II study}.
 \emph{Diabetes Care} 2017; \textbf{40}: 599--606.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-orini2023}{}}%
-\CSLLeftMargin{74 }%
+\CSLLeftMargin{76 }%
 \CSLRightInline{Orini M, Duijvenboden S van, Young WJ, \emph{et al.}
 \href{https://doi.org/10.1038/s41598-023-45988-2}{Long-term association
 of ultra-short heart rate variability with cardiovascular events}.
 \emph{Scientific Reports} 2023; \textbf{13}: 18966.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-rietz2024}{}}%
-\CSLLeftMargin{75 }%
+\CSLLeftMargin{77 }%
 \CSLRightInline{Rietz M, Schmidt-Persson J, Gillies Banke Rasmussen M,
 \emph{et al.}
 \href{https://doi.org/10.1088/1361-6579/ad450d}{Facilitating ambulatory
@@ -4023,14 +4237,14 @@ classifications of body position and self-reported sleep}.
 \emph{Physiological Measurement} 2024; \textbf{45}: 055016.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-bentzon2014}{}}%
-\CSLLeftMargin{76 }%
+\CSLLeftMargin{78 }%
 \CSLRightInline{Bentzon JF, Otsuka F, Virmani R, Falk E.
 \href{https://doi.org/10.1161/CIRCRESAHA.114.302721}{Mechanisms of
 plaque formation and rupture}. \emph{Circulation Research} 2014;
 \textbf{114}: 1852--66.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-zieman2005}{}}%
-\CSLLeftMargin{77 }%
+\CSLLeftMargin{79 }%
 \CSLRightInline{Zieman SJ, Melenovsky V, Kass DA.
 \href{https://doi.org/10.1161/01.ATV.0000160548.78317.29}{Mechanisms,
 pathophysiology, and therapy of arterial stiffness}.
@@ -4038,14 +4252,14 @@ pathophysiology, and therapy of arterial stiffness}.
 \textbf{25}: 932--43.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-vanpopele2001}{}}%
-\CSLLeftMargin{78 }%
+\CSLLeftMargin{80 }%
 \CSLRightInline{Popele NM van, Grobbee DE, Bots ML, \emph{et al.}
 \href{https://doi.org/10.1161/01.STR.32.2.454}{Association between
 arterial stiffness and atherosclerosis}. \emph{Stroke} 2001;
 \textbf{32}: 454--60.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-holwerda2019}{}}%
-\CSLLeftMargin{79 }%
+\CSLLeftMargin{81 }%
 \CSLRightInline{Holwerda SW, Luehrs RE, DuBose L, \emph{et al.}
 \href{https://doi.org/doi:10.1161/HYPERTENSIONAHA.118.12462}{Elevated
 muscle sympathetic nerve activity contributes to central artery
@@ -4053,7 +4267,7 @@ stiffness in young and middle-age/older adults}. \emph{Hypertension}
 2019; \textbf{73}: 1025--35.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-gottsuxe4ter2006}{}}%
-\CSLLeftMargin{80 }%
+\CSLLeftMargin{82 }%
 \CSLRightInline{Gottsäter A, Ahlgren ÅR, Taimour S, Sundkvist G.
 \href{https://doi.org/10.1007/s10286-006-0345-4}{Decreased heart rate
 variability may predict the progression of carotid atherosclerosis in
@@ -4061,21 +4275,21 @@ type 2 diabetes}. \emph{Clinical Autonomic Research} 2006; \textbf{16}:
 228--34.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-mohanta2022}{}}%
-\CSLLeftMargin{81 }%
+\CSLLeftMargin{83 }%
 \CSLRightInline{Mohanta SK, Peng L, Li Y, \emph{et al.}
 \href{https://doi.org/10.1038/s41586-022-04673-6}{Neuroimmune
 cardiovascular interfaces control atherosclerosis}. \emph{Nature} 2022;
 \textbf{605}: 152--9.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-agarwalsunilk.2017}{}}%
-\CSLLeftMargin{82 }%
+\CSLLeftMargin{84 }%
 \CSLRightInline{Agarwal Sunil K., Norby Faye L., Whitsel Eric A.,
 \emph{et al.} \href{https://doi.org/10.1016/j.jacc.2016.10.059}{Cardiac
 autonomic dysfunction and incidence of atrial fibrillation}. \emph{JACC}
 2017; \textbf{69}: 291--9.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-osei2024}{}}%
-\CSLLeftMargin{83 }%
+\CSLLeftMargin{85 }%
 \CSLRightInline{Osei J, Vaccarino V, Wang M, \emph{et al.}
 \href{https://doi.org/10.1161/CIRCIMAGING.124.016596}{Stress-induced
 autonomic dysfunction is associated with mental
@@ -4084,14 +4298,14 @@ artery disease}. \emph{Circulation: Cardiovascular Imaging} 2024;
 \textbf{17}: e016596.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-nolte2017}{}}%
-\CSLLeftMargin{84 }%
+\CSLLeftMargin{86 }%
 \CSLRightInline{Nolte IM, Munoz ML, Tragante V, \emph{et al.}
 \href{https://doi.org/10.1038/ncomms15805}{Genetic loci associated with
 heart rate variability and their effects on cardiac disease risk}.
 \emph{Nature Communications} 2017; \textbf{8}: 15805.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-geurts2023}{}}%
-\CSLLeftMargin{85 }%
+\CSLLeftMargin{87 }%
 \CSLRightInline{Geurts S, Tilly MJ, Arshi B, \emph{et al.}
 \href{https://doi.org/10.1007/s00392-022-02072-5}{Heart rate variability
 and atrial fibrillation in the general population: A longitudinal and
@@ -4099,21 +4313,21 @@ mendelian randomization study}. \emph{Clinical Research in Cardiology}
 2023; \textbf{112}: 747--58.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-tegegne2023}{}}%
-\CSLLeftMargin{86 }%
+\CSLLeftMargin{88 }%
 \CSLRightInline{Tegegne BS, Said MA, Ani A, \emph{et al.}
 \href{https://doi.org/10.1038/s42003-023-05376-y}{Phenotypic but not
 genetically predicted heart rate variability associated with all-cause
 mortality}. \emph{Communications Biology} 2023; \textbf{6}: 1013.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-shen2014}{}}%
-\CSLLeftMargin{87 }%
+\CSLLeftMargin{89 }%
 \CSLRightInline{Shen MJ, Zipes DP.
 \href{https://doi.org/10.1161/CIRCRESAHA.113.302549}{Role of the
 autonomic nervous system in modulating cardiac arrhythmias}.
 \emph{Circulation Research} 2014; \textbf{114}: 1004--21.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-patel2017}{}}%
-\CSLLeftMargin{88 }%
+\CSLLeftMargin{90 }%
 \CSLRightInline{Patel VN, Pierce BR, Bodapati RK, Brown DL, Ives DG,
 Stein PK. \href{https://doi.org/10.1016/j.jchf.2016.12.015}{Association
 of holter-derived heart rate variability parameters with the development
@@ -4121,7 +4335,7 @@ of congestive heart failure in the cardiovascular health study}.
 \emph{JACC: Heart Failure} 2017; \textbf{5}: 423--31.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-kaze2022}{}}%
-\CSLLeftMargin{89 }%
+\CSLLeftMargin{91 }%
 \CSLRightInline{Kaze AD, Yuyun MF, Erqou S, Fonarow GC,
 Echouffo-Tcheugui JB. \href{https://doi.org/10.1002/ejhf.2432}{Cardiac
 autonomic neuropathy and risk of incident heart failure among adults
@@ -4129,14 +4343,14 @@ with type 2 diabetes}. \emph{European Journal of Heart Failure} 2022;
 \textbf{24}: 634--41.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-ostrowska2024}{}}%
-\CSLLeftMargin{90 }%
+\CSLLeftMargin{92 }%
 \CSLRightInline{Ostrowska B, Lind L, Blomström-Lundqvist C.
 \href{https://doi.org/10.1002/clc.24241}{An association between heart
 rate variability and incident heart failure in an elderly cohort}.
 \emph{Clinical Cardiology} 2024; \textbf{47}: e24241.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-shah2013}{}}%
-\CSLLeftMargin{91 }%
+\CSLLeftMargin{93 }%
 \CSLRightInline{Shah SA, Kambur T, Chan C, Herrington DM, Liu K, Shah
 SJ. \href{https://doi.org/10.1016/j.amjcard.2013.04.018}{Relation of
 short-term heart rate variability to incident heart failure (from the
@@ -4144,14 +4358,14 @@ multi-ethnic study of atherosclerosis)}. \emph{The American Journal of
 Cardiology} 2013; \textbf{112}: 533--40.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-boutouyrie2021}{}}%
-\CSLLeftMargin{92 }%
+\CSLLeftMargin{94 }%
 \CSLRightInline{Boutouyrie P, Chowienczyk P, Humphrey JD, Mitchell GF.
 \href{https://doi.org/10.1161/CIRCRESAHA.121.318061}{Arterial stiffness
 and cardiovascular risk in hypertension}. \emph{Circulation Research}
 2021; \textbf{128}: 864--86.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-arshi2022}{}}%
-\CSLLeftMargin{93 }%
+\CSLLeftMargin{95 }%
 \CSLRightInline{Arshi B, Geurts S, Tilly MJ, \emph{et al.}
 \href{https://doi.org/10.1186/s12916-022-02273-9}{Heart rate variability
 is associated with left ventricular systolic, diastolic function and
@@ -4159,29 +4373,21 @@ incident heart failure in the general population}. \emph{BMC Medicine}
 2022; \textbf{20}: 91.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-rose2008}{}}%
-\CSLLeftMargin{94 }%
+\CSLLeftMargin{96 }%
 \CSLRightInline{Rose GA, Khaw K-T, Marmot M. Rose's strategy of
 preventive medicine: The complete original text. Oxford University
 Press, 2008.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-yafeiwu2025}{}}%
-\CSLLeftMargin{95 }%
+\CSLLeftMargin{97 }%
 \CSLRightInline{Yafei Wu, Xiude Fan, Yingzhou Shi, \emph{et al.}
 \href{https://doi.org/10.1136/bmjph-2024-001539}{Association of
 pre-diabetes with the risks of adverse health outcomes and complex
 multimorbidity: Evidence from population-based studies in the NIS and UK
 biobank}. \emph{BMJ Public Health} 2025; \textbf{3}: e001539.}
 
-\leavevmode\vadjust pre{\hypertarget{ref-schaarup2024b}{}}%
-\CSLLeftMargin{96 }%
-\CSLRightInline{Schaarup JR, Bjerg L, Hansen CS, \emph{et al.}
-\href{https://doi.org/10.1101/2024.12.18.24319131}{Cardiovascular
-autonomic dysfunction precedes cardiovascular disease and all-cause
-mortality: 11-year follow-up of the ADDITION-PRO study}. \emph{medRxiv}
-2024; : 2024.12.18.24319131.}
-
 \leavevmode\vadjust pre{\hypertarget{ref-schaarup2023a}{}}%
-\CSLLeftMargin{97 }%
+\CSLLeftMargin{98 }%
 \CSLRightInline{Schaarup JFR, Aggarwal R, Dalsgaard E-M, \emph{et al.}
 \href{https://doi.org/10.1016/j.deman.2022.100114}{Perception of
 artificial intelligence-based solutions in healthcare among people with
@@ -4190,7 +4396,7 @@ central denmark cohort}. \emph{Diabetes Epidemiology and Management}
 2023; \textbf{9}: 100114.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-sterling2024}{}}%
-\CSLLeftMargin{98 }%
+\CSLLeftMargin{99 }%
 \CSLRightInline{Sterling MR, Ferranti EP, Green BB, \emph{et al.}
 \href{https://doi.org/10.1161/HCQ.0000000000000134}{The role of primary
 care in achieving life{'}s essential 8: A scientific statement from the
@@ -4198,7 +4404,7 @@ american heart association}. \emph{Circulation: Cardiovascular Quality
 and Outcomes} 2024; \textbf{17}: e000134.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-score2workinggroupandesccardiovascularriskcollaboration2021}{}}%
-\CSLLeftMargin{99 }%
+\CSLLeftMargin{100 }%
 \CSLRightInline{group S working, ESC Cardiovascular risk collaboration.
 \href{https://doi.org/10.1093/eurheartj/ehab309}{SCORE2 risk prediction
 algorithms: New models to estimate 10-year risk of cardiovascular
@@ -4206,14 +4412,14 @@ disease in europe}. \emph{European Heart Journal} 2021; \textbf{42}:
 2439--54.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-dagostino2008}{}}%
-\CSLLeftMargin{100 }%
+\CSLLeftMargin{101 }%
 \CSLRightInline{D'Agostino RB, Vasan RS, Pencina MJ, \emph{et al.}
 \href{https://doi.org/10.1161/CIRCULATIONAHA.107.699579}{General
 cardiovascular risk profile for use in primary care}. \emph{Circulation}
 2008; \textbf{117}: 743--53.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-varga2020}{}}%
-\CSLLeftMargin{101 }%
+\CSLLeftMargin{102 }%
 \CSLRightInline{Varga TV, Niss K, Estampador AC, Collin CB, Moseley PL.
 \href{https://doi.org/10.1016/j.diabres.2020.108497}{Association is not
 prediction: A landscape of confused reporting in diabetes {\textendash}
@@ -4221,7 +4427,7 @@ a systematic review}. \emph{Diabetes Research and Clinical Practice}
 2020; \textbf{170}: 108497.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-cardoso2023}{}}%
-\CSLLeftMargin{102 }%
+\CSLLeftMargin{103 }%
 \CSLRightInline{Cardoso CRL, Oliveira VAG de, Leite NC, Salles GF.
 \href{https://doi.org/10.1016/j.diabres.2022.110232}{Prognostic
 importance of cardiovascular autonomic neuropathy on cardiovascular and
@@ -4230,7 +4436,7 @@ janeiro type 2 diabetes cohort}. \emph{Diabetes Research and Clinical
 Practice} 2023; \textbf{196}: 110232.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-bodapati2017}{}}%
-\CSLLeftMargin{103 }%
+\CSLLeftMargin{104 }%
 \CSLRightInline{Bodapati RK, Kizer JR, Kop WJ, Kamel H, Stein PK.
 Addition of 24-Hour Heart Rate Variability Parameters to the
 Cardiovascular Health Study Stroke Risk Score and Prediction of Incident
@@ -4239,7 +4445,7 @@ Heart Association} 2017; \textbf{6}.
 DOI:\href{https://doi.org/10.1161/JAHA.116.004305}{10.1161/JAHA.116.004305}.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-chellappa2025}{}}%
-\CSLLeftMargin{104 }%
+\CSLLeftMargin{105 }%
 \CSLRightInline{Chellappa SL, Gao L, Qian J, \emph{et al.}
 \href{https://doi.org/10.1038/s41467-025-57846-y}{Daytime eating during
 simulated night work~mitigates changes in cardiovascular risk factors:
@@ -4247,7 +4453,7 @@ Secondary analyses of a randomized controlled trial}. \emph{Nature
 Communications} 2025; \textbf{16}: 3186.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-picard2021}{}}%
-\CSLLeftMargin{105 }%
+\CSLLeftMargin{106 }%
 \CSLRightInline{Picard M, Tauveron I, Magdasy S, \emph{et al.}
 \href{https://doi.org/10.1371/journal.pone.0251863}{Effect of exercise
 training on heart rate variability in type 2 diabetes mellitus patients:
@@ -4255,7 +4461,7 @@ A systematic review and meta-analysis}. \emph{PLOS ONE} 2021;
 \textbf{16}: e0251863.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-buxf6nhof2022}{}}%
-\CSLLeftMargin{106 }%
+\CSLLeftMargin{107 }%
 \CSLRightInline{Bönhof GJ, Strom A, Apostolopoulou M, \emph{et al.}
 \href{https://doi.org/10.1007/s00125-022-05674-w}{High-intensity
 interval training for 12~weeks improves cardiovascular autonomic
@@ -4264,7 +4470,7 @@ overweight men with type 2 diabetes}. \emph{Diabetologia} 2022;
 \textbf{65}: 1048--57.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-carnethon2006}{}}%
-\CSLLeftMargin{107 }%
+\CSLLeftMargin{108 }%
 \CSLRightInline{Carnethon MR, Prineas RJ, Temprosa M, \emph{et al.}
 \href{https://doi.org/10.2337/diacare.29.04.06.dc05-1729}{The
 association among autonomic nervous system function, incident diabetes,
@@ -4272,7 +4478,7 @@ and intervention arm in the diabetes prevention program}. \emph{Diabetes
 Care} 2006; \textbf{29}: 914--9.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-nicolaisen2023}{}}%
-\CSLLeftMargin{108 }%
+\CSLLeftMargin{109 }%
 \CSLRightInline{Nicolaisen SK, Pedersen L, Witte DR, Sørensen HT,
 Thomsen RW. HbA1c-defined prediabetes and progression to type 2 diabetes
 in denmark: A population-based study based on routine clinical care
@@ -4281,14 +4487,14 @@ laboratory data. \emph{Diabetes Research and Clinical Practice} 2023;
 DOI:\href{https://doi.org/10.1016/j.diabres.2023.110829}{10.1016/j.diabres.2023.110829}.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-cai2021a}{}}%
-\CSLLeftMargin{109 }%
+\CSLLeftMargin{110 }%
 \CSLRightInline{Cai X, Liu X, Sun L, \emph{et al.}
 \href{https://doi.org/10.1111/dom.14388}{Prediabetes and the risk of
 heart failure: A meta-analysis}. \emph{Diabetes, Obesity and Metabolism}
 2021; \textbf{23}: 1746--53.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-davies2022}{}}%
-\CSLLeftMargin{110 }%
+\CSLLeftMargin{111 }%
 \CSLRightInline{Davies MJ, Aroda VR, Collins BS, \emph{et al.}
 \href{https://doi.org/10.2337/dci22-0034}{Management of hyperglycemia in
 type 2 diabetes, 2022. A consensus report by the american diabetes
@@ -4296,7 +4502,7 @@ association (ADA) and the european association for the study of diabetes
 (EASD)}. \emph{Diabetes Care} 2022; \textbf{45}: 2753--86.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-mahinchowdhury2021}{}}%
-\CSLLeftMargin{111 }%
+\CSLLeftMargin{112 }%
 \CSLRightInline{Mahin Chowdhury, Sarah Nevitt, Aikaterini Eleftheriadou,
 \emph{et al.} \href{https://doi.org/10.1136/bmjdrc-2021-002480}{Cardiac
 autonomic neuropathy and risk of cardiovascular disease and mortality in
@@ -4304,7 +4510,7 @@ type 1 and type 2 diabetes: A meta-analysis}. \emph{BMJ Open Diabetes
 Research \& Care} 2021; \textbf{9}: e002480.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-tang2023}{}}%
-\CSLLeftMargin{112 }%
+\CSLLeftMargin{113 }%
 \CSLRightInline{Tang Y, Ang L, Jaiswal M, \emph{et al.}
 \href{https://doi.org/10.2337/db23-0247}{Cardiovascular autonomic
 neuropathy and risk of kidney function decline in type 1 and type 2
@@ -4312,7 +4518,7 @@ diabetes: Findings from the PERL and ACCORD cohorts}. \emph{Diabetes}
 2023; \textbf{73}: 751--62.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-niemeluxe41994}{}}%
-\CSLLeftMargin{113 }%
+\CSLLeftMargin{114 }%
 \CSLRightInline{Niemelä MJ, Airaksinen KE, Huikuri HV.
 \href{https://doi.org/10.1016/0735-1097(94)90379-4}{Effect of
 beta-blockade on heart rate variability in patients with coronary artery
@@ -4320,7 +4526,7 @@ disease.} \emph{Journal of the American College of Cardiology} 1994;
 \textbf{23}: 1370--7.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-hadad2021}{}}%
-\CSLLeftMargin{114 }%
+\CSLLeftMargin{115 }%
 \CSLRightInline{Hadad R, Larsen BS, Weber P, \emph{et al.}
 \href{https://doi.org/10.1111/dme.14559}{Night-time heart rate
 variability identifies high-risk people among people with uncomplicated
@@ -4328,7 +4534,7 @@ type 2 diabetes mellitus}. \emph{Diabetic Medicine} 2021; \textbf{38}:
 e14559.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-fleischer2011}{}}%
-\CSLLeftMargin{115 }%
+\CSLLeftMargin{116 }%
 \CSLRightInline{Fleischer J, Nielsen R, Laugesen E, Nygaard H, Poulsen
 PL, Ejskjaer N.
 \href{https://doi.org/10.1177/193229681100500115}{Self-monitoring of
@@ -4336,7 +4542,7 @@ cardiac autonomic function at home is feasible.} \emph{Journal of
 diabetes science and technology} 2011; \textbf{5}: 107--12.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-dalsgaard2019}{}}%
-\CSLLeftMargin{116 }%
+\CSLLeftMargin{117 }%
 \CSLRightInline{Dalsgaard E-M, Witte DR, Charles M, Jørgensen ME,
 Lauritzen T, Sandbæk A.
 \href{https://doi.org/10.1186/s12889-019-6549-z}{Validity of danish
@@ -4345,7 +4551,7 @@ in people with screen-detected diabetes}. \emph{BMC Public Health} 2019;
 \textbf{19}: 228.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-gluxfcmer2004}{}}%
-\CSLLeftMargin{117 }%
+\CSLLeftMargin{118 }%
 \CSLRightInline{Glümer C, Carstensen B, Sandbæk A, Lauritzen T,
 Jørgensen T, Borch-Johnsen K.
 \href{https://doi.org/10.2337/diacare.27.3.727}{A danish diabetes risk
@@ -4353,7 +4559,7 @@ score for targeted screening: The Inter99 study}. \emph{Diabetes Care}
 2004; \textbf{27}: 727--33.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-christensen2004}{}}%
-\CSLLeftMargin{118 }%
+\CSLLeftMargin{119 }%
 \CSLRightInline{Christensen JO, Sandbaek A, Lauritzen T, Borch-Johnsen
 K. \href{https://doi.org/10.1007/s00125-004-1496-2}{Population-based
 stepwise screening for unrecognised Type 2 diabetes is ineffective in
@@ -4361,7 +4567,7 @@ general practice despite reliable algorithms}. \emph{Diabetologia} 2004;
 \textbf{47}: 1566--73.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-olivarius1994}{}}%
-\CSLLeftMargin{119 }%
+\CSLLeftMargin{120 }%
 \CSLRightInline{Olivarius N de F, Lauritzen T, Beck-Nielsen H, Fog J,
 Mogensen CE, Working Party appointed by the DNB of H.
 \href{https://doi.org/10.1111/j.1464-5491.1994.tb00243.x}{Co-ordination
@@ -4369,7 +4575,7 @@ of diabetes care in the primary and the secondary health care system in
 denmark}. \emph{Diabetic Medicine} 1994; \textbf{11}: 123--5.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-magliano2024}{}}%
-\CSLLeftMargin{120 }%
+\CSLLeftMargin{121 }%
 \CSLRightInline{Magliano DJ, Chen L, Morton JI, \emph{et al.}
 \href{https://doi.org/10.1016/S2213-8587(24)00243-2}{Trends in the
 incidence of young-adult-onset diabetes by diabetes type: A
@@ -4378,22 +4584,29 @@ consortium}. \emph{The Lancet Diabetes \& Endocrinology} 2024;
 \textbf{12}: 915--23.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-keshet2023}{}}%
-\CSLLeftMargin{121 }%
+\CSLLeftMargin{122 }%
 \CSLRightInline{Keshet A, Reicher L, Bar N, Segal E.
 \href{https://doi.org/10.1038/s42255-023-00778-y}{Wearable and digital
 devices to monitor and treat metabolic diseases}. \emph{Nature
 Metabolism} 2023; \textbf{5}: 563--71.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-kumarathurai2016}{}}%
-\CSLLeftMargin{122 }%
+\CSLLeftMargin{123 }%
 \CSLRightInline{Kumarathurai P, Anholm C, Larsen BS, \emph{et al.}
 \href{https://doi.org/10.2337/dc16-1580}{Effects of liraglutide on heart
 rate and heart rate variability: A randomized, double-blind,
 placebo-controlled crossover study}. \emph{Diabetes Care} 2016;
 \textbf{40}: 117--24.}
 
+\leavevmode\vadjust pre{\hypertarget{ref-franks2023}{}}%
+\CSLLeftMargin{124 }%
+\CSLRightInline{Franks PW, Cefalu WT, Dennis J, \emph{et al.}
+\href{https://doi.org/10.1016/s2213-8587(23)00165-1}{Precision medicine
+for cardiometabolic disease: a framework for clinical translation}.
+\emph{Lancet Diabetes Endocrinol} 2023; \textbf{11}: 822--35.}
+
 \leavevmode\vadjust pre{\hypertarget{ref-nelson2019}{}}%
-\CSLLeftMargin{123 }%
+\CSLLeftMargin{125 }%
 \CSLRightInline{Nelson BW, Allen NB.
 \href{https://doi.org/10.2196/10828}{Accuracy of consumer wearable heart
 rate measurement during an ecologically valid 24-hour period:
@@ -4401,12 +4614,20 @@ Intraindividual validation study}. \emph{JMIR Mhealth Uhealth} 2019;
 \textbf{7}: e10828.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-fuller2020}{}}%
-\CSLLeftMargin{124 }%
+\CSLLeftMargin{126 }%
 \CSLRightInline{Fuller D, Colwell E, Low J, \emph{et al.}
 \href{https://doi.org/10.2196/18694}{Reliability and validity of
 commercially available wearable devices for measuring steps, energy
 expenditure, and heart rate: Systematic review}. \emph{JMIR Mhealth
 Uhealth} 2020; \textbf{8}: e18694.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-verbanck2018}{}}%
+\CSLLeftMargin{127 }%
+\CSLRightInline{Verbanck M, Chen C-Y, Neale B, Do R.
+\href{https://doi.org/10.1038/s41588-018-0099-7}{Detection of widespread
+horizontal pleiotropy in causal relationships inferred from mendelian
+randomization between complex traits and diseases}. \emph{Nature
+Genetics} 2018; \textbf{50}: 693--8.}
 
 \end{CSLReferences}
 
@@ -4516,11 +4737,7 @@ kliniske og generelle populationer.
 
 \includepdf[pages=-]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
 
-\begin{itemize}
-\tightlist
-\item
-  suppleentatyr
-\end{itemize}
+\includepdf[pages=-]{appendix/Supplemental_Material_MS.pdf}
 
 \newpage
 
@@ -4529,13 +4746,9 @@ kliniske og generelle populationer.
 
 \newpage
 
-\includepdf[pages=-]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
+\includepdf[pages=-]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
 
-\begin{itemize}
-\tightlist
-\item
-  suppleentatyr
-\end{itemize}
+\includepdf[pages=-]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
 
 \newpage
 
@@ -4543,14 +4756,6 @@ kliniske og generelle populationer.
 \section{Study III}\label{study-iii-1}}
 
 \newpage
-
-\includepdf[pages=-]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
-
-\begin{itemize}
-\tightlist
-\item
-  suppleentatyr
-\end{itemize}
 
 \newpage
 

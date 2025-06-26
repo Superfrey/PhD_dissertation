@@ -139,9 +139,15 @@ Importantly, this work underscores the potential of HRV and CART as tools for ca
 
 Future research should focus on standardizing long-term HRV measurement, integrating wearable technologies for continuous monitoring, and evaluating whether interventions targeting autonomic function can reduce cardiovascular risk. If validated, HRV and CART could become valuable components of precision prevention strategies in cardiometabolic care.
 
+Future research should investigate whether AF explains the increased risk of ischemic-related CVD observed in individuals with autonomic dysfunction.
+
 . However, more physiological studies are needed to understand the mechanisms of atherosclerosis in the presence of autonomic nervous dysfunction, including the causal direction between the two. , as well as markers of endothelial dysfunction, beyond what is currently captured by HRV and common indices of arterial stiffness.\[Thus, although long-term HRV may lack the precision to disentangle sympathetic and parasympathetic activity due to overlapping behavioral and physiological influences, it may be a valuable tool for assessing autonomic responses in free-living conditions and informing lifestyle-based strategies to improve cardiovascular health. Hence, HRV show potential as a responsive marker to monitor successfullness in CVD risk management.\]
 
 Sympathetic activity in humans can be evaluated using a variety of complementary techniques. 1)Hemodynamic methods assess vascular responses to stressors such as cold exposure, isometric exercise, and orthostatic challenges, often focusing on regional blood flow changes in organs like the kidneys, muscles, and splanchnic circulation.Pharmacological approaches involve the administration of adrenergic or ganglionic blockers to isolate the sympathetic contribution to vascular tone and regional blood flow.Biochemical techniques include the measurement of catecholamines and their metabolites in plasma and urine. While these provide indirect estimates of sympathetic activity, more advanced neurochemical methods—such as radiotracer-based noradrenaline spillover—allow for quantification of neurotransmitter release at both systemic and organ-specific levels.Microneurography offers a direct neurophysiological approach by recording sympathetic nerve traffic in peripheral nerves, particularly those innervating muscle and skin. This method enables real-time monitoring of sympathetic discharge patterns in response to various stimuli.Finally, neural imaging techniques such as PET and SPECT scans use radiolabeled tracers to visualize sympathetic innervation and function in target organs. These methods provide anatomical and functional insights into sympathetic nerve distribution and activity, particularly in clinical and research settings.
+
+## Background
+
+The primary neurotransmitter of the sympathetic nervous system is noradrenaline, while the parasympathetic nervous system primarily releases acetylcholine by stimulation through the Vagus nerve.
 
 ## Aim
 
@@ -149,15 +155,15 @@ I further assess the role of cardiovascular autonomic function in healthcare, pa
 
 ## Discussion
 
-Chronic hyperglycemia, reflected in elevated HbA1c levels, promotes the formation of advanced glycation end products and the overproduction of reactive oxygen species[@ritchie2020]. These byproducts contribute to oxidative stress, which in turn exacerbates autonomic dysfunction, often evidenced by reduced HRV[@meerwaldt2005][@lee2020]. 
+Chronic hyperglycemia, reflected in elevated HbA1c levels, promotes the formation of advanced glycation end products and the overproduction of reactive oxygen species[@ritchie2020]. These byproducts contribute to oxidative stress, which in turn exacerbates autonomic dysfunction, often evidenced by reduced HRV[@meerwaldt2005][@lee2020].
 
- I suspect that the deterioration of HRV indicators may partly reflect the pathogenesis of autonomic neuropathy, as a consequence of harmful byproducts resulting from hyperglycemia.
- 
- In our analysis with arterial stiffness as the outcome, several time-domain and frequency-domain HRV measures based on the total variability were modified by diabetes status, whereas the association with mean interbeat interval remained unchanged. This divergence may suggests that HRV captures a distinct physiological mechanism related to arterial stiffness, one that is not reflected by heart rate alone. Hyperglycemia affects the autonomic nervous system by damaging peripheral nerves, potentially leading to CAN, for which HRV is considered an early marker[@kuehl2012][@shah2019]. Therefore, lower HRV in dysglycemia may indicate early CAN, potentially exerting a stronger influence on arterial stiffness[@shah2019] than autonomic dysfunction under normoglycemic conditions.
- 
- As the clinical paradigm shifts from a focus on ischemia toward more preventive strategies targeting atherogenesis, greater attention is being paid to individual risk factors that predispose patients to plaque formation [@zaman]
- 
+I suspect that the deterioration of HRV indicators may partly reflect the pathogenesis of autonomic neuropathy, as a consequence of harmful byproducts resulting from hyperglycemia.
 
+In our analysis with arterial stiffness as the outcome, several time-domain and frequency-domain HRV measures based on the total variability were modified by diabetes status, whereas the association with mean interbeat interval remained unchanged. This divergence may suggests that HRV captures a distinct physiological mechanism related to arterial stiffness, one that is not reflected by heart rate alone. Hyperglycemia affects the autonomic nervous system by damaging peripheral nerves, potentially leading to CAN, for which HRV is considered an early marker[@kuehl2012][@shah2019]. Therefore, lower HRV in dysglycemia may indicate early CAN, potentially exerting a stronger influence on arterial stiffness[@shah2019] than autonomic dysfunction under normoglycemic conditions.
+
+As the clinical paradigm shifts from a focus on ischemia toward more preventive strategies targeting atherogenesis, greater attention is being paid to individual risk factors that predispose patients to plaque formation [@zaman]
+
+Studies have shown that patients with heart failure and lower HRV tend to have a worse prognosis in terms of mortality. If low HRV or the presence of CAN were primarily driven by existing cardiac complications, it would suggest that individuals with these conditions exhibit more pronounced sympathetic overactivity as a consequence of heart failure progression, indicating potential reverse causation. Hence, elevated sympathetic activity during rest may reflect a greater reliance on compensatory mechanisms to maintain cardiac output. More precise measures are needed to assess whether sympathetic activity acts as a primary driver of heart failure or as a secondary compensatory response to cardiac dysfunction.
 
 ## Perspectives
 

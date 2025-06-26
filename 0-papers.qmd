@@ -1,16 +1,21 @@
 # Papers in the dissertation {#sec-linked-papers .unnumbered}
 
-**Study I**
+**Study I**   
 
-Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen van Greevenbroek, Miranda T. Schram, Bastiaan E. de Galan, Coen Stehouwer, Daniel R. Witte (2025). Cardiovascular autonomic dysfunction is linked with arterial stiffness across glucose metabolism: The Maastricht Study. medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865 (under peer-review at BMJ Open Diabetes Research & Care)
+**Cardiovascular autonomic dysfunction is linked with arterial stiffness across glucose metabolism: The Maastricht Study**    
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen van Greevenbroek, Miranda T. Schram, Bastiaan E. de Galan, Coen Stehouwer, Daniel R. Witte (2025). medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865 (preprint) (under peer-review at BMJ Open Diabetes Research & Care)    
 
-**Study II**
+**Study II**    
 
-Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove, Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel R. Witte (2025). Cardiovascular autonomic dysfunction precedes cardiovascular disease and all-cause mortality: 11-year follow-up of the ADDITION-PRO study. medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18.24319131 (accepted at Diabetes, Obesity and Metabolism)
 
-**Study III**
+**Cardiovascular autonomic dysfunction precedes cardiovascular disease and all-cause mortality: 11-year follow-up of the ADDITION-PRO study**   
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove, Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel R. Witte (2025). medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18.24319131 (accepted at Diabetes, Obesity and Metabolism)    
 
-Cardiovascular autonomic neuropathy and indices of heart failure in type 2 diabetes: The CANCAN Study - add pieces!!!!!
+**Study III**   
+
+**Cardiovascular autonomic neuropathy and indices of heart failure in type 2 diabetes: The CANCAN Study**    
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Daniel R. Witte, Henrik H. Thomsen, Jesper Fleischer, Rodica Pop-Busui, Annelli Sandbæk, Signe T. Andersen.
+(submitted?)
 
 \newpage
 
@@ -20,9 +25,9 @@ The 2 following original research studies and 2 preprints have been published du
 
 *Peer-reviewed*
 
-**Schaarup JR**, Christensen MS, Hulman A, Hansen CS, Vistisen D, Tabák AG, Witte DR, Bjerg L. Autonomic dysfunction is associated with the development of arterial stiffness: The Whitehall II cohort. GeroScience, 2023. https://doi.org/10.1007/s11357-023-00762-0
+**Schaarup JR**, Christensen MS, Hulman A, Hansen CS, Vistisen D, Tabák AG, Witte DR, Bjerg L. Autonomic dysfunction is associated with the development of arterial stiffness: The Whitehall II cohort. GeroScience, 2023. https://doi.org/10.1007/s11357-023-00762-0   
 
-**Schaarup JR**, Aggarwal R, Dalsgaard E-M, Norman K, Dollerup OL, Ashrafian H, Witte DR, Sandbæk A, Hulman A.Perception of artificial intelligence-based solutions in healthcare among people with and without diabetes: A cross-sectional survey from the health in Central Denmark cohort.Diabetes Epidemiology and Management, 2023. https://doi.org/10.1016/j.deman.2022.100114
+**Schaarup JR**, Aggarwal R, Dalsgaard E-M, Norman K, Dollerup OL, Ashrafian H, Witte DR, Sandbæk A, Hulman A.Perception of artificial intelligence-based solutions in healthcare among people with and without diabetes: A cross-sectional survey from the health in Central Denmark cohort.Diabetes Epidemiology and Management, 2023. https://doi.org/10.1016/j.deman.2022.100114    
 
 *Pre-prints*
 

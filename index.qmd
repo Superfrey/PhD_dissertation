@@ -3,30 +3,15 @@ execute:
   echo: false
 ---
 
-::: {.content-visible when-format="pdf"}
-{{< include acknowledgements.qmd >}}
-:::
+<!-- ::: {.content-visible when-format="pdf"} -->
+<!-- {{< include acknowledgements.qmd >}} -->
+<!-- ::: -->
 
 ::: {.content-hidden when-format="pdf"}
 ::: {style="opacity: 0"}
 # Cover Page {.unnumbered .unlisted}
 :::
 
-```{r}
-#| label: cover-fig
-#| fig-align: center
-#| out-width: 80%
-#| echo: false
-#| fig-alt: Beckwithia glacialis on Snøhetta
-
-knitr::include_graphics("figures/IMG_20210719_134928644.jpg")
-```
-
-::: {style="text-align: center"}
-**PhD thesis**\
-**Department of Public Health**\
-**Aarhus University**
-:::
 
 ```{r}
 #| label: uib-logo

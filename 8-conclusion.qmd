@@ -2,6 +2,8 @@
 title: "Conclusion"
 ---
 
+\newpage
+
 This dissertation aimed to investigate how autonomic dysfunction, assessed by HRV and CARTs, is associated with cardiovascular complications across different stages of glucose metabolism. The findings support the hypothesis that autonomic dysfunction is an early and independent marker of cardiovascular risk.
 
 Autonomic dysfunction was associated with higher arterial stiffness not only in individuals with T2D, but also in those with prediabetes and normal glucose metabolism. A particularly pronounced association was observed in individuals with prediabetes, where lower multiday HRV was linked to a higher risk of cardiovascular disease, heart failure, and mortality. These findings suggest that autonomic dysfunction may contribute to cardiovascular complications even before the onset of T2D, potentially through a modifying effect during the early stages of dysglycemia. Among individuals with T2D, standardized CARTs identified those with CAN who had a higher risk of heart failure, even when asymptomatic and not classified as high risk by risk scores.

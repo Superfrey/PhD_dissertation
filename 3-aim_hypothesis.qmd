@@ -7,14 +7,18 @@ format:
 editor: visual
 ---
 
-The hypotheses of this dissertation are:
+\newpage
 
-CAN and autonomic dysfunction is associated with CVD and acts as an early risk factor for heart failure and other cardiovascular complications, including stroke, and myocardial infarction in patients with prediabetes and/or T2D. In addition autonomic dysfunction is associated with higher levels of sub-clinical meassures such as carotid-femoral pulse wave velocity and carotid artery distensibility.
+The overarching hypothesis of this dissertation are that:
+
+• CAN and autonomic dysfunction are associated with CVD and act as an early risk factor for heart failure and other cardiovascular complications, including stroke, and myocardial infarction in patients with prediabetes and/or T2D.
+
+• Autonomic dysfunction is associated with higher levels of sub-clinical meassures of CVD such as carotid-femoral pulse wave velocity and carotid artery distensibility.
 
 This dissertation investigates the hypothesis by addressing the following three aims:
 
-Study I: Quantify the cross-sectional association between 24-hour HRV and subclinical markers of cardiovascular complications: carotid-femoral pulse wave velocity and carotid artery distensibility, in a participants with normal glucose metabolism, prediabetes or T2D.
+Study I: Quantify the cross-sectional association between 24-hour HRV and subclinical markers of cardiovascular complications: carotid-femoral pulse wave velocity and carotid artery distensibility, in participants with normal glucose metabolism, prediabetes or T2D.
 
 Study II: Quantify the longitudinal association of multiday and hourly HRV with incidence of ischemic-related CVD, heart failure, and all-cause mortality in a population with high-risk of diabetes.
 
-Study III: Quantify the cross-sectional association between CAN and heart failure. Heart failure will be defined by clinical measures i.e. N-terminal-pro-BNP (Pro-BNP), WATCH-DM risk, and New York Heart Association (NYHA) scores among individuals with T2D.
+Study III: Quantify the cross-sectional association between CAN and heart failure. Heart failure will be defined by clinical measures i.e. N-terminal-pro-BNP (NT-proBNP), WATCH-DM risk, and New York Heart Association (NYHA) classification scores among individuals with T2D.
