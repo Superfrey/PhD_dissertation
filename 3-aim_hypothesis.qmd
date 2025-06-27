@@ -17,7 +17,7 @@ The overarching hypothesis of this dissertation are that:
 
 This dissertation investigates the hypothesis by addressing the following three aims:
 
-Study I: Quantify the cross-sectional association between 24-hour HRV and subclinical markers of cardiovascular complications: carotid-femoral pulse wave velocity and carotid artery distensibility, in participants with normal glucose metabolism, prediabetes or T2D.
+Study I: Quantify the cross-sectional association between 24-hour HRV and subclinical markers of cardiovascular complications: carotid-femoral pulse wave velocity and carotid artery distensibility, in participants with NGM, prediabetes or T2D.
 
 Study II: Quantify the longitudinal association of multiday and hourly HRV with incidence of ischemic-related CVD, heart failure, and all-cause mortality in a population with high-risk of diabetes.
 
