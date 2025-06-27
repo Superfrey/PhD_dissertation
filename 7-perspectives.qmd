@@ -32,27 +32,21 @@ However, standardization and transparency across wearable device brands remain a
 
 The distinct roles of long-term HRV and CART in cardiovascular risk stratification remain to be fully established. Building on the concept of continuous monitoring through wearable technology, long-term HRV presents two promising avenues that warrant further investigation:
 
-1.  Enhancement of existing risk scores: HRV may improve the predictive accuracy of established cardiovascular risk models, such as SCORE2 or the Framingham Risk Score.
+-   **Enhancement of existing risk scores:** HRV may improve the predictive accuracy of established cardiovascular risk models, such as SCORE2 or the Framingham Risk Score.
 
-2.  Improved timing of treatment initiation and support for intermediate treatment decisions
+-   **Support for treatment decisions:** Long-term HRV may also help optimize the timing of treatment initiation and guide intermediate clinical decisions.
 
-*Cardiovascular risk assesment*
+*Cardiovascular risk assessment*
 
-Digital CVD risk calculators can help optimize the timing of follow-up assessments or the initiation of treatment. Recent analyses at Steno Diabetes Center Copenhagen have shown that not all patients require annual retinopathy screening. Instead, prediction models using clinical variables can determine optimal re-screening intervals.[@grauslund2025] A controversy in prediabetes is the risk of overmedicalization, as some individuals do not progress to T2D or develop related complications. [@tabák2012] Therefore, efforts to identify subgroups in prediabetes is needed to timely prevention of cardiovascular complications.[@birkenfeld2024]
+Digital CVD risk calculators can optimize the timing of follow-up assessments and treatment initiation. Analyses from Steno Diabetes Center Copenhagen suggest that annual retinopathy screening may not be necessary for all patients. Instead, prediction models using clinical variables can determine optimal re-screening intervals.[@grauslund2025] In prediabetes, a key concern is overmedicalization, since many individuals do not progress to T2D or develop complications.[@tabák2012] Therefore, efforts to identify subgroups in prediabetes are needed to enable timely prevention of cardiovascular complications for individuals at risk of CVD.[@birkenfeld2024] In T2D, data-driven methods using clinical characteristics can help identify who will benefit most from intensive treatment[@li2023] It remains to be seen whether wearable technologies, such as those measuring HRV, can help improve individualized screening intervals and identify individuals who require closer clinical attention.
 
-Whether wearable technologies could support this goal, for example through the use of HRV, remains to be demonstrated.
+*Timing and treatment decisions*
 
-*Timing and treatment decisison*
+In addition to optimizing the timing of follow-up assessments, determining cardiovascular risk can also guide when to initiate treatment. In type 1 diabetes, for example, elevated CVD risk scores are used to inform decisions about starting lipid-lowering therapy.[@danskendokrinologiskselskab] Wearable-derived data may also support intermediate treatment decisions.[@franks2023] In a UK population with T2D in clinical practice, patient characteristics have been used to predict whether SGLT2 inhibitors or GLP1RA will better improve HbA1c levels.[@dennis2025][@cardoso2024] A further step is to include long-term HRV as a clinical characteristic to enhance the prediction of treatment response. This could enable more precise stratification of therapy or lifestyle interventions based on the most effective option for each individual. Whether incorporating long-term HRV into predictive models can improve the personalization of treatment, particularly for therapies with cardiovascular effects, remains to be demonstrated. This conceptual framework may also have potential for guiding the selection of first-line antihypertensive medications.
 
-In addition to optimizing the timing of further risk assessment, determining cardiovascular risk can also inform the timing of treatment initiation. In type 1 diabetes, for example, elevated CVD risk scores are used to guide decisions on when to start lipid-lowering therapy.[@danskendokrinologiskselskab] Wearable-derived data may support intermediate treatment decisions.[@franks2023] In a UK population with type 2 diabetes attending clinical practice, clinical characteristics have been used to predict which second-line glucose-lowering treatment, either SGLT2 inhibitors or GLP-1RA, is more likely to improve HbA1c levels[@cardoso2024]. A further step involves including long-term HRV as a clinical characteristic to improve the prediction of treatment response, thereby enabling stratification of therapy based on the most effective intervention for each individual. Whether incorporating long-term HRV into predictive models can improve the personalization of treatment predictions, particularly for therapies with cardiovascular effects, remains to be demonstrated. Furthermore, this conceptual framework may also hold potential for guiding the selection of first-line antihypertensive medications.
+As discussed in the clinical implications of CAN in T2D, it is unclear how well a CAN diagnosis predicts heart failure risk in the broader T2D population seen in primary care. Intermediate clinical decisions are needed for patients diagnosed with CAN to determine whether to proceed with further evaluation for heart failure using echocardiography or to initiate specific cardioprotective therapy.
 
-Future research should explore whether identifying individuals as high-risk based on autonomic dysfunction or CAN could support personalized and timely cardiovascular screening or interventions.[@franks2023]
-
-A key limitation of long-term HRV measurement is the lack of standardization, as data collected under free-living conditions may be influenced by daily behaviors, potentially affecting risk classification.
-
-This highlights the need for standardized protocols. In contrast, CART is a reliable, non-invasive method that typically takes around 10 minutes to perform. A standardized and validated diagnosis of CAN using CART may help identify individuals with T2D who are at elevated risk of complications. However, the extent to which CAN diagnosis predicts heart failure risk and applies to broader populations with T2D or prediabetes remains to be clarified.
-
-Our findings suggest that long-term HRV and CAN may serve as useful markers for identifying individuals at elevated metabolic risk who could benefit from targeted preventive strategies.
+In summary, future research should explore whether identifying high-risk individuals based on autonomic dysfunction, using HRV or CAN assessed through CART, can support personalized and timely cardiovascular screening or interventions.[@franks2023]
 
 ::: {layout-ncol="1"}
 ![Conceptual model for risk stratification by autonomic dysfunction. (Source: Author)](images/strafication_tree_of_CAN(1).png){width="5in"}
