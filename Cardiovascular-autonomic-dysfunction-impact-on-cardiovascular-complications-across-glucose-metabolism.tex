@@ -3,7 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-  a4paper,
+  letterpaper,
   headsepline=true,
   open=any]{scrbook}
 
@@ -39,6 +39,7 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\usepackage[inner=2cm,outer=3cm,top=3cm,bottom=4cm,headsep=22pt,headheight=11pt,footskip=33pt,ignorehead,ignorefoot,heightrounded]{geometry}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \setcounter{secnumdepth}{5}
 % Make \paragraph and \subparagraph free-standing
@@ -269,7 +270,7 @@ complications across glucose metabolism}
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, sharp corners, frame hidden, breakable, boxrule=0pt, interior hidden, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, frame hidden, breakable, enhanced, interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
 
 \mainmatter
 \bookmarksetup{startatroot}
@@ -1207,6 +1208,8 @@ Association (NYHA) classification scores among individuals with T2D.
 
 \newpage
 
+\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
+
 \hypertarget{overview-of-the-studies}{%
 \section{Overview of the studies}\label{overview-of-the-studies}}
 
@@ -1249,9 +1252,9 @@ T2D: The CANCAN study \\
 Design & Aetiological cross-sectional study & Aetiological prospective
 cohort study & Descriptive cross-sectional study \\
 Cohort & Maastricht study & ADDITION-PRO study & CANCAN study \\
-Study population & 3673 individuals with normal glucose metabolism,
-prediabetes, or T2D & 2082 individuals with high risk of diabetes & 173
-patients with T2D visiting outpatients clinics \\
+Study population & 3673 individuals with NGM, prediabetes, or T2D & 2082
+individuals with high risk of diabetes & 173 patients with T2D visiting
+outpatients clinics \\
 Data sources & Population-based cohort from The Maastricht Study in the
 Netherlands & Cohort study of selected individuals based on having high
 risk of diabetes & Clinical cohort study \\
@@ -1266,6 +1269,8 @@ Missing data & Complete case analysis & Multiple imputation of chained
 equations for confounders & Complete case analysis and multiple
 imputation of chained equations for CART and confounders \\
 \end{longtable}
+
+\restoregeometry
 
 \hypertarget{study-population}{%
 \subsection{Study population}\label{study-population}}
@@ -1391,14 +1396,14 @@ Middle: Actiheart; Right: Vagus™ device}
 
 \textbf{Heart rate variability}
 
-\includegraphics{images/measurements_hrv.pdf} \emph{Time- and Frequency
-domain HRV indices (Source: Author)}
-
 In study I-III different devices were used to capture the distance
 between each heartbeat defined as RR intervals from electrocardiogram
 traces either directly from heart-beat traces or indirectly from pulse
 traces. From this a sequence of successive heart beat intervals is
 extracted to calculate time- and frequency domain HRV.
+
+\includegraphics{images/measurements_hrv.pdf} \emph{Time- and Frequency
+domain HRV indices (Source: Author)}
 
 \emph{Time-domain indices}
 
@@ -1474,8 +1479,8 @@ autonomic function}\begin{minipage}[t]{\linewidth}
 {\centering 
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2083}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7917}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2077}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7923}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Frequency domain HRV
@@ -1855,20 +1860,20 @@ variable, known as the effect modifier\textsuperscript{92}.
 
 In Study I, it was hypothesized that the association between 24-hour and
 arterial stiffness was stronger in strata of progression of diabetes
-(normal glucose metabolism, prediabetes, T2D). Therefore, interaction
-term between HRV and diabetes status was included to observe the size of
-the association across strata.\textsuperscript{75} We did subsidiary
-analysis in a subpopulation without T2D to check if the effect was
-modified by HbA1c. In Study II, the association between multiday HRV and
-CVD endpoints varied by sex was quantified, to explore potential
-biological dimorphism.\textsuperscript{85} In Study III, we aimed to
-determine whether the association between CAN and elevated NT-proBNP is
-present in the subgroup without symptoms, defined as NYHA class
-\textless{} II. Hence, the hypothesis was no significant effect
-modification between groups with and without symptoms. Similarly,
-whether the association remains present in the group classified as low
-to moderate risk of heart failure was explored, based on the WATCH-DM
-risk score.\textsuperscript{86}
+(NGM, prediabetes, T2D). Therefore, interaction term between HRV and
+diabetes status was included to observe the size of the association
+across strata.\textsuperscript{75} We did subsidiary analysis in a
+subpopulation without T2D to check if the effect was modified by HbA1c.
+In Study II, the association between multiday HRV and CVD endpoints
+varied by sex was quantified, to explore potential biological
+dimorphism.\textsuperscript{85} In Study III, we aimed to determine
+whether the association between CAN and elevated NT-proBNP is present in
+the subgroup without symptoms, defined as NYHA class \textless{} II.
+Hence, the hypothesis was no significant effect modification between
+groups with and without symptoms. Similarly, whether the association
+remains present in the group classified as low to moderate risk of heart
+failure was explored, based on the WATCH-DM risk
+score.\textsuperscript{86}
 
 A significant effect modification between the exposure and the effect
 modifier in all analyses was defined as an interaction term with a
@@ -1958,12 +1963,24 @@ analysis will be presented.
 \hypertarget{descriptive}{%
 \subsection{Descriptive}\label{descriptive}}
 
-In The Maastricht Study, {[}10,000 participated by Date{]}, of those
-1316 reported prior CVD\textsuperscript{75}. Participants who had valid
-24-hour HRV measured was 4379 and of those 3673 had a valid measurement
-of either CD or cf-PWV. Study population included 3673 participants.
-Further characteristic are described in the study in manuscript Table 1
-in appendix\textsuperscript{75}.
+In The Maastricht Study, 7,449 participants were included between
+November 2010 and December 2020, of whom 1,316 reported a history of
+CVD.\textsuperscript{75} Participants who had valid 24-hour HRV measured
+was 4379 and of those 3673 had a valid measurement of either CD or
+cf-PWV. Study population included 3673 participants. Further
+characteristic are described in the study in manuscript Table 1 in
+Appendix Study I.\textsuperscript{75} The study population represented
+diabetes risk of NGM (65\%), prediabetes (15\%), and T2D (20\%). The
+median (IQR) cf-PWV (aortic stiffness) became higher with diabetes
+status: NGM: 8.08 m/s (7.28, 9.16), prediabetes: 8.96 m/s (7.84, 10.32),
+and T2D: 9.36 m/s (8.16, 10.80). CD (carotid stiffness) decreased: NGM:
+15.0 (11.8, 18.8), prediabetes: 13.5 (10.4, 16.9), and T2D: 12.5 (9.9,
+16.0) × 10⁻³/kPa. SDNN (ms) was highest in NGM and lowered with
+worsening glucose metabolism: NGM: 138ms (117, 164), prediabetes: 127ms
+(106, 152), and T2D: 116ms (96, 139). Further description of
+charaterisitcs by diabetes are described in Table~\ref{tbl-ms}.
+
+\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 :::
 
@@ -1976,51 +1993,49 @@ in appendix\textsuperscript{75}.
 \resizebox{\linewidth}{!}{
 \begin{tabular}[t]{llll}
 \toprule
-**Characteristic** & **Normal glucose metabolism**  
-N = 2,389 & **Prediabetes**  
-N = 538 & **Type 2 Diabetes**  
+Characteristic & Normal glucose metabolism
+N = 2,389 & Prediabetes  
+N = 538 & Type 2 Diabetes  
 N = 746\\
 \midrule
-\cellcolor{gray!6}{Sex} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{}\\
-Men & 1,028 (43\%) & 280 (52\%) & 481 (64\%)\\
 \cellcolor{gray!6}{Women} & \cellcolor{gray!6}{1,361 (57\%)} & \cellcolor{gray!6}{258 (48\%)} & \cellcolor{gray!6}{265 (36\%)}\\
 Age (years) & 58 (51, 64) & 62 (57, 68) & 63 (57, 68)\\
 \cellcolor{gray!6}{Total physical activity (hours/week)} & \cellcolor{gray!6}{13 (9, 19)} & \cellcolor{gray!6}{13 (9, 19)} & \cellcolor{gray!6}{12 (7, 17)}\\
-\addlinespace
 Moderate to vigorous physical activity (hours/week) & 5.3 (3.0, 8.3) & 4.5 (2.3, 7.5) & 3.8 (1.5, 6.8)\\
 \cellcolor{gray!6}{BMI (kg/m²)} & \cellcolor{gray!6}{25.0 (22.9, 27.4)} & \cellcolor{gray!6}{27.2 (24.9, 30.1)} & \cellcolor{gray!6}{28.8 (26.0, 31.7)}\\
+\addlinespace
 Waist (cm) & 89 (81, 97) & 98 (90, 105) & 103 (96, 112)\\
 \cellcolor{gray!6}{HbA1c (\%)} & \cellcolor{gray!6}{5.35 (5.17, 5.63)} & \cellcolor{gray!6}{5.63 (5.35, 5.90)} & \cellcolor{gray!6}{6.54 (6.08, 7.09)}\\
 Fasting plasma glucose (mmol/L) & 5.10 (4.80, 5.40) & 5.90 (5.40, 6.30) & 7.40 (6.60, 8.50)\\
-\addlinespace
 \cellcolor{gray!6}{LDL (mmol/L)} & \cellcolor{gray!6}{3.20 (2.70, 3.90)} & \cellcolor{gray!6}{3.30 (2.60, 4.00)} & \cellcolor{gray!6}{2.40 (1.80, 3.10)}\\
 HDL (mmol/L) & 1.60 (1.30, 2.00) & 1.40 (1.20, 1.80) & 1.30 (1.00, 1.50)\\
+\addlinespace
 \cellcolor{gray!6}{Total cholesterol (mmol/L)} & \cellcolor{gray!6}{5.50 (4.80, 6.20)} & \cellcolor{gray!6}{5.50 (4.80, 6.30)} & \cellcolor{gray!6}{4.50 (3.90, 5.20)}\\
 Triglycerides (mmol/L) & 1.05 (0.80, 1.45) & 1.39 (1.03, 1.90) & 1.51 (1.08, 2.14)\\
-\cellcolor{gray!6}{Duration of type-2 diabetes (only for diagnosed participants)} & \cellcolor{gray!6}{NA (NA, NA)} & \cellcolor{gray!6}{NA (NA, NA)} & \cellcolor{gray!6}{3 (0, 9)}\\
-\addlinespace
+\cellcolor{gray!6}{Duration of type-2 diabetes (only for diagnosed participants)} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{3 (0, 9)}\\
 Mean IBI (ms) & 838 (775, 907) & 815 (760, 897) & 806 (744, 889)\\
 \cellcolor{gray!6}{SDNN (ms)} & \cellcolor{gray!6}{138 (117, 164)} & \cellcolor{gray!6}{127 (106, 152)} & \cellcolor{gray!6}{116 (96, 139)}\\
+\addlinespace
 RMSSD (ms) & 26 (21, 34) & 24 (19, 33) & 22 (17, 31)\\
 \cellcolor{gray!6}{SDANN (ms)} & \cellcolor{gray!6}{125 (103, 149)} & \cellcolor{gray!6}{113 (92, 139)} & \cellcolor{gray!6}{103 (84, 127)}\\
 SDNNi (ms) & 55 (46, 65) & 50 (41, 60) & 44 (36, 54)\\
-\addlinespace
 \cellcolor{gray!6}{pNN50 (\%)} & \cellcolor{gray!6}{7 (3, 13)} & \cellcolor{gray!6}{5 (2, 10)} & \cellcolor{gray!6}{4 (2, 9)}\\
 TP (ms²) & 12,596 (8,880, 17,498) & 10,615 (7,134, 15,374) & 8,880 (6,064, 12,722)\\
+\addlinespace
 \cellcolor{gray!6}{ULF (ms²)} & \cellcolor{gray!6}{10,771 (7,392, 15,142)} & \cellcolor{gray!6}{8,948 (5,852, 13,374)} & \cellcolor{gray!6}{7,524 (5,036, 11,001)}\\
 VLF (ms²) & 1,198 (833, 1,692) & 1,015 (685, 1,478) & 816 (541, 1,267)\\
 \cellcolor{gray!6}{LF (ms²)} & \cellcolor{gray!6}{421 (257, 651)} & \cellcolor{gray!6}{328 (200, 540)} & \cellcolor{gray!6}{261 (154, 422)}\\
-\addlinespace
 HF (ms²) & 94 (57, 158) & 78 (47, 138) & 63 (36, 117)\\
 \cellcolor{gray!6}{Systolic blood pressure (mmHg)} & \cellcolor{gray!6}{123 (114, 133)} & \cellcolor{gray!6}{129 (122, 140)} & \cellcolor{gray!6}{130 (122, 139)}\\
+\addlinespace
 Diastolic blood pressure (mmHg) & 75 (71, 80) & 78 (73, 83) & 76 (72, 81)\\
 \cellcolor{gray!6}{Mean arterial pressure (mmHg)} & \cellcolor{gray!6}{95 (88, 102)} & \cellcolor{gray!6}{99 (93, 107)} & \cellcolor{gray!6}{98 (92, 105)}\\
 Carotid artery distensibility (10-3/kPa) & 15.0 (11.8, 18.8) & 13.5 (10.4, 16.9) & 12.5 (9.9, 16.0)\\
-\addlinespace
 \cellcolor{gray!6}{Carotid-femoral pulse wave velocity (m/s)} & \cellcolor{gray!6}{8.08 (7.28, 9.16)} & \cellcolor{gray!6}{8.96 (7.84, 10.32)} & \cellcolor{gray!6}{9.36 (8.16, 10.80)}\\
-N\_HT & 833 (35\%) & 317 (59\%) & 590 (79\%)\\
+Glucose-lowering medication & 0 (0\%) & 0 (0\%) & 519 (70\%)\\
+\addlinespace
 \cellcolor{gray!6}{Antihypertensive medication} & \cellcolor{gray!6}{431 (18\%)} & \cellcolor{gray!6}{199 (37\%)} & \cellcolor{gray!6}{478 (64\%)}\\
-med\_HT\_beta & 149 (6.2\%) & 77 (14\%) & 195 (26\%)\\
+Beta blockers & 149 (6.2\%) & 77 (14\%) & 195 (26\%)\\
 \cellcolor{gray!6}{Lipid-lowering medication} & \cellcolor{gray!6}{280 (12\%)} & \cellcolor{gray!6}{141 (26\%)} & \cellcolor{gray!6}{484 (65\%)}\\
 \bottomrule
 \end{tabular}}
@@ -2028,8 +2043,7 @@ med\_HT\_beta & 149 (6.2\%) & 77 (14\%) & 195 (26\%)\\
 \end{table}
 \end{landscape}
 
-\emph{Categorical variables: n (\%)} \emph{Continuous variables: Median
-(IQT range 25\(^th-75\)\^{}th)} :::
+::: \restoregeometry
 
 \hypertarget{hour-hrv-and-arterial-stiffness}{%
 \subsection{24-hour HRV and arterial
@@ -2039,30 +2053,30 @@ stiffness}\label{hour-hrv-and-arterial-stiffness}}
 
 In the fully adjusted model 2, cf-PWV was 2.8\% (CI: 2.1; 3.4) lower,
 while CD was 3.3\% (CI: 1.5; 5.1) higher per SD higher in HRV
-time-domain Z-score (see see \textbf{?@fig-MS-HRV\_overall} A and B).
-Among the time-domain indices, SDNN, SDNNi, and SDANN showed the
-strongest associations, with cf-PWV being lower by 2.5\% (CI: 2.0; 3.1),
-2.5\% (CI: 1.9; 3.4), and 2.2\% (CI: 1.7; 2.7),
-respectively\textsuperscript{75}. Conversely, CD was higher by 3.2\%
+time-domain Z-score (see see Figure~\ref{fig-MS-HRV} A and B). Among the
+time-domain indices, SDNN, SDNNi, and SDANN showed the strongest
+associations, with cf-PWV being lower by 2.5\% (CI: 2.0; 3.1), 2.5\%
+(CI: 1.9; 3.4), and 2.2\% (CI: 1.7; 2.7),
+respectively.\textsuperscript{75} Conversely, CD was higher by 3.2\%
 (CI: 1.7; 4.7), 3.0 \% (CI: 1.4; 4.6), and 2.8\% (CI: 1.3; 4.3),
 respectively. RMSSD and pNN50 showed a weaker association with cf-PWV
 (-1.1\% {[}CI: -1.4; -0.4{]}, and -1.1 {[}-1.7; -0.6{]}), while no
-evidence for an association was found with CD\textsuperscript{75}.
+evidence for an association was found with CD.\textsuperscript{75}
 
 \textbf{Frequency-domain HRV}
 
 In the fully adjusted model 2, cf-PWV was 2.8\% (CI: 2.1; 3.5) lower,
 while CD was 3.2\% (CI: 1.3; 5.1) higher per SD higher in HRV
-frequency-domain Z-score (see see \textbf{?@fig-MS-HRV\_overall} C and
-D). Among the frequency-domain indices, total power, VLF, and ULF showed
-the strongest associations, with cf-PWV being lower by 2.2\% (CI: 1.7;
-2.8 ), 2.4\% (CI: 1.9; 4.0), and 2.1\% (CI: 1.5; 2.6),
-respectively\textsuperscript{75}. Conversely, CD was higher by 2.7\%
+frequency-domain Z-score (see see Figure~\ref{fig-MS-HRV} C and D).
+Among the frequency-domain indices, total power, VLF, and ULF showed the
+strongest associations, with cf-PWV being lower by 2.2\% (CI: 1.7; 2.8
+), 2.4\% (CI: 1.9; 4.0), and 2.1\% (CI: 1.5; 2.6),
+respectively.\textsuperscript{75} Conversely, CD was higher by 2.7\%
 (CI: 1.2; 4.2), 2.4\% (CI: 0.9; 4.1), and 2.6\% (CI: 1.1; 4.1),
 respectively. HF showed a weaker association with cf-PWV (-0.9\% {[}CI:
 -1.4; -0.4{]}), while no evidence for an association was found with CD.
 Mean interbeat interval was associated with 2.4 \% (CI: 1.8; 2.9) lower
-cf-PWV and 4.5\% (3.1; 6.1) higher CD\textsuperscript{75}.
+cf-PWV and 4.5\% (3.1; 6.1) higher CD.\textsuperscript{75}
 
 \begin{figure}
 
@@ -2090,17 +2104,6 @@ stiffness}}
 \subsection{Effect modification of diabetes
 status}\label{effect-modification-of-diabetes-status}}
 
-The study population represented diabetes risk of normal glucose
-metabolism (65\%), prediabetes (15\%), and T2D (20\%). The median (IQR)
-cf-PWV (aortic stiffness) became higher with diabetes status: NGM: 8.08
-m/s (7.28, 9.16), prediabetes: 8.96 m/s (7.84, 10.32), and T2D: 9.36 m/s
-(8.16, 10.80). CD (carotid stiffness) decreased: NGM: 15.0 (11.8, 18.8),
-prediabetes: 13.5 (10.4, 16.9), and T2D: 12.5 (9.9, 16.0) × 10⁻³/kPa.
-SDNN (ms) was highest in NGM and lowered with worsening glucose
-metabolism: NGM: 138ms (117, 164), prediabetes: 127ms (106, 152), and
-T2D: 116ms (96, 139). Further description of charaterisitcs by diabetes
-are described in Table~\ref{tbl-ms}.
-
 The association between HRV time-domain Z-scores and cf-PWV and CD was
 significantly modified by prediabetes (cf-PWV: -4.9 {[}CI: -6.523;
 -3.243{]} \(^{interaction(*) ^{p-value< 0.01}}\) CD: 8.0 {[}CI:3.8;
@@ -2111,11 +2114,11 @@ and SDANN, the association with both cf-PWV and CD was significantly
 modified by both prediabetes and T2D\textsuperscript{75}.
 
 The association between HRV frequency-domain Z-score and cf-PWV was
-significantly modified from normal glucose metabolism by prediabetes
-(-5.7 \%{[}CI:-7.4; -3.9{]}\(^{*^{p-value< 0.01}}\)) and T2D (-3.9
-\%{[}CI:-5.4; -2.3{]}\(^{*^{p-value< 0.05}}\)) while CD was only
-modified by prediabetes (8.3 \%{[}CI:3.6;
-13.2{]}\(^{*^{p-value< 0.01}}\)) but not by T2D (5.3 \%{[}CI:1.4;
+significantly modified from NGM by prediabetes (-5.7 \%{[}CI:-7.4;
+-3.9{]}\(^{*^{p-value< 0.01}}\)) and T2D (-3.9 \%{[}CI:-5.4;
+-2.3{]}\(^{*^{p-value< 0.05}}\)) while CD was only modified by
+prediabetes (8.3 \%{[}CI:3.6; 13.2{]}\(^{*^{p-value< 0.01}}\)) but not
+by T2D (5.3 \%{[}CI:1.4;
 9.4{]}\(^{*^{p-value< 0.1}}\))\textsuperscript{75}. For the indices
 total power and ULF, the association with both cf-PWV and CD was
 significantly modified by both prediabetes and T2D. Mean inter beat
@@ -2139,6 +2142,8 @@ association at HbA1c levels of 5.6\% and 4.8\% (see
 Figure~\ref{fig-MS-HRV} D). No association between HRV frequency domain
 Z-score and CD was observed at HbA1c levels between 4.8\% and 5.2\%.
 
+\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
+
 \begin{figure}
 
 {\centering 
@@ -2161,6 +2166,8 @@ Figure was based on data in Study I\textsuperscript{75}}
 stiffness modified by HbA1c in subpopulation without T2D}}
 
 \end{figure}
+
+\restoregeometry
 
 \hypertarget{study-ii}{%
 \section{Study II}\label{study-ii}}
@@ -2186,7 +2193,7 @@ use anti-hypertensive medication (61\%), and had lower physical activity
 energy expenditure (46.8 ± 24.0 kJ/day) compared to those with higher
 SDNN levels.
 
-:::
+\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 \hypertarget{tbl-add}{}
 \begin{landscape}\begin{table}
@@ -2197,53 +2204,46 @@ SDNN levels.
 \resizebox{\linewidth}{!}{
 \begin{tabular}[t]{lllllll}
 \toprule
-Characteristic
- & Overall, N = 1,625
- & <100, N = 148
- & 100-120, N = 312
- & 120-140, N = 457
- & 140-160, N = 346
- & >160, N = 362
+SDNN Categories & Overall, N = 1,625
+ & <100 ms, N = 148
+ & 100-120 ms, N = 312
+ & 120-140 ms, N = 457
+ & 140-160 ms, N = 346
+ & >160 ms, N = 362
 \\
 \midrule
-\cellcolor{gray!6}{sex} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{}\\
-Men & 866 (53\%) & 68 (46\%) & 148 (47\%) & 206 (45\%) & 203 (59\%) & 241 (67\%)\\
 \cellcolor{gray!6}{Women} & \cellcolor{gray!6}{759 (47\%)} & \cellcolor{gray!6}{80 (54\%)} & \cellcolor{gray!6}{164 (53\%)} & \cellcolor{gray!6}{251 (55\%)} & \cellcolor{gray!6}{143 (41\%)} & \cellcolor{gray!6}{121 (33\%)}\\
 Age (years) & 65.9 (6.8) & 67.4 (6.9) & 65.7 (6.9) & 66.0 (6.7) & 65.5 (6.6) & 66.0 (7.0)\\
 \cellcolor{gray!6}{Physical activity energy expenditure (KJ / day)} & \cellcolor{gray!6}{53.1 (25.1)} & \cellcolor{gray!6}{46.8 (24.0)} & \cellcolor{gray!6}{49.4 (21.0)} & \cellcolor{gray!6}{50.7 (21.5)} & \cellcolor{gray!6}{57.6 (27.2)} & \cellcolor{gray!6}{57.5 (29.2)}\\
-\addlinespace
 Alcohol consumption (units per week) & 9.2 (9.5) & 11.3 (10.8) & 10.2 (11.3) & 8.9 (8.5) & 8.5 (9.2) & 8.7 (8.2)\\
 \cellcolor{gray!6}{Smoking status} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{}\\
-1 & 263 (16\%) & 40 (28\%) & 70 (23\%) & 65 (14\%) & 41 (12\%) & 47 (13\%)\\
-\cellcolor{gray!6}{2} & \cellcolor{gray!6}{750 (47\%)} & \cellcolor{gray!6}{58 (40\%)} & \cellcolor{gray!6}{145 (47\%)} & \cellcolor{gray!6}{214 (47\%)} & \cellcolor{gray!6}{162 (47\%)} & \cellcolor{gray!6}{171 (48\%)}\\
-3 & 598 (37\%) & 47 (32\%) & 95 (31\%) & 174 (38\%) & 140 (41\%) & 142 (39\%)\\
 \addlinespace
-\cellcolor{gray!6}{BMI (kg/m²} & \cellcolor{gray!6}{27.7 (4.7)} & \cellcolor{gray!6}{28.1 (5.4)} & \cellcolor{gray!6}{28.2 (4.6)} & \cellcolor{gray!6}{28.0 (4.7)} & \cellcolor{gray!6}{27.7 (4.9)} & \cellcolor{gray!6}{26.9 (4.2)}\\
+Current & 263 (16\%) & 40 (28\%) & 70 (23\%) & 65 (14\%) & 41 (12\%) & 47 (13\%)\\
+\cellcolor{gray!6}{Prior} & \cellcolor{gray!6}{750 (47\%)} & \cellcolor{gray!6}{58 (40\%)} & \cellcolor{gray!6}{145 (47\%)} & \cellcolor{gray!6}{214 (47\%)} & \cellcolor{gray!6}{162 (47\%)} & \cellcolor{gray!6}{171 (48\%)}\\
+Never & 598 (37\%) & 47 (32\%) & 95 (31\%) & 174 (38\%) & 140 (41\%) & 142 (39\%)\\
+\cellcolor{gray!6}{BMI (kg/m²)} & \cellcolor{gray!6}{27.7 (4.7)} & \cellcolor{gray!6}{28.1 (5.4)} & \cellcolor{gray!6}{28.2 (4.6)} & \cellcolor{gray!6}{28.0 (4.7)} & \cellcolor{gray!6}{27.7 (4.9)} & \cellcolor{gray!6}{26.9 (4.2)}\\
 Waist circumference (cm) & 96.7 (13.4) & 98.0 (14.9) & 98.2 (13.2) & 96.7 (13.6) & 96.7 (13.1) & 94.8 (12.5)\\
+\addlinespace
 \cellcolor{gray!6}{Systolic blood pressure (mmHg)} & \cellcolor{gray!6}{133.7 (17.3)} & \cellcolor{gray!6}{134.2 (16.3)} & \cellcolor{gray!6}{133.7 (17.6)} & \cellcolor{gray!6}{133.5 (17.8)} & \cellcolor{gray!6}{133.4 (16.9)} & \cellcolor{gray!6}{133.8 (17.5)}\\
 Diastolic blood pressure (mmHg) & 81.9 (10.4) & 83.8 (10.1) & 82.7 (10.2) & 81.7 (10.6) & 82.1 (10.2) & 80.6 (10.3)\\
-\cellcolor{gray!6}{Pulse rate (bpm)} & \cellcolor{gray!6}{67.4 (10.9)} & \cellcolor{gray!6}{77.7 (11.2)} & \cellcolor{gray!6}{72.6 (9.3)} & \cellcolor{gray!6}{67.9 (9.3)} & \cellcolor{gray!6}{65.3 (9.3)} & \cellcolor{gray!6}{60.0 (9.8)}\\
+\cellcolor{gray!6}{HbA1c (\%)} & \cellcolor{gray!6}{5.8 (0.5)} & \cellcolor{gray!6}{5.9 (0.9)} & \cellcolor{gray!6}{5.9 (0.6)} & \cellcolor{gray!6}{5.8 (0.5)} & \cellcolor{gray!6}{5.7 (0.4)} & \cellcolor{gray!6}{5.7 (0.4)}\\
+Triglycerides (mmol/L) & 1.3 (0.7) & 1.5 (0.9) & 1.4 (0.7) & 1.3 (0.6) & 1.2 (0.7) & 1.1 (0.6)\\
+\cellcolor{gray!6}{Total cholesterol (mmol/L)} & \cellcolor{gray!6}{5.4 (1.1)} & \cellcolor{gray!6}{5.2 (1.0)} & \cellcolor{gray!6}{5.4 (1.2)} & \cellcolor{gray!6}{5.4 (1.1)} & \cellcolor{gray!6}{5.4 (1.0)} & \cellcolor{gray!6}{5.4 (1.0)}\\
 \addlinespace
-HbA1c (\%) & 5.8 (0.5) & 5.9 (0.9) & 5.9 (0.6) & 5.8 (0.5) & 5.7 (0.4) & 5.7 (0.4)\\
-\cellcolor{gray!6}{Triglycerides (mmol/L)} & \cellcolor{gray!6}{1.3 (0.7)} & \cellcolor{gray!6}{1.5 (0.9)} & \cellcolor{gray!6}{1.4 (0.7)} & \cellcolor{gray!6}{1.3 (0.6)} & \cellcolor{gray!6}{1.2 (0.7)} & \cellcolor{gray!6}{1.1 (0.6)}\\
-Total cholesterol (mmol/L) & 5.4 (1.1) & 5.2 (1.0) & 5.4 (1.2) & 5.4 (1.1) & 5.4 (1.0) & 5.4 (1.0)\\
-\cellcolor{gray!6}{HDL cholesterol (mmol/L)} & \cellcolor{gray!6}{1.6 (0.4)} & \cellcolor{gray!6}{1.6 (0.4)} & \cellcolor{gray!6}{1.5 (0.5)} & \cellcolor{gray!6}{1.6 (0.4)} & \cellcolor{gray!6}{1.6 (0.4)} & \cellcolor{gray!6}{1.6 (0.4)}\\
-LDL cholesterol (mmol/L) & 3.2 (1.0) & 3.0 (1.0) & 3.2 (1.1) & 3.2 (1.0) & 3.3 (0.9) & 3.3 (0.9)\\
+HDL cholesterol (mmol/L) & 1.6 (0.4) & 1.6 (0.4) & 1.5 (0.5) & 1.6 (0.4) & 1.6 (0.4) & 1.6 (0.4)\\
+\cellcolor{gray!6}{LDL cholesterol (mmol/L)} & \cellcolor{gray!6}{3.2 (1.0)} & \cellcolor{gray!6}{3.0 (1.0)} & \cellcolor{gray!6}{3.2 (1.1)} & \cellcolor{gray!6}{3.2 (1.0)} & \cellcolor{gray!6}{3.3 (0.9)} & \cellcolor{gray!6}{3.3 (0.9)}\\
+Urine albumin-creatine ratio (mg/g) & 25.9 (132.8) & 36.4 (105.9) & 47.9 (275.1) & 19.6 (48.2) & 19.4 (67.7) & 16.4 (36.3)\\
+\cellcolor{gray!6}{VO2 max (mL/kg/min)} & \cellcolor{gray!6}{26.6 (7.8)} & \cellcolor{gray!6}{24.8 (7.5)} & \cellcolor{gray!6}{24.8 (7.5)} & \cellcolor{gray!6}{26.1 (6.8)} & \cellcolor{gray!6}{27.0 (8.0)} & \cellcolor{gray!6}{28.7 (8.7)}\\
+Resting heart rate (bpm) & 57.3 (7.3) & 67.8 (5.7) & 63.3 (5.0) & 58.4 (4.5) & 55.0 (4.2) & 49.8 (4.9)\\
 \addlinespace
-\cellcolor{gray!6}{Urine albumin-creatine ratio (mg/g)} & \cellcolor{gray!6}{25.9 (132.8)} & \cellcolor{gray!6}{36.4 (105.9)} & \cellcolor{gray!6}{47.9 (275.1)} & \cellcolor{gray!6}{19.6 (48.2)} & \cellcolor{gray!6}{19.4 (67.7)} & \cellcolor{gray!6}{16.4 (36.3)}\\
-vo2max & 26.6 (7.8) & 24.8 (7.5) & 24.8 (7.5) & 26.1 (6.8) & 27.0 (8.0) & 28.7 (8.7)\\
-\cellcolor{gray!6}{rest\_hr} & \cellcolor{gray!6}{57.3 (7.3)} & \cellcolor{gray!6}{67.8 (5.7)} & \cellcolor{gray!6}{63.3 (5.0)} & \cellcolor{gray!6}{58.4 (4.5)} & \cellcolor{gray!6}{55.0 (4.2)} & \cellcolor{gray!6}{49.8 (4.9)}\\
-med\_any\_anti\_hypertensive & 753 (47\%) & 88 (61\%) & 149 (48\%) & 216 (47\%) & 147 (43\%) & 153 (43\%)\\
+\cellcolor{gray!6}{Anti-hypertensive medication (yes)} & \cellcolor{gray!6}{753 (47\%)} & \cellcolor{gray!6}{88 (61\%)} & \cellcolor{gray!6}{149 (48\%)} & \cellcolor{gray!6}{216 (47\%)} & \cellcolor{gray!6}{147 (43\%)} & \cellcolor{gray!6}{153 (43\%)}\\
 \bottomrule
 \end{tabular}}
 \endgroup{}
 \end{table}
 \end{landscape}
 
-\emph{Categorical variables: n (\%)} \emph{Continous variables: Mean
-(SD)}
-
-:::
+\restoregeometry
 
 \hypertarget{multiday-hrv-and-mace-heart-failure-and-all-cause-mortality.}{%
 \subsection{Multiday HRV and MACE, heart failure, and all-cause
@@ -2262,6 +2262,8 @@ approximately 120--110 ms (around the 20th percentile), suggesting a
 potential threshold for elevated risk\textsuperscript{85}. Therefore,
 incidence rate (IR) was calculated at SDNN levels of 100 ms, 120 ms, and
 160 ms, respectively, and plotted these as a function of age.
+
+\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 \begin{figure}
 
@@ -2283,6 +2285,8 @@ association with major adverse cardiovascular events, heart failure, and
 all-cause mortality}}
 
 \end{figure}
+
+\restoregeometry
 
 At age 65, the IR per 1000 person-years for MACE was 44.2 (CI: 33.5;
 58.3) at SDNN = 100 ms, which was higher than the rates observed at SDNN
@@ -2306,12 +2310,12 @@ From the hourly recordings, I observed a clear periodicity in SDNN,
 heart rate, sleep patterns, and physical acceleration. Mean (SD) SDNN
 increased from 5--6 AM (70.2 {[}28.8{]} ms), peaking at 8--9 AM (92.1
 {[}29.0{]} ms), followed by a gradual decline, reaching its lowest point
-around 2 AM the next day (64.1 {[}28.1{]} ms)\textsuperscript{85}. A
+around 2 AM the next day (64.1 {[}28.1{]} ms).\textsuperscript{85} A
 similar circadian pattern was observed in heart rate, although its peak
 occurred two hours later, starting at 9 AM (76.7 {[}10.9{]}
-bpm)\textsuperscript{85}. After peaking, heart rate remained stable
+bpm).\textsuperscript{85} After peaking, heart rate remained stable
 throughout the afternoon before gradually
-decreasing\textsuperscript{85}.
+decreasing.\textsuperscript{85}
 
 In Figure~\ref{fig-ADD_PRO_risk_by_hour}, I observe hourly SDNN
 (preadjusted for heart rate and physical acceleration), heart rate, and
@@ -2319,12 +2323,12 @@ physical acceleration association. Models was adjusted for age, sex,
 education, alcohol consumption, smoking behavior, BMI, total
 cholesterol, and Hba1c. The morning response of SDNN was most indicative
 of MACE, with the strongest association observed from 6--7 AM (IRR:
-0.84; 95\% CI: 0.71 to 1.00 per SD higher SDNN) (see
-Figure~\ref{fig-ADD_PRO_risk_by_hour} A)\textsuperscript{85}. Heart rate
+0.84; 95\% CI: 0.71-1.00 per SD higher SDNN) (see
+Figure~\ref{fig-ADD_PRO_risk_by_hour} A).\textsuperscript{85} Heart rate
 between 12 AM and 6 AM showed a small trend toward higher risk of MACE
 (IRR range: 1.11 to 1.15 per SD higher heart rate), although none of the
 confidence intervals exceeded one (see
-Figure~\ref{fig-ADD_PRO_risk_by_hour} D)\textsuperscript{85}. Across all
+Figure~\ref{fig-ADD_PRO_risk_by_hour} D).\textsuperscript{85} Across all
 hours, there was a plausible association between SDNN and heart failure.
 However, this association disappeared after adjusting for physical
 acceleration and heart rate (see Figure~\ref{fig-ADD_PRO_risk_by_hour}
@@ -2334,9 +2338,11 @@ heart rate) (see Figure~\ref{fig-ADD_PRO_risk_by_hour} E). SDNN was
 consistently associated with all-cause mortality across all hours, with
 a stronger inverse association observed between 12 PM and 1 AM (IRR
 range: 0.79 to 0.88 per SD higher SDNN) (see
-Figure~\ref{fig-ADD_PRO_risk_by_hour} C)\textsuperscript{85}. No clear
+Figure~\ref{fig-ADD_PRO_risk_by_hour} C).\textsuperscript{85} No clear
 trends of association were observed between heart rate and all-cause
-mortality\textsuperscript{85}.
+mortality.\textsuperscript{85}
+
+\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 \begin{figure}
 
@@ -2362,27 +2368,29 @@ events, heart failure, and all-cause mortality risk}}
 
 \end{figure}
 
+\restoregeometry
+
 \hypertarget{study-iii}{%
 \section{Study III}\label{study-iii}}
 
 \hypertarget{descriptive-2}{%
 \subsection{Descriptive}\label{descriptive-2}}
 
-In study III, 179 participants with type 2 had measures of NT-proBNP and
-performed the CART test. CAN was present in 30\% (n = 54) of
-participants (36\% among those with valid CAN measurements
-(Figure~\ref{fig-CAN} A)). Meanwhile, 24\% (n = 43) were unable to
-complete the CART assessment adequately, primarily due to irregular
-heart rhythms (n = 8) or insufficient air pressure during the Valsalva
-manoeuvre (n = 21). Compare to those without CAN, the participants with
-CAN were more women (41 \% vs 33 \%), were more sedentary (45\% vs
-36\%), had a higher proportion with prior major CVD (41\% vs 20\%) and
-declined eGFR (\textless{} 60) (36\% vs 22\%), higher levels of
-triglyceride (median 2.05 mmol/L vs 1.95 mmol/ L), were slightly older
-(median 62 years vs 61 years), had longer duration of T2D (median 19
-years vs 15 years), and higher use SGTL2-inhibitors (65\% vs 60\%) but
-lower use of GLP-1 RA (63\% vs 70\%). No other difference in clinical
-characteristic was observed.
+In study III, 176 participants had measures of NT-proBNP. CAN was
+present in 31\% (n = 54) of participants (36\% among those with valid
+CAN measurements (Figure~\ref{fig-CAN} A)).\textsuperscript{86}
+Meanwhile, 23\% (n = 40) were unable to complete the CART assessment
+adequately, primarily due to insufficient air pressure during the
+Valsalva manoeuvre (n = 21).\textsuperscript{86} Compare to those
+without CAN, the participants with CAN were more women (41 \% vs 33 \%),
+were more sedentary (45\% vs 36\%), had a higher proportion with prior
+major CVD (41\% vs 23\%) and declined eGFR (\textless{} 60ml/min/1.73
+m\(^2\)) (35\% vs 22\%), higher levels of triglyceride (median 2.05
+mmol/L vs 1.95 mmol/ L), were slightly older (median 62 years vs 61
+years), had longer duration of T2D (median 19 years vs 15 years), and
+higher use SGTL2-inhibitors (65\% vs 60\%) but lower use of GLP-1 RA
+(63\% vs 70\%). No other difference in clinical characteristic was
+observed.\textsuperscript{86}
 
 \hypertarget{can-and-indicators-of-heart-failure}{%
 \subsection{CAN and indicators of heart
@@ -2398,30 +2406,33 @@ cardiovascular autonomic reflex tests (CART), the Valsalva maneuver
 demonstrated the strongest association with NT-proBNP (OR 9.00, 95\% CI:
 2.88; 33.09; n=51/75), followed by deep breathing (OR 3.30, 95\% CI:
 1.17; 9.77; n=33/133) and orthostatic hypertension (OR 4.04, 95\% CI:
-1.27; 13.77; n=24/146)\textsuperscript{86}. No significant association
+1.27; 13.77; n=24/146).\textsuperscript{86} No significant association
 was identified for the lying-to-standing test (OR 0.80, 95\% CI: 0.32;
-1.97; n=54/108)\textsuperscript{86}. After imputing missing CART data,
+1.97; n=54/108).\textsuperscript{86} After imputing missing CART data,
 the OR for CAN in relation to elevated NT-proBNP declined to 2.94 (95\%
-CI: 1.37; 6.56). Sensitivity analyses, which excluded participants using
-beta-blockers or those with a history of CVD, resulted in a smaller
-sample size and wider confidence intervals, though the overall
-association remained unchanged\textsuperscript{86}. CAN was associated
-with elevated NT-proBNP in individuals both without (NYHA I; OR = 4.3,
-95\% CI: 1.1; 16.3) and with heart failure symptoms (NYHA ≥ II; OR =
-16.4, 95\% CI: 1.2; 222.0), though the interaction was not significant
-(p = 0.4)\textsuperscript{86}. Similar associations were seen across
-WATCH-DM risk groups: very-low-to-moderate (OR = 6.1, 95\% CI: 1.6;
-23.5) and high-to-very-high (OR = 6.3, 95\% CI: 0.83;
-46.9)\textsuperscript{86}. Participants with CAN had 1.7 (95\% CI: 0.3
-to 3.0) point higher WATCH-DM risk score compared to those without
-CAN\textsuperscript{86}. The OR of presenting with NYHA class II or
-higher was 5.51 (95\% CI: 1.9 to 15.97) in the group with CAN.
+CI: 1.37; 6.56).\textsuperscript{86} Sensitivity analyses, which
+excluded participants using beta-blockers or those with a history of
+CVD, resulted in a smaller sample size and wider confidence intervals,
+though the overall association remained unchanged.\textsuperscript{86}
+CAN was associated with elevated NT-proBNP in individuals both without
+(NYHA I; OR = 4.3, 95\% CI: 1.1; 16.3) and with heart failure symptoms
+(NYHA ≥ II; OR = 16.4, 95\% CI: 1.2; 222.0), though the interaction was
+not statistical significant (p = 0.4).\textsuperscript{86} Similar
+associations were seen across WATCH-DM risk groups: very-low-to-moderate
+(OR = 6.1, 95\% CI: 1.6; 23.5) and high-to-very-high (OR = 6.3, 95\% CI:
+0.83; 46.9).\textsuperscript{86} Participants with CAN had 1.7 (95\% CI:
+0.3 to 3.0) point higher WATCH-DM risk score compared to those without
+CAN.\textsuperscript{86} The OR of presenting with NYHA class II or
+higher was 5.51 (95\% CI: 1.9 to 15.97) in the group with
+CAN.\textsuperscript{86}
+
+\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 \begin{figure}
 
 {\centering 
 
-\includegraphics{images/heart_failure_distribution_can_figure_2.pdf}
+\includegraphics[width=0.85\textwidth,height=\textheight]{images/heart_failure_distribution_can_figure_2.pdf}
 
 \emph{A: Percentage distribution by CAN status (no CAN, CAN). B:
 Percentage distribution of NT-proBNP level categories stratified by
@@ -2443,6 +2454,8 @@ and WATCH-DM Score by CAN Status, and association of CAN with Elevated
 NT-proBNP}}
 
 \end{figure}
+
+\restoregeometry
 
 \bookmarksetup{startatroot}
 
@@ -3017,17 +3030,18 @@ initiated earlier in this subgroup.
 First, patients with CAN may benefit from further cardiovascular
 assessment, including the use of sensitive biomarkers or
 echocardiography. NT-proBNP is a strong predictor of heart failure and a
-validated biomarker for ruling out the condition (ref.). However, its
-specificity varies across heart failure phenotypes, being less specific
-for detecting HFpEF compared to HFrEF. Therefore, additional evaluation
-using echocardiography may be warranted. Beyond classifying heart
-failure phenotypes, echocardiography identifies preclinical stages of
-heart failure through the detection of functional or structural cardiac
-abnormalities. Including CAN in structured assessments of heart failure
-could help clarify to which extent CAN overlaps with cardiac
-abnormalities. Determining the diagnostic and prognostic value of CAN,
-particularly its sensitivity and specificity in detecting HFrEF and
-HFpEF, requires further investigation.
+validated biomarker for ruling out the condition.\textsuperscript{56}
+However, its specificity varies across heart failure phenotypes, being
+less specific for detecting HFpEF compared to HFrEF.\textsuperscript{56}
+Therefore, additional evaluation using echocardiography may be
+warranted. Beyond classifying heart failure phenotypes, echocardiography
+identifies preclinical stages of heart failure through the detection of
+functional or structural cardiac abnormalities. Including CAN in
+structured assessments of heart failure could help clarify to which
+extent CAN overlaps with cardiac abnormalities. Determining the
+diagnostic and prognostic value of CAN, particularly its sensitivity and
+specificity in detecting HFrEF and HFpEF, requires further
+investigation.
 
 Second, the presence of CAN may justify earlier initiation of protective
 therapies. SGLT2 inhibitors are recommended as second-line treatment in
@@ -3068,7 +3082,7 @@ exposure led to the outcome or vice versa. As a result, we cannot
 establish temporality or confirm whether changes in the outcome were
 caused by the exposure. Based on prior evidence, the direction of the
 associations in Study I was inferred using physiological knowledge and
-findings from epidemiological and in vivo studies\textsuperscript{101}.
+findings from epidemiological and in vivo studies.\textsuperscript{101}
 
 Study III focused on the clinical diagnosis of CAN and the presence of
 heart failure. The research question was oriented toward the clinical
@@ -3178,7 +3192,7 @@ tone. Much of the current evidence on autonomic contributions to HRV
 originates from studies involving experimental manipulation of the
 autonomic nervous system, such as physiological tests (e.g., tilt
 response, deep breathing, stress response) or pharmacological
-interventions. Therefore, it remains uncertain whether the mechanisms
+modulation. Therefore, it remains uncertain whether the mechanisms
 linking HRV indices to cardiovascular complications are predominantly
 due to sympathetic over activity or parasympathetic withdrawal.
 
@@ -3203,16 +3217,16 @@ rate pre-adjustment had had comparable effects on the outcomes.
 The three studies demonstrate approaches to identifying CVD risk: (1)
 selecting appropriate HRV indices, (2) segmenting time intervals, and
 (3) assessing HRV under defined conditions. Our findings reveal varying
-associations across HRV indices, with RMSSD and HF showing weaker
-associations. However, previous research has shown that these indices
-can be informative when analyzed in 5-minute
+associations across long-term HRV indices, with RMSSD and HF showing
+weaker associations. However, previous research has shown that these
+indices can be informative when analyzed in 5-minute
 segments.\textsuperscript{136,143} Additionally, SDNN exhibited varying
 associations with CVD risk depending on the time of day. We also
 observed that, in CARTs, the Valsalva maneuver and deep breathing test
-were more indicative of heart failure. These insights highlight the need
-for methodological rigor in HRV research, particularly in aligning index
-selection and time segmentation with specific research objectives and
-clinical contexts.
+were more indicative of heart failure. These insights highlight the
+relevance of methodological decisions in HRV research, particularly in
+aligning index selection, time segmentation, and in response to what
+with specific research objectives and clinical contexts.
 
 \hypertarget{cardiovascular-autonomic-reflex-test}{%
 \subsubsection{Cardiovascular autonomic reflex
@@ -3309,18 +3323,17 @@ have been lower compared to the target population.
 \textbf{CANCAN}
 
 The target population in Study III was intended to represent individuals
-with type 2 diabetes treated in outpatient clinics. In Denmark, patients
-with type 2 diabetes are referred to diabetes specialists at outpatient
-clinics when their general practitioner is unable to stabilize their
-condition. A strength of the CANCAN sampling strategy is that patients
-were already attending endocrinology consultations, and the study
-examination required only additional time during their visit, without
-the need for extra transportation or appointments. Assessing selection
-bias in this study is challenging, as inclusion depended on referral
-practices by general practitioners.\textsuperscript{147} These practices
-may vary individually, with differing thresholds for referring patients
-to specialized care based on clinical judgment and patient
-characteristics.
+with T2D treated in outpatient clinics. In Denmark, patients with T2D
+are referred to diabetes specialists at outpatient clinics when their
+general practitioner is unable to stabilize their condition. A strength
+of the CANCAN sampling strategy is that patients were already attending
+endocrinology consultations, and the study examination required only
+additional time during their visit, without the need for extra
+transportation or appointments. Assessing selection bias in this study
+is challenging, as inclusion depended on referral practices by general
+practitioners.\textsuperscript{147} These practices may vary
+individually, with differing thresholds for referring patients to
+specialized care based on clinical judgment and patient characteristics.
 
 \hypertarget{generalisability}{%
 \subsubsection{Generalisability}\label{generalisability}}
@@ -3328,9 +3341,8 @@ characteristics.
 The generalisability of our findings is considered in the context of the
 targeted recruitment strategies used in each study, which aimed to
 include individuals across a spectrum of diabetes risk, from NGM to
-established type 2 diabetes. As a result, the findings are most
-applicable to populations with similar clinical profiles and healthcare
-settings.
+established T2D. As a result, the findings are most applicable to
+populations with similar clinical profiles and healthcare settings.
 
 Studies I-III include individuals at high risk of diabetes and those
 with T2D. Therefore, the associations between cardiovascular autonomic
@@ -3348,9 +3360,9 @@ Consequently, the prevalence of heart failure indicators and CAN is
 likely higher in this selected group, than patients managed in primary
 care, and thus limits extending our finding to broader T2D populations.
 
-By design, younger individuals with prediabetes or young-adult-onset
-type 2 diabetes are underrepresented in our studies. This group may be
-overlooked in current research and warrants further attention in future
+By design, younger individuals with prediabetes or young-adult-onset T2D
+are underrepresented in our studies. This group may be overlooked in
+current research and warrants further attention in future
 studies.\textsuperscript{140,148} The applicability of our findings to
 other countries may be influenced by differences in demographic
 composition, risk factor distributions, healthcare systems, and stages
@@ -3372,28 +3384,27 @@ world and further affect the applicability of our findings.
 
 This dissertation has investigated autonomic function impact on
 cardiovascular complications across different stages of glucose
-metabolism. Based on our findings and conclusions, we propose further
-perspectives to define its role in research and healthcare from three
-aspects: (1) continuous non-invasive health monitoring, (2) risk
-stratification, and (3) identification as a causal and modifiable
-marker.
+metabolism. Understanding when and how physiological signals reflect
+elevated CVD risk is essential for developing early and effective
+prevention strategies. Incorporating HRV into digital health solutions
+could support personalized feedback mechanisms, enabling timely
+lifestyle or therapeutic interventions and contributing to more adaptive
+and preventive healthcare strategies. Based on our findings and
+conclusions, we propose further perspectives to define its role in
+research and healthcare from three aspects: (1) continuous non-invasive
+health monitoring, (2) risk stratification, and (3) identification as a
+causal and modifiable marker.
 
 \hypertarget{continuous-monitoring-of-cardiovascular-health}{%
 \section{Continuous monitoring of cardiovascular
 health}\label{continuous-monitoring-of-cardiovascular-health}}
 
-Understanding when and how physiological signals reflect elevated CVD
-risk is essential for developing early and effective prevention
-strategies. Incorporating HRV into digital health solutions could
-support personalized feedback mechanisms, enabling timely lifestyle or
-therapeutic interventions and contributing to more adaptive and
-preventive healthcare strategies. Wearable devices enable comprehensive
-data collection on behavioral (e.g., sleep and physical activity) and
-physiological (e.g., heart rate, ECG, temperature)
-parameters\textsuperscript{149}. These devices offer a broader and more
-feasible approach to long-term heart rate monitoring. Despite growing
-interest in wearable-based monitoring, the integration of HRV into
-routine cardiometabolic risk assessment remains limited.
+Wearable devices enable comprehensive data collection on behavioral
+(e.g., sleep and physical activity) and physiological (e.g., heart rate,
+ECG, temperature) parameters.\textsuperscript{149} These devices offer a
+broader and more feasible approach to long-term heart rate monitoring.
+Despite growing interest in wearable-based monitoring, the integration
+of HRV into routine cardiometabolic risk assessment remains limited.
 
 Two key aspects highlight the potential applications of monitoring: (1)
 identification of risk and (2) assessment of response to intervention.
@@ -3412,17 +3423,20 @@ learning offers powerful tools to analyze complex raw time-series data,
 including interbeat intervals and accelerometer signals, potentially
 improving risk prediction beyond traditional HRV summary metrics.
 However, the limited interpretability of these models remains a key
-barrier to clinical adoption.
+barrier to clinical adoption. Nevertheless, HRV can be clinically
+interpreted from wearable devices and may help identify individuals at
+elevated cardiovascular risk potentially without the need for blood
+pressure readings or invasive measures such as blood samples.
 
 \emph{Assessment of response to intervention}
 
 HRV represents a potential target for intervention, as low HRV may
 reflect adverse lifestyle patterns. Behaviors such as disrupted sleep,
-physical inactivity, and irregular meal timing can influence circadian
-fluctuations in HRV (ref. sleep, activity).\textsuperscript{136}
-Pharmacological interventions also impact HRV: beta-blockers have been
-shown to increase HRV, while GLP-1 receptor agonists may reduce
-it.\textsuperscript{142,150}
+physical inactivity, diet and irregular meal timing can influence
+circadian fluctuations in HRV.\textsuperscript{136,150--152} HRV has
+also proven to respond to pharmacological interventions. For example,
+beta-blockers have been shown to increase HRV, while GLP-1RA may reduce
+it.\textsuperscript{142,153}
 
 \begin{figure}
 
@@ -3457,80 +3471,83 @@ remain a challenge for both research and clinical use. While
 smartwatches offer convenient heart rate monitoring, their accuracy
 varies due to reliance on photoplethysmography, which can be affected by
 motion and other external factors, especially during physical
-activity.\textsuperscript{151,152} Despite these limitations, ongoing
+activity.\textsuperscript{154,155} Despite these limitations, ongoing
 improvements in sensor technology and algorithm calibration are likely
-to enhance the reliability of wearable-derived HRV and heart rate data.
-Open data formats are important to ensure that detailed data
-(e.g.~interbeat intervals) from various devices can be used consistently
-in health prediction algorithms, rather than relying only on summarized
-outputs.
+to enhance the reliability of wearable-derived HRV and heart rate
+data.\textsuperscript{156} Open data formats are important to ensure
+that detailed data (e.g.~interbeat intervals)\textsuperscript{156,157}
+from various devices can be used consistently in health prediction
+algorithms, rather than relying only on summarized outputs.
 
 \hypertarget{risk-stratification-1}{%
 \section{Risk-stratification}\label{risk-stratification-1}}
 
 The distinct roles of long-term HRV and CART in cardiovascular risk
-stratification remain to be fully established. From a wearable
-technology perspective, long-term HRV offers two promising avenues that
-warrant further investigation:
+stratification remain to be fully established. Building on the concept
+of continuous monitoring through wearable technology, long-term HRV
+presents two promising avenues that warrant further investigation:
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
 \item
-  Non-invasive risk identification: HRV measured via wearable devices
-  may help identify individuals at elevated cardiovascular risk without
-  the need for invasive measures such as blood pressure readings or
-  blood samples.
+  \textbf{Enhancement of existing risk scores:}~HRV may improve the
+  predictive accuracy of established cardiovascular risk models, such as
+  SCORE2 or the Framingham Risk Score.
 \item
-  Enhancement of existing risk scores: HRV may improve the predictive
-  accuracy of established cardiovascular risk models, such as SCORE2 or
-  the Framingham Risk Score.
-\end{enumerate}
+  \textbf{Support for treatment decisions:}~Long-term HRV may also help
+  optimize the timing of treatment initiation and guide intermediate
+  clinical decisions.
+\end{itemize}
 
-Digital CVD risk calculators can help optimize the timing of follow-up
-assessments or the initiation of treatment. Recent analyses at Steno
-Diabetes Center Copenhagen have shown that not all patients require
-annual retinopathy screening. Instead, prediction models using clinical
-variables can determine optimal re-screening intervals. In type 1
-diabetes, for example, high risk score are used to guide decisions on
-starting lipid-lowering therapy.\textsuperscript{153}
+\emph{Cardiovascular risk assessment}
 
-A further step involves using long-term HRV as a clinical characteristic
-to enhance the prediction of treatment response, thereby enabling
-stratification of therapy based on the most effective intervention for
-each individual. In a UK population with type 2 diabetes attending
-clinical practice, clinical characteristics have been used to predict
-which second-line glucose-lowering treatment, either SGLT2 inhibitors or
-GLP-1RA, is more likely to improve HbA1c levels\textsuperscript{154}.
-Whether incorporating long-term HRV into predictive models can enhance
-the granularity and personalization of treatment predictions,
+Digital CVD risk calculators can optimize the timing of follow-up
+assessments and treatment initiation. Analyses from Steno Diabetes
+Center Copenhagen suggest that annual retinopathy screening may not be
+necessary for all patients. Instead, prediction models using clinical
+variables can determine optimal re-screening
+intervals.\textsuperscript{158} In prediabetes, a key concern is
+overmedicalization, since many individuals do not progress to T2D or
+develop complications.\textsuperscript{14} Therefore, efforts to
+identify subgroups in prediabetes are needed to enable timely prevention
+of cardiovascular complications for individuals at risk of
+CVD.\textsuperscript{10} In T2D, data-driven methods using clinical
+characteristics can help identify who will benefit most from intensive
+treatment\textsuperscript{159} It remains to be seen whether wearable
+technologies, such as those measuring HRV, can help improve
+individualized screening intervals and identify individuals who require
+closer clinical attention.
+
+\emph{Timing and treatment decisions}
+
+In addition to optimizing the timing of follow-up assessments,
+determining cardiovascular risk can also guide when to initiate
+treatment. In type 1 diabetes, for example, elevated CVD risk scores are
+used to inform decisions about starting lipid-lowering
+therapy.\textsuperscript{160} Wearable-derived data may also support
+intermediate treatment decisions.\textsuperscript{73} In a UK population
+with T2D in clinical practice, patient characteristics have been used to
+predict whether SGLT2 inhibitors or GLP1RA will better improve HbA1c
+levels.{[}\textsuperscript{161}{]}\textsuperscript{162} A further step
+is to include long-term HRV as a clinical characteristic to enhance the
+prediction of treatment response. This could enable more precise
+stratification of therapy or lifestyle interventions based on the most
+effective option for each individual. Whether incorporating long-term
+HRV into predictive models can improve the personalization of treatment,
 particularly for therapies with cardiovascular effects, remains to be
-demonstrated. Furthermore, this conceptual framework may also hold
-promise for guiding the selection of first-line antihypertensive
-medications by integrating wearable-derived data to support intermediate
-treatment decisions.
+demonstrated. This conceptual framework may also have potential for
+guiding the selection of first-line antihypertensive medications.
 
-Both applications require further research to determine their clinical
-utility and integration into routine risk assessment.
+As discussed in the clinical implications of CAN in T2D, it is unclear
+how well a CAN diagnosis predicts heart failure risk in the broader T2D
+population seen in primary care. Intermediate clinical decisions are
+needed for patients diagnosed with CAN to determine whether to proceed
+with further evaluation for heart failure using echocardiography or to
+initiate specific cardioprotective therapy.
 
-A key limitation of long-term HRV measurement is the lack of
-standardization, as data collected under free-living conditions may be
-influenced by daily behaviors, potentially affecting risk
-classification. This highlights the need for standardized protocols. In
-contrast, CART is a reliable, non-invasive method that typically takes
-around 10 minutes to perform. A standardized and validated diagnosis of
-CAN using CART may help identify individuals with T2D who are at
-elevated risk of complications. However, the extent to which CAN
-diagnosis predicts heart failure risk and applies to broader populations
-with T2D or prediabetes remains to be clarified.
-
-Our findings suggest that long-term HRV and CAN may serve as useful
-markers for identifying individuals at elevated metabolic risk who could
-benefit from targeted preventive strategies.
-
-Future research should explore whether identifying individuals as
-high-risk based on autonomic dysfunction or CAN could support
-personalized and timely cardiovascular screening or
-interventions.\textsuperscript{73}
+In summary, future research should explore whether identifying high-risk
+individuals based on autonomic dysfunction, using HRV or CAN assessed
+through CART, can support personalized and timely cardiovascular
+screening or interventions.\textsuperscript{73}
 
 \begin{figure}
 
@@ -3581,7 +3598,7 @@ unconfounded proxies to assess HRV's causal role in CVD. However, a
 challenge arises from findings in short-term HRV, which show
 considerable pleiotropy. This may complicate the use of Mendelian
 randomization, as the method relies on the assumption of no horizontal
-pleiotropy.\textsuperscript{155}
+pleiotropy.\textsuperscript{163}
 
 \begin{figure}
 
@@ -4777,8 +4794,29 @@ consortium}. \emph{The Lancet Diabetes \& Endocrinology} 2024;
 devices to monitor and treat metabolic diseases}. \emph{Nature
 Metabolism} 2023; \textbf{5}: 563--71.}
 
-\leavevmode\vadjust pre{\hypertarget{ref-kumarathurai2016}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-boudreau2013}{}}%
 \CSLLeftMargin{150 }%
+\CSLRightInline{Boudreau P, Yeh W-H, Dumont GA, Boivin DB.
+\href{https://doi.org/10.5665/sleep.3230}{Circadian variation of heart
+rate variability across sleep stages}. \emph{Sleep} 2013; \textbf{36}:
+1919--28.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-reginato2020}{}}%
+\CSLLeftMargin{151 }%
+\CSLRightInline{Reginato E, Azzolina D, Folino F, \emph{et al.} Dietary
+and lifestyle patterns are associated with heart rate variability.
+\emph{Journal of Clinical Medicine} 2020; \textbf{9}.
+DOI:\href{https://doi.org/10.3390/jcm9041121}{10.3390/jcm9041121}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-soares-miranda2014}{}}%
+\CSLLeftMargin{152 }%
+\CSLRightInline{Soares-Miranda L, Sattelmair J, Chaves P, \emph{et al.}
+\href{https://doi.org/10.1161/CIRCULATIONAHA.113.005361}{Physical
+activity and heart rate variability in older adults}. \emph{Circulation}
+2014; \textbf{129}: 2100--10.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-kumarathurai2016}{}}%
+\CSLLeftMargin{153 }%
 \CSLRightInline{Kumarathurai P, Anholm C, Larsen BS, \emph{et al.}
 \href{https://doi.org/10.2337/dc16-1580}{Effects of liraglutide on heart
 rate and heart rate variability: A randomized, double-blind,
@@ -4786,7 +4824,7 @@ placebo-controlled crossover study}. \emph{Diabetes Care} 2016;
 \textbf{40}: 117--24.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-nelson2019}{}}%
-\CSLLeftMargin{151 }%
+\CSLLeftMargin{154 }%
 \CSLRightInline{Nelson BW, Allen NB.
 \href{https://doi.org/10.2196/10828}{Accuracy of consumer wearable heart
 rate measurement during an ecologically valid 24-hour period:
@@ -4794,28 +4832,67 @@ Intraindividual validation study}. \emph{JMIR Mhealth Uhealth} 2019;
 \textbf{7}: e10828.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-fuller2020}{}}%
-\CSLLeftMargin{152 }%
+\CSLLeftMargin{155 }%
 \CSLRightInline{Fuller D, Colwell E, Low J, \emph{et al.}
 \href{https://doi.org/10.2196/18694}{Reliability and validity of
 commercially available wearable devices for measuring steps, energy
 expenditure, and heart rate: Systematic review}. \emph{JMIR Mhealth
 Uhealth} 2020; \textbf{8}: e18694.}
 
+\leavevmode\vadjust pre{\hypertarget{ref-p.h.charlton2022}{}}%
+\CSLLeftMargin{156 }%
+\CSLRightInline{P. H. Charlton, P. A. Kyriacou, J. Mant, V. Marozas, P.
+Chowienczyk, J. Alastruey.
+\href{https://doi.org/10.1109/JPROC.2022.3149785}{Wearable
+photoplethysmography for cardiovascular monitoring}. \emph{Proceedings
+of the IEEE} 2022; \textbf{110}: 355--81.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-loh2022}{}}%
+\CSLLeftMargin{157 }%
+\CSLRightInline{Loh HW, Xu S, Faust O, \emph{et al.}
+\href{https://doi.org/10.1016/j.cmpb.2022.106677}{Application of
+photoplethysmography signals for healthcare systems: An in-depth
+review}. \emph{Computer Methods and Programs in Biomedicine} 2022;
+\textbf{216}: 106677.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-grauslund2025}{}}%
+\CSLLeftMargin{158 }%
+\CSLRightInline{Grauslund J, Andersen N, Andresen J, Bek T, Knudsen ST,
+Subhi Y. \href{https://doi.org/10.1016/j.ajoint.2025.100141}{The danish
+ophthalmological society guidelines for screening of diabetic
+retinopathy}. \emph{AJO International} 2025; \textbf{2}: 100141.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-li2023}{}}%
+\CSLLeftMargin{159 }%
+\CSLRightInline{Li X, Giessen A van, Altunkaya J, \emph{et al.}
+\href{https://doi.org/10.2337/dc22-2170}{Potential value of identifying
+type 2 diabetes subgroups for guiding intensive treatment: A comparison
+of novel data-driven clustering with risk-driven subgroups}.
+\emph{Diabetes Care} 2023; \textbf{46}: 1395--403.}
+
 \leavevmode\vadjust pre{\hypertarget{ref-danskendokrinologiskselskab}{}}%
-\CSLLeftMargin{153 }%
+\CSLLeftMargin{160 }%
 \CSLRightInline{Dansk Endokrinologisk Selskab. Type 1 diabetes -
 lipidsænkende behandling.
 \url{https://endocrinology.dk/nbv/diabetes-melitus/type-1-diabetes-mellitus/}.}
 
+\leavevmode\vadjust pre{\hypertarget{ref-dennis2025}{}}%
+\CSLLeftMargin{161 }%
+\CSLRightInline{Dennis JM, Young KG, Cardoso P, \emph{et al.}
+\href{https://doi.org/10.1016/S0140-6736(24)02617-5}{A five-drug class
+model using routinely available clinical features to optimise
+prescribing in type 2 diabetes: A prediction model development and
+validation study}. \emph{The Lancet} 2025; \textbf{405}: 701--14.}
+
 \leavevmode\vadjust pre{\hypertarget{ref-cardoso2024}{}}%
-\CSLLeftMargin{154 }%
+\CSLLeftMargin{162 }%
 \CSLRightInline{Cardoso P, Young KG, Nair ATN, \emph{et al.}
 \href{https://doi.org/10.1007/s00125-024-06099-3}{Phenotype-based
 targeted treatment of SGLT2 inhibitors and GLP-1 receptor agonists in
 type 2 diabetes}. \emph{Diabetologia} 2024; \textbf{67}: 822--36.}
 
 \leavevmode\vadjust pre{\hypertarget{ref-verbanck2018}{}}%
-\CSLLeftMargin{155 }%
+\CSLLeftMargin{163 }%
 \CSLRightInline{Verbanck M, Chen C-Y, Neale B, Do R.
 \href{https://doi.org/10.1038/s41588-018-0099-7}{Detection of widespread
 horizontal pleiotropy in causal relationships inferred from mendelian

@@ -72,7 +72,16 @@ format:
     keep-tex: true
     toc-depth: 2
     toc: false
-    papersize: a4
+    #papersize: a4
     include-in-header: latex-header.tex
-
-    
+    geometry:
+      - inner=2cm
+      - outer=3cm
+      - top=3cm
+      - bottom=4cm
+      - headsep=22pt
+      - headheight=11pt
+      - footskip=33pt
+      - ignorehead
+      - ignorefoot
+      - heightrounded
