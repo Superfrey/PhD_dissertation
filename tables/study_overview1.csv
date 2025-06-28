@@ -1,0 +1,10 @@
+;Study I;Study II;Study III
+Title;Cardiovascular autonomic dysfunction\nis linked with arterial stiffness\nacross glucose \nThe Maastricht Study;Cardiovascular autonomic dysfunction precedes\ncardiovascular disease and all-cause mortality:\n11-year follow-up in the ADDITION-PRO study;Cardiovascular autonomic neuropathy\nand subclinical heart failure in T2D\n: The CANCAN study
+Design;Aetiological\ncross-sectional study;Aetiological prospective cohort study;Descriptive cross-sectional study
+Cohort;Maastricht study;ADDITION-PRO study;CANCAN study
+Study population;3673 individuals with NGM,\nprediabetes, or T2D;2082 individuals with\nhigh risk of diabetes;173 patients with T2D\nvisiting outpatients clinics
+Data sources;Population-based cohort\nThe Maastricht Study in the Netherlands;Cohort study of selected\nindividuals based on having high risk of diabetes;Clinical cohort study
+Determinant;24-hour HRV;Multiday and hourly HRV;Cardiovascular autonomic reflex test
+Primary outcome;Arterial stiffness;Major adverse cardiovascular events\n, heart failure, and all-cause mortality;NT-proBNP, NYHA classification\n, and WATCH-DM risk score
+Statistical analysis;Linear regression;Poisson regression;Logistic regression
+Missing data;Complete case analysis;Multiple imputation of \nchained equations for confounders;Complete case analysis and\nmultiple imputation of chained equations for CART\nand confounders

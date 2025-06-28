@@ -3,10 +3,11 @@
 ## Study I
 
 \newpage
+\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
-\includepdf[pages=-]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
+\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
 
-\includepdf[pages=-]{appendix/Supplemental_Material_MS.pdf}
+\includepdf[pages=-,pagecommand={}]{appendix/Supplemental_Material_MS.pdf}
 
 \newpage
 
@@ -14,9 +15,9 @@
 
 \newpage
 
-\includepdf[pages=-]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
+\includepdf[pages=-,pagecommand={}]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
 
-\includepdf[pages=-]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
+\includepdf[pages=-,pagecommand={}]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
 
 \newpage
 
@@ -24,5 +25,10 @@
 
 \newpage
 
+\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf}
+
+\includepdf[pages=-,pagecommand={}]{appendix/CANCAN_Supplementary_material.pdf}
+
 \newpage
 
+\restoregeometry

@@ -270,15 +270,13 @@ complications across glucose metabolism}
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, frame hidden, breakable, enhanced, interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, frame hidden, boxrule=0pt, sharp corners, borderline west={3pt}{0pt}{shadecolor}, enhanced, breakable]}{\end{tcolorbox}}\fi
 
 \mainmatter
 \bookmarksetup{startatroot}
 
-\hypertarget{cover-page}{%
-\chapter*{Cover Page}\label{cover-page}}
-
-\markboth{Cover Page}{Cover Page}
+\hypertarget{section}{%
+\chapter{}\label{section}}
 
 \bookmarksetup{startatroot}
 
@@ -425,7 +423,7 @@ and standardized cardiovascular autonomic reflex tests in identifying
 individuals at risk for cardiovascular disease across all stages of
 glucose metabolism. In doing so, I hope this work contributes to the
 broader effort of improving care for individuals at risk of developing
-diabetes, as well as those living with the diabetes.
+diabetes, as well as those living with diabetes.
 
 \newpage
 
@@ -1206,10 +1204,6 @@ Association (NYHA) classification scores among individuals with T2D.
 \hypertarget{materials-and-methods}{%
 \chapter{Materials and methods}\label{materials-and-methods}}
 
-\newpage
-
-\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
-
 \hypertarget{overview-of-the-studies}{%
 \section{Overview of the studies}\label{overview-of-the-studies}}
 
@@ -1269,8 +1263,6 @@ Missing data & Complete case analysis & Multiple imputation of chained
 equations for confounders & Complete case analysis and multiple
 imputation of chained equations for CART and confounders \\
 \end{longtable}
-
-\restoregeometry
 
 \hypertarget{study-population}{%
 \subsection{Study population}\label{study-population}}
@@ -1860,20 +1852,20 @@ variable, known as the effect modifier\textsuperscript{92}.
 
 In Study I, it was hypothesized that the association between 24-hour and
 arterial stiffness was stronger in strata of progression of diabetes
-(NGM, prediabetes, T2D). Therefore, interaction term between HRV and
-diabetes status was included to observe the size of the association
-across strata.\textsuperscript{75} We did subsidiary analysis in a
-subpopulation without T2D to check if the effect was modified by HbA1c.
-In Study II, the association between multiday HRV and CVD endpoints
-varied by sex was quantified, to explore potential biological
-dimorphism.\textsuperscript{85} In Study III, we aimed to determine
-whether the association between CAN and elevated NT-proBNP is present in
-the subgroup without symptoms, defined as NYHA class \textless{} II.
-Hence, the hypothesis was no significant effect modification between
-groups with and without symptoms. Similarly, whether the association
-remains present in the group classified as low to moderate risk of heart
-failure was explored, based on the WATCH-DM risk
-score.\textsuperscript{86}
+(normal glucose metabolism, prediabetes, T2D). Therefore, interaction
+term between HRV and diabetes status was included to observe the size of
+the association across strata.\textsuperscript{75} We did subsidiary
+analysis in a subpopulation without T2D to check if the effect was
+modified by HbA1c. In Study II, the association between multiday HRV and
+CVD endpoints varied by sex was quantified, to explore potential
+biological dimorphism.\textsuperscript{85} In Study III, we aimed to
+determine whether the association between CAN and elevated NT-proBNP is
+present in the subgroup without symptoms, defined as NYHA class
+\textless{} II. Hence, the hypothesis was no significant effect
+modification between groups with and without symptoms. Similarly,
+whether the association remains present in the group classified as low
+to moderate risk of heart failure was explored, based on the WATCH-DM
+risk score.\textsuperscript{86}
 
 A significant effect modification between the exposure and the effect
 modifier in all analyses was defined as an interaction term with a
@@ -1980,13 +1972,11 @@ worsening glucose metabolism: NGM: 138ms (117, 164), prediabetes: 127ms
 (106, 152), and T2D: 116ms (96, 139). Further description of
 charaterisitcs by diabetes are described in Table~\ref{tbl-ms}.
 
-\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
-
-:::
+\newgeometry{top=2cm, bottom=2cm, inner=0.2cm, outer=0.2cm}
 
 \hypertarget{tbl-ms}{}
 \begin{landscape}\begin{table}
-\caption{\label{tbl-ms}Study charteristics by diabetes status }\tabularnewline
+\caption{\label{tbl-ms}Study charteristics in The Maastricht Study (Study I) by diabetes status }\tabularnewline
 
 \centering\begingroup\fontsize{10}{12}\selectfont
 
@@ -2000,50 +1990,42 @@ N = 746\\
 \midrule
 \cellcolor{gray!6}{Women} & \cellcolor{gray!6}{1,361 (57\%)} & \cellcolor{gray!6}{258 (48\%)} & \cellcolor{gray!6}{265 (36\%)}\\
 Age (years) & 58 (51, 64) & 62 (57, 68) & 63 (57, 68)\\
-\cellcolor{gray!6}{Total physical activity (hours/week)} & \cellcolor{gray!6}{13 (9, 19)} & \cellcolor{gray!6}{13 (9, 19)} & \cellcolor{gray!6}{12 (7, 17)}\\
-Moderate to vigorous physical activity (hours/week) & 5.3 (3.0, 8.3) & 4.5 (2.3, 7.5) & 3.8 (1.5, 6.8)\\
-\cellcolor{gray!6}{BMI (kg/m²)} & \cellcolor{gray!6}{25.0 (22.9, 27.4)} & \cellcolor{gray!6}{27.2 (24.9, 30.1)} & \cellcolor{gray!6}{28.8 (26.0, 31.7)}\\
-\addlinespace
-Waist (cm) & 89 (81, 97) & 98 (90, 105) & 103 (96, 112)\\
+\cellcolor{gray!6}{Moderate to vigorous physical activity (hours/week)} & \cellcolor{gray!6}{5.3 (3.0, 8.3)} & \cellcolor{gray!6}{4.5 (2.3, 7.5)} & \cellcolor{gray!6}{3.8 (1.5, 6.8)}\\
+BMI (kg/m²) & 25.0 (22.9, 27.4) & 27.2 (24.9, 30.1) & 28.8 (26.0, 31.7)\\
 \cellcolor{gray!6}{HbA1c (\%)} & \cellcolor{gray!6}{5.35 (5.17, 5.63)} & \cellcolor{gray!6}{5.63 (5.35, 5.90)} & \cellcolor{gray!6}{6.54 (6.08, 7.09)}\\
-Fasting plasma glucose (mmol/L) & 5.10 (4.80, 5.40) & 5.90 (5.40, 6.30) & 7.40 (6.60, 8.50)\\
-\cellcolor{gray!6}{LDL (mmol/L)} & \cellcolor{gray!6}{3.20 (2.70, 3.90)} & \cellcolor{gray!6}{3.30 (2.60, 4.00)} & \cellcolor{gray!6}{2.40 (1.80, 3.10)}\\
-HDL (mmol/L) & 1.60 (1.30, 2.00) & 1.40 (1.20, 1.80) & 1.30 (1.00, 1.50)\\
 \addlinespace
+HDL (mmol/L) & 1.60 (1.30, 2.00) & 1.40 (1.20, 1.80) & 1.30 (1.00, 1.50)\\
 \cellcolor{gray!6}{Total cholesterol (mmol/L)} & \cellcolor{gray!6}{5.50 (4.80, 6.20)} & \cellcolor{gray!6}{5.50 (4.80, 6.30)} & \cellcolor{gray!6}{4.50 (3.90, 5.20)}\\
 Triglycerides (mmol/L) & 1.05 (0.80, 1.45) & 1.39 (1.03, 1.90) & 1.51 (1.08, 2.14)\\
 \cellcolor{gray!6}{Duration of type-2 diabetes (only for diagnosed participants)} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{3 (0, 9)}\\
 Mean IBI (ms) & 838 (775, 907) & 815 (760, 897) & 806 (744, 889)\\
+\addlinespace
 \cellcolor{gray!6}{SDNN (ms)} & \cellcolor{gray!6}{138 (117, 164)} & \cellcolor{gray!6}{127 (106, 152)} & \cellcolor{gray!6}{116 (96, 139)}\\
-\addlinespace
 RMSSD (ms) & 26 (21, 34) & 24 (19, 33) & 22 (17, 31)\\
-\cellcolor{gray!6}{SDANN (ms)} & \cellcolor{gray!6}{125 (103, 149)} & \cellcolor{gray!6}{113 (92, 139)} & \cellcolor{gray!6}{103 (84, 127)}\\
-SDNNi (ms) & 55 (46, 65) & 50 (41, 60) & 44 (36, 54)\\
-\cellcolor{gray!6}{pNN50 (\%)} & \cellcolor{gray!6}{7 (3, 13)} & \cellcolor{gray!6}{5 (2, 10)} & \cellcolor{gray!6}{4 (2, 9)}\\
-TP (ms²) & 12,596 (8,880, 17,498) & 10,615 (7,134, 15,374) & 8,880 (6,064, 12,722)\\
+\cellcolor{gray!6}{TP (ms²)} & \cellcolor{gray!6}{12,596 (8,880, 17,498)} & \cellcolor{gray!6}{10,615 (7,134, 15,374)} & \cellcolor{gray!6}{8,880 (6,064, 12,722)}\\
+ULF (ms²) & 10,771 (7,392, 15,142) & 8,948 (5,852, 13,374) & 7,524 (5,036, 11,001)\\
+\cellcolor{gray!6}{VLF (ms²)} & \cellcolor{gray!6}{1,198 (833, 1,692)} & \cellcolor{gray!6}{1,015 (685, 1,478)} & \cellcolor{gray!6}{816 (541, 1,267)}\\
 \addlinespace
-\cellcolor{gray!6}{ULF (ms²)} & \cellcolor{gray!6}{10,771 (7,392, 15,142)} & \cellcolor{gray!6}{8,948 (5,852, 13,374)} & \cellcolor{gray!6}{7,524 (5,036, 11,001)}\\
-VLF (ms²) & 1,198 (833, 1,692) & 1,015 (685, 1,478) & 816 (541, 1,267)\\
-\cellcolor{gray!6}{LF (ms²)} & \cellcolor{gray!6}{421 (257, 651)} & \cellcolor{gray!6}{328 (200, 540)} & \cellcolor{gray!6}{261 (154, 422)}\\
 HF (ms²) & 94 (57, 158) & 78 (47, 138) & 63 (36, 117)\\
 \cellcolor{gray!6}{Systolic blood pressure (mmHg)} & \cellcolor{gray!6}{123 (114, 133)} & \cellcolor{gray!6}{129 (122, 140)} & \cellcolor{gray!6}{130 (122, 139)}\\
-\addlinespace
 Diastolic blood pressure (mmHg) & 75 (71, 80) & 78 (73, 83) & 76 (72, 81)\\
 \cellcolor{gray!6}{Mean arterial pressure (mmHg)} & \cellcolor{gray!6}{95 (88, 102)} & \cellcolor{gray!6}{99 (93, 107)} & \cellcolor{gray!6}{98 (92, 105)}\\
 Carotid artery distensibility (10-3/kPa) & 15.0 (11.8, 18.8) & 13.5 (10.4, 16.9) & 12.5 (9.9, 16.0)\\
+\addlinespace
 \cellcolor{gray!6}{Carotid-femoral pulse wave velocity (m/s)} & \cellcolor{gray!6}{8.08 (7.28, 9.16)} & \cellcolor{gray!6}{8.96 (7.84, 10.32)} & \cellcolor{gray!6}{9.36 (8.16, 10.80)}\\
 Glucose-lowering medication & 0 (0\%) & 0 (0\%) & 519 (70\%)\\
-\addlinespace
 \cellcolor{gray!6}{Antihypertensive medication} & \cellcolor{gray!6}{431 (18\%)} & \cellcolor{gray!6}{199 (37\%)} & \cellcolor{gray!6}{478 (64\%)}\\
 Beta blockers & 149 (6.2\%) & 77 (14\%) & 195 (26\%)\\
 \cellcolor{gray!6}{Lipid-lowering medication} & \cellcolor{gray!6}{280 (12\%)} & \cellcolor{gray!6}{141 (26\%)} & \cellcolor{gray!6}{484 (65\%)}\\
 \bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}makecell[l]{Categorical variables: N (\%); Continous variables: Median (IQT:25th-75th)\    Table are adapted from supplementary material in Appendix Study I}}\\
 \end{tabular}}
 \endgroup{}
 \end{table}
 \end{landscape}
 
-::: \restoregeometry
+\restoregeometry
 
 \hypertarget{hour-hrv-and-arterial-stiffness}{%
 \subsection{24-hour HRV and arterial
@@ -2197,7 +2179,8 @@ SDNN levels.
 
 \hypertarget{tbl-add}{}
 \begin{landscape}\begin{table}
-\caption{\label{tbl-add}Study participants charteristics }\tabularnewline
+\caption{\label{tbl-add}Study characteristics in The ADDITION-PRO Study (Study II) by SDNN
+categories }\tabularnewline
 
 \centering\begingroup\fontsize{10}{12}\selectfont
 
@@ -2238,6 +2221,8 @@ Resting heart rate (bpm) & 57.3 (7.3) & 67.8 (5.7) & 63.3 (5.0) & 58.4 (4.5) & 5
 \addlinespace
 \cellcolor{gray!6}{Anti-hypertensive medication (yes)} & \cellcolor{gray!6}{753 (47\%)} & \cellcolor{gray!6}{88 (61\%)} & \cellcolor{gray!6}{149 (48\%)} & \cellcolor{gray!6}{216 (47\%)} & \cellcolor{gray!6}{147 (43\%)} & \cellcolor{gray!6}{153 (43\%)}\\
 \bottomrule
+\multicolumn{7}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{7}{l}{\rule{0pt}{1em}makecell[l]{Categorical variables: N (\%); Continous variables: Median (IQT:25th-75th\                         Table are based on data from Study II}}\\
 \end{tabular}}
 \endgroup{}
 \end{table}
@@ -2391,6 +2376,63 @@ years), had longer duration of T2D (median 19 years vs 15 years), and
 higher use SGTL2-inhibitors (65\% vs 60\%) but lower use of GLP-1 RA
 (63\% vs 70\%). No other difference in clinical characteristic was
 observed.\textsuperscript{86}
+
+\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
+
+\hypertarget{tbl-can}{}
+\begin{landscape}\begin{table}
+\caption{\label{tbl-can}Study characteristics in The CANCAN Study (Study IIY) by CAN status }\tabularnewline
+
+\centering\begingroup\fontsize{10}{12}\selectfont
+
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{llllll}
+\toprule
+CAN status & Missing & Overall, N = 176 & CAN missing, N = 40 & No CAN, N = 82 & CAN, N = 54\\
+\midrule
+\cellcolor{gray!6}{Sex (Women)} & \cellcolor{gray!6}{0} & \cellcolor{gray!6}{68 (39\%)} & \cellcolor{gray!6}{19 (48\%)} & \cellcolor{gray!6}{27 (33\%)} & \cellcolor{gray!6}{22 (41\%)}\\
+Age (years) & 0 & 63 (55; 70) & 68 (61; 75) & 61 (52; 69) & 62 (56; 68)\\
+\cellcolor{gray!6}{BMI (kg/m²)} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{32 (28; 37)} & \cellcolor{gray!6}{30 (26; 34)} & \cellcolor{gray!6}{33 (28; 38)} & \cellcolor{gray!6}{33 (30; 36)}\\
+Duration of diabetes (years) & 0 & 17 (11; 24) & 20 (13; 30) & 15 (9; 21) & 19 (13; 24)\\
+\cellcolor{gray!6}{HbA1c (mmol/mol)} & \cellcolor{gray!6}{0} & \cellcolor{gray!6}{64 (56; 80)} & \cellcolor{gray!6}{65 (56; 85)} & \cellcolor{gray!6}{64 (55; 78)} & \cellcolor{gray!6}{64 (57; 76)}\\
+\addlinespace
+Total cholesterol (mmol/L) & 2 & 3.90 (3.23; 4.78) & 3.70 (3.33; 4.18) & 4.10 (3.33; 4.88) & 3.75 (3.03; 4.98)\\
+\cellcolor{gray!6}{HDL (mmol/L)} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{1.00 (0.88; 1.20)} & \cellcolor{gray!6}{1.00 (0.90; 1.30)} & \cellcolor{gray!6}{1.00 (0.90; 1.20)} & \cellcolor{gray!6}{0.97 (0.80; 1.18)}\\
+Triglycerides (mmol/L) & 3 & 2.00 (1.30; 2.90) & 2.10 (1.10; 2.80) & 1.95 (1.30; 2.90) & 2.05 (1.40; 2.98)\\
+\cellcolor{gray!6}{Systolic blood pressure (mmHg)} & \cellcolor{gray!6}{1} & \cellcolor{gray!6}{133 (123; 143)} & \cellcolor{gray!6}{135 (127; 147)} & \cellcolor{gray!6}{131 (123; 142)} & \cellcolor{gray!6}{133 (120; 143)}\\
+Diastolic blood pressure (mmHg) & 1 & 76 (68; 82) & 73 (66; 79) & 78 (72; 83) & 74 (66; 82)\\
+\addlinespace
+\cellcolor{gray!6}{Resting heart rate (bpm)} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{77 (66; 84)} & \cellcolor{gray!6}{68 (62; 80)} & \cellcolor{gray!6}{78 (69; 84)} & \cellcolor{gray!6}{80 (67; 89)}\\
+CARTS &  &  &  &  & \\
+\cellcolor{gray!6}{Lying to standing (RR ratio)} & \cellcolor{gray!6}{8} & \cellcolor{gray!6}{1.02 (1.01; 1.06)} & \cellcolor{gray!6}{1.03 (1.02; 1.05)} & \cellcolor{gray!6}{1.05 (1.01; 1.08)} & \cellcolor{gray!6}{1.01 (1.00; 1.02)}\\
+Deep breathing (RR ratio) & 4 & 1.13 (1.07; 1.26) & 1.15 (1.10; 1.28) & 1.18 (1.11; 1.30) & 1.07 (1.03; 1.08)\\
+\cellcolor{gray!6}{Valsalva maneuver (RR ratio)} & \cellcolor{gray!6}{45} & \cellcolor{gray!6}{1.24 (1.13; 1.36)} & \cellcolor{gray!6}{1.20 (1.14; 1.25)} & \cellcolor{gray!6}{1.32 (1.25; 1.45)} & \cellcolor{gray!6}{1.11 (1.08; 1.16)}\\
+\addlinespace
+NT-proBNP (pg/ml) categories & 0 &  &  &  & \\
+\cellcolor{gray!6}{    < 50} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{72 (41\%)} & \cellcolor{gray!6}{10 (25\%)} & \cellcolor{gray!6}{47 (57\%)} & \cellcolor{gray!6}{15 (28\%)}\\
+    50-124 &  & 38 (22\%) & 11 (28\%) & 16 (20\%) & 11 (20\%)\\
+\cellcolor{gray!6}{125-300} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{28 (16\%)} & \cellcolor{gray!6}{7 (18\%)} & \cellcolor{gray!6}{10 (12\%)} & \cellcolor{gray!6}{11 (20\%)}\\
+> 300 &  & 38 (22\%) & 12 (30\%) & 9 (11\%) & 17 (31\%)\\
+\addlinespace
+\cellcolor{gray!6}{Leisure physical activity} & \cellcolor{gray!6}{15} & \cellcolor{gray!6}{68 (42\%)} & \cellcolor{gray!6}{17 (50\%)} & \cellcolor{gray!6}{27 (36\%)} & \cellcolor{gray!6}{24 (45\%)}\\
+(Sedentary lifestyle vs non-sedentary lifestyle) &  &  &  &  & \\
+\cellcolor{gray!6}{Any antihypertensive medication (yes)} & \cellcolor{gray!6}{0} & \cellcolor{gray!6}{140 (80\%)} & \cellcolor{gray!6}{33 (83\%)} & \cellcolor{gray!6}{61 (74\%)} & \cellcolor{gray!6}{46 (85\%)}\\
+Beta-blockers (yes) & 0 & 52 (30\%) & 11 (28\%) & 19 (23\%) & 22 (41\%)\\
+\cellcolor{gray!6}{Glucose-lowering medication} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{} & \cellcolor{gray!6}{}\\
+\addlinespace
+Metformin (yes) & 0 & 123 (70\%) & 26 (65\%) & 56 (68\%) & 41 (76\%)\\
+\cellcolor{gray!6}{SGLT2-inhibitors (yes)} & \cellcolor{gray!6}{0} & \cellcolor{gray!6}{81 (46\%)} & \cellcolor{gray!6}{12 (30\%)} & \cellcolor{gray!6}{40 (49\%)} & \cellcolor{gray!6}{29 (54\%)}\\
+GLP1 RAs (yes) & 0 & 91 (52\%) & 15 (38\%) & 47 (57\%) & 29 (54\%)\\
+\cellcolor{gray!6}{Insulin (yes)} & \cellcolor{gray!6}{0} & \cellcolor{gray!6}{140 (80\%)} & \cellcolor{gray!6}{33 (83\%)} & \cellcolor{gray!6}{66 (80\%)} & \cellcolor{gray!6}{41 (76\%)}\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}makecell[l]{Categorical variables: N (\%); Continous variables: Median (IQT:25th-75th\ Table are adapted from Table 1 in Appendix Study III}}\\
+\end{tabular}}
+\endgroup{}
+\end{table}
+\end{landscape}
+
+\restoregeometry
 
 \hypertarget{can-and-indicators-of-heart-failure}{%
 \subsection{CAN and indicators of heart
@@ -5004,10 +5046,11 @@ kliniske og generelle populationer.
 \section{Study I}\label{study-i-1}}
 
 \newpage
+\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
-\includepdf[pages=-]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
+\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study.pdf}
 
-\includepdf[pages=-]{appendix/Supplemental_Material_MS.pdf}
+\includepdf[pages=-,pagecommand={}]{appendix/Supplemental_Material_MS.pdf}
 
 \newpage
 
@@ -5016,9 +5059,9 @@ kliniske og generelle populationer.
 
 \newpage
 
-\includepdf[pages=-]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
+\includepdf[pages=-,pagecommand={}]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
 
-\includepdf[pages=-]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
+\includepdf[pages=-,pagecommand={}]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
 
 \newpage
 
@@ -5027,7 +5070,13 @@ kliniske og generelle populationer.
 
 \newpage
 
+\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf}
+
+\includepdf[pages=-,pagecommand={}]{appendix/CANCAN_Supplementary_material.pdf}
+
 \newpage
+
+\restoregeometry
 
 
 \backmatter

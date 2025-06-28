@@ -19,12 +19,11 @@ In this section, study population characteristics and findings from analysis wil
 In The Maastricht Study, 7,449 participants were included between November 2010 and December 2020, of whom 1,316 reported a history of CVD.[@schaarup2024] Participants who had valid 24-hour HRV measured was 4379 and of those 3673 had a valid measurement of either CD or cf-PWV. Study population included 3673 participants. Further characteristic are described in the study in manuscript Table 1 in Appendix Study I.[@schaarup2024] The study population represented diabetes risk of NGM (65%), prediabetes (15%), and T2D (20%). The median (IQR) cf-PWV (aortic stiffness) became higher with diabetes status: NGM: 8.08 m/s (7.28, 9.16), prediabetes: 8.96 m/s (7.84, 10.32), and T2D: 9.36 m/s (8.16, 10.80). CD (carotid stiffness) decreased: NGM: 15.0 (11.8, 18.8), prediabetes: 13.5 (10.4, 16.9), and T2D: 12.5 (9.9, 16.0) × 10⁻³/kPa. SDNN (ms) was highest in NGM and lowered with worsening glucose metabolism: NGM: 138ms (117, 164), prediabetes: 127ms (106, 152), and T2D: 116ms (96, 139). Further description of charaterisitcs by diabetes are described in @tbl-ms.
 
 \newgeometry{top=2cm, bottom=2cm, inner=0.2cm, outer=0.2cm}
-::: 
 ```{r}
 #| echo: false
 #| warning: false
 #| message: false
-#| tbl-cap: "Study charteristics by diabetes status"
+#| tbl-cap: "Study charteristics in The Maastricht Study (Study I) by diabetes status"
 #| label: tbl-ms
 
 library(vroom)
@@ -39,10 +38,12 @@ table_mas %>%
     kableExtra::kable_styling(
     latex_options = c("striped", "scale_down"), 
     #full_width = TRUE, 
-    font_size = 10)%>% 
-    kableExtra::landscape()
+    font_size = 10
+    )%>% 
+    kableExtra::landscape() %>% 
+    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th)\
+    Table are adapted from supplementary material in Appendix Study I")
 ```
-:::
 \restoregeometry
 
 ### 24-hour HRV and arterial stiffness
@@ -59,7 +60,7 @@ In the fully adjusted model 2, cf-PWV was 2.8% (CI: 2.1; 3.5) lower, while CD wa
 
 ![](images/figure3_linear_plot.pdf)
 
-*A: Percentage PWV per SD in time-domain composite z-score B: Percentage PWV per SD in frequency-domain composite z-score C: Percentage higher CD per SD in time-domain composite z-score D: Percentage CD per SD in frequency-domain composite z-score. All regression lines were adjusted for being a male, 60 years old, low educational level, without prediabetes or type-2 diabetes, and with 96mmHg mean arterial pressure. From Figure 1 in Appendix Study I[@schaarup2024]*
+*A: Percentage PWV per SD in time-domain composite z-score B: Percentage PWV per SD in frequency-domain composite z-score C: Percentage higher CD per SD in time-domain composite z-score D: Percentage CD per SD in frequency-domain composite z-score. All regression lines were adjusted for being a male, 60 years old, low educational level, without prediabetes or type-2 diabetes, and with 96mmHg MAP. From Figure 1 in Appendix Study I[@schaarup2024]*
 :::
 
 ### Effect modification of diabetes status
@@ -75,7 +76,7 @@ As no stepwise increase was observed in the modification of glucose metabolism s
 
 ![](images/em_hba1c.pdf)
 
-*A: Percentage PWV per SD in time-domain composite z-score B: Percentage PWV per SD in frequency-domain composite z-score C: Percentage higher CD per SD in time-domain composite z-score D: Percentage CD per SD in frequency-domain composite z-score. Model adjusted for sex, age, educational status, diabetes status, and mean arterial pressure, physical activity, smoking behaviour, alcohol use, body mass index, hba1c, triglycerides, total-to-high density lipoprotein cholesterol ratio, lipid-modifying- and antihypertensive medication. Figure was based on data in Study I[@schaarup2024]*
+*A: Percentage PWV per SD in time-domain composite z-score B: Percentage PWV per SD in frequency-domain composite z-score C: Percentage higher CD per SD in time-domain composite z-score D: Percentage CD per SD in frequency-domain composite z-score. Model adjusted for sex, age, educational status, diabetes status, and MAP, physical activity, smoking behaviour, alcohol use, body mass index, hba1c, triglycerides, total-to-high density lipoprotein cholesterol ratio, lipid-modifying- and antihypertensive medication. Figure was based on data in Study I[@schaarup2024]*
 :::
 \restoregeometry
 
@@ -85,51 +86,35 @@ As no stepwise increase was observed in the modification of glucose metabolism s
 
 The ADDITION-PRO population consisted of 1,627 participant with a least 48-hour HRV measures, while 1,432 had all hour represented with hourly HRV and physical acceleration. The study population included different tiers of diabetes risk: 154 individuals at low risk (9%), 889 at high risk (51%), 314 with impaired fasting glucose (IFG) (18%), 226 with impaired glucose tolerance (IGT) (13%), and 161 with both IFG and IGT (9%). SDNN was splitted into categories by very-low (SDNN\< 100 ms), low (SDNN 100-120 ms), middle (SDNN 121-140 ms), high (SDNN 141-160 ms) and very-high (SDNN \>160 ms).
 
-Charteristics are desribed in @tbl-add. Participants in the lowest SDNN group (\<100 ms) were older (67.4 ± 6.9 years), had higher BMI (28.1 ± 5.4), HbA1c (5.9 ± 0.9), triglycerides (1.5 ± 0.9 mmol/L), and resting heart rate (67.8 ± 5.7 bpm), were more likely to use anti-hypertensive medication (61%), and had lower physical activity energy expenditure (46.8 ± 24.0 kJ/day) compared to those with higher SDNN levels.
+Charteristics are desribed in @tbl-add. Participants in the lowest SDNN group (\<100 ms) were older (67.4 ± 6.9 years), had higher BMI (28.1 ± 5.4), HbA1c (5.9 ± 0.9), triglycerides (1.5 ± 0.9 mmol/L), and rHR (67.8 ± 5.7 bpm), were more likely to use anti-hypertensive medication (61%), and had lower physical activity energy expenditure (46.8 ± 24.0 kJ/day) compared to those with higher SDNN levels.
 
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 ```{r}
 #| echo: false
 #| warning: false
 #| message: false
-#| tbl-cap: "Study participants charteristics"
+#| tbl-cap: "Study characteristics in The ADDITION-PRO Study (Study II) by SDNN categories"
 #| label: tbl-add
 
 
 table_add_pro <- readxl::read_xlsx(here("tables/table_1_dis.xlsx"))
 
 table_add_pro[-nrow(table_add_pro), ] %>% 
-  # dplyr::filter(!`**Characteristic**` %in% c("Ethnicity",
-  #                                            "White",
-  #                                            "Non-white",
-  #                                            "Education",
-  #                                            "Low (No education, (un)completed primary education, or lower vocational education)",
-  #                                            "Middle (intermediate vocational education or higher secondary education)",
-  #                                            "High (Higher vocational education or university education)",
-  #                                            "None", 
-  #                                            "Alcohol consumption",
-  #                                            "Low (Women: ≤ 7, Men: ≤ 14)", 
-  #                                            "High (Women: > 7, Men: > 14)",
-  #                                            "Low (Women: â‰¤ 7, Men: â‰¤ 14)",
-  #                                            "Smoking status", "Never", 
-  #                                            "Former (quit > 6 months ago)", 
-  #                                            "Former (quit < 6 months ago)", 
-  #                                            "Current",  
-  #                                            "ECGvar_LFHF", "ECGvar_NN50", 
-  #                                            "ECGvar_SDSD", "med_DM")) %>%
       mutate_all(~ ifelse(is.na(.), "", .)) %>% 
     kableExtra::kbl(booktabs = TRUE) %>%
     kableExtra::kable_styling(
     latex_options = c("striped", "scale_down"), 
     #full_width = TRUE, 
     font_size = 10) %>% 
-    kableExtra::landscape()
+    kableExtra::landscape()%>% 
+    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th\
+                         Table are based on data from Study II")
 ```
 \restoregeometry
 
 ### Multiday HRV and MACE, heart failure, and all-cause mortality.
 
-The mean multiday SDNN was 139.0 (32.3) ms, and the mean heart rate was 73.5 (9.1) bpm[@schaarup2024b]. In the fully adjusted model, SDNN per SD was associated with a lower incidence rate ratio (IRR) for MACE 0.82 (CI: 0.69; 0.97), heart failure 0.76 (CI: 0.58; 0.99), and mortality rate ratio of 0.79 (CI: 0.66; 0.94)[@schaarup2024b]. In model with pre-adjustment for resting heart rate, the proportion of the association explained between HRV and MACE, HF, and all-cause mortality was 14%, 25%, and 19%, respectively[@schaarup2024b]. When knots were included in the model, the risk higher as SDNN dropped below approximately 120–110 ms (around the 20th percentile), suggesting a potential threshold for elevated risk[@schaarup2024b]. Therefore, incidence rate (IR) was calculated at SDNN levels of 100 ms, 120 ms, and 160 ms, respectively, and plotted these as a function of age.
+The mean multiday SDNN was 139.0 (32.3) ms, and the mean heart rate was 73.5 (9.1) bpm[@schaarup2024b]. In the fully adjusted model, SDNN per SD was associated with a lower incidence rate ratio (IRR) for MACE 0.82 (CI: 0.69; 0.97), heart failure 0.76 (CI: 0.58; 0.99), and mortality rate ratio of 0.79 (CI: 0.66; 0.94)[@schaarup2024b]. In model with pre-adjustment for rHR, the proportion of the association explained between HRV and MACE, HF, and all-cause mortality was 14%, 25%, and 19%, respectively[@schaarup2024b]. When knots were included in the model, the risk higher as SDNN dropped below approximately 120–110 ms (around the 20th percentile), suggesting a potential threshold for elevated risk[@schaarup2024b]. Therefore, incidence rate (IR) was calculated at SDNN levels of 100 ms, 120 ms, and 160 ms, respectively, and plotted these as a function of age.
 
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 ::: {#fig-addprohrv fig-cap="**Multiday SDNN and mean HR association with major adverse cardiovascular events, heart failure, and all-cause mortality**" fig-align="center"}
@@ -163,6 +148,32 @@ In @fig-ADD_PRO_risk_by_hour, I observe hourly SDNN (preadjusted for heart rate 
 ### Descriptive
 
 In study III, 176 participants had measures of NT-proBNP. CAN was present in 31% (n = 54) of participants (36% among those with valid CAN measurements (@fig-CAN A)).[@schaarup2025] Meanwhile, 23% (n = 40) were unable to complete the CART assessment adequately, primarily due to insufficient air pressure during the Valsalva manoeuvre (n = 21).[@schaarup2025] Compare to those without CAN, the participants with CAN were more women (41 % vs 33 %), were more sedentary (45% vs 36%), had a higher proportion with prior major CVD (41% vs 23%) and declined eGFR (< 60ml/min/1.73 m$^2$) (35% vs 22%), higher levels of triglyceride (median 2.05 mmol/L vs 1.95 mmol/ L), were slightly older (median 62 years vs 61 years), had longer duration of T2D (median 19 years vs 15 years), and higher use SGTL2-inhibitors (65% vs 60%) but lower use of GLP-1 RA (63% vs 70%). No other difference in clinical characteristic was observed.[@schaarup2025]
+
+\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| tbl-cap: "Study characteristics in The CANCAN Study (Study IIY) by CAN status"
+#| label: tbl-can
+
+
+table_can<- readxl::read_xlsx(here("tables/cancan_tab.xlsx"))
+
+table_can[-nrow(table_can), ] %>% 
+      mutate_all(~ ifelse(is.na(.), "", .)) %>% 
+    kableExtra::kbl(booktabs = TRUE) %>%
+    kableExtra::kable_styling(
+    latex_options = c("striped", "scale_down"), 
+    #full_width = TRUE, 
+    font_size = 10) %>% 
+    kableExtra::landscape()%>% 
+    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th\
+ Table are adapted from Table 1 in Appendix Study III")
+
+
+```
+\restoregeometry
 
 ### CAN and indicators of heart failure
 

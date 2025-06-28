@@ -8,6 +8,7 @@
 **cf-PWV:** Carotid-femoral pulse wave velocity  
 **CI:** Confidence interval  
 **CVD:** Cardiovascular disease  
+**ECG:** Electrocardiogram
 **eGFR:** Estimated glomerular filtration rate  
 **FPG:** Fasting plasma glucose  
 **GLP1RA:** Glucagon-like peptide-1 receptor agonists  
@@ -17,7 +18,8 @@
 **IRR:** Incidence rate ratio  
 **HbA1c:** Haemoglobin-A1c  
 **LDL-C:** Low-density lipoprotein cholesterol  
-**MACE:** Three-point major adverse cardiovascular events   
+**MACE:** Three-point major adverse cardiovascular events 
+**MAP:** Mean arterial pressure
 **NGM:** Normal glucose metabolism    
 **NT-proBNP:** N-terminal pro-B-type natriuretic peptide
 **OGTT:** Oral glucose tolerance test  
@@ -40,6 +42,4 @@
 **LF:** Low-frequency range (0.04–0.15 Hz)  
 **HF:** High-frequency range (0.15–0.4 Hz)  
 **T2D:** Type 2 diabetes mellitus  
-**TC:** Total cholesterol  
-**TG:** Triglycerides  
-**UACR:** Urine albumin-to-creatinine ratio  
+  
