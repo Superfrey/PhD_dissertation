@@ -1,6 +1,5 @@
 # Abbreviations {.unnumbered}
 
-
 **BMI:** Body mass index  
 **CAN:** Cardiovascular autonomic neuropathy  
 **CARTs:** Cardiovascular autonomic reflex tests    
