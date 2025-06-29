@@ -13,5 +13,5 @@ visibility: hidden
 #| out-width: 100%
 #| echo: false
 
-knitr::include_graphics("Images/au_health.png")
+knitr::include_graphics("images/au_health.png")
 ```
