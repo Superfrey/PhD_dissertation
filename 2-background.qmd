@@ -1,12 +1,12 @@
 ---
-title: "Background"
+title: " Background"
 ---
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+
 
 This background introduces the concept of type 2 diabetes (T2D) and its associated cardiovascular risk. An overview is then provided of various cardiovascular complications, including arteriosclerosis, atherosclerosis, and heart failure. Finally, cardiovascular autonomic function (autonomic function) is described, along with its potential to enhance our understanding of cardiovascular disease (CVD).
 
@@ -75,8 +75,8 @@ Current cardiopreventive guidelines place strong emphasis on prevention and trea
 Autonomic dysfunction despite its relationship with cardiovascular complication has not been used in clinical practice in Denmark. Larger epidemiological cohort studies encompassing various stages of diabetes risk, from to prediabetes, onset of T2D, and longer term progression of T2D, serve as valuable resources for identifying risk-stratification opportunities. Epidemiological studies provide a broad representation of the target population, enabling an understanding of the relationship between autonomic dysfunction and cardiovascular complications across different levels of care: public health, primary care, and secondary care. By utilizing observational cohorts, we have the potential to determine when, along the trajectory of diabetes progression, autonomic function becomes a meaningful factor for cardiovascular risk stratification.[@franks2023]
 
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+

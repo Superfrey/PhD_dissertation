@@ -1,5 +1,5 @@
 ---
-title: "Aim and hypothesis"
+title: " Aim and hypothesis"
 format: 
     html:
        theme: journal
@@ -8,11 +8,11 @@ editor: visual
 ---
 
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+
 
 The overarching hypothesis of this dissertation are that:
 
@@ -29,8 +29,8 @@ Study II: Quantify the longitudinal association of multiday and hourly HRV with 
 Study III: Quantify the cross-sectional association between CAN and heart failure. Heart failure will be defined by clinical measures i.e. N-terminal-pro-BNP (NT-proBNP), WATCH-DM risk, and New York Heart Association (NYHA) classification scores among individuals with T2D.
 
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+

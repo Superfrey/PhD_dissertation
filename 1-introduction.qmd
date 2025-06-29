@@ -1,12 +1,11 @@
 ---
-title: "Introduction"
+title: " Introduction"
 ---
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
 
 Diabetes mellitus is a growing global health concern, posing pressing challenges for public health systems.[@diabetes2025] As prevalence increases, more individuals are exposed to a higher risk of premature mortality and cardiovascular disease (CVD).[@diabetes2025] At the same time, individuals are living longer with diabetes and therefore endure extended periods under the burden of diabetes-related complications.[@magliano2022] Despite advancements in cardiovascular care, coronary artery disease and heart failure are still often detected at more advanced stages, such as during ischemia, major cardiovascular events, or the onset of symptomatic heart failure in patients with diabetes.[@zamana;@pop-busui2022]
 
@@ -16,8 +15,7 @@ In the past, measuring HRV needed special instruments like an electrocardiogram.
 
 The overall aim of this dissertation is to understand how cardiovascular autonomic dysfunction/CAN affects cardiovascular disease risk (i.e. heart failure, stroke, myocardial infarction) and specific subclinical markers of CVD: carotid-femoral pulse wave velocity and carotid artery distensibility in populations covering the whole glycemic continuum, from healthy glucose metabolism to type 2 diabetes.
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage

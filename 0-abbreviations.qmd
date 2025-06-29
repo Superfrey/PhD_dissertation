@@ -11,7 +11,8 @@
 **ECG:** Electrocardiogram  
 **eGFR:** Estimated glomerular filtration rate  
 **FPG:** Fasting plasma glucose  
-**GLP1RA:** Glucagon-like peptide-1 receptor agonists  
+**GLP1RA:** Glucagon-like peptide-1 receptor agonists     
+**GWAS:** Genome-Wide Association Studies           
 **HbA1c:** Haemoglobin-A1c  
 **HDL:** High-density lipoprotein cholesterol  
 **HF:** High-frequency range (0.15–0.4 Hz)  

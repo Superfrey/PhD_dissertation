@@ -1,14 +1,19 @@
 
 # Appendix {#sec-more-results}
 
-
-## Study I
-
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+
+# Study I
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
+
 
 \newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
@@ -19,12 +24,24 @@
 \newpage
 \restoregeometry
 
-## Study II
+\newpage
+
+\thispagestyle{empty}
 
 \newpage
+
+# Study II
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
 \newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
 \includepdf[pages=-,pagecommand={}]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
+
+
 
 \includepdf[pages=-,pagecommand={}]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
 
@@ -33,7 +50,11 @@
 
 ## Study III
 
-\newpage
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
 \newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
 \includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf}
@@ -48,13 +69,18 @@
 
 # Declaration of co-authorship {#sec-more-results}
 
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
 \newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
 \includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_dissertations_Maastricht_Study DW.pdf}
 
 \includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_ADDITION_PRO DW.pdf}
 
-\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_CANCAN DW.pdf}
+\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/cancan_phd_signed.pdf}
 
 \restoregeometry
 

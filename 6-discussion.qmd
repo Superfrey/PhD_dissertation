@@ -3,11 +3,11 @@ title: "Discussion"
 ---
 
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+
 
 The aim of this dissertation is to understand how cardiovascular autonomic dysfunction and CAN affect the risk of CVD across stages of glucose metabolism. Given the rising prevalence of prediabetes and T2D, and their association with increased risks of CVD and heart failure, there is a pressing need for earlier indicators to help healthcare providers intervene in a timely manner and prevent progression to more advanced stages of cardiovascular complications. One promising approach involves leveraging data from wearable devices and standardized screening tools. Heart rate dynamics and variability across different circumstances may hold promise as accessible indicators for timely cardiovascular risk stratification.
 

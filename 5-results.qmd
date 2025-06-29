@@ -1,5 +1,5 @@
 ---
-title: "Results"
+title: " Results"
 format: 
     html:
        theme: journal
@@ -8,11 +8,11 @@ editor: visual
 bibliography: references.bib
 ---
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+
 
 In this section, study population characteristics and findings from analysis will be presented.
 

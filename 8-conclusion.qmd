@@ -2,11 +2,10 @@
 title: "Conclusion"
 ---
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
 
 This dissertation has investigated how autonomic dysfunction, assessed by HRV and CARTs, is associated with cardiovascular complications across different stages of glucose metabolism. The findings support the hypothesis that autonomic dysfunction is an early and independent marker of cardiovascular risk.
 
@@ -17,8 +16,7 @@ Early detection is important, as CVD and heart failure are associated with reduc
 Modern epidemiological methods, e.g. mediation analysis and Mendelian randomization, are needed to ascertain causality. Moreover, further research is needed to determine the clinical utility of long-term HRV and CARTs in risk stratification, including their potential to timely initiate individually adapted health assessment or intervention.
 
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage

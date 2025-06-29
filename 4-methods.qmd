@@ -1,12 +1,12 @@
 ---
-title: "Materials and methods"
+title: " Materials and methods"
 ---
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+
 
 ## Overview of the studies
 
@@ -243,9 +243,8 @@ In Study II, autonomic function was assessed using multiday HRV recordings and h
 In Study III, kidney function and overweight are known to influence NT-proBNP levels independently of heart failure.[@heidenreich2022] The model was adjusted to account for the confounding effect of eGFR on NT-proBNP levels in the analysis.[@schaarup2025]
 
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
 

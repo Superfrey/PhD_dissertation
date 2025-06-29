@@ -2,11 +2,11 @@
 title: "Perspective"
 ---
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+
 
 This dissertation has investigated the impact of autonomic function on cardiovascular complications across different stages of glucose metabolism. Understanding when and how physiological signals reflect elevated CVD risk is essential for the development of early and effective prevention strategies. The incorporation of HRV into digital health solutions could be used to support personalized feedback mechanisms, enabling timely lifestyle or therapeutic interventions and contributing to more adaptive and preventive healthcare strategies. Based on the findings and conclusions, further perspectives are proposed to define its role in research and healthcare from three aspects: (1) continuous non-invasive health monitoring, (2) risk stratification, and (3) identification as a causal and modifiable marker.
 
@@ -68,8 +68,7 @@ To address these limitations, modern epidemiological methods such as Mendelian r
 Future cardiometabolic intervention trials and longitudinal cohorts, whether focused on lifestyle or pharmacological strategies, should, where feasible, include repeated HRV measurements.[@schaarup2024] In trials, structured mediation analyses are enabled and used to determine whether modifying autonomic function is associated with sustained improvements in cardiovascular outcomes. Such evidence could clarify whether interventions like antihypertensive medications or lifestyle changes in physical activity, diet, and sleep can causally and sustainably improve CVD risk through HRV modulation. Using observational data with repeated measurements, similiar interventions could be emulated by targeted trails. A further option is to use a CVD polygenic risk score as the exposure, CVD as the outcome, and HRV as a mediator to test whether genetic variation in CVD-related traits is mediated through HRV.[@loesch2025]
 
 
-\newpage
-
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
