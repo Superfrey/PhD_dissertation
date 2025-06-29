@@ -163,6 +163,8 @@ Chronic hyperglycemia, reflected in elevated HbA1c levels, promotes the formatio
 
 I suspect that the deterioration of HRV indicators may partly reflect the pathogenesis of autonomic neuropathy, as a consequence of harmful byproducts resulting from hyperglycemia.
 
+Much of the current evidence on autonomic contributions to HRV originates from studies involving experimental manipulation of the autonomic nervous system, such as physiological tests (e.g., tilt response, deep breathing, stress response) or pharmacological modulation
+
 In our analysis with arterial stiffness as the outcome, several time-domain and frequency-domain HRV measures based on the total variability were modified by diabetes status, whereas the association with mean interbeat interval remained unchanged. This divergence may suggests that HRV captures a distinct physiological mechanism related to arterial stiffness, one that is not reflected by heart rate alone. Hyperglycemia affects the autonomic nervous system by damaging peripheral nerves, potentially leading to CAN, for which HRV is considered an early marker[@kuehl2012][@shah2019]. Therefore, lower HRV in dysglycemia may indicate early CAN, potentially exerting a stronger influence on arterial stiffness[@shah2019] than autonomic dysfunction under normoglycemic conditions.
 
 In both studies, participants with prior CVD were excluded to preserve the etiological order between autonomic dysfunction and cardiovascular outcomes.

@@ -3,16 +3,6 @@ execute:
   echo: false
 ---
 
-<!-- ::: {.content-visible when-format="pdf"} -->
-<!-- {{< include acknowledgements.qmd >}} -->
-<!-- ::: -->
-
-::: {.content-hidden when-format="pdf"}
-::: {style="opacity: 0"}
-
-:::
-
-
 ```{r}
 #| label: uib-logo
 #| fig-align: center

@@ -1,7 +1,7 @@
 {
-  "hash": "9ec44d51299e18a94de9372fb736037a",
+  "hash": "4e2db09f2ce60c799ff76d667ac55724",
   "result": {
-    "markdown": "---\nexecute: \n  echo: false\n---\n\n\n\n<!-- ::: {.content-visible when-format=\"pdf\"} -->\n<!-- {{< include acknowledgements.qmd >}} -->\n<!-- ::: -->\n\n::: {.content-hidden when-format=\"pdf\"}\n::: {style=\"opacity: 0\"}\n\n:::\n\n\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](Images/au_health.png){fig-align='center' width=100%}\n:::\n:::\n\n\n:::\n",
+    "markdown": "---\nexecute: \n  echo: false\n---\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](Images/au_health.png){fig-align='center' width=100%}\n:::\n:::\n\n\n:::\n",
     "supporting": [
       "index_files"
     ],
