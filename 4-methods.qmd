@@ -174,7 +174,7 @@ NYHA class stage I–IV was included. Heart failure symptoms were defined as NYH
 
 ### Cardiovascular events
 
-Information on CVD events and mortality was obtained from the Danish National Patient Registers until 2021 by utilizing the ICD-10 codes for stroke, myocardial infarction, cardiovascular death, cardiovascular revascularization, and heart failure. We defined three-point major adverse cardiovascular events (MACE) as myocardial infarction, stroke, cardiovascular revascularization, and cardiovascular death.[@schaarup2024b]
+Information on CVD events and mortality was obtained from the Danish National Patient Registers until 2021 by utilizing the ICD-10 codes for stroke, myocardial infarction, cardiovascular death, cardiovascular revascularization, and heart failure. Three-point major adverse cardiovascular events (MACE) was defined as myocardial infarction, stroke, cardiovascular revascularization, and cardiovascular death.[@schaarup2024b]
 
 ::: {#tbl-mace}
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
