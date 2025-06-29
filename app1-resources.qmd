@@ -10,20 +10,24 @@
 \includepdf[pages=-,pagecommand={}]{appendix/Supplemental_Material_MS.pdf}
 
 \newpage
+\restoregeometry
 
 ## Study II
 
 \newpage
+\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
 \includepdf[pages=-,pagecommand={}]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
 
 \includepdf[pages=-,pagecommand={}]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
 
 \newpage
+\restoregeometry
 
 ## Study III
 
 \newpage
+\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
 \includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf}
 
@@ -32,3 +36,18 @@
 \newpage
 
 \restoregeometry
+
+\newpage
+
+# Declaration of co-authorship {#sec-more-results}
+
+\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
+
+\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_dissertations_Maastricht_Study DW.pdf}
+
+\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_ADDITION_PRO DW.pdf}
+
+\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_CANCAN DW.pdf}
+
+\restoregeometry
+

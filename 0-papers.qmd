@@ -2,18 +2,21 @@
 
 **Study I**   
 
-**Cardiovascular autonomic dysfunction is linked with arterial stiffness across glucose metabolism: The Maastricht Study**    
-Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen van Greevenbroek, Miranda T. Schram, Bastiaan E. de Galan, Coen Stehouwer, Daniel R. Witte (2025). medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865 (preprint) (under peer-review at BMJ Open Diabetes Research & Care)    
+**Cardiovascular autonomic dysfunction is linked with arterial stiffness across glucose metabolism: The Maastricht Study** 
+
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen van Greevenbroek, Miranda T. Schram, Bastiaan E. de Galan, Coen Stehouwer, Daniel R. Witte (2025). preprint at medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865 (under peer-review at BMJ Open Diabetes Research & Care)    
 
 **Study II**    
 
 
 **Cardiovascular autonomic dysfunction precedes cardiovascular disease and all-cause mortality: 11-year follow-up of the ADDITION-PRO study**   
-Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove, Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel R. Witte (2025). medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18.24319131 (accepted at Diabetes, Obesity and Metabolism)    
+
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove, Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel R. Witte (2025). preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18.24319131 (accepted at Diabetes, Obesity and Metabolism)    
 
 **Study III**   
 
 **Cardiovascular autonomic neuropathy and indices of heart failure in type 2 diabetes: The CANCAN Study**    
+
 Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Daniel R. Witte, Henrik H. Thomsen, Jesper Fleischer, Rodica Pop-Busui, Annelli Sandbæk, Signe T. Andersen.
 (submitted to Diabetes Care)
 
@@ -21,19 +24,23 @@ Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Daniel R. Witte, Henrik H. 
 
 **Additional publications**
 
-The 2 following original research studies and 2 preprints have been published during the PhD period, but have not been included in the dissertation.
+The 4 following original research studies and 2 preprints have been published during the PhD period, but have not been included in the dissertation.
 
 *Peer-reviewed*
 
-**Schaarup JR**, Christensen MS, Hulman A, Hansen CS, Vistisen D, Tabák AG, Witte DR, Bjerg L. Autonomic dysfunction is associated with the development of arterial stiffness: The Whitehall II cohort. GeroScience, 2023. https://doi.org/10.1007/s11357-023-00762-0   
+**Schaarup JR**, Christensen MS, Hulman A, Hansen CS, Vistisen D, Tabák AG, Witte DR, Bjerg L. **Autonomic dysfunction is associated with the development of arterial stiffness: The Whitehall II cohort**. GeroScience, 2023. https://doi.org/10.1007/s11357-023-00762-0   
 
-**Schaarup JR**, Aggarwal R, Dalsgaard E-M, Norman K, Dollerup OL, Ashrafian H, Witte DR, Sandbæk A, Hulman A.Perception of artificial intelligence-based solutions in healthcare among people with and without diabetes: A cross-sectional survey from the health in Central Denmark cohort.Diabetes Epidemiology and Management, 2023. https://doi.org/10.1016/j.deman.2022.100114    
+**Schaarup JR**, Aggarwal R, Dalsgaard E-M, Norman K, Dollerup OL, Ashrafian H, Witte DR, Sandbæk A, Hulman A.**Perception of artificial intelligence-based solutions in healthcare among people with and without diabetes: A cross-sectional survey from the health in Central Denmark cohort**.Diabetes Epidemiology and Management, 2023. https://doi.org/10.1016/j.deman.2022.100114   
+
+Jie Zhang, Christina Andersen, Anja Olsen, Jytte Halkjær, Kristina Elin Petersen, **Jonas Frey Rosborg Schaarup**, Christian S Antoniussen, Daniel R Witte, Christina C Dahm. **Life-long Body Mass Index Trajectories and Cardiometabolic Biomarkers-The Danish Diet, Cancer, and Health-Next Generations Cohort**. 2025.\ (accepted at International Journal of Obesity)
+
+Becker, E., Emmertsen, K. J., **Schaarup, J. F. R.**, Iversen, L. H., Hovdenak, I., & Laurberg, T. (2025). **The impact of diabetes status on postoperative outcomes after rectal cancer surgery: a population-based cohort study**.\ Colorectal Cancer, 14(1). https://doi.org/10.1080/1758194X.2025.2489302
 
 *Pre-prints*
 
-**Jonas R. Schaarup**, Anders Aasted Isaksen, Kasper Norman, Lasse Bjerg, Adam Hulman. (2025).Trust in large language model-based solutions in healthcare among people with and without diabetes: a cross-sectional survey from the Health in Central Denmark cohort. medRxiv 2025.02.24.25322734; doi: https://doi.org/10.1101/2025.02.24.25322734 (under review at BMJ digital health and AI)
+**Jonas R. Schaarup**, Anders Aasted Isaksen, Kasper Norman, Lasse Bjerg, Adam Hulman. (2025).**Trust in large language model-based solutions in healthcare among people with and without diabetes: a cross-sectional survey from the Health in Central Denmark cohort**. medRxiv 2025.02.24.25322734; doi: https://doi.org/10.1101/2025.02.24.25322734 (under review at BMJ digital health and AI)
 
-Anders Aasted Isaksen, **Jonas R. Schaarup**, Lasse Bjerg, Adam Hulman. (2025). Changes in public perception of AI in healthcare after exposure to ChatGPT. medRxiv 2025.01.23.25321048; doi: https://doi.org/10.1101/2025.01.23.25321048 (under review at npj digital medicine)
+Anders Aasted Isaksen, **Jonas R. Schaarup**, Lasse Bjerg, Adam Hulman. (2025). **Changes in public perception of AI in healthcare after exposure to ChatGPT**. medRxiv 2025.01.23.25321048; doi: https://doi.org/10.1101/2025.01.23.25321048 (under review at npj digital medicine)
 
 
 ```{=tex}

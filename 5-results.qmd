@@ -184,7 +184,7 @@ A greater proportion of individuals with CAN were observed to exhibit elevated N
 ::: {#fig-CAN fig-cap="**Distribution of NT-proBNP, NYHA Class, and WATCH-DM Score by CAN Status, and association of CAN with Elevated NT-proBNP**" fig-align="center"}
 
 
-![](images/heart_failure_distribution_can_figure_2.pdf){width=85%}
+![](images/heart_failure_distribution_can_figure_2_2.pdf){width=85%}
 
 *A: Percentage distribution by CAN status (no CAN, CAN). B: Percentage distribution of NT-proBNP level categories stratified by individuals with and without CAN. C: Percentage distribution of WATCH-DM risk score stratified by individuals with and without CAN. C: Percentage distribution of NYHA classification stratified by individuals with and without CAN. E: Percentage of individuals with NT-proBNP > 125 pg/ml among those with and without CAN and adjusted odds ratio from Model 4. F: Effect modification of the association between CAN and NT-proBNP by symptoms defined by NYHA classification (symptoms: NYHA ≥ II vs no symptoms: NYHA = I) and risk score defined by WATCH-DM risk (very-low-to-moderate vs high-to-very-high risk). Figure from Appendix Study III[@schaarup2025]*
 :::
