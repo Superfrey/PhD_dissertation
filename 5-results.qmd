@@ -10,6 +10,10 @@ bibliography: references.bib
 
 \newpage
 
+\thispagestyle{empty}
+~
+\newpage
+
 In this section, study population characteristics and findings from analysis will be presented.
 
 ## Study I

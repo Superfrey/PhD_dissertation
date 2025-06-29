@@ -4,6 +4,10 @@ title: "Perspective"
 
 \newpage
 
+\thispagestyle{empty}
+~
+\newpage
+
 This dissertation has investigated the impact of autonomic function on cardiovascular complications across different stages of glucose metabolism. Understanding when and how physiological signals reflect elevated CVD risk is essential for the development of early and effective prevention strategies. The incorporation of HRV into digital health solutions could be used to support personalized feedback mechanisms, enabling timely lifestyle or therapeutic interventions and contributing to more adaptive and preventive healthcare strategies. Based on the findings and conclusions, further perspectives are proposed to define its role in research and healthcare from three aspects: (1) continuous non-invasive health monitoring, (2) risk stratification, and (3) identification as a causal and modifiable marker.
 
 ## Continuous monitoring of cardiovascular health
@@ -19,7 +23,8 @@ Lower long-term HRV has been identified as a risk factor for CVD, associated wit
 HRV represents a potential target for intervention, as low HRV may reflect adverse lifestyle patterns. Behaviors such as disrupted sleep, physical inactivity, diet, and irregular meal timing have been shown to influence circadian fluctuations in HRV.[@chellappa2025; @boudreau2013; @reginato2020; @soares-miranda2014] HRV has also been shown to respond to pharmacological interventions. For example, beta-blockers have been shown to increase HRV, while GLP-1RA may reduce it.[@niemelä1994; @kumarathurai2016]
 
 ::: {layout-ncol="1"}
-![HRV feedback in response to lifestyle and treatment interventions](images/smartwatch.png){width="4in"} *(Source: Author)*
+![Hypothetical scenario of lifestyle and treatment adaptation using HRV in wearable devices](images/smartwatch.png){width="4in"}
+*(Source: Author)*
 :::
 
 Future research may leverage wearable devices to monitor the effectiveness of behavioral and pharmacological interventions on HRV at the individual level. This approach may support precision real-time monitoring to identify lifestyle patterns or treatments that promote cardiovascular health through HRV modulation or uncover potential side effects.[@franks2023]
@@ -57,7 +62,14 @@ The findings support a potential etiological link between long-term HRV and CVD 
 To address these limitations, modern epidemiological methods such as Mendelian randomization and structured causal mediation analysis offer promising alternatives. These approaches can be used to infer causality from observational data and estimate indirect effects using trial data. Notably, no GWAS has yet investigated the genetic determinants of long-term HRV. Establishing such associations is essential for understanding its genetic architecture and for using genetic variants as unconfounded proxies to assess HRV’s causal role in CVD. However, a challenge arises from findings in short-term HRV, which show considerable pleiotropy. This may complicate the use of Mendelian randomization, as the method relies on the assumption of no horizontal pleiotropy.[@verbanck2018]
 
 ::: {layout-ncol="1"}
-![Suggested mediation of HRV by intervention/observation in the prevention of CVD](images/Mediation_HRV.png){width="6in"} *(Source: Author)*
+![Suggested mediation of HRV by intervention/observation in the prevention of CVD](images/Mediation_HRV_1.png){width="6in"} *(Source: Author)*
 :::
 
-Future cardiometabolic intervention trials and longitudinal cohorts, whether focused on lifestyle or pharmacological strategies, should, where feasible, include repeated HRV measurements.[@schaarup2024] In trials, structured mediation analyses are enabled and used to determine whether modifying autonomic function is associated with sustained improvements in cardiovascular outcomes. Such evidence could clarify whether interventions like antihypertensive medications or lifestyle changes in physical activity, diet, and sleep can causally and sustainably improve CVD risk through HRV modulation. Using observational data with repeated measurements, the similiar interventions could be emulated. Beyond this, to explore causality, a CVD genetic polygenic risk score as exposure, and CVD as outcome, with HRV as mediator, may be used to examine whether genetic variation in physiological traits for CVD is mediated through HRV.[@loesch2025]
+Future cardiometabolic intervention trials and longitudinal cohorts, whether focused on lifestyle or pharmacological strategies, should, where feasible, include repeated HRV measurements.[@schaarup2024] In trials, structured mediation analyses are enabled and used to determine whether modifying autonomic function is associated with sustained improvements in cardiovascular outcomes. Such evidence could clarify whether interventions like antihypertensive medications or lifestyle changes in physical activity, diet, and sleep can causally and sustainably improve CVD risk through HRV modulation. Using observational data with repeated measurements, similiar interventions could be emulated by targeted trails. A further option is to use a CVD polygenic risk score as the exposure, CVD as the outcome, and HRV as a mediator to test whether genetic variation in CVD-related traits is mediated through HRV.[@loesch2025]
+
+
+\newpage
+
+\thispagestyle{empty}
+~
+\newpage

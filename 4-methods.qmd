@@ -2,9 +2,14 @@
 title: "Materials and methods"
 ---
 
+\newpage
+
+\thispagestyle{empty}
+~
+\newpage
+
 ## Overview of the studies
 
-::: landscape
 +----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 |                      | Study I                                                                                                                | Study II                                                                                                                                  | Study III                                                                                    |
 +======================+========================================================================================================================+===========================================================================================================================================+==============================================================================================+
@@ -27,9 +32,6 @@ title: "Materials and methods"
 | Missing data         | Complete case analysis                                                                                                 | Multiple imputation of chained equations for confounders                                                                                  | Complete case analysis and multiple imputation of chained equations for CART and confounders |
 +----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 
-: Table 1: Overview of studies
-:::
-
 ### Study population
 
 ::: center
@@ -38,7 +40,7 @@ title: "Materials and methods"
 
 #### Study I - The Maastricht Study
 
-The Maastricht Study is a prospective, observational phenotyping study of the general population in the province of Limburg, located in the southern part of the Netherlands. The recruitment of individuals with T2D was emphasized through the regional Diabetes Patient Registry, with the aim of extensively phenotyping individuals with T2D and those in intermediate stages of the disease. Eligibility criteria included an age range of 40–70 years. Participants were recruited through mass media campaigns and mailings from municipal registries (Gemeentelijke Basis Administratie; GBA).[@schram2014] In the analysis of Study I, the study among 7449 individuals included participants with measurements of 24-hour HRV and at least one measure of arterial stiffness (carotid-femoral pulse wave velocity or carotid artery distensibility), both of which were completed within a three-month period between November 2010 and December 2020. Among those  participants with prior CVD were excluded[@schaarup2024]. Approval was granted by the institutional medical ethics committee (NL31329.068.10) and the Minister of Health, Welfare and Sports of the Netherlands (Permit 131088-105234-PG). Written informed consent was given by all participants. [@schaarup2024]
+The Maastricht Study is a prospective, observational phenotyping study of the general population in the province of Limburg, located in the southern part of the Netherlands. The recruitment of individuals with T2D was emphasized through the regional Diabetes Patient Registry, with the aim of extensively phenotyping individuals with T2D and those in intermediate stages of the disease. Eligibility criteria included an age range of 40–70 years. Participants were recruited through mass media campaigns and mailings from municipal registries (Gemeentelijke Basis Administratie; GBA).[@schram2014] In the analysis of Study I, the study among 7449 individuals included participants with measurements of 24-hour HRV and at least one measure of arterial stiffness (carotid-femoral pulse wave velocity or carotid artery distensibility), both of which were completed within a three-month period between November 2010 and December 2020. Among those participants with prior CVD were excluded[@schaarup2024]. Approval was granted by the institutional medical ethics committee (NL31329.068.10) and the Minister of Health, Welfare and Sports of the Netherlands (Permit 131088-105234-PG). Written informed consent was given by all participants. [@schaarup2024]
 
 #### Study II - ADDITION-PRO
 
@@ -59,8 +61,7 @@ The CANCAN Study is an observational study conducted at two hospital outpatient 
 ### Measures for autonomic dysfunction/ neuropathy
 
 ::: {fig-align="center" fig-width="\"\\textwidth"}
-![**Heart rate monitors**](images/can_tools.pdf) 
-*Left: Holter monitor; Middle: Actiheart; Right: Vagus™ device*
+![Heart rate monitors](images/can_tools.pdf) *Left: Holter monitor; Middle: Actiheart; Right: Vagus™ device*
 :::
 
 **Heart rate variability**
@@ -68,7 +69,7 @@ The CANCAN Study is an observational study conducted at two hospital outpatient 
 In Studies I–III, different devices were used to capture the distance between each heartbeat, defined as RR intervals, from electrocardiogram traces—either directly from heartbeat traces or indirectly from pulse traces. From these, a sequence of successive heartbeat intervals was extracted to calculate time- and frequency-domain HRV.
 
 ::: {fig-align="center" fig-width="\"\\textwidth"}
-![**Heart rate variability calculations**](images/measurements_hrv.pdf) *Time- and Frequency domain HRV indices (Source: Author)*
+![Heart rate variability calculations](images/measurements_hrv.pdf) *Time- and Frequency domain HRV indices (Source: Author)*
 :::
 
 *Time-domain indices*
@@ -123,7 +124,7 @@ All ECG recordings were obtained using a 12-lead Holter system (Fysiologic ECG S
 
 **ActiHeart heart rate and physical activity in study II**
 
-Heart rate was measured using a combined accelerometer and heart rate monitor (ActiHeart, CamNTech, Cambridge, UK), which recorded uniaxial acceleration and heart rate. The data collection and processing methods have been described previously. Mean heart rates were recorded in 30-second epochs. Based on an algorithm, distributions of inter-beat intervals were calculated in each 30-second epoch.[@schaarup2024a] HRV calculations were performed using the RHRV package (version 4.2.7) in R.[@schaarup2024a;@schaarup2024b] The algorithm was tested on a dataset with full access to all inter-beat intervals.[@schaarup2024a] HRV indices based on global distribution in 24-hour recordings showed high validity.[@schaarup2024b] HRV indices including SDNN, SDANN, SDNN index, TINN, and mean heart rate (HR) were calculated by week, 24-hour cycle, and hour of the day, with hourly values averaged across recording days.[@schaarup2024b]
+Heart rate was measured using a combined accelerometer and heart rate monitor (ActiHeart, CamNTech, Cambridge, UK), which recorded uniaxial acceleration and heart rate. The data collection and processing methods have been described previously. Mean heart rates were recorded in 30-second epochs. Based on an algorithm, distributions of inter-beat intervals were calculated in each 30-second epoch.[@schaarup2024a] HRV calculations were performed using the RHRV package (version 4.2.7) in R.[@schaarup2024a; @schaarup2024b] The algorithm was tested on a dataset with full access to all inter-beat intervals.[@schaarup2024a] HRV indices based on global distribution in 24-hour recordings showed high validity.[@schaarup2024b] HRV indices including SDNN, SDANN, SDNN index, TINN, and mean heart rate (HR) were calculated by week, 24-hour cycle, and hour of the day, with hourly values averaged across recording days.[@schaarup2024b]
 
 **Vagus device for cardiovascular autonomic reflex test in study III**
 
@@ -132,8 +133,7 @@ CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold 
 Manifest CAN was defined as two or more abnormal CARTs using age-specific formula.[@hansen2025] The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility.[@fleischer2011] Orthostatic hypotension was defined as a sustained drop in systolic blood pressure of ≥20 mmHg or diastolic blood pressure of ≥10 mmHg within three minutes of standing.[@schaarup2025]
 
 ::: {layout-ncol="1"}
-![**Cardiovascular autonomic reflex test**](images/cart.png){width="100%," fig-align="left"}
-*(source: author)*
+![Cardiovascular autonomic reflex test](images/cart.png){width="100%," fig-align="left"} *(source: author)*
 :::
 
 ### Confounders and variables for instrumental bias
@@ -161,7 +161,7 @@ Aortic stiffness was measured by carotid-femoral pulse wave velocity (cf-PWV) us
 Carotid stiffness was assessed by the carotid artery distensibility coefficient (CD), based on ultrasound imaging of the left common carotid artery using a 7.5 MHz linear probe (MyLab 70, Esaote Europe, Maastricht, the Netherlands). CD was calculated as ΔD/braPP, where ΔD represents carotid distension and braPP is brachial pulse pressure. Mean heart rate and mean arterial pressure (MAP) were recorded every five minutes using an oscillometric device (Accutorr Plus, Datascope, Montvale, NJ, USA).[@tanlaizhou2018]
 
 ::: {fig-align="center" fig-width="\"\\textwidth"}
-![**Aortic and carotid stiffness**](images/Methods_arterial_stiffness.pdf) *Measures of arterial stiffness, measured dynamically through the decending aorta and locally ay carotid sites. (Source: Author)*
+![Aortic and carotid stiffness](images/Methods_arterial_stiffness.pdf) *Measures of arterial stiffness, measured dynamically through the decending aorta and locally ay carotid sites. (Source: Author)*
 :::
 
 ### Indicators of heart failure
@@ -241,3 +241,11 @@ In Study II, autonomic function was assessed using multiday HRV recordings and h
 *Biomarker of Heart Failure*
 
 In Study III, kidney function and overweight are known to influence NT-proBNP levels independently of heart failure.[@heidenreich2022] The model was adjusted to account for the confounding effect of eGFR on NT-proBNP levels in the analysis.[@schaarup2025]
+
+
+\newpage
+
+\thispagestyle{empty}
+~
+\newpage
+

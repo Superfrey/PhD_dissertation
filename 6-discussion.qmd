@@ -2,6 +2,11 @@
 title: "Discussion"
 ---
 
+
+\newpage
+
+\thispagestyle{empty}
+~
 \newpage
 
 The aim of this dissertation is to understand how cardiovascular autonomic dysfunction and CAN affect the risk of CVD across stages of glucose metabolism. Given the rising prevalence of prediabetes and T2D, and their association with increased risks of CVD and heart failure, there is a pressing need for earlier indicators to help healthcare providers intervene in a timely manner and prevent progression to more advanced stages of cardiovascular complications. One promising approach involves leveraging data from wearable devices and standardized screening tools. Heart rate dynamics and variability across different circumstances may hold promise as accessible indicators for timely cardiovascular risk stratification.
@@ -192,3 +197,5 @@ The generalisability of the findings has been considered in the context of the t
 Studies I–III included individuals at high risk of diabetes and those with T2D. Therefore, the associations between cardiovascular autonomic dysfunction and cardiovascular outcomes or surrogate biomarkers are relevant to individuals with some degree of diabetes risk and progressed T2D. Study I suggested that the link between autonomic dysfunction and cardiovascular risk, as measured by arterial stiffness, was also present in individuals with NGM, though to a lesser extent. This finding, supported by replication in the Whitehall II cohort, indicated that the observed relationship may extend beyond high-risk groups and into the general population.[@schaarup2023] In Study III, participants represented a higher-risk diabetes group among Danish diabetes patients, while more stable patients remained under general practitioner care. Consequently, the prevalence of heart failure indicators and CAN was likely higher in this selected group than in patients managed in primary care, and thus the extension of the findings to broader T2D populations is limited.
 
 By design, younger individuals with prediabetes or young-adult-onset T2D were underrepresented in the studies. This group may have been overlooked in current research and warrants further attention in future studies.[@nicolaisen2023; @magliano2024] The applicability of the findings to other countries may be influenced by differences in demographic composition, risk factor distributions, healthcare systems, and stages of economic development. These factors can affect both the prevalence of diabetes and cardiovascular disease and the nature of their associations. While the study populations were primarily of Nordic and Western European descent, differences in ethnic composition are only one of several factors that may influence external validity. These regions also share relatively well-organized, publicly funded healthcare systems, which may differ substantially from those in other parts of the world and further affect the applicability of the findings.
+
+

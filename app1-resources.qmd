@@ -1,8 +1,15 @@
+
 # Appendix {#sec-more-results}
+
 
 ## Study I
 
 \newpage
+
+\thispagestyle{empty}
+~
+\newpage
+
 \newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
 \includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study_Diabetes_Care.pdf}

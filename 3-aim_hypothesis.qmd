@@ -7,6 +7,11 @@ format:
 editor: visual
 ---
 
+
+\newpage
+
+\thispagestyle{empty}
+~
 \newpage
 
 The overarching hypothesis of this dissertation are that:
@@ -22,3 +27,10 @@ Study I: Quantify the cross-sectional association between 24-hour HRV and subcli
 Study II: Quantify the longitudinal association of multiday and hourly HRV with incidence of ischemic-related CVD, heart failure, and all-cause mortality in a population with high-risk of diabetes.
 
 Study III: Quantify the cross-sectional association between CAN and heart failure. Heart failure will be defined by clinical measures i.e. N-terminal-pro-BNP (NT-proBNP), WATCH-DM risk, and New York Heart Association (NYHA) classification scores among individuals with T2D.
+
+
+\newpage
+
+\thispagestyle{empty}
+~
+\newpage

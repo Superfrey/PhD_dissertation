@@ -1,4 +1,17 @@
 # References {.unnumbered}
 
+
+\newpage
+
+\thispagestyle{empty}
+~
+\newpage
+
 ::: {#refs}
 :::
+
+\newpage
+
+\thispagestyle{empty}
+~
+\newpage

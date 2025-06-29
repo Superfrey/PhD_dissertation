@@ -1,3 +1,9 @@
+\newpage
+
+\thispagestyle{empty}
+~
+\newpage
+
 # Summary {.unnumbered}
 
 This dissertation investigated whether cardiovascular autonomic dysfunction is associated with cardiovascular complications in individuals with normal glucose metabolism, prediabetes, and type 2 diabetes. Cardiovascular autonomic dysfunction was assessed using heart rate variability and standardized cardiovascular autonomic reflex tests. Among the measures, 24-hour heart rate variability reflected autonomic balance and circadian shifts in sympathetic and parasympathetic activity. Lower long-term heart rate variability was consistently associated with adverse cardiovascular outcomes.
@@ -10,6 +16,11 @@ The dissertation concludes that cardiovascular autonomic dysfunction is a clinic
 
 \newpage
 
+\thispagestyle{empty}
+~
+\newpage
+
+
 # Resume {.unnumbered}
 
 Denne afhandling undersøgte, om kardiovaskulær autonom dysfunktion er forbundet med kardiovaskulære komplikationer hos personer med normal glukosemetabolisme, prædiabetes og type 2-diabetes. Kardiovaskulær autonom dysfunktion blev målt igennme hjeretrymevariabilitet (HRV) og standardiserede kardiovaskulære autonome refleksundersøgelser (CARTs). Blandt målingerne gav 24-timers HRV indsigt i den autonome balance og døgnrytmens skift mellem sympatisk og parasympatisk aktivitet. Lavere værdier var konsekvent forbundet med ugunstige kardiovaskulære udfald.
@@ -19,4 +30,10 @@ På tværs af tre studier blev autonom dysfunktion forbundet med højere niveaue
 Kardiovaskulær autonom neuropati, defineret gennem abnormale CARTs, var forbundet med en højere risiko for hjertesvigt hos individer med type 2 diabetes, selv hos personer uden symptomer. Disse fund tyder på, at kardiovaskulær autonom dysfunktion kan fungere som en tidlig og uafhængig markør for risikoen for hjertesvigt, især i populationer med risiko for type 2-diabetes.
 
 Afhandlingen konkluderer, at kardiovaskulær autonom dysfunktion er en klinisk relevant risikofaktor, som bør tiltrække større opmærksomhed i både forskning og klinisk praksis. Fremtidige studier bør undersøge, om forbedring af autonom funktion kan reducere kardiovaskulær risiko, og om målinger af autonom dysfunktion kan integreres i eksisterende risikomodeller. Derudover er potentialet i smarture til kontinuerlig overvågning og tidlig opsporing en mulighed, der kan vurderes i både kliniske og generelle populationer.
+
+\newpage
+
+\thispagestyle{empty}
+~
+\newpage
 

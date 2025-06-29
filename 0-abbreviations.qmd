@@ -2,43 +2,43 @@
 
 **BMI:** Body mass index  
 **CAN:** Cardiovascular autonomic neuropathy  
-**CARTs:** Cardiovascular autonomic reflex tests    
+**CARTs:** Cardiovascular autonomic reflex tests  
 **CD:** Carotid artery distensibility coefficient  
 **cf-PWV:** Carotid-femoral pulse wave velocity  
 **CI:** Confidence interval  
 **CVD:** Cardiovascular disease  
-**ECG:** Electrocardiogram
+**DBP:** Diastolic blood pressure  
+**ECG:** Electrocardiogram  
 **eGFR:** Estimated glomerular filtration rate  
 **FPG:** Fasting plasma glucose  
 **GLP1RA:** Glucagon-like peptide-1 receptor agonists  
+**HbA1c:** Haemoglobin-A1c  
 **HDL:** High-density lipoprotein cholesterol  
+**HF:** High-frequency range (0.15–0.4 Hz)  
 **HRV:** Heart rate variability  
 **IR:** Incidence rate  
 **IRR:** Incidence rate ratio  
-**HbA1c:** Haemoglobin-A1c  
 **LDL-C:** Low-density lipoprotein cholesterol  
-**MACE:** Three-point major adverse cardiovascular events 
-**MAP:** Mean arterial pressure
-**NGM:** Normal glucose metabolism    
-**NT-proBNP:** N-terminal pro-B-type natriuretic peptide
+**LF:** Low-frequency range (0.04–0.15 Hz)  
+**MACE:** Three-point major adverse cardiovascular events  
+**MAP:** Mean arterial pressure  
+**NGM:** Normal glucose metabolism  
+**NT-proBNP:** N-terminal pro-B-type natriuretic peptide  
 **OGTT:** Oral glucose tolerance test  
 **OR:** Odds ratio  
 **PAEE:** Physical activity energy expenditure  
+**pNN50:** Proportion of NN intervals differing by more than 50 ms  
 **RPAQ:** Recent Physical Activity Questionnaire  
+**RMSSD:** Root mean square of successive differences between NN intervals  
 **SBP:** Systolic blood pressure  
-**DBP:** Diastolic blood pressure  
+**SD:** Standard deviation  
+**SDANN:** Standard deviation of the averages of NN intervals in 5-minute segments  
+**SDNN:** Standard deviation of NN intervals  
+**SDNN index:** Mean of the SDs of all NN intervals for all 5-minute segments  
 **SGLT2i:** Sodium glucose co-transporter type 2 inhibitors  
 **SES:** Socioeconomic status  
-**SD:** Standard deviation    
-**SDNN:** Standard deviation of NN intervals  
-**SDANN:** Standard deviation of the averages of NN intervals in 5-minute segments  
-**SDNN index:** Mean of the SDs of all NN intervals for all 5-minute segments  
-**pNN50:** Proportion of NN intervals differing by more than 50 ms  
-**RMSSD:** Root mean square of successive differences between NN intervals  
+**T2D:** Type 2 diabetes mellitus  
 **TP:** Total power (variance of NN intervals ≤ 0.4 Hz)  
 **ULF:** Ultra low-frequency range (≤ 0.003 Hz)  
 **VLF:** Very-low-frequency range (0.003–0.04 Hz)  
-**LF:** Low-frequency range (0.04–0.15 Hz)  
-**HF:** High-frequency range (0.15–0.4 Hz)  
-**T2D:** Type 2 diabetes mellitus  
   

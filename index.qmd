@@ -1,7 +1,11 @@
 ---
 execute: 
   echo: false
+freeze: true
+visibility: hidden
 ---
+
+# This section will not be numbered {.unnumbered}
 
 ```{r}
 #| label: uib-logo
@@ -11,4 +15,3 @@ execute:
 
 knitr::include_graphics("Images/au_health.png")
 ```
-:::
