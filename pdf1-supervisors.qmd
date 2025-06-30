@@ -27,10 +27,13 @@ Steno Diabetes Center Copenhagen, Copenhagen, Denmark
 #### Assessment committee:
 
 **Professor Morten Schmidt (chair and moderator of the defence)**\
-Department of Clinical Medicin, Department of Clinical Epidemiology, Aarhus University
+Department of Clinical Medicin,   
+Department of Clinical Epidemiology, Aarhus University
 
 **Associate Professor Ilonca Vaartjes**\
-University Medical Center Utrecht, Julius Center, Department of Epidemiology and Health Economics
+University Medical Center Utrecht, Julius Center,   
+Department of Epidemiology and Health Economics
 
 **Cardiologist Peter Godsk Jørgensen**\
-Herlev and Gentofte Hospital, Capital Region of Denmark
+Herlev and Gentofte Hospital,   
+Capital Region of Denmark

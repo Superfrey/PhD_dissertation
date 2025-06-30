@@ -1,5 +1,5 @@
 # Abbreviations {.unnumbered}
-
+**AF:** Atrial Fibrillation
 **BMI:** Body mass index  
 **CAN:** Cardiovascular autonomic neuropathy  
 **CARTs:** Cardiovascular autonomic reflex tests  

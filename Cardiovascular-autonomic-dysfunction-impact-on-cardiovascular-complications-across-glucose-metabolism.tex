@@ -119,7 +119,7 @@
     \usepackage{sectsty}
      \usepackage{float}
      \usepackage{titling}
-     \pretitle{\begin{center}\fontsize{26}{30}\selectfont\bfseries}
+     \pretitle{\begin{center}\fontsize{24}{24}\selectfont\bfseries}
      \posttitle{\end{center}}
      \floatplacement{figure}{H}
      \raggedbottom
@@ -274,7 +274,7 @@ complications across glucose metabolism}
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced, frame hidden, interior hidden, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, interior hidden, frame hidden, enhanced, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, sharp corners]}{\end{tcolorbox}}\fi
 
 \mainmatter
 \bookmarksetup{startatroot}
@@ -336,29 +336,24 @@ Steno Diabetes Center Copenhagen, Copenhagen, Denmark
 \addcontentsline{toc}{subsubsection}{Assessment committee:}
 
 \textbf{Professor Morten Schmidt (chair and moderator of the defence)}\\
-Department of Clinical Medicin, Department of Clinical Epidemiology,
-Aarhus University
+Department of Clinical Medicin,\\
+Department of Clinical Epidemiology, Aarhus University
 
 \textbf{Associate Professor Ilonca Vaartjes}\\
-University Medical Center Utrecht, Julius Center, Department of
-Epidemiology and Health Economics
+University Medical Center Utrecht, Julius Center,\\
+Department of Epidemiology and Health Economics
 
 \textbf{Cardiologist Peter Godsk Jørgensen}\\
-Herlev and Gentofte Hospital, Capital Region of Denmark
+Herlev and Gentofte Hospital,\\
+Capital Region of Denmark
 
 \bookmarksetup{startatroot}
 
-\hypertarget{notes-and-disclosures}{%
-\chapter*{Notes and disclosures}\label{notes-and-disclosures}}
-\addcontentsline{toc}{chapter}{Notes and disclosures}
-
-\markboth{Notes and disclosures}{Notes and disclosures}
-
 \hypertarget{financial-support}{%
-\section*{Financial support}\label{financial-support}}
-\addcontentsline{toc}{section}{Financial support}
+\chapter*{Financial support}\label{financial-support}}
+\addcontentsline{toc}{chapter}{Financial support}
 
-\markright{Financial support}
+\markboth{Financial support}{Financial support}
 
 The PhD project was supported by research grant from \textbf{European
 Foundation for the Study of Diabetes/Sanofi} (\emph{European Diabetes
@@ -982,7 +977,7 @@ survival and outcomes following MI.\textsuperscript{46} In T2D, the risk
 of MI is elevated by 72\%, with an approximately threefold risk among
 patients under 60 years compared to age under 60 without
 T2D.\textsuperscript{47} Similar to the general population, MI incidence
-and fatality have declined among people with
+and fatality have declined among individuals with
 diabetes.\textsuperscript{48,49}
 
 \textbf{Stroke}
@@ -1042,8 +1037,8 @@ The most common feature of HFpEF is left ventricular diastolic
 dysfunction, caused by impaired relaxation and increased stiffness,
 leading to elevated left atrial pressure and reduced diastolic
 reserve.\textsuperscript{4,60} Over the past decades, the prevalence of
-HFpEF has increased with an aging population and more people living with
-conditions such as hypertension, diabetes, and
+HFpEF has increased with an aging population and more individuals living
+with conditions such as hypertension, diabetes, and
 obesity.\textsuperscript{59} It is diagnosed based on structural or
 functional abnormalities identified through echocardiographic measures,
 such as left ventricular hypertrophy, left atrial enlargement, or
@@ -1258,8 +1253,6 @@ Association (NYHA) classification scores among individuals with T2D.
 \hypertarget{materials-and-methods}{%
 \chapter{Materials and methods}\label{materials-and-methods}}
 
-\clearpage
-\null
 \thispagestyle{empty}
 \clearpage
 
@@ -1267,10 +1260,22 @@ Association (NYHA) classification scores among individuals with T2D.
 \section{Overview of the studies}\label{overview-of-the-studies}}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0604}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3176}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3675}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2493}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1900}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2700}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2700}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2700}}@{}}
+\caption{Overview of studies}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Study I
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Study II
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Study III
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
@@ -1294,7 +1299,7 @@ Design & Aetiological cross-sectional study & Aetiological prospective
 cohort study & Descriptive cross-sectional study \\
 Cohort & Maastricht study & ADDITION-PRO study & CANCAN study \\
 Study population & 3673 individuals with NGM, prediabetes, or T2D & 2082
-individuals with high risk of diabetes & 173 patients with T2D visiting
+individuals with high risk of diabetes & 176 patients with T2D visiting
 outpatients clinics \\
 Data sources & Observational phenotyping cohort from The Maastricht
 Study in the Netherlands & Cohort study of selected individuals based on
@@ -1433,8 +1438,18 @@ excluded.
 \subsection{Measures for autonomic dysfunction/
 neuropathy}\label{measures-for-autonomic-dysfunction-neuropathy}}
 
+\begin{figure}
+
+{\centering 
+
 \includegraphics{images/can_tools.pdf} \emph{Left: Holter monitor;
 Middle: Actiheart; Right: Vagus™ device}
+
+}
+
+\caption{\label{fig-monitor}\textbf{Heart rate monitors}}
+
+\end{figure}
 
 \textbf{Heart rate variability}
 
@@ -1444,25 +1459,39 @@ traces---either directly from heartbeat traces or indirectly from pulse
 traces. From these, a sequence of successive heartbeat intervals was
 extracted to calculate time- and frequency-domain HRV.
 
+\begin{figure}
+
+{\centering 
+
 \includegraphics{images/measurements_hrv.pdf} \emph{Time- and Frequency
 domain HRV indices (Source: Author)}
+
+}
+
+\caption{\label{fig-hrv}\textbf{Heart rate variability calculations}}
+
+\end{figure}
 
 \emph{Time-domain indices}
 
 Time-domain measures of HRV are based on the statistical distribution of
 normal-to-normal (NN) heartbeat intervals. Descriptions of time-domain
-indices are summarized in \textbf{?@tbl-td}.
+indices are summarized in Table~\ref{tbl-td}.
 
-\begin{table}
-
-\caption{\textbf{Box 1} Time-domain indices reflections of autonomic
-function}\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
+\hypertarget{tbl-td}{}
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2902}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7098}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6000}}@{}}
+\caption{\label{tbl-td}\textbf{Box 1} Time-domain indices reflections of
+autonomic function}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Time-domain HRV
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Time-domain HRV
@@ -1496,12 +1525,6 @@ primarily reflecting parasympathetic (vagal)
 activity\textsuperscript{79} \\
 \end{longtable}
 
-}
-
-\end{minipage}%
-
-\end{table}
-
 \emph{Frequency-domain indices}
 
 Frequency-domain HRV indices are derived from sequences of NN intervals
@@ -1511,18 +1534,22 @@ different timescales. Short-term variations, such as respiratory sinus
 arrhythmia, are reflective of rapid autonomic changes, while longer
 oscillations are indicative of autonomic responses to posture changes,
 circadian rhythms, or other physiological processes. Descriptions of
-frequency-domain indices are summarized in \textbf{?@tbl-fq}. .
+frequency-domain indices are summarized in Table~\ref{tbl-fq}. .
 
-\begin{table}
-
-\caption{\textbf{Box 2} Frequency-domain indices reflections of
-autonomic function}\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
+\hypertarget{tbl-fq}{}
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2077}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7923}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6000}}@{}}
+\caption{\label{tbl-fq}\textbf{Box 2} Frequency-domain indices
+reflections of autonomic function}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Frequency domain HRV
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Frequency domain HRV
@@ -1557,14 +1584,6 @@ parasympathetic modulation of heart rate via the vagus nerve, and
 closely associated with respiratory sinus
 arrhythmia.\textsuperscript{85} \\
 \end{longtable}
-
-}
-
-\end{minipage}%
-
-\end{table}
-
-\textbf{Holter recordings in study I}
 
 \textbf{Holter recordings in study I}
 
@@ -1628,15 +1647,13 @@ of standing.\textsuperscript{88}
 
 \begin{figure}
 
-\begin{minipage}[t]{\linewidth}
-
 {\centering 
 
-\includegraphics{images/cart.png} \emph{(source: author)}
+\includegraphics{images/cart.png} \emph{(source: Author)}
 
 }
 
-\end{minipage}%
+\caption{\label{fig-cart}\textbf{Cardiovascular autonomic reflex test}}
 
 \end{figure}
 
@@ -1723,9 +1740,19 @@ heart rate and mean arterial pressure (MAP) were recorded every five
 minutes using an oscillometric device (Accutorr Plus, Datascope,
 Montvale, NJ, USA).\textsuperscript{90}
 
+\begin{figure}
+
+{\centering 
+
 \includegraphics{images/Methods_arterial_stiffness.pdf} \emph{Measures
 of arterial stiffness, measured dynamically through the decending aorta
 and locally ay carotid sites. (Source: Author)}
+
+}
+
+\caption{\label{fig-as}\textbf{Aortic and carotid stiffness}}
+
+\end{figure}
 
 \hypertarget{indicators-of-heart-failure}{%
 \subsection{Indicators of heart
@@ -1766,51 +1793,24 @@ death.\textsuperscript{87}
 
 \begin{table}
 
-\caption{\textbf{?(caption)}}\begin{minipage}[t]{\linewidth}
+\caption{\label{tbl-mace}\textbf{?(caption)}}\begin{minipage}[t]{\linewidth}
+\subcaption{\label{tbl-mace-1}Definition of CVD and Heart failure}
 
 {\centering 
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2267}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7733}}@{}}
-\toprule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-\textbf{Outcome} & \textbf{Diagnosis codes} \\
-\emph{Heart failure} & ICD: I50 \\
+\begin{tabular}[t]{ll}
+\toprule
+\textbf{Outcome} & \textbf{Diagnosis codes}\\
+\emph{Heart failure} & ICD: I50\\
 \emph{Three-point MACE} & \\
-\begin{minipage}[t]{\linewidth}\raggedright
-\begin{itemize}
-\tightlist
-\item
-  Stroke
-\end{itemize}
-\end{minipage} & ICD: I61 - I64 \\
-\begin{minipage}[t]{\linewidth}\raggedright
-\begin{itemize}
-\tightlist
-\item
-  Myocardial infarction
-\end{itemize}
-\end{minipage} & ICD: I21-I24 \\
-\begin{minipage}[t]{\linewidth}\raggedright
-\begin{itemize}
-\tightlist
-\item
-  Cardiovascular death
-\end{itemize}
-\end{minipage} & ICD: I20-I28, I42, I46 \\
-\begin{minipage}[t]{\linewidth}\raggedright
-\begin{itemize}
-\tightlist
-\item
-  Cardiovascular revascularization
-\end{itemize}
-\end{minipage} & SKA: KPAE10, KPAE25, KPAF10, KPAF20, KPAF21, KPAF22,
-KPAH10, KPAH20, KPAH21, KPEE, KPEF, KPEH, KPEP, KPEQ, KPFE,, KPFH, KPFP,
-KPFQ \\
-\end{longtable}
+Stroke & ICD: I61 - I64\\
+Myocardial infarction & ICD: I21-I24\\
+Cardiovascular death & ICD: I20-I28, I42, I46\\
+Cardiovascular revascularization & SKA: KPAE10, KPAE25, KPAF10, KPAF20,
+KPAF21, KPAF22, KPAH10, KPAH20, KPAH21, KPEE, KPEF, KPEH, KPEP, KPEQ,
+KPFE,, KPFH, KPFP, KPFQ\\
+\bottomrule
+\end{tabular}
 
 }
 
@@ -2174,10 +2174,6 @@ Z-score and CD was observed at HbA1c levels between 4.8\% and 5.2\%.
 
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
-\begin{figure}
-
-{\centering 
-
 \includegraphics{images/em_hba1c.pdf}
 
 \emph{A: Percentage PWV per SD in time-domain composite z-score B:
@@ -2189,13 +2185,6 @@ physical activity, smoking behaviour, alcohol use, body mass index,
 hba1c, triglycerides, total-to-high density lipoprotein cholesterol
 ratio, lipid-modifying- and antihypertensive medication. Figure was
 based on data in Study I\textsuperscript{77}}
-
-}
-
-\caption{\label{fig-MS-HRV}\textbf{Association between HRV and arterial
-stiffness modified by HbA1c in subpopulation without T2D}}
-
-\end{figure}
 
 \restoregeometry
 
@@ -3478,8 +3467,6 @@ it.\textsuperscript{150,166}
 
 \begin{figure}
 
-\begin{minipage}[t]{\linewidth}
-
 {\centering 
 
 \includegraphics[width=4in,height=\textheight]{images/smartwatch.png}
@@ -3487,7 +3474,8 @@ it.\textsuperscript{150,166}
 
 }
 
-\end{minipage}%
+\caption{\label{fig-smw}\textbf{Hypothetical scenario of lifestyle and
+treatment adaptation using HRV in wearable devices}}
 
 \end{figure}
 
@@ -3582,16 +3570,15 @@ cardiovascular screening or interventions.\textsuperscript{75}
 
 \begin{figure}
 
-\begin{minipage}[t]{\linewidth}
-
 {\centering 
 
-\includegraphics[width=5in,height=\textheight]{images/strafication_tree_of_CAN(1).png}
+\includegraphics{images/strafication_tree_of_CAN(1).png}\\
 \emph{(Source: Author)}
 
 }
 
-\end{minipage}%
+\caption{\label{fig-rsp}\textbf{Conceptual model for risk stratification
+by autonomic dysfunction}}
 
 \end{figure}
 
@@ -3627,16 +3614,14 @@ pleiotropy.\textsuperscript{176}
 
 \begin{figure}
 
-\begin{minipage}[t]{\linewidth}
-
 {\centering 
 
-\includegraphics[width=6in,height=\textheight]{images/Mediation_HRV_1.png}
-\emph{(Source: Author)}
+\includegraphics{images/Mediation_HRV_1.png} \emph{(Source: Author)}
 
 }
 
-\end{minipage}%
+\caption{\label{fig-mediation}\textbf{Suggested mediation of HRV by
+intervention/observation in the prevention of CVD}}
 
 \end{figure}
 
@@ -5063,49 +5048,61 @@ and related comorbidities}. \emph{Nature Communications} 2025;
 
 \markboth{Summary}{Summary}
 
-This dissertation investigated whether cardiovascular autonomic
-dysfunction is associated with cardiovascular complications in
-individuals with normal glucose metabolism, prediabetes, and type 2
-diabetes. Cardiovascular autonomic dysfunction was assessed using heart
-rate variability and standardized cardiovascular autonomic reflex tests.
-Among the measures, 24-hour heart rate variability reflected autonomic
-balance and circadian shifts in sympathetic and parasympathetic
-activity. Lower long-term heart rate variability was consistently
-associated with adverse cardiovascular outcomes.
+\textbf{Background}\\
+Cardiovascular autonomic dysfunction is a diabetes complication that has
+been increasingly recognized as a contributor to cardiovascular disease
+(CVD). Yet, its clinical utility has remained unclear across stages in
+the glucose metabolism spectrum.
 
-Across three studies, autonomic dysfunction was linked to higher levels
-of arterial stiffness, a higher incidence of ischemic cardiovascular
-events, heart failure, and all-cause mortality. The association with
-arterial stiffness was observed across the full spectrum of glucose
-metabolism and was particularly pronounced in individuals with
-prediabetes, suggesting that autonomic dysfunction may play a role early
-in the pathophysiological process. Building on this, the subsequent
-studies focused on individuals at high risk of developing diabetes. In
-this population, cardiovascular autonomic dysfunction was associated
-with a higher risk of cardiovascular disease, heart failure, and
-mortality.
+\textbf{Aim}\\
+This dissertation was aimed at investigating how autonomic dysfunction,
+assessed by heart rate variability (HRV) and cardiovascular autonomic
+reflex tests (CARTs), is associated with cardiovascular complications in
+individuals with normal glucose metabolism (NGM), prediabetes, and type
+2 diabetes (T2D).
 
-Cardiovascular autonomic neuropathy, as identified through abnormal
-cardiovascular reflex testing, was associated with a higher risk of
-heart failure, even in individuals without symptoms. These findings
-suggest that cardiovascular autonomic dysfunction may serve as an early
-and independent marker of heart failure risk, particularly in
-populations at risk of type 2 diabetes.
+\textbf{Methods}\\
+In The Maastricht Study, long-term (24 hours) HRV, together with markers
+of aortic (carotid-femoral pulse wave velocity) and carotid stiffness
+(carotid artery distensibility), was quantified in 3,673 individuals
+with either NGM, prediabetes, or T2D. A cross-sectional analysis was
+conducted to quantify the association between long-term HRV and measures
+of arterial stiffness across NGM, prediabetes, and T2D. In the
+ADDITION-PRO cohort, HRV over multiple days was quantified in 1,627
+individuals at high risk of diabetes and was linked to Danish National
+Health Registries for outcomes of CVD, heart failure, and all-cause
+mortality. Time-to-event analysis was applied to quantify the
+association between multiday and hourly HRV and CVD, heart failure, and
+all-cause mortality. In The CANCAN Study of 176 individuals with T2D
+visiting outpatient clinics, CARTs were performed, with two or more
+abnormal values defined as cardiovascular autonomic neuropathy (CAN). A
+cross-sectional analysis was conducted to evaluate the association
+between CAN and heart failure indices, with N-terminal pro-B-type
+natriuretic peptide (NT-proBNP) as the primary index.
 
-The dissertation concludes that cardiovascular autonomic dysfunction is
-a clinically relevant risk factor that warrants further attention in
-both research and clinical practice. Future studies should explore
-whether improving autonomic function can reduce cardiovascular risk and
-whether measures of autonomic dysfunction can be integrated into
-existing risk models. Additionally, the potential of wearable
-technologies for continuous monitoring and early detection is a
-possibility to be evaluated in both clinical and general populations.
+\textbf{Results}\\
+Lower long-term HRV was associated with higher aortic and carotid
+stiffness. These associations were observed across all stages of glucose
+metabolism and were particularly pronounced in individuals with
+prediabetes or T2D. In a population at high risk of diabetes, lower
+multiday HRV was linked to a higher incidence of CVD, heart failure, and
+mortality. Hourly HRV was particularly indicative for CVD in response to
+the morning period from 6AM to 7AM. In the population with T2D in
+secondary care, CAN was associated with higher heart failure risk by
+elevated NT-proBNP, even in asymptomatic individuals and those
+classified as low-to-moderate risk by conventional risk scores.
 
-\newpage
+\textbf{Conclusion}\\
+Autonomic dysfunction was found to be associated with cardiovascular
+complications across the glycemic continuum. These findings suggest that
+HRV and CARTs may serve as early, independent markers of cardiovascular
+risk and become more relevant to individuals with dysglycemia, even
+before the onset of T2D.
 
+\clearpage
+\null
 \thispagestyle{empty}
-
-\textasciitilde{} \newpage
+\clearpage
 
 \bookmarksetup{startatroot}
 
@@ -5115,40 +5112,56 @@ possibility to be evaluated in both clinical and general populations.
 
 \markboth{Resume}{Resume}
 
-Denne afhandling undersøgte, om kardiovaskulær autonom dysfunktion er
-forbundet med kardiovaskulære komplikationer hos personer med normal
-glukosemetabolisme, prædiabetes og type 2-diabetes. Kardiovaskulær
-autonom dysfunktion blev målt igennme hjeretrymevariabilitet (HRV) og
-standardiserede kardiovaskulære autonome refleksundersøgelser (CARTs).
-Blandt målingerne gav 24-timers HRV indsigt i den autonome balance og
-døgnrytmens skift mellem sympatisk og parasympatisk aktivitet. Lavere
-værdier var konsekvent forbundet med ugunstige kardiovaskulære udfald.
+\textbf{Baggrund}\\
+Kardiovaskulær autonom dysfunktion er en diabeteskomplickation, som i
+stigende grad risiko faktor for hjertekarsygdom. Alligevel er dens
+kliniske anvendelighed fortsat uklar på tværs af stadier af
+glukosemetabolisme.
 
-På tværs af tre studier blev autonom dysfunktion forbundet med højere
-niveauer af arteriel stivhed, en højere forekomst af iskæmiske
-hjertekarsygedom, hjertesvigt og dødelighed. Sammenhængen med arteriel
-stivhed blev observeret på tværs af hele spektret af glukosemetabolisme
-og var særligt forhøjet hos personer med prædiabetes, hvilket antyder,
-at autonom dysfunktion. På baggrund af dette fokuserede det
-efterfølgende studie på personer med høj risiko for at udvikle diabetes.
-I denne population var kardiovaskulær autonom dysfunktion forbundet med
-højere risiko for kardiovaskulær sygdom, hjertesvigt og dødelighed.
+\textbf{Formål}\\
+Denne afhandling havde til formål at undersøge, hvordan autonom
+dysfunktion, målt igennem hjertefrekvensvariabilitet (HRV) og
+kardiovaskulære autonome reflekstests (KARTs), er associeret med
+kardiovaskulære komplikationer hos personer med normal
+glukosemetabolisme (NGM), prædiabetes og type 2-diabetes (T2D).
 
-Kardiovaskulær autonom neuropati, defineret gennem abnormale CARTs, var
-forbundet med en højere risiko for hjertesvigt hos individer med type 2
-diabetes, selv hos personer uden symptomer. Disse fund tyder på, at
-kardiovaskulær autonom dysfunktion kan fungere som en tidlig og
-uafhængig markør for risikoen for hjertesvigt, især i populationer med
-risiko for type 2-diabetes.
+\textbf{Metoder}\\
+I Maastricht studiet blev langvarig (24 timer) HRV, sammen med markører
+for aortastivhed (karotis-femoral pulsbølgehastighed) og karotis-stivhed
+(karotisarteriens distensibilitet), kvantificeret hos 3.673 personer med
+enten NGM, prædiabetes eller T2D. En tværsnitsanalyse blev udført for at
+kvantificere sammenhængen mellem langvarig HRV og mål for arteriel
+stivhed på tværs af NGM, prædiabetes og T2D. I ADDITION-PRO-kohorten
+blev HRV over flere dage kvantificeret hos 1.627 personer med høj risiko
+for diabetes og blev koblet til de danske nationale sundhedsregistre for
+udfald af hjertekarsygdomme, hjertesvigt og dødelighed af alle årsager.
+En time-to-event analyse blev anvendt til at kvantificere sammenhængen
+mellem flerdages og timebaseret HRV og CVD, hjertesvigt og dødelighed. I
+CANCAN-studiet af 176 personer med T2D, der besøgte ambulatorier, blev
+KARTs udført, hvor to eller flere unormale værdier blev defineret som
+kardiovaskulær autonom neuropati (KAN). En tværsnitsanalyse blev udført
+for at evaluere sammenhængen mellem KAN og hjertesvigtindikatorer, med
+N-terminal pro-B-type natriuretisk peptide (NT-proBNP) som primær
+indikator.
 
-Afhandlingen konkluderer, at kardiovaskulær autonom dysfunktion er en
-klinisk relevant risikofaktor, som bør tiltrække større opmærksomhed i
-både forskning og klinisk praksis. Fremtidige studier bør undersøge, om
-forbedring af autonom funktion kan reducere kardiovaskulær risiko, og om
-målinger af autonom dysfunktion kan integreres i eksisterende
-risikomodeller. Derudover er potentialet i smarture til kontinuerlig
-overvågning og tidlig opsporing en mulighed, der kan vurderes i både
-kliniske og generelle populationer.
+\textbf{Resultater}\\
+Lavere langvarig HRV var associeret med højere aorta- og
+karotis-stivhed. Disse sammenhænge blev observeret på tværs af alle
+stadier af glukosemetabolisme og var særligt udtalte hos personer med
+prædiabetes eller T2D. I en population med høj risiko for diabetes var
+lavere flerdages HRV forbundet med højere forekomst af CVD, hjertesvigt
+og dødelighed. Timebaseret HRV var særligt indikativ for CVD i
+morgenperioden fra kl. 6 til 7. I populationen med T2D i
+sekundærsektoren var KAN associeret med højere risiko for hjertesvigt
+ved forhøjet NT-proBNP, selv hos asymptomatiske personer og dem
+klassificeret som lav-til-moderat risiko i konventionelle risikoscorer.
+
+\textbf{Konklusion}\\
+Autonom dysfunktion blev fundet at være associeret med kardiovaskulære
+komplikationer på tværs af det glykæmiske kontinuum. Disse fund tyder
+på, at HRV og CARTs kan fungere som tidlige, uafhængige markører for
+kardiovaskulær risiko. Autonom dysfunktion er mere relevant for personer
+med dysglykæmi, selv før udviklingen af T2D.
 
 \clearpage
 \null
@@ -5160,91 +5173,8 @@ kliniske og generelle populationer.
 \addcontentsline{toc}{part}{Appendices}
 \appendix
 
-\hypertarget{sec-more-results}{%
-\chapter{Appendix}\label{sec-more-results}}
-
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-
-\hypertarget{study-i-1}{%
-\chapter{Study I}\label{study-i-1}}
-
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-
-\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
-
-\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study_Diabetes_Care.pdf}
-
-\includepdf[pages=-,pagecommand={}]{appendix/Supplemental_Material_MS.pdf}
-
-\newpage
-\restoregeometry
-
-\newpage
-
-\thispagestyle{empty}
-
-\newpage
-
-\hypertarget{study-ii-1}{%
-\chapter{Study II}\label{study-ii-1}}
-
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-
-\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
-
-\includepdf[pages=-,pagecommand={}]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
-
-\includepdf[pages=-,pagecommand={}]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
-
-\newpage
-\restoregeometry
-
-\hypertarget{study-iii-1}{%
-\section{Study III}\label{study-iii-1}}
-
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-
-\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
-
-\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf}
-
-\includepdf[pages=-,pagecommand={}]{appendix/CANCAN_Supplementary_material.pdf}
-
-\newpage
-
-\restoregeometry
-
-\newpage
-
-\hypertarget{sec-more-results}{%
-\chapter{Declaration of co-authorship}\label{sec-more-results}}
-
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-
-\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
-
-\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_dissertations_Maastricht_Study DW.pdf}
-
-\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_ADDITION_PRO DW.pdf}
-
-\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_CANCAN DW.pdf}
-
-\restoregeometry
+\hypertarget{section-1}{%
+\chapter{}\label{section-1}}
 
 
 \backmatter

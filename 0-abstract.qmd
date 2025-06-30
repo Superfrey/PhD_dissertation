@@ -1,29 +1,45 @@
 # Summary {.unnumbered}
 
-This dissertation investigated whether cardiovascular autonomic dysfunction is associated with cardiovascular complications in individuals with normal glucose metabolism, prediabetes, and type 2 diabetes. Cardiovascular autonomic dysfunction was assessed using heart rate variability and standardized cardiovascular autonomic reflex tests. Among the measures, 24-hour heart rate variability reflected autonomic balance and circadian shifts in sympathetic and parasympathetic activity. Lower long-term heart rate variability was consistently associated with adverse cardiovascular outcomes.
+**Background**    
+Cardiovascular autonomic dysfunction is a diabetes complication that has been increasingly recognized as a contributor to cardiovascular disease (CVD). Yet, its clinical utility has remained unclear across stages in the glucose metabolism spectrum.
 
-Across three studies, autonomic dysfunction was linked to higher levels of arterial stiffness, a higher incidence of ischemic cardiovascular events, heart failure, and all-cause mortality. The association with arterial stiffness was observed across the full spectrum of glucose metabolism and was particularly pronounced in individuals with prediabetes, suggesting that autonomic dysfunction may play a role early in the pathophysiological process. Building on this, the subsequent studies focused on individuals at high risk of developing diabetes. In this population, cardiovascular autonomic dysfunction was associated with a higher risk of cardiovascular disease, heart failure, and mortality.
+**Aim**   
+This dissertation was aimed at investigating how autonomic dysfunction, assessed by heart rate variability (HRV) and cardiovascular autonomic reflex tests (CARTs), is associated with cardiovascular complications in individuals with normal glucose metabolism (NGM), prediabetes, and type 2 diabetes (T2D).
 
-Cardiovascular autonomic neuropathy, as identified through abnormal cardiovascular reflex testing, was associated with a higher risk of heart failure, even in individuals without symptoms. These findings suggest that cardiovascular autonomic dysfunction may serve as an early and independent marker of heart failure risk, particularly in populations at risk of type 2 diabetes.
+**Methods**   
+In The Maastricht Study, long-term (24 hours) HRV, together with markers of aortic (carotid-femoral pulse wave velocity) and carotid stiffness (carotid artery distensibility), was quantified in 3,673 individuals with either NGM, prediabetes, or T2D. A cross-sectional analysis was conducted to quantify the association between long-term HRV and measures of arterial stiffness across NGM, prediabetes, and T2D. In the ADDITION-PRO cohort, HRV over multiple days was quantified in 1,627 individuals at high risk of diabetes and was linked to Danish National Health Registries for outcomes of CVD, heart failure, and all-cause mortality. Time-to-event analysis was applied to quantify the association between multiday and hourly HRV and CVD, heart failure, and all-cause mortality. In The CANCAN Study of 176 individuals with T2D visiting outpatient clinics, CARTs were performed, with two or more abnormal values defined as cardiovascular autonomic neuropathy (CAN). A cross-sectional analysis was conducted to evaluate the association between CAN and heart failure indices, with N-terminal pro-B-type natriuretic peptide (NT-proBNP) as the primary index.
 
-The dissertation concludes that cardiovascular autonomic dysfunction is a clinically relevant risk factor that warrants further attention in both research and clinical practice. Future studies should explore whether improving autonomic function can reduce cardiovascular risk and whether measures of autonomic dysfunction can be integrated into existing risk models. Additionally, the potential of wearable technologies for continuous monitoring and early detection is a possibility to be evaluated in both clinical and general populations.
+**Results**   
+Lower long-term HRV was associated with higher aortic and carotid stiffness. These associations were observed across all stages of glucose metabolism and were particularly pronounced in individuals with prediabetes or T2D. In a population at high risk of diabetes, lower multiday HRV was linked to a higher incidence of CVD, heart failure, and mortality. Hourly HRV was particularly indicative for CVD in response to the morning period from 6AM to 7AM. In the population with T2D in secondary care, CAN was associated with higher heart failure risk by elevated NT-proBNP, even in asymptomatic individuals and those classified as low-to-moderate risk by conventional risk scores.
 
-\newpage
+**Conclusion**    
+Autonomic dysfunction was found to be associated with cardiovascular complications across the glycemic continuum. These findings suggest that HRV and CARTs may serve as early, independent markers of cardiovascular risk and become more relevant to individuals with dysglycemia, even before the onset of T2D.
 
+
+\clearpage
+\null
 \thispagestyle{empty}
-~
-\newpage
+\clearpage
+
 
 
 # Resume {.unnumbered}
 
-Denne afhandling undersøgte, om kardiovaskulær autonom dysfunktion er forbundet med kardiovaskulære komplikationer hos personer med normal glukosemetabolisme, prædiabetes og type 2-diabetes. Kardiovaskulær autonom dysfunktion blev målt igennme hjeretrymevariabilitet (HRV) og standardiserede kardiovaskulære autonome refleksundersøgelser (CARTs). Blandt målingerne gav 24-timers HRV indsigt i den autonome balance og døgnrytmens skift mellem sympatisk og parasympatisk aktivitet. Lavere værdier var konsekvent forbundet med ugunstige kardiovaskulære udfald.
+**Baggrund**    
+Kardiovaskulær autonom dysfunktion er en diabeteskomplickation, som i stigende grad risiko faktor for hjertekarsygdom. Alligevel er dens kliniske anvendelighed fortsat uklar på tværs af stadier af glukosemetabolisme.
 
-På tværs af tre studier blev autonom dysfunktion forbundet med højere niveauer af arteriel stivhed, en højere forekomst af iskæmiske hjertekarsygedom, hjertesvigt og dødelighed. Sammenhængen med arteriel stivhed blev observeret på tværs af hele spektret af glukosemetabolisme og var særligt forhøjet hos personer med prædiabetes, hvilket antyder, at autonom dysfunktion. På baggrund af dette fokuserede det efterfølgende studie på personer med høj risiko for at udvikle diabetes. I denne population var kardiovaskulær autonom dysfunktion forbundet med højere risiko for kardiovaskulær sygdom, hjertesvigt og dødelighed.
+**Formål**    
+Denne afhandling havde til formål at undersøge, hvordan autonom dysfunktion, målt igennem hjertefrekvensvariabilitet (HRV) og kardiovaskulære autonome reflekstests (KARTs), er associeret med kardiovaskulære komplikationer hos personer med normal glukosemetabolisme (NGM), prædiabetes og type 2-diabetes (T2D).
 
-Kardiovaskulær autonom neuropati, defineret gennem abnormale CARTs, var forbundet med en højere risiko for hjertesvigt hos individer med type 2 diabetes, selv hos personer uden symptomer. Disse fund tyder på, at kardiovaskulær autonom dysfunktion kan fungere som en tidlig og uafhængig markør for risikoen for hjertesvigt, især i populationer med risiko for type 2-diabetes.
+**Metoder**   
+I Maastricht studiet blev langvarig (24 timer) HRV, sammen med markører for aortastivhed (karotis-femoral pulsbølgehastighed) og karotis-stivhed (karotisarteriens distensibilitet), kvantificeret hos 3.673 personer med enten NGM, prædiabetes eller T2D. En tværsnitsanalyse blev udført for at kvantificere sammenhængen mellem langvarig HRV og mål for arteriel stivhed på tværs af NGM, prædiabetes og T2D. I ADDITION-PRO-kohorten blev HRV over flere dage kvantificeret hos 1.627 personer med høj risiko for diabetes og blev koblet til de danske nationale sundhedsregistre for udfald af hjertekarsygdomme, hjertesvigt og dødelighed af alle årsager. En time-to-event analyse blev anvendt til at kvantificere sammenhængen mellem flerdages og timebaseret HRV og CVD, hjertesvigt og dødelighed. I CANCAN-studiet af 176 personer med T2D, der besøgte ambulatorier, blev KARTs udført, hvor to eller flere unormale værdier blev defineret som kardiovaskulær autonom neuropati (KAN). En tværsnitsanalyse blev udført for at evaluere sammenhængen mellem KAN og hjertesvigtindikatorer, med N-terminal pro-B-type natriuretisk peptide (NT-proBNP) som primær indikator.
 
-Afhandlingen konkluderer, at kardiovaskulær autonom dysfunktion er en klinisk relevant risikofaktor, som bør tiltrække større opmærksomhed i både forskning og klinisk praksis. Fremtidige studier bør undersøge, om forbedring af autonom funktion kan reducere kardiovaskulær risiko, og om målinger af autonom dysfunktion kan integreres i eksisterende risikomodeller. Derudover er potentialet i smarture til kontinuerlig overvågning og tidlig opsporing en mulighed, der kan vurderes i både kliniske og generelle populationer.
+**Resultater**    
+Lavere langvarig HRV var associeret med højere aorta- og karotis-stivhed. Disse sammenhænge blev observeret på tværs af alle stadier af glukosemetabolisme og var særligt udtalte hos personer med prædiabetes eller T2D. I en population med høj risiko for diabetes var lavere flerdages HRV forbundet med højere forekomst af CVD, hjertesvigt og dødelighed. Timebaseret HRV var særligt indikativ for CVD i morgenperioden fra kl. 6 til 7. I populationen med T2D i sekundærsektoren var KAN associeret med højere risiko for hjertesvigt ved forhøjet NT-proBNP, selv hos asymptomatiske personer og dem klassificeret som lav-til-moderat risiko i konventionelle risikoscorer.
+
+**Konklusion**    
+Autonom dysfunktion blev fundet at være associeret med kardiovaskulære komplikationer på tværs af det glykæmiske kontinuum. Disse fund tyder på, at HRV og CARTs kan fungere som tidlige, uafhængige markører for kardiovaskulær risiko. Autonom dysfunktion er mere relevant for personer med dysglykæmi, selv før udviklingen af T2D.
+
 
 \clearpage
 \null

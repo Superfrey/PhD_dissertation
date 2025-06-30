@@ -19,7 +19,7 @@ title: " Materials and methods"
 +----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 | Cohort               | Maastricht study                                                                                                       | ADDITION-PRO study                                                                                                                        | CANCAN study                                                                                 |
 +----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
-| Study population     | 3673 individuals with NGM, prediabetes, or T2D                                                                         | 2082 individuals with high risk of diabetes                                                                                               | 173 patients with T2D visiting outpatients clinics                                           |
+| Study population     | 3673 individuals with NGM, prediabetes, or T2D                                                                         | 2082 individuals with high risk of diabetes                                                                                               | 176 patients with T2D visiting outpatients clinics                                           |
 +----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 | Data sources         | Observational phenotyping cohort from The Maastricht Study in the Netherlands                                          | Cohort study of selected individuals based on having high risk of diabetes                                                                | Clinical cohort study                                                                        |
 +----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
@@ -64,16 +64,16 @@ The CANCAN Study is an observational study conducted at two hospital outpatient 
 
 ### Measures for autonomic dysfunction/ neuropathy
 
-::: {fig-align="center" fig-width="\"\\textwidth"}
-![Heart rate monitors](images/can_tools.pdf) *Left: Holter monitor; Middle: Actiheart; Right: Vagus™ device*
+::: {#fig-monitor fig-cap="**Heart rate monitors**" fig-align="center"}
+![](images/can_tools.pdf) *Left: Holter monitor; Middle: Actiheart; Right: Vagus™ device*
 :::
 
 **Heart rate variability**
 
 In Studies I–III, different devices were used to capture the distance between each heartbeat, defined as RR intervals, from electrocardiogram traces—either directly from heartbeat traces or indirectly from pulse traces. From these, a sequence of successive heartbeat intervals was extracted to calculate time- and frequency-domain HRV.
 
-::: {fig-align="center" fig-width="\"\\textwidth"}
-![Heart rate variability calculations](images/measurements_hrv.pdf) *Time- and Frequency domain HRV indices (Source: Author)*
+::: {#fig-hrv fig-cap="**Heart rate variability calculations**" fig-align="center"}
+![](images/measurements_hrv.pdf) *Time- and Frequency domain HRV indices (Source: Author)*
 :::
 
 *Time-domain indices*
@@ -128,10 +128,10 @@ Heart rate was measured using a combined accelerometer and heart rate monitor (A
 
 CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold standard for CAN assessment. R-R intervals were derived from an ECG signal using the Vagus™ device (Medicus Engineering, Aarhus, Denmark).[@hansen2025; @schaarup2025] Pulse rate ratios were measured under different conditions.[@schaarup2025] Three standardized cardiovascular autonomic reflex tests (CARTs) were performed: (1) lying-to-standing, (2) deep breathing, and (3) the Valsalva manoeuvre, following a standardized protocol conducted between 8:00 a.m. and 2:00 p.m., after 10 minutes of supine rest.[@schaarup2025] Smoking and caffeine intake were prohibited two hours before testing. Each test was conducted once by trained examiners.[@schaarup2025]
 
-Manifest CAN was defined as two or more abnormal CARTs using age-specific formula.[@hansen2025] The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility.[@fleischer2011] Orthostatic hypotension was defined as a sustained drop in systolic blood pressure of ≥20 mmHg or diastolic blood pressure of ≥10 mmHg within three minutes of standing.[@schaarup2025]
+Manifest CAN was defined as two or more abnormal CARTs using an age-based formula.[@hansen2025] The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility.[@fleischer2011] Orthostatic hypotension was defined as a sustained drop in systolic blood pressure of ≥20 mmHg or diastolic blood pressure of ≥10 mmHg within three minutes of standing.[@schaarup2025]
 
-::: {layout-ncol="1"}
-![Cardiovascular autonomic reflex test](images/cart.png){width="100%," fig-align="left"} *(source: author)*
+::: {#fig-cart fig-cap="**Cardiovascular autonomic reflex test**" fig-align="center"}
+![](images/cart.png){width="100%," fig-align="left"} *(source: Author)*
 :::
 
 ### Confounders and variables for instrumental bias
@@ -158,8 +158,9 @@ Aortic stiffness was measured by carotid-femoral pulse wave velocity (cf-PWV) us
 
 Carotid stiffness was assessed by the carotid artery distensibility coefficient (CD), based on ultrasound imaging of the left common carotid artery using a 7.5 MHz linear probe (MyLab 70, Esaote Europe, Maastricht, the Netherlands). CD was calculated as ΔD/braPP, where ΔD represents carotid distension and braPP is brachial pulse pressure. Mean heart rate and mean arterial pressure (MAP) were recorded every five minutes using an oscillometric device (Accutorr Plus, Datascope, Montvale, NJ, USA).[@tanlaizhou2018]
 
-::: {fig-align="center" fig-width="\"\\textwidth"}
-![Aortic and carotid stiffness](images/Methods_arterial_stiffness.pdf) *Measures of arterial stiffness, measured dynamically through the decending aorta and locally ay carotid sites. (Source: Author)*
+::: {#fig-as fig-cap="**Aortic and carotid stiffness**" fig-align="center"}
+![](images/Methods_arterial_stiffness.pdf) 
+*Measures of arterial stiffness, measured dynamically through the decending aorta and locally ay carotid sites. (Source: Author)*
 :::
 
 ### Indicators of heart failure
@@ -190,6 +191,7 @@ Information on CVD events and mortality was obtained from the Danish National Pa
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 | -   Cardiovascular revascularization | SKA: KPAE10, KPAE25, KPAF10, KPAF20, KPAF21, KPAF22, KPAH10, KPAH20, KPAH21, KPEE, KPEF, KPEH, KPEP, KPEQ, KPFE,, KPFH, KPFP, KPFQ |
 +--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+: Definition of CVD and Heart failure
 :::
 
 ## Statistical Methods
