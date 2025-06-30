@@ -1,86 +1,111 @@
+## Appendix {#sec-more-results}
 
-<!-- # Appendix {#sec-more-results} -->
-
-<!-- \clearpage -->
-<!-- \null -->
-<!-- \thispagestyle{empty} -->
-<!-- \clearpage -->
-
-<!-- # Study I -->
-
-<!-- \clearpage -->
-<!-- \null -->
-<!-- \thispagestyle{empty} -->
-<!-- \clearpage -->
+## Study I
 
 
+**Cardiovascular autonomic dysfunction is linked with arterial stiffness across glucose metabolism: The Maastricht Study** 
 
-<!-- \newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm} -->
 
-<!-- \includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study_Diabetes_Care.pdf} -->
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen van Greevenbroek, Miranda T. Schram, Bastiaan E. de Galan, Coen Stehouwer, Daniel R. Witte (2025). preprint at medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865   
+(under peer-review at BMJ Open Diabetes Research & Care)  
 
-<!-- \includepdf[pages=-,pagecommand={}]{appendix/Supplemental_Material_MS.pdf} -->
-
-<!-- \newpage -->
-<!-- \restoregeometry -->
-
-<!-- \newpage -->
-
-<!-- \thispagestyle{empty} -->
-
-<!-- \newpage -->
-
-<!-- # Study II -->
-
-<!-- \clearpage -->
-<!-- \null -->
-<!-- \thispagestyle{empty} -->
-<!-- \clearpage -->
-
-<!-- \newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm} -->
-
-<!-- \includepdf[pages=-,pagecommand={}]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf} -->
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
 
 
 
-<!-- \includepdf[pages=-,pagecommand={}]{appendix/supplementary_material_ADDITION_PRO_revised.pdf} -->
+\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
-<!-- \newpage -->
-<!-- \restoregeometry -->
+\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study_Diabetes_Care.pdf}
 
-<!-- ## Study III -->
+\includepdf[pages=-,pagecommand={}]{appendix/Supplemental_Material_MS.pdf}
 
-<!-- \clearpage -->
-<!-- \null -->
-<!-- \thispagestyle{empty} -->
-<!-- \clearpage -->
+\newpage
+\restoregeometry
 
-<!-- \newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm} -->
+\newpage
 
-<!-- \includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf} -->
+\thispagestyle{empty}
 
-<!-- \includepdf[pages=-,pagecommand={}]{appendix/CANCAN_Supplementary_material.pdf} -->
+\newpage
 
-<!-- \newpage -->
+## Study II
 
-<!-- \restoregeometry -->
+ 
 
-<!-- \newpage -->
 
-<!-- # Declaration of co-authorship {#sec-more-results} -->
+**Cardiovascular autonomic dysfunction precedes cardiovascular disease and all-cause mortality: 11-year follow-up of the ADDITION-PRO study**   
 
-<!-- \clearpage -->
-<!-- \null -->
-<!-- \thispagestyle{empty} -->
-<!-- \clearpage -->
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove, Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel R. Witte.     
+Preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18.24319131     
+(accepted at Diabetes, Obesity and Metabolism)    
 
-<!-- \newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm} -->
 
-<!-- \includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_dissertations_Maastricht_Study DW.pdf} -->
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
 
-<!-- \includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_ADDITION_PRO DW.pdf} -->
+\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
 
-<!-- \includepdf[pages=-,pagecommand={}]{appendix/author_signatures/cancan_phd_signed.pdf} -->
+\includepdf[pages=-,pagecommand={}]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
 
-<!-- \restoregeometry -->
+
+
+\includepdf[pages=-,pagecommand={}]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
+
+\newpage
+\restoregeometry
+
+## Study III
+
+
+**Study III**   
+
+**Cardiovascular autonomic neuropathy and indices of heart failure in type 2 diabetes: The CANCAN Study** 
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Daniel R. Witte, Henrik H. Thomsen, Jesper Fleischer, Rodica Pop-Busui, Annelli Sandbæk, Signe T. Andersen.   
+(submitted to Diabetes Care)
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
+\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
+
+\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf}
+
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
+
+\includepdf[pages=-,pagecommand={}]{appendix/CANCAN_Supplementary_material.pdf}
+
+\newpage
+
+\restoregeometry
+
+\newpage
+
+# Declaration of co-authorship {#sec-more-results}
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
+\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
+
+\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_dissertations_Maastricht_Study DW.pdf}
+
+\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_ADDITION_PRO DW.pdf}
+
+\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/cancan_phd_signed.pdf}
+
+\restoregeometry
 

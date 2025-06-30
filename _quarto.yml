@@ -68,7 +68,7 @@ format:
     default-image-extension: png
     classoption:
      - headsepline=true
-     - open=any
+     - open=left
     keep-tex: true
     toc-depth: 2
     toc: false

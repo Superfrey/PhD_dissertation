@@ -1,3 +1,9 @@
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
 # Summary {.unnumbered}
 
 **Background**    
@@ -24,6 +30,11 @@ Autonomic dysfunction was found to be associated with cardiovascular complicatio
 
 
 # Resume {.unnumbered}
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
 
 **Baggrund**    
 Kardiovaskulær autonom dysfunktion er en diabeteskomplikation, som i stigende grad anerkendes som en risikofaktor for hjertekarsygdomme. På trods af dette er autonom dysfunktions rolle i klinisk praksis ofte overset. Desuden er betydningen af autonom dysfunktion for hjertekarsygdomme på tværs af stadier af glukosemetabolisme endnu ikke klart defineret.
