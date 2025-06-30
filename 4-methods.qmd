@@ -2,11 +2,11 @@
 title: " Materials and methods"
 ---
 
-\clearpage
-\null
 \thispagestyle{empty}
 \clearpage
 
+
+::: landscape
 
 ## Overview of the studies
 
@@ -31,6 +31,10 @@ title: " Materials and methods"
 +----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 | Missing data         | Complete case analysis                                                                                                 | Multiple imputation of chained equations for confounders                                                                                  | Complete case analysis and multiple imputation of chained equations for CART and confounders |
 +----------------------+------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+
+: Overview of studies {tbl-colwidths="[19, 27, 27, 27]"}
+
+:::
 
 ### Study population
 
@@ -76,7 +80,6 @@ In Studies I–III, different devices were used to capture the distance between 
 
 Time-domain measures of HRV are based on the statistical distribution of normal-to-normal (NN) heartbeat intervals. Descriptions of time-domain indices are summarized in @tbl-td.
 
-::: {#tbl-td}
 +---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time-domain HRV                                                                                               | Description                                                                                                                                                                                                                                                                     |
 +===============================================================================================================+=================================================================================================================================================================================================================================================================================+
@@ -91,14 +94,12 @@ Time-domain measures of HRV are based on the statistical distribution of normal-
 | **Square root of the mean of the sum of squares of differences between adjacent NN intervals (RMSSD, in ms)** | Measures variation in successive interbeat intervals during inhalation and exhalation, primarily reflecting parasympathetic (vagal) activity[@umetani1998]                                                                                                                      |
 +---------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-**Box 1** Time-domain indices reflections of autonomic function
-:::
+: **Box 1** Time-domain indices reflections of autonomic function {#tbl-td tbl-colwidths="[40, 60]"}
 
 *Frequency-domain indices*
 
 Frequency-domain HRV indices are derived from sequences of NN intervals that have been transformed into the spectral domain using Fourier transformation. These indices quantify heart rate oscillations over different timescales. Short-term variations, such as respiratory sinus arrhythmia, are reflective of rapid autonomic changes, while longer oscillations are indicative of autonomic responses to posture changes, circadian rhythms, or other physiological processes. Descriptions of frequency-domain indices are summarized in @tbl-fq. .
 
-::: {#tbl-fq}
 +---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Frequency domain HRV                                                | Description                                                                                                                                                                                                                                                              |
 +=====================================================================+==========================================================================================================================================================================================================================================================================+
@@ -113,10 +114,7 @@ Frequency-domain HRV indices are derived from sequences of NN intervals that hav
 | **High-frequency range (HF, in ms²; 0.15–0.4 Hz)**                  | Measures short-term oscillations during inspiration and expiration, reflecting parasympathetic modulation of heart rate via the vagus nerve, and closely associated with respiratory sinus arrhythmia. [@elghozi1991]                                                    |
 +---------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-**Box 2** Frequency-domain indices reflections of autonomic function
-:::
-
-**Holter recordings in study I**
+: **Box 2** Frequency-domain indices reflections of autonomic function {#tbl-fq tbl-colwidths="[40, 60]"}
 
 **Holter recordings in study I**
 
