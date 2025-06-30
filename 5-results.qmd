@@ -46,8 +46,7 @@ table_mas %>%
     font_size = 10
     )%>% 
     kableExtra::landscape() %>% 
-    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th)\
-    Table are adapted from supplementary material in Appendix Study I")
+    kableExtra::footnote(general="Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are adapted from supplementary material in Appendix Study I")
 ```
 
 \restoregeometry
@@ -108,14 +107,13 @@ table_add_pro <- readxl::read_xlsx(here("tables/table_1_dis.xlsx"))
 
 table_add_pro[-nrow(table_add_pro), ] %>% 
       mutate_all(~ ifelse(is.na(.), "", .)) %>% 
-    kableExtra::kbl(booktabs = TRUE) %>%
+    kableExtra::kbl("latex", booktabs = TRUE) %>%
     kableExtra::kable_styling(
     latex_options = c("striped", "scale_down"), 
     #full_width = TRUE, 
     font_size = 10) %>% 
     kableExtra::landscape()%>% 
-    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th\
-                         Table are based on data from Study II")
+    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are based on data from Study II")
 ```
 
 \restoregeometry
@@ -144,7 +142,7 @@ In @fig-ADD_PRO_risk_by_hour, hourly SDNN (preadjusted for heart rate and physic
 
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
-::: {.landscape #fig-ADD_PRO_risk_by_hour fig-cap="**Diurnal heart rate variability and heart rate association with major adverse cardiovascular events, heart failure, and all-cause mortality risk**" fig-align="center" fig-width="\\textwidth"}
+::: {#fig-ADD_PRO_risk_by_hour fig-cap="**Diurnal heart rate variability and heart rate association with major adverse cardiovascular events, heart failure, and all-cause mortality risk**" fig-align="center" fig-width="\\textwidth"}
 ![](images/figure_ADD_PRO_risk_by_hour.pdf)
 
 *SDNN preadjusted for concurrent physical acceleration and heart rate, as well as mean heart rate (HR) and physical acceleration, were measured hourly from 00:00 to 24:00. The IRR for MACE, heart failure hospitalization, and all-cause mortality are shown by hourly associations of: (A–C) preadjusted SDNN, (D–F) mean HR, and (G–I) physical acceleration. Models were adjusted for age, sex, education, alcohol consumption, smoking behavior, body mass index, total cholesterol, and HbA1c. Figure adapted from Appendix Study II[@schaarup2024b]*
@@ -172,14 +170,13 @@ table_can<- readxl::read_xlsx(here("tables/cancan_tab.xlsx"))
 
 table_can[-nrow(table_can), ] %>% 
       mutate_all(~ ifelse(is.na(.), "", .)) %>% 
-    kableExtra::kbl(booktabs = TRUE) %>%
+    kableExtra::kbl("latex", booktabs = TRUE) %>%
     kableExtra::kable_styling(
     latex_options = c("striped", "scale_down"), 
     #full_width = TRUE, 
     font_size = 10) %>% 
     kableExtra::landscape()%>% 
-    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th\
- Table are adapted from Table 1 in Appendix Study III")
+    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are adapted from Table 1 in Appendix Study III")
 
 
 ```

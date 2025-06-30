@@ -5,8 +5,8 @@
 
 **Cardiovascular autonomic dysfunction is linked with arterial stiffness across glucose metabolism: The Maastricht Study** 
 
-
-Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen van Greevenbroek, Miranda T. Schram, Bastiaan E. de Galan, Coen Stehouwer, Daniel R. Witte (2025). preprint at medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865   
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen van Greevenbroek, Miranda T. Schram, Bastiaan E. de Galan, Coen Stehouwer, Daniel R. Witte.\    
+preprint at medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865   \
 (under peer-review at BMJ Open Diabetes Research & Care)  
 
 \clearpage
@@ -36,10 +36,10 @@ Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen 
  
 
 
-**Cardiovascular autonomic dysfunction precedes cardiovascular disease and all-cause mortality: 11-year follow-up of the ADDITION-PRO study**   
+**Cardiovascular autonomic dysfunction precedes cardiovascular disease and all-cause mortality: 11-year follow-up of the ADDITION-PRO study**   \
 
-Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove, Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel R. Witte.     
-Preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18.24319131     
+Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove, Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel R. Witte.\    
+Preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18.24319131\    
 (accepted at Diabetes, Obesity and Metabolism)    
 
 
@@ -62,7 +62,6 @@ Preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18
 ## Study III
 
 
-**Study III**   
 
 **Cardiovascular autonomic neuropathy and indices of heart failure in type 2 diabetes: The CANCAN Study**   
 Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Daniel R. Witte, Henrik H. Thomsen, Jesper Fleischer, Rodica Pop-Busui, Annelli Sandbæk, Signe T. Andersen.   

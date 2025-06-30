@@ -19,7 +19,7 @@
 **HRV:** Heart rate variability  
 **IR:** Incidence rate  
 **IRR:** Incidence rate ratio  
-**LDL-C:** Low-density lipoprotein cholesterol  
+**LDL:** Low-density lipoprotein cholesterol  
 **LF:** Low-frequency range (0.04–0.15 Hz)  
 **MACE:** Three-point major adverse cardiovascular events  
 **MAP:** Mean arterial pressure  
