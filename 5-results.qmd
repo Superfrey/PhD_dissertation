@@ -14,7 +14,7 @@ bibliography: references.bib
 \thispagestyle{empty}
 \clearpage
 ```
-In this section, study population characteristics and findings from analysis will be presented.
+In this section, study population characteristics and findings from analyses will be presented.
 
 ## Study I
 
@@ -144,7 +144,7 @@ In @fig-ADD_PRO_risk_by_hour, hourly SDNN (preadjusted for heart rate and physic
 
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
-::: {#fig-ADD_PRO_risk_by_hour fig-cap="**Diurnal heart rate variability and heart rate association with major adverse cardiovascular events, heart failure, and all-cause mortality risk**" fig-align="center" fig-width="\\textwidth"}
+::: {.landscape #fig-ADD_PRO_risk_by_hour fig-cap="**Diurnal heart rate variability and heart rate association with major adverse cardiovascular events, heart failure, and all-cause mortality risk**" fig-align="center" fig-width="\\textwidth"}
 ![](images/figure_ADD_PRO_risk_by_hour.pdf)
 
 *SDNN preadjusted for concurrent physical acceleration and heart rate, as well as mean heart rate (HR) and physical acceleration, were measured hourly from 00:00 to 24:00. The IRR for MACE, heart failure hospitalization, and all-cause mortality are shown by hourly associations of: (A–C) preadjusted SDNN, (D–F) mean HR, and (G–I) physical acceleration. Models were adjusted for age, sex, education, alcohol consumption, smoking behavior, body mass index, total cholesterol, and HbA1c. Figure adapted from Appendix Study II[@schaarup2024b]*
@@ -156,7 +156,7 @@ In @fig-ADD_PRO_risk_by_hour, hourly SDNN (preadjusted for heart rate and physic
 
 ### Descriptive
 
-In study III, 176 participants had measures of NT-proBNP. CAN was present in 31% (n = 54) of participants (40% among those with valid CAN measurements (@fig-CAN A)).[@schaarup2025] Meanwhile, 23% (n = 40) were unable to complete the CART assessment adequately, primarily due to insufficient air pressure during the Valsalva manoeuvre (n = 21).[@schaarup2025] Compare to those without CAN, the participants with CAN were more women (41 % vs 33 %), were more sedentary (45% vs 36%), had a higher proportion with prior major CVD (41% vs 23%) and declined eGFR (\< 60ml/min/1.73 m$^2$) (35% vs 22%), higher levels of triglyceride (median 2.05 mmol/L vs 1.95 mmol/ L), were slightly older (median 62 years vs 61 years), had longer duration of T2D (median 19 years vs 15 years), and higher use SGLT2i (65% vs 60%) but lower use of GLP-1RA (63% vs 70%). No other difference in clinical characteristic was observed (see @tbl-can).[@schaarup2025]
+In study III, 176 participants had measures of NT-proBNP. CAN was present in 31% (n = 54) of participants (40% among those with valid CAN measurements (@fig-CAN A)).[@schaarup2025] Meanwhile, 23% (n = 40) were unable to complete the CART assessment adequately, primarily due to insufficient air pressure during the Valsalva maneuver (n = 21).[@schaarup2025] Compared to those without CAN, the participants with CAN were more often women (41 % vs 33 %), were more sedentary (45% vs 36%), had a higher proportion with prior major CVD (41% vs 23%) and declined eGFR (\< 60ml/min/1.73 m$^2$) (35% vs 22%), higher levels of triglyceride (median 2.05 mmol/L vs 1.95 mmol/ L), were slightly older (median 62 years vs 61 years), had longer duration of T2D (median 19 years vs 15 years), and higher use SGLT2i (65% vs 60%) but lower use of GLP-1RA (63% vs 70%). No other difference in clinical characteristic was observed (see @tbl-can).[@schaarup2025]
 
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
