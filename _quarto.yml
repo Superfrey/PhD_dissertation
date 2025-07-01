@@ -4,7 +4,7 @@ project:
   
 book:
   title: "Cardiovascular autonomic dysfunction impact on cardiovascular complications across glucose metabolism"
-  author: "Jonas Rosborg Schaarup"
+  author: "Jonas Frey Rosborg Schaarup"
   date: "2025 06 30"
   date-format: "YYYY"
   chapters:
@@ -14,6 +14,7 @@ book:
     - 0-preface.qmd
     - acknowledgements.qmd
     - 0-papers.qmd
+    - blank-page.qmd
     - 0-abbreviations.qmd
     - 1-introduction.qmd
     - 2-background.qmd
@@ -68,7 +69,7 @@ format:
     default-image-extension: png
     classoption:
      - headsepline=true
-     - open=left
+     - open=any
     keep-tex: true
     toc-depth: 2
     toc: false

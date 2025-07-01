@@ -1,4 +1,6 @@
-## Appendix {#sec-more-results}
+# Appendix {#sec-more-results}
+
+\newpage
 
 ## Study I
 

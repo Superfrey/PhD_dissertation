@@ -8,6 +8,8 @@ title: " Materials and methods"
 \thispagestyle{empty}
 \clearpage
 ```
+
+\blandscape
 ::: landscape
 ## Overview of the studies
 
@@ -25,7 +27,7 @@ title: " Materials and methods"
 
 : Overview of studies {tbl-colwidths="\[19, 27, 27, 27\]"}
 :::
-
+\elandscape
 ### Study population
 
 ::: center
@@ -214,3 +216,8 @@ In Study II, autonomic function was assessed using multiday HRV recordings and h
 *Biomarker of Heart Failure*
 
 In Study III, kidney function and overweight are known to influence NT-proBNP levels independently of heart failure.[@heidenreich2022] Therefore, the model was adjusted to account for the confounding effect of eGFR on NT-proBNP levels in the analysis.[@schaarup2025]
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage

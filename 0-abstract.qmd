@@ -55,5 +55,3 @@ Autonom dysfunktion er associeret med kardiovaskulære komplikationer på tværs
 \null
 \thispagestyle{empty}
 \clearpage
-
-

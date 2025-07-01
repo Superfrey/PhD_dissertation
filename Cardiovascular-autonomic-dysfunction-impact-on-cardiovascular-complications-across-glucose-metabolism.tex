@@ -5,7 +5,7 @@
 \documentclass[
   a4paper,
   headsepline=true,
-  open=left]{scrbook}
+  open=any]{scrbook}
 
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
@@ -109,6 +109,8 @@
     \usepackage{float}
     \usepackage{colortbl}
     \usepackage{pdflscape}
+    \newcommand{\blandscape}{\begin{landscape}}
+    \newcommand{\elandscape}{\end{landscape}}
     \usepackage{tabu}
     \usepackage{threeparttable}
     \usepackage{threeparttablex}
@@ -261,19 +263,19 @@
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
   pdftitle={Cardiovascular autonomic dysfunction impact on cardiovascular complications across glucose metabolism},
-  pdfauthor={Jonas Rosborg Schaarup},
+  pdfauthor={Jonas Frey Rosborg Schaarup},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
 \title{Cardiovascular autonomic dysfunction impact on cardiovascular
 complications across glucose metabolism}
-\author{Jonas Rosborg Schaarup}
+\author{Jonas Frey Rosborg Schaarup}
 \date{2025}
 
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, interior hidden, frame hidden, boxrule=0pt, enhanced, borderline west={3pt}{0pt}{shadecolor}, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, frame hidden, enhanced, borderline west={3pt}{0pt}{shadecolor}, interior hidden, breakable, sharp corners]}{\end{tcolorbox}}\fi
 
 \mainmatter
 \bookmarksetup{startatroot}
@@ -315,7 +317,7 @@ Department of Public Health, Aarhus University, Denmark
 \subsubsection*{Supervisors:}\label{supervisors}}
 \addcontentsline{toc}{subsubsection}{Supervisors:}
 
-\textbf{Professor Daniel R. Witte, PhD (main supervisor)}\\
+\textbf{Professor Daniel R. Witte (main supervisor)}\\
 Department of Public Health, Aarhus University, Denmark\\
 Steno Diabetes Center Aarhus, Denmark
 
@@ -512,15 +514,15 @@ journey and for making the ride both fun and exciting.
 
 First and foremost, I would like to thank my main supervisor, Daniel
 Witte. His support, thought-provoking challenges, and brilliant guidance
-have kept me motivated to learn about diabetes epidemiology throughout
-this journey. His ability to expand horizons in research has been truly
-inspiring, and I am deeply grateful for the opportunities to grow under
-his mentorship.
+have kept me motivated and curious to learn about diabetes epidemiology
+throughout this journey. His ability to expand horizons in research has
+been truly inspiring, and I am deeply grateful for the opportunities to
+grow under his mentorship.
 
 I would also like to extend my heartfelt thanks to the rest of the
 supervisor team: Lasse Bjerg for his methodological support, high
 spirits, and sharp mind, always cutting straight to the core of the
-research; Signe T. Andersen for her guidance and support throughout the
+research - Signe T. Andersen for her guidance and support throughout the
 design and data collection of the CANCAN study. As a non-clinician
 researcher, I found it eye-opening to witness the complex challenges of
 diabetes consultations, and I admire her ability to understand each
@@ -541,16 +543,16 @@ methods used in their data collection facilities. Thanks to Marion
 Feijge for guiding me through the data sets. I am also grateful to Coen
 Stehouwer for his sharp input and deep expertise in diabetes
 epidemiology. In the ADDITION-PRO study, I would like to thank
-Anne-Louise Bjerre and Søren Brage for helping me understand the
-variables, and data manager Marianne at the Department of Public Health
-for her generous support with the data sets. In the CANCAN study, I
-would like to express my sincere gratitude to Henrik Holm Thomsen and
-Gitte Jensen for their invaluable help with recruitment, and to Anne
-Katrine Møller Gramstrup for her efforts in extracting clinical data for
-the study population. I am also very grateful to the people who
-generously agreed to participate in the CANCAN study. It is truly
-inspiring to witness so many of you joining the study to support efforts
-aimed at improving diabetes care for all patients.
+Anne-Louise Bjerre and Søren Brage for explaining me the variables, and
+data manager Marianne at the Department of Public Health for her
+generous support with the data sets. In the CANCAN study, I would like
+to express my sincere gratitude to Henrik Thomsen and Gitte Jensen for
+their invaluable help with recruitment, and to Anne Katrine Møller
+Gramstrup for her efforts in extracting clinical data for the study
+population. I am also very grateful to the people who generously agreed
+to participate in the CANCAN study. It is truly inspiring to witness so
+many of you joining the study to support efforts aimed at improving
+diabetes care for all patients.
 
 No adventure is truly exciting without cultural exchange, whether
 through the lovely visits from Peter and Ieva at SDCA or by putting
@@ -561,9 +563,9 @@ Melbourne. It was a truly enriching stay, both scientifically and
 socially. A special thanks to Julian Sacre for his valuable support and
 insightful contributions in deepening my understanding of the challenges
 involved in screening for heart failure subtypes. To the PhD students
-and postdocs at 7/11---Della, Forough, Elizabeth, Jedidiah, Lei, Mahtab,
-Berhanu, Kanika, and Joanna---thank you for making me feel so welcome
-and for giving me a wonderful and fun experience of Melbourne. To my
+and postdocs at 7/11: Della, Forough, Elizabeth, Jedidiah, Lei, Mahtab,
+Berhanu, Kanika, and Joanna, thank you for making me feel so welcome and
+for giving me a wonderful and fun experience of Melbourne. To my
 brothers, Esben and Jalte, thank you for putting up with me and for
 helping me loosen up and have fun. To my parents, thank you for
 supporting me throughout my life and for standing by me in every path I
@@ -674,6 +676,19 @@ medicine)
 
 \bookmarksetup{startatroot}
 
+\hypertarget{section-1}{%
+\chapter*{}\label{section-1}}
+\addcontentsline{toc}{chapter}{}
+
+\markboth{}{}
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
+\bookmarksetup{startatroot}
+
 \hypertarget{abbreviations}{%
 \chapter*{Abbreviations}\label{abbreviations}}
 \addcontentsline{toc}{chapter}{Abbreviations}
@@ -726,6 +741,11 @@ intervals\\
 \textbf{TP:} Total power (variance of NN intervals ≤ 0.4 Hz)\\
 \textbf{ULF:} Ultra low-frequency range (≤ 0.003 Hz)\\
 \textbf{VLF:} Very-low-frequency range (0.003--0.04 Hz)
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
 
 \bookmarksetup{startatroot}
 
@@ -1188,7 +1208,7 @@ such as GLP-1 analogoues.\textsuperscript{72,73}
 During the progression towards and following the onset of T2D,
 dysglycaemia may be accompanied by early signs of cardiovascular
 dysfunction, such as arterial stiffness or cardiac
-remodelling.\textsuperscript{74,75} These reflect underlying disease
+remodeling.\textsuperscript{74,75} These reflect underlying disease
 processes that indicate elevated CVD risk. Risk stratification, the
 classification of individuals by estimated risk using conventional
 scores such as SCORE2 or Framingham, biomarker levels, omic data
@@ -1281,6 +1301,8 @@ Association (NYHA) classification scores among individuals with T2D.
 \thispagestyle{empty}
 \clearpage
 
+\blandscape
+
 \hypertarget{overview-of-the-studies}{%
 \section{Overview of the studies}\label{overview-of-the-studies}}
 
@@ -1340,6 +1362,8 @@ Missing data & Complete case analysis & Multiple imputation of chained
 equations for confounders & Complete case analysis and multiple
 imputation of chained equations for CART and confounders \\
 \end{longtable}
+
+\elandscape
 
 \hypertarget{study-population}{%
 \subsection{Study population}\label{study-population}}
@@ -2007,6 +2031,11 @@ NT-proBNP levels independently of heart failure.\textsuperscript{57}
 Therefore, the model was adjusted to account for the confounding effect
 of eGFR on NT-proBNP levels in the analysis.\textsuperscript{96}
 
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
+
 \bookmarksetup{startatroot}
 
 \hypertarget{results}{%
@@ -2089,7 +2118,7 @@ Beta blockers & 149 (6.2\%) & 77 (14\%) & 195 (26\%)\\
 \cellcolor{gray!6}{Lipid-lowering medication} & \cellcolor{gray!6}{280 (12\%)} & \cellcolor{gray!6}{141 (26\%)} & \cellcolor{gray!6}{484 (65\%)}\\
 \bottomrule
 \multicolumn{4}{l}{\rule{0pt}{1em}\textit{Note: }}\\
-\multicolumn{4}{l}{\rule{0pt}{1em}Categorical variables: N (\%); Continous variables: Median (IQT:25th-75th). Table are adapted from supplementary material in Appendix Study I}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}Categorical variables: N (\%); Continous variables: Median (IQT:25th-75th). Table are adapted from supplementary material in Appendix Study I.}\\
 \end{tabular}}
 \endgroup{}
 \end{table}
@@ -2292,7 +2321,7 @@ Resting heart rate (bpm) & 57.3 (7.3) & 67.8 (5.7) & 63.3 (5.0) & 58.4 (4.5) & 5
 \cellcolor{gray!6}{Anti-hypertensive medication (yes)} & \cellcolor{gray!6}{753 (47\%)} & \cellcolor{gray!6}{88 (61\%)} & \cellcolor{gray!6}{149 (48\%)} & \cellcolor{gray!6}{216 (47\%)} & \cellcolor{gray!6}{147 (43\%)} & \cellcolor{gray!6}{153 (43\%)}\\
 \bottomrule
 \multicolumn{7}{l}{\rule{0pt}{1em}\textit{Note: }}\\
-\multicolumn{7}{l}{\rule{0pt}{1em}Categorical variables: N (\%); Continous variables: Median (IQT:25th-75th). Table are based on data from Study II}\\
+\multicolumn{7}{l}{\rule{0pt}{1em}Categorical variables: N (\%); Continous variables: Median (IQT:25th-75th). Table are based on data from Study II.}\\
 \end{tabular}}
 \endgroup{}
 \end{table}
@@ -2398,6 +2427,7 @@ inverse association observed between 12 PM and 1 AM (IRR range: 0.79 to
 C).\textsuperscript{95} No clear trends of association were observed
 between heart rate and all-cause mortality.\textsuperscript{95}
 
+\blandscape
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 \begin{figure}
@@ -2425,6 +2455,7 @@ events, heart failure, and all-cause mortality risk}}
 \end{figure}
 
 \restoregeometry
+\elandscape
 
 \hypertarget{study-iii}{%
 \section{Study III}\label{study-iii}}
@@ -2494,7 +2525,7 @@ SGLT2-inhibitors (yes) & 0 & 81 (46\%) & 12 (30\%) & 40 (49\%) & 29 (54\%)\\
 Insulin (yes) & 0 & 140 (80\%) & 33 (83\%) & 66 (80\%) & 41 (76\%)\\
 \bottomrule
 \multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
-\multicolumn{6}{l}{\rule{0pt}{1em}Categorical variables: N (\%); Continous variables: Median (IQT:25th-75th). Table are adapted from Table 1 in Appendix Study III}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}Categorical variables: N (\%); Continous variables: Median (IQT:25th-75th). Table are adapted from Table 1 in Appendix Study III.}\\
 \end{tabular}}
 \endgroup{}
 \end{table}
@@ -2822,9 +2853,9 @@ CVD risk using methods such as Mendelian randomization.
 
 The relationship between cardiovascular autonomic dysfunction and heart
 failure is complex.\textsuperscript{128} On one hand, autonomic
-dysfunction contributes to cardiac remodelling and eventual heart
+dysfunction contributes to cardiac remodeling and eventual heart
 failure.\textsuperscript{29,129} On the other hand, it may reflect
-compensatory mechanisms of the progression of cardiac remodelling and
+compensatory mechanisms of the progression of cardiac remodeling and
 declining cardiac output.\textsuperscript{29} Findings in Study I and II
 demonstrated a relationship between autonomic dysfunction and heart
 failure both cross-sectionally in a population with T2D and
@@ -2842,7 +2873,7 @@ risk for diabetes and by: (1) assessing the role of resting heart rate
 in the relationship between HRV and heart failure, and (2) identifying
 time-of-day heart rate patterns associated with heart failure risk.
 
-Arterial stiffness is known to contribute to cardiac remodelling by
+Arterial stiffness is known to contribute to cardiac remodeling by
 increasing cardiac afterload and reducing coronary perfusion through
 earlier return of the reflected pulse wave.\textsuperscript{133} This
 suggests that autonomic dysfunction may indirectly influence heart
@@ -2855,7 +2886,7 @@ failure, and approximately one-fourth of the risk was explained by
 resting heart rate. Data from the Rotterdam Study showed that resting
 short-term HRV was longitudinally associated with echocardiographic
 measures reflecting systolic function, suggesting that autonomic
-dysfunction contributes to cardiac remodelling.\textsuperscript{129} In
+dysfunction contributes to cardiac remodeling.\textsuperscript{129} In
 contrast to ischemic-related CVD outcomes, findings from Study II showed
 no specific time point in hourly HRV that was associated with heart
 failure. Instead, it was the overall daily pattern captured by multiday
@@ -2872,10 +2903,10 @@ NT-proBNP levels.\textsuperscript{135}
 
 Reverse causation cannot be ruled out, as autonomic dysfunction may also
 reflect compensatory responses to progressing heart
-failure.\textsuperscript{29} CAN and cardiac remodelling may interact in
+failure.\textsuperscript{29} CAN and cardiac remodeling may interact in
 a reinforcing cycle: autonomic dysfunction increases sympathetic tone
 and reduces parasympathetic modulation, promoting cardiac stress and
-remodelling, which in turn further impairs autonomic
+remodeling, which in turn further impairs autonomic
 regulation.\textsuperscript{23} This feedback loop may accelerate heart
 failure progression, although this remains beyond the scope of the
 current data and analysis.
@@ -3434,6 +3465,11 @@ of several factors that may influence external validity. These regions
 also share relatively well-organized, publicly funded healthcare
 systems, which may differ substantially from those in other parts of the
 world and further affect the applicability of the findings.
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage
 
 \bookmarksetup{startatroot}
 
@@ -5292,6 +5328,8 @@ før udviklingen af type 2-diabetes.
 
 \hypertarget{sec-more-results}{%
 \chapter{Appendix}\label{sec-more-results}}
+
+\newpage
 
 \hypertarget{study-i-1}{%
 \section{Study I}\label{study-i-1}}

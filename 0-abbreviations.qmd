@@ -1,3 +1,4 @@
+
 # Abbreviations {.unnumbered}
 **AF:** Atrial Fibrillation
 **BMI:** Body mass index  
@@ -42,4 +43,8 @@
 **TP:** Total power (variance of NN intervals ≤ 0.4 Hz)  
 **ULF:** Ultra low-frequency range (≤ 0.003 Hz)  
 **VLF:** Very-low-frequency range (0.003–0.04 Hz)  
-  
+
+\clearpage
+\null
+\thispagestyle{empty}
+\clearpage

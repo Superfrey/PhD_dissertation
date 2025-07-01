@@ -46,7 +46,7 @@ table_mas %>%
     font_size = 10
     )%>% 
     kableExtra::landscape() %>% 
-    kableExtra::footnote(general="Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are adapted from supplementary material in Appendix Study I")
+    kableExtra::footnote(general="Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are adapted from supplementary material in Appendix Study I.")
 ```
 
 \restoregeometry
@@ -113,7 +113,7 @@ table_add_pro[-nrow(table_add_pro), ] %>%
     #full_width = TRUE, 
     font_size = 10) %>% 
     kableExtra::landscape()%>% 
-    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are based on data from Study II")
+    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are based on data from Study II.")
 ```
 
 \restoregeometry
@@ -140,15 +140,16 @@ From the hourly recordings, a clear periodicity in SDNN, heart rate, sleep patte
 
 In @fig-ADD_PRO_risk_by_hour, hourly SDNN (preadjusted for heart rate and physical acceleration), heart rate, and physical acceleration associations were examined. Models were adjusted for age, sex, education, alcohol consumption, smoking behavior, BMI, total cholesterol, and HbA1c. The morning response of SDNN was found to be most indicative of MACE, with the strongest association observed from 6–7 AM (IRR: 0.84; 95% CI: 0.71–1.00 per SD higher SDNN) (see @fig-ADD_PRO_risk_by_hour A).[@schaarup2024b] Heart rate between 12 AM and 6 AM showed a small trend toward higher risk of MACE (IRR range: 1.11 to 1.15 per SD higher heart rate), although none of the confidence intervals exceeded one (see @fig-ADD_PRO_risk_by_hour D).[@schaarup2024b] Across all hours, a plausible association between SDNN and heart failure was observed. However, this association disappeared after adjustment for physical acceleration and heart rate (see @fig-ADD_PRO_risk_by_hour B).[@schaarup2024b] In contrast, heart rate between 10 PM and 9 AM was associated with heart failure (IRR range: 1.37 to 1.58 per SD higher heart rate) (see @fig-ADD_PRO_risk_by_hour E). SDNN was consistently associated with all-cause mortality across all hours, with a stronger inverse association observed between 12 PM and 1 AM (IRR range: 0.79 to 0.88 per SD higher SDNN) (see @fig-ADD_PRO_risk_by_hour C).[@schaarup2024b] No clear trends of association were observed between heart rate and all-cause mortality.[@schaarup2024b]
 
+\blandscape
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
-
-::: {#fig-ADD_PRO_risk_by_hour fig-cap="**Diurnal heart rate variability and heart rate association with major adverse cardiovascular events, heart failure, and all-cause mortality risk**" fig-align="center" fig-width="\\textwidth"}
+::: {.landscape #fig-ADD_PRO_risk_by_hour fig-cap="**Diurnal heart rate variability and heart rate association with major adverse cardiovascular events, heart failure, and all-cause mortality risk**" fig-align="center" fig-width="\\textwidth"}
 ![](images/figure_ADD_PRO_risk_by_hour.pdf)
 
 *SDNN preadjusted for concurrent physical acceleration and heart rate, as well as mean heart rate (HR) and physical acceleration, were measured hourly from 00:00 to 24:00. The IRR for MACE, heart failure hospitalization, and all-cause mortality are shown by hourly associations of: (A–C) preadjusted SDNN, (D–F) mean HR, and (G–I) physical acceleration. Models were adjusted for age, sex, education, alcohol consumption, smoking behavior, body mass index, total cholesterol, and HbA1c. Figure adapted from Appendix Study II[@schaarup2024b]*
 :::
-
 \restoregeometry
+\elandscape
+
 
 ## Study III
 
@@ -176,7 +177,7 @@ table_can[-nrow(table_can), ] %>%
     #full_width = TRUE, 
     font_size = 10) %>% 
     kableExtra::landscape()%>% 
-    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are adapted from Table 1 in Appendix Study III")
+    kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are adapted from Table 1 in Appendix Study III.")
 
 
 ```
