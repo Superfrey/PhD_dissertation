@@ -28,6 +28,7 @@ title: " Materials and methods"
 : Overview of studies {tbl-colwidths="\[19, 27, 27, 27\]"}
 :::
 \elandscape
+
 ### Study population
 
 ::: center
