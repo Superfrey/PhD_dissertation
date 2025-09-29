@@ -32,7 +32,7 @@ title: " Materials and methods"
 ### Study population
 
 ::: center
-![**Map of Study populations**](images/cohort_map.pdf){width="8in"}
+![**Map of Study populations**](images/web/cohort_map.svg){width="8in"}
 :::
 
 #### Study I - The Maastricht Study
@@ -58,7 +58,7 @@ The CANCAN Study is an observational study conducted at two hospital outpatient 
 ### Measures for autonomic dysfunction/ neuropathy
 
 ::: {#fig-monitor fig-cap="**Heart rate monitors**" fig-align="center"}
-![](images/can_tools.pdf) *Left: Holter monitor; Middle: Actiheart; Right: Vagus™ device*
+![](images/can_tools.svg) *Left: Holter monitor; Middle: Actiheart; Right: Vagus™ device*
 :::
 
 **Heart rate variability**
@@ -66,7 +66,7 @@ The CANCAN Study is an observational study conducted at two hospital outpatient 
 In Studies I–III, different devices were used to capture the distance between each heartbeat, defined as RR intervals, from electrocardiogram traces—either directly from heartbeat traces or indirectly from pulse traces. From these, a sequence of successive heartbeat intervals was extracted to calculate time- and frequency-domain HRV.
 
 ::: {#fig-hrv fig-cap="**Heart rate variability calculations**" fig-align="center"}
-![](images/measurements_hrv.pdf) *Time- and Frequency domain HRV indices (Source: Author)*
+![](images/measurements_hrv.svg) *Time- and Frequency domain HRV indices (Source: Author)*
 :::
 
 *Time-domain indices*
@@ -140,7 +140,7 @@ Aortic stiffness was measured by carotid-femoral pulse wave velocity (cf-PWV) us
 Carotid stiffness was assessed by the carotid artery distensibility coefficient (CD), based on ultrasound imaging of the left common carotid artery using a 7.5 MHz linear probe (MyLab 70, Esaote Europe, Maastricht, the Netherlands). CD was calculated as ΔD/braPP, where ΔD represents carotid distension and braPP is brachial pulse pressure. Mean heart rate and mean arterial pressure (MAP) were recorded every five minutes using an oscillometric device (Accutorr Plus, Datascope, Montvale, NJ, USA).[@tanlaizhou2018]
 
 ::: {#fig-as fig-cap="**Aortic and carotid stiffness**" fig-align="center"}
-![](images/Methods_arterial_stiffness.pdf) *Measures of arterial stiffness, measured dynamically through the decending aorta and locally ay carotid sites. (Source: Author)*
+![](images/web/Methods_arterial_stiffness.svg) *Measures of arterial stiffness, measured dynamically through the decending aorta and locally ay carotid sites. (Source: Author)*
 :::
 
 ### Indicators of heart failure

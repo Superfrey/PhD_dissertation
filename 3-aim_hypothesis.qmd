@@ -7,13 +7,12 @@ format:
 editor: visual
 ---
 
-
+```{=tex}
 \clearpage
 \null
 \thispagestyle{empty}
 \clearpage
-
-
+```
 The overarching hypothesis of this dissertation are that:
 
 • CAN and autonomic dysfunction are associated with CVD and act as an early risk factor for heart failure and other cardiovascular complications, including stroke, and myocardial infarction in patients with prediabetes and/or T2D.
@@ -28,9 +27,9 @@ Study II: Quantify the longitudinal association of multiday and hourly HRV with 
 
 Study III: Quantify the cross-sectional association between CAN and heart failure. Heart failure will be defined by clinical measures i.e. N-terminal-pro-BNP (NT-proBNP), WATCH-DM risk, and New York Heart Association (NYHA) classification scores among individuals with T2D.
 
-
+```{=tex}
 \clearpage
 \null
 \thispagestyle{empty}
 \clearpage
-
+```
