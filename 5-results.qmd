@@ -8,12 +8,6 @@ editor: visual
 bibliography: references.bib
 ---
 
-```{=tex}
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-```
 In this section, study population characteristics and findings from analyses will be presented.
 
 ## Study I
@@ -22,7 +16,6 @@ In this section, study population characteristics and findings from analyses wil
 
 In The Maastricht Study, 7,449 participants were included between November 2010 and December 2020, of whom 1,316 reported a history of CVD.[@schaarup2024] A total of 4,379 participants had valid 24-hour HRV measurements, and among these, 3,673 had a valid measurement of either CD or cf-PWV. Study population included 3673 participants. The study population represented diabetes risk of NGM (65%), prediabetes (15%), and T2D (20%). The median (IQR) cf-PWV (aortic stiffness) became higher with diabetes status: NGM: 8.08 m/s (7.28, 9.16), prediabetes: 8.96 m/s (7.84, 10.32), and T2D: 9.36 m/s (8.16, 10.80). CD (carotid stiffness) decreased: NGM: 15.0 (11.8, 18.8), prediabetes: 13.5 (10.4, 16.9), and T2D: 12.5 (9.9, 16.0) × 10⁻³/kPa. SDNN (ms) was highest in NGM and lowered with worsening glucose metabolism: NGM: 138ms (117, 164), prediabetes: 127ms (106, 152), and T2D: 116ms (96, 139). Further description of characteristics by diabetes are described in @tbl-ms.
 
-\newgeometry{top=2cm, bottom=2cm, inner=0.2cm, outer=0.2cm}
 
 ```{r}
 #| echo: false
@@ -49,7 +42,6 @@ table_mas %>%
     kableExtra::footnote(general="Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are adapted from supplementary material in Appendix Study I.")
 ```
 
-\restoregeometry
 
 ### 24-hour HRV and arterial stiffness
 
@@ -75,15 +67,11 @@ The association between HRV frequency-domain Z-score and cf-PWV was statisticall
 
 As no stepwise increase was observed in the modification of glucose metabolism status from prediabetes to T2D,the subgroup with T2D was excluded to test whether the association was gradually modified by dysglycemia. In this subgroup, the association between HRV time and frequency-domain Z-scores and measures of arterial stiffness was modified by HbA1c (range of interaction p-values: 0.1 to 0.005) (see Figure @fig-MS-HRV_dys). For example, per SD lower HRV frequency domain Z-score at HbA1c 6.4% was associated with a 5.4% higher (CI: 3.5; 7.2) cf-PWV, which was 2.0% to 4.0% higher compared to the magnitude of association at HbA1c levels of 5.6% and 4.8% (see see @fig-MS-HRV_dys B). In CD, per SD lower HRV frequency domain Z-score at HbA1c 6.4% was associated with an 8.1% lower (CI: -13.5; -2.9) CD, which was 4.8% to 9.5% lower compared to the magnitude of association at HbA1c levels of 5.6% and 4.8% (see @fig-MS-HRV_dys D). No association between HRV frequency domain Z-score and CD was observed at HbA1c levels between 4.8% and 5.2%.
 
-\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
-
 ::: {#fig-MS-HRV_dys fig-cap="**Association between HRV and arterial stiffness modified by HbA1c in subpopulation without T2D**" fig-align="center" fig-width="\\textwidth"}
 ![](images/web/em_hba1c.png)
 
 *A: Percentage PWV per SD in time-domain composite z-score B: Percentage PWV per SD in frequency-domain composite z-score C: Percentage higher CD per SD in time-domain composite z-score D: Percentage CD per SD in frequency-domain composite z-score. Model adjusted for sex, age, educational status, diabetes status, and MAP, physical activity, smoking behaviour, alcohol use, body mass index, hba1c, triglycerides, total-to-high density lipoprotein cholesterol ratio, lipid-modifying- and antihypertensive medication. Figure was based on data in Study I[@schaarup2024]*
 :::
-
-\restoregeometry
 
 ## Study II
 
@@ -93,7 +81,6 @@ The ADDITION-PRO population consisted of 1,627 participants with at least 48-hou
 
 Characteristics are described in @tbl-add. Participants in the lowest SDNN group (\<100 ms) were older (Mean ± SD) (67.4 ± 6.9 years), had higher BMI (28.1 ± 5.4), HbA1c (5.9 ± 0.9), triglycerides (1.5 ± 0.9 mmol/L), and rHR (67.8 ± 5.7 bpm), were more likely to use anti-hypertensive medication (61%), and had lower physical activity energy expenditure (46.8 ± 24.0 kJ/day) compared to those with higher SDNN levels.
 
-\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 ```{r}
 #| echo: false
@@ -116,21 +103,15 @@ table_add_pro[-nrow(table_add_pro), ] %>%
     kableExtra::footnote(general= "Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are based on data from Study II.")
 ```
 
-\restoregeometry
-
 ### Multiday HRV and MACE, heart failure, and all-cause mortality.
 
 The mean (SD) multiday SDNN was 139.0 (32.3) ms, and the mean heart rate was 73.5 (9.1) bpm.[@schaarup2024b] In the fully adjusted model, SDNN per SD was associated with a lower incidence rate ratio (IRR) for MACE 0.82 (CI: 0.69; 0.97), heart failure 0.76 (CI: 0.58; 0.99), and mortality rate ratio of 0.79 (CI: 0.66; 0.94).[@schaarup2024b] In model with pre-adjustment for rHR, the proportion of the association explained between HRV and MACE, HF, and all-cause mortality was 14%, 25%, and 19%, respectively.[@schaarup2024b] When knots were included in the model, the risk was found to be higher as SDNN dropped below approximately 120–110 ms (around the 20th percentile), suggesting a potential threshold for elevated risk.[@schaarup2024b] Therefore, age-specific IR were calculated at SDNN levels of 100 ms, 120 ms, and 160 ms, respectively.
-
-\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 ::: {#fig-addprohrv fig-cap="**Multiday SDNN and mean HR association with major adverse cardiovascular events, heart failure, and all-cause mortality**" fig-align="center"}
 ![](images/web/addition_pro_hrv_ir_mace.png)
 
 *Multiday SDNN levels (100 ms, 120 ms, 160 ms) by age-specific incidence rates for A) major adverse cardiovascular events, B) heart failure hospitalisation, and C) all-cause mortality. Model adjusted for age, sex, education, alcohol consumption, smoking behavior, physical activity, body mass index, total cholesterol, and Hba1c. Figure was based on data in Study II[@schaarup2024b]*
 :::
-
-\restoregeometry
 
 At age 65, the IR per 1000 person-years for MACE was 44.2 (CI: 33.5; 58.3) at SDNN = 100 ms, which was higher than the rates observed at SDNN = 120 ms (IR: 37.6 \[CI: 29.2; 48.3\]) and SDNN = 160 ms (IR: 34.7 \[CI: 27.0; 44.5\]) (@fig-addprohrv A). The IR was observed to become higher with age, reaching its peak at age 72. For heart failure at age 65, the IR was 20.5 (CI: 15.3; 27.5) at SDNN = 100 ms, slightly higher than at SDNN = 120 ms (IR: 19.6 \[CI: 14.8; 25.9\]) and SDNN = 160 ms (IR: 19.8 \[CI: 15.0; 26.2\]) (@fig-addprohrv B). The IR remained stable until age 70, after which it became higher. For all-cause mortality at age 65, the IR was 11.6 (CI: 6.3; 21.4) at SDNN = 100 ms, higher than at SDNN = 120 ms (IR: 7.6 \[CI: 4.3; 13.3\]) and SDNN = 160 ms (IR: 6.0 \[CI: 3.4; 10.4\]) (@fig-addprohrv C).
 
@@ -140,27 +121,18 @@ From the hourly recordings, a clear periodicity in SDNN, heart rate, sleep patte
 
 In @fig-ADD_PRO_risk_by_hour, hourly SDNN (preadjusted for heart rate and physical acceleration), heart rate, and physical acceleration associations were examined. Models were adjusted for age, sex, education, alcohol consumption, smoking behavior, BMI, total cholesterol, and HbA1c. The morning response of SDNN was found to be most indicative of MACE, with the strongest association observed from 6–7 AM (IRR: 0.84; 95% CI: 0.71–1.00 per SD higher SDNN) (see @fig-ADD_PRO_risk_by_hour A).[@schaarup2024b] Heart rate between 12 AM and 6 AM showed a small trend toward higher risk of MACE (IRR range: 1.11 to 1.15 per SD higher heart rate), although none of the confidence intervals exceeded one (see @fig-ADD_PRO_risk_by_hour D).[@schaarup2024b] Across all hours, a plausible association between SDNN and heart failure was observed. However, this association disappeared after adjustment for physical acceleration and heart rate (see @fig-ADD_PRO_risk_by_hour B).[@schaarup2024b] In contrast, heart rate between 10 PM and 9 AM was associated with heart failure (IRR range: 1.37 to 1.58 per SD higher heart rate) (see @fig-ADD_PRO_risk_by_hour E). SDNN was consistently associated with all-cause mortality across all hours, with a stronger inverse association observed between 12 PM and 1 AM (IRR range: 0.79 to 0.88 per SD higher SDNN) (see @fig-ADD_PRO_risk_by_hour C).[@schaarup2024b] No clear trends of association were observed between heart rate and all-cause mortality.[@schaarup2024b]
 
-```{=tex}
-\blandscape
-\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
-```
-::: {#fig-ADD_PRO_risk_by_hour .landscape fig-cap="**Diurnal heart rate variability and heart rate association with major adverse cardiovascular events, heart failure, and all-cause mortality risk**" fig-align="center" fig-width="\\textwidth"}
-![](images/figure_ADD_PRO_risk_by_hour.png)
+::: {#fig-ADD_PRO_risk_by_hour .landscape fig-cap="**Diurnal heart rate variability and heart rate association with major adverse cardiovascular events, heart failure, and all-cause mortality risk**" fig-align="center"}
+![](images/web/figure_ADD_PRO_risk_by_hour.png)
 
 *SDNN preadjusted for concurrent physical acceleration and heart rate, as well as mean heart rate (HR) and physical acceleration, were measured hourly from 00:00 to 24:00. The IRR for MACE, heart failure hospitalization, and all-cause mortality are shown by hourly associations of: (A–C) preadjusted SDNN, (D–F) mean HR, and (G–I) physical acceleration. Models were adjusted for age, sex, education, alcohol consumption, smoking behavior, body mass index, total cholesterol, and HbA1c. Figure adapted from Appendix Study II[@schaarup2024b]*
 :::
 
-```{=tex}
-\restoregeometry
-\elandscape
-```
 ## Study III
 
 ### Descriptive
 
 In study III, 176 participants had measures of NT-proBNP. CAN was present in 31% (n = 54) of participants (40% among those with valid CAN measurements (@fig-CAN A)).[@schaarup2025] Meanwhile, 23% (n = 40) were unable to complete the CART assessment adequately, primarily due to insufficient air pressure during the Valsalva maneuver (n = 21).[@schaarup2025] Compared to those without CAN, the participants with CAN were more often women (41 % vs 33 %), were more sedentary (45% vs 36%), had a higher proportion with prior major CVD (41% vs 23%) and declined eGFR (\< 60ml/min/1.73 m$^2$) (35% vs 22%), higher levels of triglyceride (median 2.05 mmol/L vs 1.95 mmol/ L), were slightly older (median 62 years vs 61 years), had longer duration of T2D (median 19 years vs 15 years), and higher use SGLT2i (65% vs 60%) but lower use of GLP-1RA (63% vs 70%). No other difference in clinical characteristic was observed (see @tbl-can).[@schaarup2025]
 
-\newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 ```{r}
 #| echo: false
@@ -184,8 +156,6 @@ table_can[-nrow(table_can), ] %>%
 
 
 ```
-
-\restoregeometry
 
 ### CAN and indicators of heart failure
 
