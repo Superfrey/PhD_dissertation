@@ -1,5 +1,5 @@
 {
-  "hash": "e86d59f04faa7532af57bff38ba0335d",
+  "hash": "d29aef3f05d36ec4b992901198579869",
   "result": {
     "markdown": "# Financial support{.unnumbered}\n\nThe PhD project was supported by research grant from **European Foundation for the Study of Diabetes/Sanofi** (*European Diabetes Research Programme in Diabetes associated with Cardiovascular Disease*), **Department of Public Health at Aarhus University** and **Steno Diabetes Center Aarhus**, which is partially funded by an unrestricted donation from the *Novo Nordisk Foundation*.\n\n\n::: {.cell layout-ncol=\"3\" layout-align=\"center\"}\n::: {.cell-output-display}\n![](images/efsd-logo.png){fig-align='center' width=80%}\n:::\n\n::: {.cell-output-display}\n![](images/au_health_cropped.png){fig-align='center' width=80%}\n:::\n\n::: {.cell-output-display}\n![](images/sdca.png){fig-align='center' width=80%}\n:::\n:::\n",
     "supporting": [
