@@ -8,7 +8,7 @@ The PhD project was supported by research grant from **European Foundation for t
 #| out-width: 80%
 #| echo: false
 #| layout-ncol: 3
-#| 
+
 knitr::include_graphics("images/efsd-logo.png")
 knitr::include_graphics("images/au_health_cropped.png")
 knitr::include_graphics("images/sdca.png")
