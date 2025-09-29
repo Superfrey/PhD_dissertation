@@ -11,11 +11,9 @@ Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen 
 preprint at medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865   \
 (under peer-review at BMJ Open Diabetes Research & Care)  
 
-https://superfrey.github.io/PhD_dissertation/
-\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study_Diabetes_Care.pdf}
+[Manuscript](https://superfrey.github.io/PhD_dissertation/appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study_Diabetes_Care.pdf)   
 
-\includepdf[pages=-,pagecommand={}]{appendix/Supplemental_Material_MS.pdf}
-
+[Supplementary material](https://superfrey.github.io/PhD_dissertation/appendix/Supplemental_Material_MS.pdf)
 
 ## Study II
 
@@ -26,58 +24,23 @@ https://superfrey.github.io/PhD_dissertation/
 
 Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Erik L. Grove, Signe T. Andersen, Dorte Vistisen, Søren Brage, Annelli Sandbæk, Daniel R. Witte.\    
 Preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18.24319131\    
-(accepted at Diabetes, Obesity and Metabolism)    
-
-
-https://superfrey.github.io/PhD_dissertation/
-\includepdf[pages=-,pagecommand={}]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
+(accepted at Diabetes, Obesity and Metabolism)        
 
 
 
-\includepdf[pages=-,pagecommand={}]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
+[Manuscript](https://superfrey.github.io/PhD_dissertation/appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf)    
+
+[Supplementary material](https://superfrey.github.io/PhD_dissertation/appendix/supplementary_material_ADDITION_PRO_revised.pdf)   
+
+
 
 
 ## Study III
 
-
-
 **Cardiovascular autonomic neuropathy and indices of heart failure in type 2 diabetes: The CANCAN Study**   
 Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Daniel R. Witte, Henrik H. Thomsen, Jesper Fleischer, Rodica Pop-Busui, Annelli Sandbæk, Signe T. Andersen.   
-(submitted to Diabetes Care)
+(submitted to Diabetes Care)    
 
+[Manuscript](https://superfrey.github.io/PhD_dissertation/appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf)    
 
-https://superfrey.github.io/PhD_dissertation/
-\includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf}
-
-
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-
-
-\includepdf[pages=-,pagecommand={}]{appendix/CANCAN_Supplementary_material.pdf}
-
-\newpage
-
-\restoregeometry
-
-\newpage
-
-# Declaration of co-authorship {#sec-more-results}
-
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-
-\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
-
-\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_dissertations_Maastricht_Study DW.pdf}
-
-\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/Declaration_of_co-authorship_PhD_ADDITION_PRO DW.pdf}
-
-\includepdf[pages=-,pagecommand={}]{appendix/author_signatures/cancan_phd_signed.pdf}
-
-\restoregeometry
-
+[Supplementary material](https://superfrey.github.io/PhD_dissertation/appendix/CANCAN_Supplementary_material.pdf)
