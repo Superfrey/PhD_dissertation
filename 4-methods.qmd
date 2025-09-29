@@ -58,7 +58,9 @@ The CANCAN Study is an observational study conducted at two hospital outpatient 
 ### Measures for autonomic dysfunction/ neuropathy
 
 ::: {#fig-monitor fig-cap="**Heart rate monitors**" fig-align="center"}
-![](images/can_tools.svg) *Left: Holter monitor; Middle: Actiheart; Right: Vagus™ device*
+![](images/can_tools.svg)     
+
+*Left: Holter monitor; Middle: Actiheart; Right: Vagus™ device*
 :::
 
 **Heart rate variability**
@@ -66,7 +68,9 @@ The CANCAN Study is an observational study conducted at two hospital outpatient 
 In Studies I–III, different devices were used to capture the distance between each heartbeat, defined as RR intervals, from electrocardiogram traces—either directly from heartbeat traces or indirectly from pulse traces. From these, a sequence of successive heartbeat intervals was extracted to calculate time- and frequency-domain HRV.
 
 ::: {#fig-hrv fig-cap="**Heart rate variability calculations**" fig-align="center"}
-![](images/measurements_hrv.svg) *Time- and Frequency domain HRV indices (Source: Author)*
+![](images/web/measurements_hrv.png)    
+
+*Time- and Frequency domain HRV indices (Source: Author)*
 :::
 
 *Time-domain indices*
@@ -112,7 +116,9 @@ CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold 
 Manifest CAN was defined as two or more abnormal CARTs using an age-based formula.[@hansen2025] The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility.[@fleischer2011] Orthostatic hypotension was defined as a sustained drop in systolic blood pressure of ≥20 mmHg or diastolic blood pressure of ≥10 mmHg within three minutes of standing.[@schaarup2025]
 
 ::: {#fig-cart fig-cap="**Cardiovascular autonomic reflex test**" fig-align="center"}
-![](images/cart.png){width="100%," fig-align="left"} *(source: Author)*
+![](images/cart.png){width="100%," fig-align="left"} 
+
+*(source: Author)*
 :::
 
 ### Confounders and variables for instrumental bias
@@ -140,7 +146,9 @@ Aortic stiffness was measured by carotid-femoral pulse wave velocity (cf-PWV) us
 Carotid stiffness was assessed by the carotid artery distensibility coefficient (CD), based on ultrasound imaging of the left common carotid artery using a 7.5 MHz linear probe (MyLab 70, Esaote Europe, Maastricht, the Netherlands). CD was calculated as ΔD/braPP, where ΔD represents carotid distension and braPP is brachial pulse pressure. Mean heart rate and mean arterial pressure (MAP) were recorded every five minutes using an oscillometric device (Accutorr Plus, Datascope, Montvale, NJ, USA).[@tanlaizhou2018]
 
 ::: {#fig-as fig-cap="**Aortic and carotid stiffness**" fig-align="center"}
-![](images/web/Methods_arterial_stiffness.svg) *Measures of arterial stiffness, measured dynamically through the decending aorta and locally ay carotid sites. (Source: Author)*
+![](images/web/Methods_arterial_stiffness.png)    
+
+*Measures of arterial stiffness, measured dynamically through the decending aorta and locally ay carotid sites. (Source: Author)*
 :::
 
 ### Indicators of heart failure
@@ -217,8 +225,3 @@ In Study II, autonomic function was assessed using multiday HRV recordings and h
 *Biomarker of Heart Failure*
 
 In Study III, kidney function and overweight are known to influence NT-proBNP levels independently of heart failure.[@heidenreich2022] Therefore, the model was adjusted to account for the confounding effect of eGFR on NT-proBNP levels in the analysis.[@schaarup2025]
-
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
