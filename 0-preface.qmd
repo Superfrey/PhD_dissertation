@@ -17,3 +17,11 @@ In my work on diabetes epidemiology, I have been deeply curious about future met
 We set out to extend the generalisability of the CANCAN findings to populations without type 2 diabetes. This led us to use data from the Lolland-Falster Health Study (LOFUS). I am deeply grateful to Randi Jepsen for the collaboration on accessing the cohort and for her support in getting the biobank samples analysed. The data is now ready for use in the study. Further appreciation goes to Marie Mathilde Bjerg Christensen, Christian Stevns Hansen, and Jesper Fleischer for updating reference values for cardiovascular reflex tests using LOFUS data and for generously sharing their expertise on the measurements.
 
 In my last year of the PhD, I was fortunate to exchange research environments with the Baker Heart and Diabetes Institute. I had the privilege of working alongside a proficient team of epidemiologists consisting of PhD students, postdoctoral researchers, and senior scientists, using data from the PREDICT study involving patients with type 2 diabetes. I was impressed by how closely research and clinical care are integrated. Furthermore, their dedication to utilizing cohorts and organizing multinational data resources was truly admirable. I would like to extend a special thank you to Professor Dianna Magliano, Senior Researcher Julian Sacre, and Professor Jonathan Shaw for their valuable input on using questionnaires to screen for heart failure subtypes and for helping to shape a study that will be submitted soon.
+
+## Website version {.unnumbered .unlisted}
+
+This dissertation and the accompanying website were created using Quarto®, an open-source publishing system for scientific and technical writing. The work builds on the quartothesis template, originally developed by Professor Richard Telford at the Department of Biological Sciences, University of Bergen.
+
+The rendered PDF version is available [here](https://superfrey.github.io/PhD_dissertation/Cardiovascular-autonomic-dysfunction-impact-on-cardiovascular-complications-across-glucose-metabolism.pdf).
+
+

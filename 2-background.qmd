@@ -1,5 +1,5 @@
 ---
-title: " Background"
+title: "Background"
 ---
 
 This background introduces the concept of type 2 diabetes (T2D) and its associated cardiovascular risk. An overview is then provided of various cardiovascular complications, including arteriosclerosis, atherosclerosis, and heart failure. Finally, cardiovascular autonomic function (autonomic function) is described, along with its potential to enhance our understanding of cardiovascular disease (CVD).
