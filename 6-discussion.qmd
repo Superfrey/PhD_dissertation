@@ -33,7 +33,7 @@ This dissertation shows that autonomic dysfunction, measured by HRV and CARTs, i
 In Study I, autonomic dysfunction, measured by 24-hour HRV, was shown to be cross-sectionally associated with arterial stiffness, measured both dynamically (cf PWV) and locally (CD). Adjustments for demographic and lifestyle factors, as well as a range of cardiovascular risk factors, did not explain the association. This suggests that autonomic responses under free-living conditions may contribute to the development of arterial stiffness. The majority of studies in this field have shown an association between autonomic dysfunction, as measured by short-term HRV during rest, and arterial stiffness in populations with either type 1 or T2D. [@angelaberos2023; @cardoso2014] Study I further extended this perspective by examining long-term HRV in a population without diabetes or prediabetes.
 
 ::: center
-![\*\*Autonomic dysfunction and arterial stiffness\*](images/web/hrv_arterial_stiffness.svg) *(Source: Author)*
+![\*\*Autonomic dysfunction and arterial stiffness\*](images/web/hrv_arterial_stiffness.png) *(Source: Author)*
 :::
 
 Arterial stiffness is not only a structural marker of vascular ageing but is also dynamically modulated by local endothelial signals and autonomic nervous system activity. Several studies have demonstrated a link between elevated sympathetic tone and higher arterial stiffness.[@casey2011; @nardone2020] Two possible mechanisms may explain how autonomic dysfunction is related to arterial stiffness.

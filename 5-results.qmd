@@ -62,7 +62,7 @@ In the fully adjusted model 2, cf-PWV was 2.8% (CI: 2.1; 3.4) lower, while CD wa
 In the fully adjusted model 2, cf-PWV was 2.8% (CI: 2.1; 3.5) lower, while CD was 3.2% (CI: 1.3; 5.1) higher per SD higher in HRV frequency-domain Z-score (see see @fig-MS-HRV C and D). Among the frequency-domain indices, total power, VLF, and ULF showed the strongest associations, with cf-PWV being lower by 2.2% (CI: 1.7; 2.8 ), 2.4% (CI: 1.9; 4.0), and 2.1% (CI: 1.5; 2.6), respectively.[@schaarup2024] Conversely, CD was higher by 2.7% (CI: 1.2; 4.2), 2.4% (CI: 0.9; 4.1), and 2.6% (CI: 1.1; 4.1), respectively. HF showed a weaker association with cf-PWV (-0.9% \[CI: -1.4; -0.4\]), while no evidence for an association was found with CD. Mean interbeat interval was associated with 2.4 % (CI: 1.8; 2.9) lower cf-PWV and 4.5% (3.1; 6.1) higher CD.[@schaarup2024]
 
 ::: {#fig-MS-HRV fig-cap="**Association between HRV and arterial stiffness**" fig-align="center" fig-width="\\textwidth"}
-![](images/web/figure3_linear_plot.svg)
+![](images/web/figure3_linear_plot.png)
 
 *A: Percentage PWV per SD in time-domain composite z-score B: Percentage PWV per SD in frequency-domain composite z-score C: Percentage higher CD per SD in time-domain composite z-score D: Percentage CD per SD in frequency-domain composite z-score. All regression lines were adjusted for being a male, 60 years old, low educational level, without prediabetes or type-2 diabetes, and with 96mmHg MAP. From Figure 1 in Appendix Study I[@schaarup2024]*
 :::
@@ -78,7 +78,7 @@ As no stepwise increase was observed in the modification of glucose metabolism s
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 ::: {#fig-MS-HRV_dys fig-cap="**Association between HRV and arterial stiffness modified by HbA1c in subpopulation without T2D**" fig-align="center" fig-width="\\textwidth"}
-![](images/web/em_hba1c.svg)
+![](images/web/em_hba1c.png)
 
 *A: Percentage PWV per SD in time-domain composite z-score B: Percentage PWV per SD in frequency-domain composite z-score C: Percentage higher CD per SD in time-domain composite z-score D: Percentage CD per SD in frequency-domain composite z-score. Model adjusted for sex, age, educational status, diabetes status, and MAP, physical activity, smoking behaviour, alcohol use, body mass index, hba1c, triglycerides, total-to-high density lipoprotein cholesterol ratio, lipid-modifying- and antihypertensive medication. Figure was based on data in Study I[@schaarup2024]*
 :::
@@ -125,7 +125,7 @@ The mean (SD) multiday SDNN was 139.0 (32.3) ms, and the mean heart rate was 73.
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 ::: {#fig-addprohrv fig-cap="**Multiday SDNN and mean HR association with major adverse cardiovascular events, heart failure, and all-cause mortality**" fig-align="center"}
-![](images/web/addition_pro_hrv_ir_mace.svg)
+![](images/web/addition_pro_hrv_ir_mace.png)
 
 *Multiday SDNN levels (100 ms, 120 ms, 160 ms) by age-specific incidence rates for A) major adverse cardiovascular events, B) heart failure hospitalisation, and C) all-cause mortality. Model adjusted for age, sex, education, alcohol consumption, smoking behavior, physical activity, body mass index, total cholesterol, and Hba1c. Figure was based on data in Study II[@schaarup2024b]*
 :::
@@ -145,7 +145,7 @@ In @fig-ADD_PRO_risk_by_hour, hourly SDNN (preadjusted for heart rate and physic
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 ```
 ::: {#fig-ADD_PRO_risk_by_hour .landscape fig-cap="**Diurnal heart rate variability and heart rate association with major adverse cardiovascular events, heart failure, and all-cause mortality risk**" fig-align="center" fig-width="\\textwidth"}
-![](images/figure_ADD_PRO_risk_by_hour.svg)
+![](images/figure_ADD_PRO_risk_by_hour.png)
 
 *SDNN preadjusted for concurrent physical acceleration and heart rate, as well as mean heart rate (HR) and physical acceleration, were measured hourly from 00:00 to 24:00. The IRR for MACE, heart failure hospitalization, and all-cause mortality are shown by hourly associations of: (A–C) preadjusted SDNN, (D–F) mean HR, and (G–I) physical acceleration. Models were adjusted for age, sex, education, alcohol consumption, smoking behavior, body mass index, total cholesterol, and HbA1c. Figure adapted from Appendix Study II[@schaarup2024b]*
 :::
@@ -194,7 +194,7 @@ A greater proportion of individuals with CAN were observed to exhibit elevated N
 \newgeometry{top=2cm, bottom=2cm, inner=0.5cm, outer=0.5cm}
 
 ::: {#fig-CAN fig-cap="**Distribution of NT-proBNP, NYHA Class, and WATCH-DM Score by CAN Status, and association of CAN with Elevated NT-proBNP**" fig-align="center"}
-![](images/web/heart_failure_distribution_can_figure_2_2.svg){width="85%"}
+![](images/web/heart_failure_distribution_can_figure_2_2.png){width="85%"}
 
 *A: Percentage distribution by CAN status (no CAN, CAN). B: Percentage distribution of NT-proBNP level categories stratified by individuals with and without CAN. C: Percentage distribution of WATCH-DM risk score stratified by individuals with and without CAN. C: Percentage distribution of NYHA classification stratified by individuals with and without CAN. E: Percentage of individuals with NT-proBNP \> 125 pg/ml among those with and without CAN and adjusted odds ratio from Model 4. F: Effect modification of the association between CAN and NT-proBNP by symptoms defined by NYHA classification (symptoms: NYHA ≥ II vs no symptoms: NYHA = I) and risk score defined by WATCH-DM risk (very-low-to-moderate vs high-to-very-high risk). Figure from Appendix Study III[@schaarup2025]*
 :::
