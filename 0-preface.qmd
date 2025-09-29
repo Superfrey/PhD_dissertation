@@ -4,7 +4,6 @@ This dissertation presents research conducted during my PhD studies at the Depar
 The primary aim of this work was to deepen our understanding of how cardiovascular autonomic dysfunction contributes to heart disease in individuals with diabetes or those at high risk of diabetes. I am grateful for the opportunity to explore how autonomic dysfunction can be assessed through variations in heart rate responses under different durations and conditions, offering insights into cardiovascular risk, which remains a significant concern in current research.
 I hope the findings of this dissertation contribute to a more nuanced understanding of the clinical potential of long-term heart rate variability measures and standardized cardiovascular autonomic reflex tests. Ultimately, I aspire for this work to support the broader goal of improving care for individuals at risk of or living with diabetes.
 
-\newpage
 
 # Other work and collaboration during the PhD {#sec-preface .unnumbered}
 

@@ -26,13 +26,13 @@ title: " Materials and methods"
 | Missing data         | Complete case analysis                                                                                                 | Multiple imputation of chained equations for confounders                                                                                  | Complete case analysis and multiple imputation of chained equations for CART and confounders          |
 
 : Overview of studies {tbl-colwidths="\[19, 27, 27, 27\]"}
-:::
-\elandscape
+
 
 ### Study population
 
-::: center
-![**Map of Study populations**](images/web/cohort_map.svg){width="8in"}
+::: {#fig-pop fig-cap="**Map of Study populations**" fig-align="center"}
+![](images/web/cohort_map.png)
+
 :::
 
 #### Study I - The Maastricht Study
@@ -58,7 +58,7 @@ The CANCAN Study is an observational study conducted at two hospital outpatient 
 ### Measures for autonomic dysfunction/ neuropathy
 
 ::: {#fig-monitor fig-cap="**Heart rate monitors**" fig-align="center"}
-![](images/can_tools.svg)     
+![](images/web/can_tools.png)     
 
 *Left: Holter monitor; Middle: Actiheart; Right: Vagus™ device*
 :::
@@ -116,7 +116,7 @@ CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold 
 Manifest CAN was defined as two or more abnormal CARTs using an age-based formula.[@hansen2025] The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility.[@fleischer2011] Orthostatic hypotension was defined as a sustained drop in systolic blood pressure of ≥20 mmHg or diastolic blood pressure of ≥10 mmHg within three minutes of standing.[@schaarup2025]
 
 ::: {#fig-cart fig-cap="**Cardiovascular autonomic reflex test**" fig-align="center"}
-![](images/cart.png){width="100%," fig-align="left"} 
+![](images/cart.png)
 
 *(source: Author)*
 :::
