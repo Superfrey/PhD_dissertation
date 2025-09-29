@@ -18,7 +18,7 @@ We set out to extend the generalisability of the CANCAN findings to populations 
 
 In my last year of the PhD, I was fortunate to exchange research environments with the Baker Heart and Diabetes Institute. I had the privilege of working alongside a proficient team of epidemiologists consisting of PhD students, postdoctoral researchers, and senior scientists, using data from the PREDICT study involving patients with type 2 diabetes. I was impressed by how closely research and clinical care are integrated. Furthermore, their dedication to utilizing cohorts and organizing multinational data resources was truly admirable. I would like to extend a special thank you to Professor Dianna Magliano, Senior Researcher Julian Sacre, and Professor Jonathan Shaw for their valuable input on using questionnaires to screen for heart failure subtypes and for helping to shape a study that will be submitted soon.
 
-## Website version {.unnumbered .unlisted}
+# Website version {.unnumbered .unlisted}
 
 This dissertation and the accompanying website were created using Quarto®, an open-source publishing system for scientific and technical writing. The work builds on the quartothesis template, originally developed by Professor Richard Telford at the Department of Biological Sciences, University of Bergen.
 

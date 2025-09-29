@@ -11,27 +11,11 @@ Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen 
 preprint at medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865   \
 (under peer-review at BMJ Open Diabetes Research & Care)  
 
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-
-
-
-\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
-
+https://superfrey.github.io/PhD_dissertation/
 \includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study_Diabetes_Care.pdf}
 
 \includepdf[pages=-,pagecommand={}]{appendix/Supplemental_Material_MS.pdf}
 
-\newpage
-\restoregeometry
-
-\newpage
-
-\thispagestyle{empty}
-
-\newpage
 
 ## Study II
 
@@ -45,21 +29,13 @@ Preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18
 (accepted at Diabetes, Obesity and Metabolism)    
 
 
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-
-\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
-
+https://superfrey.github.io/PhD_dissertation/
 \includepdf[pages=-,pagecommand={}]{appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf}
 
 
 
 \includepdf[pages=-,pagecommand={}]{appendix/supplementary_material_ADDITION_PRO_revised.pdf}
 
-\newpage
-\restoregeometry
 
 ## Study III
 
@@ -69,13 +45,8 @@ Preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18
 Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Daniel R. Witte, Henrik H. Thomsen, Jesper Fleischer, Rodica Pop-Busui, Annelli Sandbæk, Signe T. Andersen.   
 (submitted to Diabetes Care)
 
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
 
-\newgeometry{top=0.02cm, bottom=1.5cm, inner=0.5cm, outer=0.5cm}
-
+https://superfrey.github.io/PhD_dissertation/
 \includepdf[pages=-,pagecommand={}]{appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf}
 
 
