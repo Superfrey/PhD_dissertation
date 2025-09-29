@@ -70,8 +70,9 @@ In Study III, individuals with CAN were found to have higher risk of elevated NT
 
 Reverse causation cannot be ruled out, as autonomic dysfunction may also reflect compensatory responses to progressing heart failure.[@florea2014] CAN and cardiac remodeling may interact in a reinforcing cycle: autonomic dysfunction increases sympathetic tone and reduces parasympathetic modulation, promoting cardiac stress and remodeling, which in turn further impairs autonomic regulation.[@ritchie2020] This feedback loop may accelerate heart failure progression, although this remains beyond the scope of the current data and analysis.
 
-::: center
-![Autonomic dysfunction and cardiovascular disease](images/ADD_PRO_IMG.png) *(Source: Author)*
+::: {#add_pro_find fig-cap="**Autonomic dysfunction and cardiovascular disease**" fig-align="center"}
+![](images/ADD_PRO_IMG.png) 
+*(Source: Author)*
 :::
 
 ## Clinical implications
