@@ -2,7 +2,6 @@
 title: "Perspective"
 ---
 
-
 This dissertation has investigated the impact of autonomic function on cardiovascular complications across different stages of glucose metabolism. Understanding when and how physiological signals reflect elevated CVD risk is essential for the development of early and effective prevention strategies. The incorporation of HRV into digital health solutions could be used to support personalized feedback mechanisms, enabling timely lifestyle or therapeutic interventions and contributing to more adaptive and preventive healthcare strategies. Based on the findings and conclusions, further perspectives are proposed to define its role in research and healthcare from three aspects: (1) continuous non-invasive health monitoring, (2) risk stratification, and (3) identification as a causal and modifiable marker.
 
 ## Continuous monitoring of cardiovascular health
@@ -19,7 +18,9 @@ HRV represents a potential target for intervention, as low HRV may reflect adver
 
 ::: {#fig-smw fig-cap="**Hypothetical scenario of lifestyle and treatment adaptation using HRV in wearable devices**" fig-align="center"}
 
-![](images/smartwatch.png){width="4in"} *(Source: Author)*
+![](images/smartwatch.png){width="4in"} 
+  
+*(Source: Author)*
 :::
 
 Future research may leverage wearable devices to monitor the effectiveness of behavioral and pharmacological interventions on HRV at the individual level. This approach may support precision real-time monitoring to identify lifestyle patterns or treatments that promote cardiovascular health through HRV modulation or uncover potential side effects.[@franks2023]
@@ -47,7 +48,8 @@ As discussed in the clinical implications of CAN in T2D, it remains unclear how 
 In summary, future research should uncover whether identifying individuals with high-risk of CVD based on autonomic dysfunction, using HRV or CAN assessed through CART, can support personalized and timely cardiovascular screening or interventions.[@franks2023]
 
 ::: {#fig-rsp fig-cap="**Conceptual model for risk stratification by autonomic dysfunction**" fig-align="center"}
-![](images/strafication_tree_of_CAN(1).png)\
+![](images/strafication_tree_of_CAN(1).png)
+
 *(Source: Author)*
 :::
 
@@ -58,7 +60,9 @@ The findings support a potential etiological link between long-term HRV and CVD 
 To address these limitations, modern epidemiological methods such as Mendelian randomization and structured causal mediation analysis offer promising alternatives.[@lash] These approaches can be used to infer causality from observational data and estimate indirect effects using trial data.[@lash] Notably, no GWAS has yet investigated the genetic determinants of long-term HRV. Establishing such associations is essential for understanding its genetic architecture and for using genetic variants as unconfounded proxies to assess HRV’s causal role in CVD. However, a challenge arises from findings in short-term HRV, which show considerable pleiotropy. This may complicate the use of Mendelian randomization, as the method relies on the assumption of no horizontal pleiotropy.[@verbanck2018]
 
 ::: {#fig-mediation fig-cap="**Suggested mediation of HRV by intervention/observation in the prevention of CVD**" fig-align="center"}
-![](images/Mediation_HRV_1.png) *(Source: Author)*
+![](images/Mediation_HRV_1.png)
+
+*(Source: Author)*
 :::
 
 Future cardiometabolic intervention trials and longitudinal cohorts, whether focused on lifestyle or pharmacological strategies, should, where feasible, include repeated HRV measurements.[@schaarup2024] In trials, structured mediation analyses are enabled and used to determine whether modifying autonomic function is associated with sustained improvements in cardiovascular outcomes. Such evidence could clarify whether interventions like specific antihypertensive medications or lifestyle changes in physical activity, diet, and sleep can causally and sustainably improve CVD risk through HRV modulation. Using observational data with repeated measurements, similar interventions could be emulated by targeted trails.[@hernán2022] A further option is to use a CVD polygenic risk score as the exposure, CVD as the outcome, and HRV as a mediator to test whether genetic variation in CVD-related traits is mediated through HRV.[@loesch2025]
