@@ -1,4 +1,4 @@
-# Financial support{.unnumbered}
+# Financial support {.unnumbered}
 
 The PhD project was supported by research grant from **European Foundation for the Study of Diabetes/Sanofi** (*European Diabetes Research Programme in Diabetes associated with Cardiovascular Disease*), **Department of Public Health at Aarhus University** and **Steno Diabetes Center Aarhus**, which is partially funded by an unrestricted donation from the *Novo Nordisk Foundation*.
 
