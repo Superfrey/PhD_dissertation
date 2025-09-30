@@ -11,9 +11,9 @@ Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Signe T. Andersen, Marleen 
 preprint at medRxiv 2024.12.03.24317865; doi: https://doi.org/10.1101/2024.12.03.24317865   \
 (under peer-review at BMJ Open Diabetes Research & Care)  
 
-[Manuscript](https://superfrey.github.io/PhD_dissertation/appendix/Cardiovascular autonomic dysfunction and arterial stiffness_Maastricht_study_Diabetes_Care.pdf)   
+[Manuscript](/appendix/Cardiovascular_autonomic dysfunction_and_arterial stiffness_Maastricht_study_Diabetes_Care.pdf)   
 
-[Supplementary material](https://superfrey.github.io/PhD_dissertation/appendix/Supplemental_Material_MS.pdf)
+[Supplementary material](/appendix/Supplemental_Material_MS.pdf)
 
 ## Study II
 
@@ -28,9 +28,9 @@ Preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18
 
 
 
-[Manuscript](https://superfrey.github.io/PhD_dissertation/appendix/Autonomic dysfunction and cardiovascular disease_ADD_PRO_DOM_revised_final.pdf)    
+[Manuscript](/appendix/Autonomic_dysfunction_and_cardiovascular disease_ADD_PRO_DOM_revised_final.pdf)    
 
-[Supplementary material](https://superfrey.github.io/PhD_dissertation/appendix/supplementary_material_ADDITION_PRO_revised.pdf)   
+[Supplementary material](/appendix/supplementary_material_ADDITION_PRO_revised.pdf)   
 
 
 
@@ -41,6 +41,6 @@ Preprint at medRxiv 2024.12.18.24319131; doi: https://doi.org/10.1101/2024.12.18
 Jonas R. Schaarup, Lasse Bjerg, Christian S. Hansen, Daniel R. Witte, Henrik H. Thomsen, Jesper Fleischer, Rodica Pop-Busui, Annelli Sandbæk, Signe T. Andersen.   
 (submitted to Diabetes Care)    
 
-[Manuscript](https://superfrey.github.io/PhD_dissertation/appendix/Cardiovascular autonomic neuropathy and subclinical heart failure_the CANCAN study_25062025_dissertation.pdf)    
+[Manuscript](/appendix/Cardiovascular_autonomic_neuropathy_and_subclinical_heart failure_the CANCAN study_25062025_dissertation.pdf)    
 
-[Supplementary material](https://superfrey.github.io/PhD_dissertation/appendix/CANCAN_Supplementary_material.pdf)
+[Supplementary material](/appendix/CANCAN_Supplementary_material.pdf)

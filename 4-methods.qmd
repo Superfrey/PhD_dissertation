@@ -116,7 +116,7 @@ CAN was diagnosed using cardiovascular autonomic reflex tests (CARTs), the gold 
 Manifest CAN was defined as two or more abnormal CARTs using an age-based formula.[@hansen2025] The Vagus™ device’s accuracy has been validated against FDA standards and stationary devices, showing moderate to high reproducibility.[@fleischer2011] Orthostatic hypotension was defined as a sustained drop in systolic blood pressure of ≥20 mmHg or diastolic blood pressure of ≥10 mmHg within three minutes of standing.[@schaarup2025]
 
 ::: {#fig-cart fig-cap="**Cardiovascular autonomic reflex test**" fig-align="center"}
-![](images/cart.png)
+![](images/cart.png)    
 
 *(source: Author)*
 :::

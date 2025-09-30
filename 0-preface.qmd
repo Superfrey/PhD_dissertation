@@ -21,6 +21,6 @@ In my last year of the PhD, I was fortunate to exchange research environments wi
 
 This dissertation and the accompanying website were created using Quarto®, an open-source publishing system for scientific and technical writing. The work builds on the quartothesis template, originally developed by Professor Richard Telford at the Department of Biological Sciences, University of Bergen.
 
-The rendered PDF version is available [here](https://superfrey.github.io/PhD_dissertation/Cardiovascular-autonomic-dysfunction-impact-on-cardiovascular-complications-across-glucose-metabolism.pdf).
+The rendered PDF version is available [here](/Cardiovascular-autonomic-dysfunction-impact-on-cardiovascular-complications-across-glucose-metabolism.pdf).
 
 
