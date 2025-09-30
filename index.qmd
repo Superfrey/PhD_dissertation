@@ -11,7 +11,7 @@ visibility: hidden
 #| out-width: 100%
 #| echo: false
 
-knitr::include_graphics("images/au_health.png")
+knitr::include_graphics("/images/au_health.png")
 ```
 
 # Front page {.unnumbered .hidden}
