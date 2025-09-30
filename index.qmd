@@ -5,8 +5,6 @@ freeze: true
 visibility: hidden
 ---
 
-# This section will not be numbered {.unnumbered}
-
 ```{r}
 #| label: uib-logo
 #| fig-align: center
@@ -15,3 +13,13 @@ visibility: hidden
 
 knitr::include_graphics("images/au_health.png")
 ```
+
+# Front page {.unnumbered .hidden}
+
+
+
+# Website version {.unnumbered .unlisted}
+
+This dissertation and the accompanying website were created using Quarto®, an open-source publishing system for scientific and technical writing. The work builds on the quartothesis template, originally developed by Professor Richard Telford at the Department of Biological Sciences, University of Bergen.
+
+The rendered PDF version of the thesis is available [here](/Cardiovascular-autonomic-dysfunction-impact-on-cardiovascular-complications-across-glucose-metabolism.pdf).

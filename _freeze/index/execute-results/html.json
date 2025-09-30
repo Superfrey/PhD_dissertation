@@ -1,10 +1,8 @@
 {
-  "hash": "5241c65c14f541d40eedcf74dbbd3671",
+  "hash": "3f4c07a61a7314c51cfa9c4d52826087",
   "result": {
-    "markdown": "---\nexecute: \n  echo: false\n---\n\n\n::: {.content-visible when-format=\"pdf\"}\n# Acknowledgements {.unnumbered}\n\nThanks for all the fish.\n\n\n:::\n\n::: {.content-hidden when-format=\"pdf\"}\n::: {style=\"opacity: 0\"}\n# Cover Page {.unnumbered .unlisted}\n:::\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](figures/IMG_20210719_134928644.jpg){fig-align='center' fig-alt='Beckwithia glacialis on Snøhetta' width=80%}\n:::\n:::\n\n\n::: {style=\"text-align: center\"}\n**PhD thesis**\\\n**Department of Public Health**\\\n**Aarhus University**\n:::\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](Images/au_health.png){fig-align='center' width=100%}\n:::\n:::\n\n:::\n",
-    "supporting": [
-      "index_files"
-    ],
+    "markdown": "---\nexecute: \n  echo: false\nfreeze: true\nvisibility: hidden\n---\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](images/au_health.png){fig-align='center' width=100%}\n:::\n:::\n\n\n# Front page {.unnumbered .hidden}\n\n\n\n# Website version {.unnumbered .unlisted}\n\nThis dissertation and the accompanying website were created using Quarto®, an open-source publishing system for scientific and technical writing. The work builds on the quartothesis template, originally developed by Professor Richard Telford at the Department of Biological Sciences, University of Bergen.\n\nThe rendered PDF version of the thesis is available [here](/Cardiovascular-autonomic-dysfunction-impact-on-cardiovascular-complications-across-glucose-metabolism.pdf).\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

@@ -55,7 +55,7 @@ execute:
 format:
   html:
     theme: cosmo
-    default-image-extension: svg
+    default-image-extension: png
   docx: 
     prefer-html: true
     toc: true
