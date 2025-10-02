@@ -2,12 +2,6 @@
 title: "Discussion"
 ---
 
-```{=tex}
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-```
 The aim of this dissertation is to understand how cardiovascular autonomic dysfunction and CAN affect the risk of CVD across stages of glucose metabolism. Given the rising prevalence of prediabetes and T2D, and their association with increased risks of CVD and heart failure, there is a pressing need for earlier indicators to help healthcare providers intervene in a timely manner and prevent progression to more advanced stages of cardiovascular complications. One promising approach involves leveraging data from wearable devices and standardized screening tools. Heart rate dynamics and variability across different circumstances may hold promise as accessible indicators for timely cardiovascular risk stratification.
 
 This chapter presents a summary of the main findings from this dissertation, interpreted in the context of existing evidence in the field, and discusses their clinical relevance across different levels of healthcare. Moreover, the strengths and limitations of the methods and results will be discussed.
@@ -32,7 +26,7 @@ This dissertation shows that autonomic dysfunction, measured by HRV and CARTs, i
 
 In Study I, autonomic dysfunction, measured by 24-hour HRV, was shown to be cross-sectionally associated with arterial stiffness, measured both dynamically (cf PWV) and locally (CD). Adjustments for demographic and lifestyle factors, as well as a range of cardiovascular risk factors, did not explain the association. This suggests that autonomic responses under free-living conditions may contribute to the development of arterial stiffness. The majority of studies in this field have shown an association between autonomic dysfunction, as measured by short-term HRV during rest, and arterial stiffness in populations with either type 1 or T2D. [@angelaberos2023; @cardoso2014] Study I further extended this perspective by examining long-term HRV in a population without diabetes or prediabetes.
 
-::: center
+::: ::: {#fig-mas_find fig-cap="**Autonomic dysfunction and arterial stiffness**" fig-align="center"}
 ![**Autonomic dysfunction and arterial stiffness**](images/web/hrv_arterial_stiffness.png) *(Source: Author)*
 :::
 
@@ -70,7 +64,7 @@ In Study III, individuals with CAN were found to have higher risk of elevated NT
 
 Reverse causation cannot be ruled out, as autonomic dysfunction may also reflect compensatory responses to progressing heart failure.[@florea2014] CAN and cardiac remodeling may interact in a reinforcing cycle: autonomic dysfunction increases sympathetic tone and reduces parasympathetic modulation, promoting cardiac stress and remodeling, which in turn further impairs autonomic regulation.[@ritchie2020] This feedback loop may accelerate heart failure progression, although this remains beyond the scope of the current data and analysis.
 
-::: {#add_pro_find fig-cap="**Autonomic dysfunction and cardiovascular disease**" fig-align="center"}
+::: {#fig-add_pro_findings fig-cap="**Autonomic dysfunction and cardiovascular disease**" fig-align="center"}
 ![](images/ADD_PRO_IMG.png) 
 *(Source: Author)*
 :::

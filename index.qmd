@@ -4,15 +4,9 @@ execute:
 freeze: true
 visibility: hidden
 ---
-
-```{r}
-#| label: uib-logo
-#| fig-align: center
-#| out-width: 100%
-#| echo: false
-
-knitr::include_graphics("/images/au_health.png")
-```
+::: {#fig-AU}
+![](images/au_health.png)
+:::
 
 # Front page {.unnumbered .hidden}
 
