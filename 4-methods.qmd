@@ -2,15 +2,6 @@
 title: " Materials and methods"
 ---
 
-```{=tex}
-\clearpage
-\null
-\thispagestyle{empty}
-\clearpage
-```
-
-\blandscape
-::: landscape
 ## Overview of the studies
 
 |                      | Study I                                                                                                                | Study II                                                                                                                                  | Study III                                                                                             |
@@ -31,6 +22,7 @@ title: " Materials and methods"
 ### Study population
 
 ::: {#fig-pop fig-cap="**Map of Study populations**" fig-align="center"}
+
 ![](images/web/cohort_map.png)
 
 :::
