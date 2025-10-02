@@ -16,7 +16,6 @@ In this section, study population characteristics and findings from analyses wil
 
 In The Maastricht Study, 7,449 participants were included between November 2010 and December 2020, of whom 1,316 reported a history of CVD.[@schaarup2024] A total of 4,379 participants had valid 24-hour HRV measurements, and among these, 3,673 had a valid measurement of either CD or cf-PWV. Study population included 3673 participants. The study population represented diabetes risk of NGM (65%), prediabetes (15%), and T2D (20%). The median (IQR) cf-PWV (aortic stiffness) became higher with diabetes status: NGM: 8.08 m/s (7.28, 9.16), prediabetes: 8.96 m/s (7.84, 10.32), and T2D: 9.36 m/s (8.16, 10.80). CD (carotid stiffness) decreased: NGM: 15.0 (11.8, 18.8), prediabetes: 13.5 (10.4, 16.9), and T2D: 12.5 (9.9, 16.0) × 10⁻³/kPa. SDNN (ms) was highest in NGM and lowered with worsening glucose metabolism: NGM: 138ms (117, 164), prediabetes: 127ms (106, 152), and T2D: 116ms (96, 139). Further description of characteristics by diabetes are described in @tbl-ms.
 
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -41,7 +40,6 @@ table_mas %>%
     kableExtra::landscape() %>% 
     kableExtra::footnote(general="Categorical variables: N (%); Continous variables: Median (IQT:25th-75th). Table are adapted from supplementary material in Appendix Study I.")
 ```
-
 
 ### 24-hour HRV and arterial stiffness
 
@@ -81,7 +79,6 @@ The ADDITION-PRO population consisted of 1,627 participants with at least 48-hou
 
 Characteristics are described in @tbl-add. Participants in the lowest SDNN group (\<100 ms) were older (Mean ± SD) (67.4 ± 6.9 years), had higher BMI (28.1 ± 5.4), HbA1c (5.9 ± 0.9), triglycerides (1.5 ± 0.9 mmol/L), and rHR (67.8 ± 5.7 bpm), were more likely to use anti-hypertensive medication (61%), and had lower physical activity energy expenditure (46.8 ± 24.0 kJ/day) compared to those with higher SDNN levels.
 
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -93,7 +90,7 @@ table_add_pro <- readxl::read_xlsx(here("tables/table_1_dis.xlsx"))
 
 table_add_pro[-nrow(table_add_pro), ] %>% 
       mutate_all(~ ifelse(is.na(.), "", .)) %>% 
-    kableExtra::kbl("latex", booktabs = TRUE) %>%
+    kableExtra::kbl(booktabs = TRUE) %>%
     kableExtra::kable_styling(
     latex_options = c("striped", "scale_down"), 
     #full_width = TRUE, 
@@ -132,7 +129,6 @@ In @fig-ADD_PRO_risk_by_hour, hourly SDNN (preadjusted for heart rate and physic
 
 In study III, 176 participants had measures of NT-proBNP. CAN was present in 31% (n = 54) of participants (40% among those with valid CAN measurements (@fig-CAN A)).[@schaarup2025] Meanwhile, 23% (n = 40) were unable to complete the CART assessment adequately, primarily due to insufficient air pressure during the Valsalva maneuver (n = 21).[@schaarup2025] Compared to those without CAN, the participants with CAN were more often women (41 % vs 33 %), were more sedentary (45% vs 36%), had a higher proportion with prior major CVD (41% vs 23%) and declined eGFR (\< 60ml/min/1.73 m$^2$) (35% vs 22%), higher levels of triglyceride (median 2.05 mmol/L vs 1.95 mmol/ L), were slightly older (median 62 years vs 61 years), had longer duration of T2D (median 19 years vs 15 years), and higher use SGLT2i (65% vs 60%) but lower use of GLP-1RA (63% vs 70%). No other difference in clinical characteristic was observed (see @tbl-can).[@schaarup2025]
 
-
 ```{r}
 #| echo: false
 #| warning: false
@@ -145,7 +141,7 @@ table_can<- readxl::read_xlsx(here("tables/cancan_tab.xlsx"))
 
 table_can[-nrow(table_can), ] %>% 
       mutate_all(~ ifelse(is.na(.), "", .)) %>% 
-    kableExtra::kbl("latex", booktabs = TRUE) %>%
+    kableExtra::kbl(booktabs = TRUE) %>%
     kableExtra::kable_styling(
     latex_options = c("striped", "scale_down"), 
     #full_width = TRUE, 
